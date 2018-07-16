@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>Recherche Avancée</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+//La fonction JavaScript qui vérifie si les champs obligatoirs du formulaire ont été bien remplis
+<!--
+function envoie(formulaire) 
+{
+if ( (document.getElementById('nom').value.length>0)||(document.getElementById('prenom').value.length>0)||(document.getElementById('age').value.length>0))
+{
+formulaire.submit();
+}else
+alert('IMPOSSIBLE D\'ENVOER LE FORMULAIRE, VOUS DEVEZ REMPLIR AU MOINS UN CHAMPS !');
+}
+-->
+</script>
+<style type="text/css">
+<!--
+.Style4 {	font-size: 16px;
+	font-weight: bold;
+}
+.Style11 {
+	font-size: 36px;
+	font-weight: bold;
+	font-style: italic;
+	color: #330066;
+}
+.Style12 {
+	color: #003399;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 24px;
+}
+.Style14 {
+	color: #3333CC;
+	font-weight: bold;
+}
+.Style15 {font-size: 16px; font-weight: bold; color: #3333CC; }
+.Style16 {color: #3333CC}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <p align="center" class="Style11">Formulaire de recherche avancée </p>
+<form action="rech4.php" method="post" name="form_contacts" id="form_contacts">
+  <fieldset><legend class="Style12">Recherche avancée</legend>
+  <table width="420" border="0" cellpadding="0" cellspacing="0">
+  <!--DWLayoutTable-->
+  <tr>
+    <td width="17" height="26">&nbsp;</td>
+    <td width="70">&nbsp;</td>
+    <td width="15">&nbsp;</td>
+    <td width="66">&nbsp;</td>
+    <td width="13">&nbsp;</td>
+    <td width="61">&nbsp;</td>
+    <td width="30">&nbsp;</td>
+    <td width="9">&nbsp;</td>
+    <td width="125">&nbsp;</td>
+    <td width="14">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="27">&nbsp;</td>
+    <td valign="top" class="Style15">Nom :</td>
+    <td>&nbsp;</td>
+    <td colspan="4" valign="top" class="Style4">
+      <input type="text" name="nom" id="nom">    </td>
+    <td>&nbsp;</td>
+    <td valign="top" class="Style4">
+      <label><span class="Style16">ET</span>
+      <input name="et_ou1" type="radio" value="AND" checked>
+      </label>
+      <span class="Style16">
+      <label> OU      </label>
+      </span>
+      <label>
+      <input type="radio" name="et_ou1" value="OR">
+      </label>    </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="29">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="29">&nbsp;</td>
+    <td valign="top" class="Style15">Pr&eacute;nom :</td>
+    <td>&nbsp;</td>
+    <td colspan="4" valign="top" class="Style4">
+      <input type="text" name="prenom"id="prenom">    </td>
+    <td>&nbsp;</td>
+    <td valign="top" class="Style4">
+      <label><span class="Style16">ET</span>
+      <input name="et_ou2" type="radio" value="AND" checked>
+      </label>
+      <label> <span class="Style16">OU
+      </span>
+      <input type="radio" name="et_ou2" value="OR">
+      </label>    </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="24">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="30">&nbsp;</td>
+    <td valign="top"><span class="Style14">Age : </span></td>
+    <td>&nbsp;</td>
+    <td colspan="4" valign="top" class="Style4">
+      <input type="text" name="age"id="age">    </td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="27">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  
+  
+  
+  
+  
+  <tr>
+    <td height="29">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td colspan="2" valign="top"><input name="rechercher" type="button" id="envoyer" value="Rechercher" onClick="envoie(this.form)"></td>
+    <td>&nbsp;</td>
+    <td valign="top"><input name="retablir" type="reset" id="retablir" value="R&eacute;tablir"></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="28">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table></fieldset>  
+</form>
+<p>&nbsp;</p>
+</div>
+</body>
+</html>

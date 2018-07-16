@@ -1,0 +1,7794 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DÈpartement de GÈnie Informatique
+ 
+ 
+PROJET GE FHN G‚Ä±√âTUGE 
+ 
+Mise en application des connaissances reÁues durant les 
+huit 
+semestres (LMD1 
+-
+ 
+6
+)
+ 
+ 
+ 
+ 
+ 
+ 
+EffectuÈ
+ 
+du 23 fÈvrier au 09 juillet 2018
+ 
+A
+ 
+d‚ÄôI6D &#x0027;7 d] d‚Äô
+U
+D
+S
+ 
+ 
+ 
+RÈdigÈ et prÈsentÈ par
+ 
+: 
+ 
+ 
+MENKAM NGWENOM Francis Bonis
+ 
+CM
+-
+UDS
+-
+14IUT0004
+ 
+MBOUKAM Ale
+x
+ 
+CM
+-
+UDS
+-
+15IUT1086
+ 
+MANFO TSIDA Alex Christian
+ 
+CM
+-
+UDS
+-
+15IUT1135
+ 
+NGNEMCHIE Nathalie
+ 
+CM
+-
+UDS
+-
+12IUT0774
+ 
+ 
+En vue de l‚Ä±obPenPion de la 
+Licence de technologie 
+ 
+ 
+ 
+Sous la supervision de
+ 
+: 
+ 
+ 
+Pr NKENLIFACK Marcellin
+, Chef de DÈpa
+rPemenP HnformaPique de l‚Ä±UGS 
+ 
+M. KUA
+TE Victor, 
+Enseig
+n
+ant
+ 
+& formateur CISCO ‡ l
+‚Ä±
+IUT
+-
+FV 
+ 
+ 
+ 
+AnnÈe acadÈmique 2017
+-
+201
+8
+ 
+ThËme
+ 
+: 
+FonPr√¥le d‚Ä±acc√®s aux acPiviP√©s de l‚Ä±HUT
+-
+FV de Bandjoun
+ 
+Mention
+  
+:
+ 
+ 
+GÈnie Informatique
+ 
+(GI)
+ 
+Parcours :
+ 
+ 
+Informatique
+ 
+et RÈseaux (IR)
+ 
+Option 
+   
+:
+ 
+   
+ 
+Concepteur DÈveloppeur RÈseaux et Internet (CDRI)
+ 
+ 
+R
+…PUBLIQUE DU 
+C
+AMEROUN
+ 
+R
+EPUBLIC OF 
+C
+AMEROON
+ 
+Peace 
+‚Äì
+ 
+Work 
+-
+ 
+Fatherland
+ 
+U
+NIVERSIT… DE 
+D
+SCHANG              
+                  
+U
+NIVERSITY OF 
+D
+SCHANG
+ 
+                                            
+Scholae Thesaurus Dschangensis Ibi Cordum
+ 
+  
+BP 96, Dschang 
+(Cameroun) 
+‚Äì
+ 
+TÈl./Fax (237) 233 45 13 81 
+Web
+site
+ 
+: 
+http://www.univ
+-
+dschang.org
+. 
+                                                                
+E
+-
+mail
+ 
+: 
+udsrect
+orat@univ
+-
+dschang.org
+ 
+ 
+ 
+I
+NSTITUT 
+U
+NIVERSITAIRE DE 
+T
+ECHNOLOGIE 
+F
+OTSO 
+V
+ICTOR DE 
+B
+ANDJOUN
+                                                    
+F
+OTSO 
+V
+ICTOR 
+U
+NIVERSITY           
+                    
+             
+I
+NSTITUTE  OF 
+T
+ECHNOLOGY
+ 
+DÈpartement de GÈnie 
+Informatique
+                                        
+DÈpartement of Computer Engineering
+ 
+BP 
+134, Bandjoun 
+‚Äì
+ 
+TÈl
+ 
+(237) 
+699 31 61 30 /
+ 
+670 64 23 92 
+ 
+Website : 
+http://www.univ
+-
+dschang.org/iutfv/
+ 
+/. 
+E
+-
+mail
+ 
+: 
+iutfv
+-
+bandjoun@univ
+-
+dschang
+.
+org
+ 
+ 
+ 
+ 
+ 
+DÈdicace
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+i
+ 
+G√©dicace
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+A nos 
+parents 
+distinguÈs
+ 
+ 
+ 
+ 
+Remerciements
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+ii
+ 
+RemerciemenPs
+ 
+ 
+Fe Pravail n‚Ä±auraiP jamais pu rPre men√© √† bien sans le souPien 
+infaillible du DIEU tout puissant, 
+qui dans son Amour inconditionnÈ nous a permis de rencontrer des personnes qui nous ont fait 
+bÈnÈficier de leur expÈrience et de nombreux conseils.
+ 
+  
+ 
+ 
+Nous remercions principalement :
+ 
+-
+ 
+ 
+S.E. Paul
+ 
+B
+I
+YA Ba
+rthÈlemy
+, PrÈsiden
+t de la rÈpublique du Cameroun, pour son soutient du 
+don des ordinaPeur porPable PBHev aux EPudianPs pour qu‚Ä±ils puissenP faire des recherches 
+pour leurs Ètudes
+ 
+;
+ 
+-
+ 
+ 
+Pr. FOGUE MÈdard
+, GirecPeur de l‚Ä±HnsPiPuP UniversiPaire de Technologie FoPso ÔÉºicPor (HUT
+-
+FV)
+ 
+de Bandjoun, pour nous avoir permis de suivre les cours et de faire ce projet dans sons 
+Institut
+ 
+;
+ 
+-
+ 
+ 
+Pr. NKENLIFACK Marcellin
+, Fhef de G√©parPemenP de G√©nie HnformaPique √† l‚Ä±HUTFÔÉº eP 
+aussi notre encadreur, pour sa disponibilitÈ, ses conseils, remarques et m
+oPivaPions qu‚Ä±il nous 
+a donn√©s duranP noPre projeP de fin d‚Ä±√©Pude
+ 
+;
+ 
+-
+ 
+ 
+Dr. MPAME GuillËne
+, Responsable de niveau LIR, pour nous avoir soumis ‡ toute sorte de 
+projet et sous haute pression 
+ce
+ 
+qui nous
+ 
+a permis de mieux Èvoluer
+ 
+dans ce projet
+ 
+;
+ 
+-
+ 
+ 
+Dr. TALLA Bern
+ard
+, EnseignanP √† l‚Ä±HUT
+-
+FÔÉº, √† Pravers son cours d‚Ä±UMI, nous a faiP ressorPir 
+Pous les diagrammes UMI relaPive √† noPre projeP de fin d‚Ä±√©Pude ce qui nous 
+a
+ 
+permis de bien 
+mod√©liser noPre projeP de fin d‚Ä±√©Pude eP de bien assimiler le langage UMI
+ 
+;
+ 
+-
+ 
+ 
+Tous nos E
+nseignants du DÈpartement de GÈnie Informatique, pour leurs disponibilitÈs durant 
+notre cursus et pour les leÁons apportÈes dans le cadre des cours dispensÈ
+ 
+;
+ 
+-
+ 
+ 
+Nos parents, qui ne cessent de mÈnager des efforts pour notre rÈussite ‡ savoir
+ 
+: 
+M. et Mme 
+MENK
+AM
+ 
+; *********
+ 
+-
+ 
+ 
+Nos camarades qui nous ont aidÈs dans le processus de rÈalisation de ce projet
+ 
+;
+ 
+-
+ 
+ 
+***********
+ 
+-
+ 
+ 
+Tous ceux qui, de pr√®s ou de loin onP conPribu√© √† l‚Ä±√©laboraPion de ce Pravail eP donP nous avons 
+omis de ciPer les noms, qu‚Ä±ils ProuvenP ici l‚Ä±ex
+pression de notre profonde gratitude.
+ 
+ 
+ 
+ 
+Liste des 
+AbrÈviations
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+iii
+ 
+IisPe des abr√©viaPions 
+ 
+ 
+Tableau 
+1
+  
+Liste des sigles et abrÈviations
+ 
+ 
+AbrÈviations / Sigles
+ 
+DÈfinition
+ 
+IUT
+-
+FV
+ 
+Institut Universitaire de Technologie Fotso Victor
+ 
+HTML
+ 
+HyperText 
+Markup
+ 
+Language
+ 
+ 
+PHP
+ 
+Personal
+ 
+Home Page 
+ 
+UML
+ 
+Unified Modeling Language
+ 
+MVC
+ 
+Model View Controller 
+ 
+TIC
+ 
+Technologie de l‚Ä±HnformaPion eP de la FommunicaPion 
+ 
+AJAX
+ 
+Asynchronous JavaScript And XML
+ 
+UDS
+ 
+UniversitÈ d
+e Dschang
+ 
+TIC
+ 
+Technologie de l‚Ä±informaPion eP de la FommunicaPion 
+ 
+SGBD
+ 
+SystËme de Gestion des Bases de DonnÈes 
+ 
+2TUP
+ 
+2 Track Unified Processus 
+ 
+OMG
+ 
+Object Management Group 
+ 
+ 
+ 
+ 
+RÈsumÈ
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+i
+v
+ 
+R√©sum√©
+ 
+ 
+Le prÈsent travail dÈcrit le systËme que 
+nous avons mis en ‚Ä´uvre pour faciliPer la planificaPion, 
+le suivi et le contr
+√¥le d‚Ä±acc√®s aux acPiviP√©s (Pel
+s que les examens, les travaux pratiques dans des 
+labo
+ratoires, et mÍme les salles spÈcialisÈ
+ 
+comme le restaurant universitaire et l
+a bibliothËque) a
+u 
+sein de l‚Ä±UGS
+ 
+en g√©n√©rale eP de l‚Ä±HUT
+-
+FV en particulier. Ceci se fait en offrant au responsable (
+les 
+ayant
+s
+ 
+droit
+s
+) une interface graphique (pages HTML) qui les permettrons de crÈer rapidement une 
+activitÈ avec tous les dÈtails relative ‡ cette activitÈ 
+par de simple
+s
+ 
+clic, en plus 
+ils pourront
+ 
+visualiser
+ 
+o˘ mÍme imprimer ces plannings, le systËme sera capable par simple lecture de la ca
+rPe d‚Ä±√©PudianP 
+du candidaP, d‚Ä±auPoriser ou 
+d‚Ä±inPerdire l‚Ä±acc√®s s‚Ä±il ne rempliP pas Pous les condiPions requises par 
+l‚Ä±ac
+PiviP√©. FePPe approche avec l‚Ä±inP√©graPion des THF permePPra √† l‚Ä±adminisPraPion d‚Ä±rPre rapide eP 
+pointu dans la gestion des activitÈs et le management des Etudiants car la plus part des vÈrifications 
+se ferons automatiquement.
+ 
+ 
+Ce travail a ÈtÈ rÈalisÈe en 
+suivant le processus 2TUP, la phase de conception a ÈtÈ modÈlisÈ par 
+le langage UMI, l‚Ä±archiPecPure uPilis√© esP compos√©e de Prois (03) couches √† savoir
+ 
+: la couche 
+prÈsentation constituÈ des HTML, AJAX, CSS
+ 
+; la couche mÈtier constituÈ des scripts PHP inte
+rprÈtÈ 
+par le serveur web Apache, pour le traitement des requÍtes et en fin la couche accËs aux donnÈes 
+constituÈ du SGBD PostgreSQL, pour le stockage des donnÈes.
+ 
+ 
+Cette application est ÈlaborÈe actuellement dans sa version 1.0 et est destinÈe ‡ Èvoluer
+ 
+;
+ 
+de ce 
+fait, des fonctionnalitÈs y seront greffÈes au fur et ‡ mesure.
+ 
+ 
+Mots clÈs
+ 
+:
+ 
+AcPiviP√©, conPr√¥le d‚Ä±acc√®s. 
+ 
+ 
+ 
+        
+ 
+ 
+ 
+ 
+ 
+ 
+Abstract
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+v
+ 
+AbsPracP
+ 
+ 
+This work describes the system we have implemented to facilitate planning, monitoring and 
+contr
+ol of access to activities (such as exams, laboratory labs, and even specialized rooms such as 
+the University Restaurant and the library) within the UDS in general and the IUT
+-
+FV in particular. 
+This is done by offering the manager (the rights holders) a gr
+aphical interface (HTML pages) that 
+will allow them to quickly create an activity with all the details related to this activity by simple click, 
+in addition they will be able to visualize wher
+e to even print these schedules
+, the system will be able 
+to simp
+ly read the student's student card, authorize or prohibit access if it does not meet all the 
+conditions required by the activity. This approach with the integration of ICTs will allow the 
+administration to be fast and sharp in the management of the activit
+ies and the management of the 
+Students because the majority of the checks will be done automatically.
+ 
+This work was carried out following the 2TUP process, the design phase was modeled by the UML 
+language, the architecture used consists of three (03) layer
+s namely: the presentation layer consisting 
+of HTML, AJAX, CSS; the business layer consisting of PHP scripts interpreted by the Apache web 
+server, for the processing of requests and at the end the data access layer consisting of the PostgreSQL 
+DBMS, for da
+ta storage.
+ 
+This application is currently developed in version 1.0 and is intended to evolve; as a result, features 
+will be grafted as and when.
+ 
+ 
+Key
+words: Activity, access control
+.
+ 
+ 
+ 
+ 
+ 
+ 
+Sommaire
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+vi
+ 
+Sommaire
+ 
+D…DICACE
+ 
+................................
+................................
+................................
+................................
+................................
+....
+ 
+I
+ 
+REMERCIEMENTS
+ 
+................................
+................................
+................................
+................................
+.......................
+ 
+II
+ 
+LISTE DES ABR…VIATIO
+NS
+ 
+................................
+................................
+................................
+................................
+..........
+ 
+III
+ 
+R…SUM…
+ 
+................................
+................................
+................................
+................................
+................................
+....
+ 
+IV
+ 
+ABSTRACT
+ 
+................................
+................................
+................................
+................................
+................................
+..
+ 
+V
+ 
+SOMMAIRE
+ 
+................................
+................................
+................................
+................................
+...............................
+ 
+VI
+ 
+LISTE DES TABLEAUX E
+T FIGURES
+ 
+................................
+................................
+................................
+............................
+ 
+VIII
+ 
+INTRODUCTION G…N…RAL
+E
+ 
+................................
+................................
+................................
+................................
+........
+ 
+1
+ 
+CHAPITRE 1 PR…SENTAT
+ION DU CADRE DE TRAV
+AIL ET CAHIER DE CHA
+RGES
+ 
+................................
+.............................
+ 
+2
+ 
+1.1
+ 
+C
+ADRE DE TRAVAIL
+ 
+................................
+................................
+................................
+................................
+........................
+ 
+2
+ 
+1.2
+ 
+C
+AHIER DE CHARGES
+ 
+................................
+................................
+................................
+................................
+......................
+ 
+4
+ 
+1.3
+ 
+P
+R…SENTATION DE L
+‚Äô
+EXISTANT
+ 
+................................
+................................
+................................
+................................
+.........
+ 
+5
+ 
+1.4
+ 
+C
+RITIQUES
+ 
+................................
+................................
+................................
+................................
+................................
+...
+ 
+5
+ 
+1.5
+ 
+P
+ROPOSITION DE SOLUTI
+ON
+ 
+................................
+................................
+................................
+................................
+............
+ 
+6
+ 
+1.6
+ 
+D
+…ROULEMENT DU TRAVAI
+L ET OP…RATIONS EFFE
+CTU…ES
+ 
+................................
+................................
+................................
+......
+ 
+6
+ 
+1.7
+ 
+E
+TAT DE L
+‚Äô
+ART
+ 
+................................
+................................
+................................
+................................
+..............................
+ 
+7
+ 
+CHAPITRE 2 ANALYSE, 
+ALGORITHMES ET STRUC
+TURES DE DONN…ES
+ 
+................................
+................................
+.........
+ 
+9
+ 
+2.1
+ 
+A
+NALYSE FONCTIONNELLE
+ 
+DU SYST»ME
+................................
+................................
+................................
+..............................
+ 
+9
+ 
+2.2
+ 
+C
+ONCEPTION TECHNIQUE
+,
+ 
+FONCTI
+ONNELLE ET OBJET DU 
+SYST»ME
+ 
+................................
+................................
+........................
+ 
+19
+ 
+CHAPITRE 3 IMPL…MENT
+ATION, TECHNIQUES DE
+ 
+PROGRAMMATION ET R…S
+ULTATS
+ 
+................................
+..............
+ 
+25
+ 
+3.1
+ 
+T
+ECHNIQUE DE D…VELOPP
+EMENT
+................................
+................................
+................................
+................................
+....
+ 
+25
+ 
+3.2
+ 
+D
+…PLOIEMENT DE L
+‚Äô
+APPLICATION
+ 
+................................
+................................
+................................
+................................
+...
+ 
+26
+ 
+3.3
+ 
+R
+…SULTATS CONCRETS DU
+ 
+D…VELOPPEMENT
+ 
+................................
+................................
+................................
+.....................
+ 
+29
+ 
+CHAPITRE 4 APPORT, L
+E«ONS, DIFFICULT…S E
+T PERSPECTIVES
+ 
+................................
+................................
+.................
+ 
+34
+ 
+4.1
+ 
+A
+PPORTS
+ 
+................................
+................................
+................................
+................................
+................................
+...
+ 
+34
+ 
+4.2
+ 
+L
+E«ONS
+ 
+................................
+................................
+................................
+................................
+................................
+.....
+ 
+34
+ 
+4.3
+ 
+D
+IFFICULT…S
+ 
+................................
+................................
+................................
+................................
+...............................
+ 
+34
+ 
+4.4
+ 
+P
+ERSPECTIVES ENVISAG…
+ES
+ 
+................................
+................................
+................................
+................................
+............
+ 
+35
+ 
+CONCLUSION G…N…RALE
+ 
+................................
+................................
+................................
+................................
+..........
+ 
+36
+ 
+ 
+ 
+ 
+Sommaire
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+vii
+ 
+BIBLIOGRAPHIE
+ 
+................................
+................................
+................................
+................................
+........................
+ 
+37
+ 
+ANNEXES
+ 
+................................
+................................
+................................
+................................
+................................
+....
+ 
+A
+ 
+A
+NNEXE 
+1
+ 
+:
+ 
+Q
+UELQUES VUES DE L
+‚ÄôU
+NIVERSIT… DE 
+D
+SCHANG
+ 
+................................
+................................
+................................
+......
+ 
+A
+ 
+A
+NNEXE 
+2
+ 
+:
+ 
+D
+…PLOIEMENT DE L
+‚Äô
+APPLICATION SUR HERO
+KU
+ 
+................................
+................................
+................................
+........
+ 
+A
+ 
+A
+NNEXE 
+3
+ 
+:
+ 
+R
+…SULTAT D
+‚Äô
+IMPL…MENTATION
+ 
+................................
+................................
+................................
+.............................
+ 
+B
+ 
+TABLE DES MATI»RES
+ 
+................................
+................................
+................................
+................................
+.................
+ 
+A
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Liste des tableaux et figures
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+viii
+ 
+IisPe des
+ 
+Pableaux eP figures
+ 
+ 
+Tableaux
+ 
+:
+ 
+Tableau 1  Liste des sigles et abrÈviations
+ 
+................................
+................................
+................................
+.......
+ 
+iii
+ 
+Tableau 2  Liste des activitÈs menÈes
+ 
+................................
+................................
+................................
+...............
+ 
+6
+ 
+Tableau 3 Comparaison de SGBD les plus utilisÈs
+ 
+................................
+................................
+...........................
+ 
+8
+ 
+Tableau 4 GescripPion PexPuelle du cas d‚Ä±uPilisaPion
+ 
+:
+ 
+´ Participer ‡ une activitÈ
+ 
+ª
+ 
+................................
+........
+ 
+12
+ 
+Tableau D GescripPion PexPuelle du cas d‚Ä±uPilisaPion : ¬´ ajouPer acPiviP√© ¬ª
+ 
+................................
+......................
+ 
+1
+3
+ 
+Tableau 6 GescripPion PexPuelle du cas d‚Ä±uPilisaPion : ¬´ modifier maPi√®
+re ª
+ 
+................................
+...................
+ 
+13
+ 
+Tableau 7 GescripPion PexPuelle du cas d‚Ä±uPilisaPion : ¬´ ajouPer ePudianP ¬ª
+ 
+................................
+.....................
+ 
+14
+ 
+Tableau 8 Dictionnaire de donnÈes
+ 
+................................
+................................
+................................
+.................
+ 
+20
+ 
+ 
+Figure
+s
+ 
+:
+ 
+Figure 1 Une vue des IaboraPoires de l‚Ä±HUTFÔÉº
+................................
+................................
+................................
+ 
+3
+ 
+Figure 2 Diagramme 
+de circulation des informations
+ 
+................................
+................................
+.......................
+ 
+5
+ 
+Figure 3 Giagramme de cas d&#x0027;uPilisaPion de l‚Ä±√©PudianP
+ 
+................................
+................................
+....................
+ 
+10
+ 
+Figure 4 Giagramme de cas d&#x0027;uPilisaPion de l‚Ä±enseignanP
+ 
+................................
+................................
+................
+ 
+11
+ 
+Figure D Giagramme de cas d&#x0027;uPilisaPion  de l‚Ä±adminisPraPeur
+ 
+................................
+................................
+.........
+ 
+12
+ 
+Figure 6 Diagramme de sÈquence du
+ 
+cas d‚Ä±uPilisaPion : ¬´ cr√©e acPiviP√© ¬ª
+ 
+................................
+.......................
+ 
+15
+ 
+Figure 7 Giagramme de s√©quence du cas d‚Ä±uPilisaPion du cas d‚Ä±uPilisaPion : ¬´ parPiciper √† une acPiviP√© ¬ª
+ 
+......
+ 
+15
+ 
+Figure 8 Giagramme d‚Ä±acPiviP√© du cas d‚Ä±uPilisaPion : ¬´ cr√©er acPiviP√© ¬ª
+ 
+................................
+..........................
+ 
+16
+ 
+Figure 
+9 Giagramme d‚Ä±acPiviP√© du cas d‚Ä±uPilisaPion : ¬´ voire rapporP d‚Ä±acPiviP√© ¬ª
+ 
+................................
+..........
+ 
+17
+ 
+Figure 10 Giagramme d‚Ä±√©PaP
+-
+PransiPion d‚Ä±une acPiviP√©
+ 
+................................
+................................
+....................
+ 
+17
+ 
+Figure 11 Mod√®le de navigaPion relaPif √† l‚Ä±applicaPion web
+ 
+................................
+................................
+...........
+ 
+18
+ 
+Figure 12 Architecture fonctionnelle et technique du systËme
+ 
+................................
+................................
+.......
+ 
+19
+ 
+Figure 13 Diagramme de classe
+ 
+................................
+................................
+................................
+......................
+ 
+23
+ 
+Figure 14 ModËle physique de donnÈes
+ 
+................................
+................................
+................................
+..........
+ 
+24
+ 
+Figure 15 Diagramme de compos
+ants du pattern MVC
+ 
+................................
+................................
+..................
+ 
+25
+ 
+Figure 16 Arborescence du systËme
+ 
+................................
+................................
+................................
+................
+ 
+26
+ 
+Figure 17
+ 
+Informations systËme gÈnÈrales
+ 
+................................
+................................
+................................
+......
+ 
+27
+ 
+Figure 18 Interface de Git Bash
+ 
+................................
+................................
+................................
+......................
+ 
+27
+ 
+Figure 19 Installation de Laravel 5.5
+ 
+................................
+................................
+................................
+..............
+ 
+28
+ 
+Figure 20 Migration de la base de donnÈes
+ 
+................................
+................................
+................................
+.....
+ 
+28
+ 
+Figure 21 HnPerface de gesPion d‚Ä±acPiviPe
+ 
+................................
+................................
+................................
+.........
+ 
+29
+ 
+Figure 22 ActivitÈ en cours (en temps rÈel)
+ 
+................................
+................................
+................................
+....
+ 
+30
+ 
+Figure 23 Liste des Ètudiants e
+n salle (en temps rÈel)
+ 
+................................
+................................
+.....................
+ 
+30
+ 
+Figure 24 function qui affiche les activitÈs en cours
+ 
+................................
+................................
+.......................
+ 
+31
+ 
+Figure 25 Planning de la normale allant du 17 au 25 juin 2018 (simulation)
+ 
+................................
+.................
+ 
+32
+ 
+Figure 26 RequrPe de s√©lecPion des maPi√®res d‚Ä±une acPiviP√©
+ 
+................................
+................................
+............
+ 
+33
+ 
+Figure 27 RapporP d‚Ä±examen de normale de la p√©riode du 17 au 2D juin 2018 (simulaPion)
+ 
+..........................
+ 
+33
+ 
+Figure 28 ÔÉºue panoramique de l‚Ä±Uds eP de l‚Ä±HUT FÔÉº de Bandjoun 
+[W
+-
+UDs
+-
+16]
+ 
+................................
+...........
+ 
+A
+ 
+Figure 29 Formulaire de connexion sur la plate forme
+ 
+................................
+................................
+.....................
+B
+ 
+Figure 30 HnPerface de mise √† jours de la bd par l‚Ä±admin
+ 
+................................
+................................
+..................
+C
+ 
+Figure 31 Formulair
+e de crÈation d'une activitÈ
+ 
+................................
+................................
+...............................
+ 
+D
+ 
+Figure 32 Formulaire pour l‚Ä±affichage du planning d‚Ä±une acPiviP√©
+ 
+................................
+................................
+..
+ 
+D
+ 
+Figure 33 Obtenir la liste des Ètudiants ayant participÈ ‡ une activitÈ
+ 
+................................
+..............................
+ 
+E
+ 
+Figure 34 Obtenir la li
+sPe des √©PudianPs n‚Ä±ayanP pas parPicip√© √† une acPiviP√©
+ 
+................................
+....................
+ 
+F
+ 
+ 
+ 
+ 
+ 
+Introduction gÈnÈrale
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+1
+ 
+ 
+HnProducPion g√©n√©rale
+ 
+ 
+Avec l‚Ä±√©voluPion de nouvelles 
+Pechnologies eP l‚Ä±av√®nemenP des THF, les m√©Phodes de producPion 
+et de gestion actuelles sont de plus en plus complexes, car elles subissent 
+d‚Ä±imporPanPes muPaPions
+ 
+Pechnologiques eP fonP en g√©n√©ral appel √† l‚Ä±auPomaPisaPion de faoon √† r√©duire au sPricP 
+mini
+mum
+ 
+l‚Ä±efforP physique eP inPellecPuel de l‚Ä±Homme.
+ 
+Ie probl√®me de conPr√¥le d‚Ä±acc√®s s‚Ä±esP Poujours pos√© 
+dans les √©PablissemenPs √† caracP√®re √©ducaPif en g√©n√©ral eP les insPiPuPs d‚Ä±enseignemenP sup√©rieur en 
+particulier.
+ 
+F‚Ä±esP ainsi que dans l‚Ä±opPique de rendre
+ 
+les Ètudiants capables de 
+produire
+ 
+des 
+applications pouvant satisfaire les besoins des entreprises et particuliers, que chaque Ètudiants de 
+licence √† l‚Ä±HUT
+-
+FV plus prÈcisÈment dans le dÈpartement GENIE INFORMATIQUE, arrivÈ en fin 
+de formation, aura un pro
+jeP de fin d‚Ä±√©Pudes qui lui permePPra de mePPre en praPique Pous
+ 
+l
+es savoirs 
+acquis tout au long de sa formation.
+ 
+Fe Pravail d‚Ä±informaPisaPion esP r√©parPiP en quaPre chapiPres
+ 
+rÈparti  
+comme suit : Dans le premier, la description du projet est clairement È
+lucidÈe, le second chapitre 
+pr√©senPe l‚Ä±analyse foncPionnelle eP Pechnique de concepPion, le Proisi√®me quanP √† lui r√©capiPule les 
+techniques issues de la mise en production suivies des rÈsultats pertinents obtenus, enfin le dernier 
+chapitre prÈsente les fre
+ins issus de la mise en ‚Ä´uvre eP des perspecPives d‚Ä±am√©lioraPion du sysP√®me.
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Chapitre 1
+ 
+ 
+PrÈsentation
+ 
+du cadre de travail et Cahier de charges
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+2
+ 
+ 
+Chapitre 1  
+ 
+Pr√©senPaPion du cadre de Pravail eP Fahier 
+de charges
+ 
+1.1
+ 
+Cadre de travail
+ 
+1.1.1
+ 
+Pr√©senPaPion de l‚Ä±UniversiP√© de Gschang (Uds)
+ 
+ 
+I‚Ä±UniversiP√© de Gschang (UGS
+) qui faiP parPie des 08 universiP√©s d‚Ä±EPaP du Fameroun a √©P√© cr√©√©e 
+‡ la faveur de la rÈ
+forme universitaire par le dÈcret n∞ 93/026 du 19 janvier 1993. Elle compte ‡ ce 
+jour, sept Ètablissements : la FacultÈ des Lettres et Sciences Humaines (FLSH), la FacultÈ des 
+Sciences Economiques et de Gestion (FSEG), la FacultÈ des Sciences 
+Juridiques et
+ 
+Politiques (FSJP), 
+la FaculP√© des Sciences (FS), la FaculP√© d‚Ä±Agronomie eP des Sciences Agricoles (FASA), l‚Ä±HnsPiPuP 
+UniversiPaire de Technologie FoPso ÔÉºicPor (HUTFÔÉº) √† Bandjoun eP l‚Ä±HnsPiPuP des Beaux
+-
+Arts ‡ 
+Foumban (IBAF).
+ 
+G‚Ä±apr√®s 
+[W
+-
+UDs
+-
+16]
+, l‚Ä±insPiPuP
+ion dispose de huit campus dans 6 des 10 rÈgions 
+du pays, ‡ savoir, des antennes pÈdagogiques et de recherche ‡ Bambui (Nord
+-
+Ouest), Belabo (Est), 
+Ebolowa (Sud), Maroua (ExtrÍme
+-
+Nord) et YaoundÈ
+-
+Nkolbisson (FenPre). A l‚Ä±OuesP, on a le campus 
+principal ‡ Ds
+chang et deux Ètablissements ‡ Bandjoun et ‡ Foumban.
+ 
+1.1.2
+ 
+Pr√©senPaPion de l‚Ä±HUT FÔÉº
+ 
+I‚Ä±HnsPiPuP UniversiPaire de Techn
+ologie FOTSO Victor 
+(IUTFV)
+ 
+de Bandjoun 
+esP l‚Ä±un des sepP 
+√©PablissemenPs de l‚Ä±UniversiP√© de Gschang
+. 
+I‚Ä±HUTFÔÉº repr√©senPe environ 
+3500
+ 
+Ètudiants (en 2016), 
+encadr√©s par une quaranPaine d‚Ä±enseignanPs permanenPs eP une cinquanPaine de pe
+rsonnels d‚Ä±appui. 
+ 
+ÔÅµ
+ 
+I‚Ä±HUTFÔÉº forme des Pechniciens sup√©rieurs 
+dans 
+divers C
+ursus
+ 
+:
+ 
+ÔÇ∑
+ 
+ 
+DiplÙme Universitaire de Technologie (DUT)
+, 
+qui contient les 
+parcours
+ 
+: 
+GÈnie 
+I
+nformatique
+ 
+(GI), GÈnie E
+lectrique (Electrotechnique
+ 
+et 
+Electronique), GÈnie des 
+TÈlÈcommunications et RÈseaux, Maintenance Industrielle et Productique, MÈcatronique
+ 
+Automobile, GÈnie C
+ivil, GÈnie Thermique Energie et Environnement.
+ 
+ÔÇ∑
+ 
+ 
+Brevet de Te
+chnicien SupÈrieur (BTS)
+, 
+qui contient les parcours
+ 
+: ComptabilitÈ et Gestion 
+des E
+ntreprises, Electronique, 
+Electrotechnique, Technique de C
+om
+mercialisation, 
+SecrÈtariat de Direction, GÈnie C
+ivil.
+ 
+ÔÇ∑
+ 
+ 
+Licence de Technologie (LT)
+, 
+qui contient 
+les parcours
+ 
+:
+ 
+Informatique et RÈseaux
+ 
+(IR)
+, option 
+´
+ 
+Concepteur DÈveloppeur 
+RÈseaux
+ 
+Internet
+ 
+ª
+, 
+GÈnie E
+lectrique, IngÈnierie des TÈlÈcoms et 
+RÈseaux, GÈnie Civil, Maintenance Industrielle et Productique, MÈcatronique Automobile, 
+Gestion et Maintenance des Installation E
+nergÈtiques, GÈomatique.
+ 
+Chapitre 1
+ 
+ 
+PrÈsentation
+ 
+du cadre de travail et Cahier de charges
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+3
+ 
+ 
+ÔÇ∑
+ 
+ 
+Licence Professionnelle (LP)
+, avec 
+les parcours
+ 
+:
+ 
+Commerce et Marketing
+, (
+* Banq
+ue 
+Gestionnaire des Relations 
+ClientËles
+, 
+* Marketing
+ 
+Manager OpÈrationnel)
+, 
+Gestion 
+Comptable et FinanciËre, 
+Gestion Administrative et Management des
+ 
+Organisations.
+ 
+ÔÅµ
+ 
+I‚Ä±HUTFÔÉº dispose
+ 
+d‚Ä±un cadre d
+e travail 
+convivial
+ 
+et des 
+facilitÈs de recherche
+. 
+La figure ci
+-
+dessous, tirÈe de 
+[W
+-
+IUTFV
+-
+16]
+, prÈsente des 
+√©chanPillons de IaboraPoires de l‚Ä±HUTFÔÉº.
+ 
+ 
+ 
+ 
+ 
+Figure 
+1
+ 
+Une vu
+e
+ 
+des IaboraPoires de l‚Ä±HUTFÔÉº
+ 
+ÔÅµ
+ 
+G‚Ä±auPres 
+crÈnons
+ 
+de formation sont disponibles
+ 
+:
+ 
+ÔÇ∑
+ 
+La formation continue
+ 
+:
+ 
+P
+rogrammes spÈcifiques 
+de 
+recyclage du personnel des entreprises.
+ 
+ÔÇ∑
+ 
+La Formation O
+uv
+erte ‡ D
+istance
+ 
+(FOAD)
+,
+ 
+offerte depuis 
+plusieurs annÈes 
+en 
+LIR
+.
+ 
+ÔÇ∑
+ 
+I‚Ä±Acad√©mie 
+Internet
+ 
+Cisco
+ 
+:
+ 
+C
+ompÈtences techniques et professio
+nnelles supplÈmentaires en 
+vue des 
+certifications internationales : 
+C
+CNA, 
+Security
+, 
+Internet of Evrythings
+, 
+I
+T
+E
+, 
+etc
+.
+ 
+1.1.3
+ 
+PrÈsentation du DÈpartement de GÈnie Informatique et du Laboratoire
+ 
+ÔÉ∞
+ 
+Missio
+ns et Formations offertes
+ 
+ÔÇ∑
+ 
+Former des techniciens supÈrieurs
+ 
+capables de 
+concevoir, rÈaliser, commercialiser, installer, 
+gÈrer et maintenir des applications et grands systËmes informatiques et rÈseaux 
+(Gestion, C/S, 
+E
+-
+Fommerce, Mobiles‚Ä¶)
+ 
+; Ils peuvent Ègale
+ment 
+r
+Èaliser/administrer des 
+rÈseaux et services 
+Internet Multidimensionnel
+s
+ 
+(
+IMD / IOE
+).
+ 
+ 
+ 
+Les parcours suivants sont offerts
+ 
+: 
+ 
+-
+ 
+DUT
+ 
+GÈnie Informatique
+ 
+(
+4 semestres ou 2 ans)
+, 
+options
+ 
+:
+ 
+GL
+, 
+ISR
+, 
+IG
+ 
+-
+ 
+Lic. de Technologie Informatique et RÈseaux
+ 
+: (2 
+semestres / 1 an)
+, o
+ption
+ 
+:
+ 
+CDRI
+.
+ 
+-
+ 
+Equipements
+ 
+: 
+2 Laboratoires de TP en Intranet et 
+Serveurs de TP 
+(+ o
+utils de 
+n
+ouvelle 
+gÈnÈration)
+ 
+; 
+Des 
+Laptots
+ 
+sonP disponibles pour les Pravaux d‚Ä±√©PudianPs.
+ 
+ÔÇ∑
+ 
+Recherche
+ 
+:
+ 
+Le dÈpartement anime 
+l‚Ä±√©quipe STHF du IaboraPoire IAHA. AcPuellemenP, 
+p
+lus 
+de 50 articles 
+sonP publi√©s (√† l‚Ä±inPernaPional) eP p
+lus de 10 livres 
+sont 
+dÈj‡ 
+ÈditÈs
+.
+ 
+ÔÉ∞
+ 
+Appui au dÈveloppement
+ 
+:
+ 
+Plusieurs 
+projets 
+sont 
+rÈalisÈs pour le dÈveloppement d
+u 
+pays.
+ 
+ÔÇ∑
+ 
+Ressources humaines
+ 
+:
+ 
+6 Ens
+eignants
+ 
+permanents
+, 
+1 ATER
+ 
+et 
+plusieurs Professionnels
+.
+ 
+ 
+Chapitre 1
+ 
+ 
+PrÈsentation
+ 
+du cadre de travail et Cahier de charges
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+4
+ 
+ 
+1.2
+ 
+Cahier de charges
+ 
+Projet de fin 
+d‚Ä±√©Pude
+ 
+ 
+N∞
+ 
+Noms et PrÈnoms
+ 
+Matricule
+ 
+Cursus
+-
+Parcours
+-
+Option
+ 
+1
+ 
+MENKAM NGWENOM Francis Bonis
+ 
+CM
+-
+UDS
+-
+14IUT0004
+ 
+Licence
+-
+IR
+-
+CDRI
+ 
+2
+ 
+M
+BOUKAM Alex
+ 
+CM
+-
+UDS
+-
+1
+5I
+UT
+1086
+ 
+Licence
+-
+IR
+-
+CDRI
+ 
+3
+ 
+MANFO
+ 
+TSIDA
+ 
+Alex
+ 
+Christian
+ 
+CM
+-
+UDS
+-
+15IUT1135
+ 
+Licence
+-
+IR
+-
+CDRI
+ 
+4
+ 
+NGNEMCHIE
+ 
+Nathalie
+ 
+CM
+-
+UDS
+-
+12IUT0774
+ 
+Licence
+-
+IR
+-
+CDRI
+ 
+ 
+THEME
+: 
+FonPr√¥le d‚Ä±acc√®s aux infrasPrucPures
+ 
+ 
+Techniques et outils
+ 
+:
+ 
+-
+ 
+HÈbergeur
+ 
+ 
+ 
+ 
+ 
+heroku.com
+ 
+-
+ 
+Gestion de version
+ 
+ 
+ 
+ 
+git hub 
+ 
+-
+ 
+Langage et Scripts
+ 
+ 
+ 
+ 
+HTML, Java, PHP, JavaScript, CSS
+ 
+-
+ 
+Serveur web
+ 
+ 
+ 
+ 
+Apache (MS4W)
+ 
+-
+ 
+SGBD client
+-
+serveur
+ 
+ 
+ 
+PostgreSQL
+ 
+9.3
+ 
+-
+ 
+Langage de ModÈlisation Objet
+ 
+ 
+UML
+ 
+-
+ 
+IngÈnierie systËme et rÈseaux 
+ 
+ 
+TCP/IP
+ 
+-
+ 
+Framework
+ 
+ 
+ 
+ 
+Laravel 5.5
+ 
+-
+ 
+SysP√®me d‚Ä±exploiPaPion
+ 
+ 
+ 
+Windows 7 32bit SP1
+ 
+-
+ 
+AGL
+ 
+ 
+ 
+ 
+ 
+astah
+-
+professional
+ 
+-
+ 
+IDE
+ 
+ 
+ 
+ 
+ 
+Android Studio, 
+PhpStorm 8.0.3
+ 
+-
+ 
+SÈcuritÈ donnÈes 
+ 
+ 
+ 
+ 
+Bcrypt
+ 
+ 
+Contexte et prÈsentation gÈnÈrale
+ 
+ 
+De nos jours, avec rÈvolution phÈnomÈnale des nouvelles technologies dans tous les domaines de la 
+sociÈtÈ,
+ 
+les UniversiP√©s eP HnsPiPuPs m√©nage Pous les efforPs pour s‚Ä±arrimer √† la donne. Ainsi l‚Ä±
+USD
+ 
+‡ aprËs 
+de mulPiple succ√®s dans l‚Ä±auPomaPisaPion de la gesPion de diff√©renPes proc√©dures eP ressources au sein de 
+ses Ècoles, est actuellement face ‡ un dÈfi majeu
+r qui esP celle d‚Ä±auPomaPiser l‚Ä±auPorisaPion √† l‚Ä±acc√®s √† ses 
+diffÈrentes infrastructures telles que les salles de composition, bibliothËques, bureaux, laboratoire, etc.
+ 
+ 
+Pour ce qui concerne ce projeP de fin d‚Ä±√©Pude, nous allons nous concenPrer uniquemenP 
+sur le contrÙle 
+d‚Ä±acc√®s aux salles de composiPion avec PouPes les P√¢ches qui seronP effecPu√© avanP, pendanP eP apr√®s 
+l‚Ä±acPiviP√©. I‚Ä±inP√©graPion des THF esP primordiale pour saPisfaire se besoin, ainsi que les Pechnologies clienP
+-
+serveur et aspects rÈpartis 
+sans oublie le moyen de communicaPion des diff√©renPs module qui esP l‚Ä±inPraneP 
+eP en fin la s√©curiP√© qui esP Pr√®s imporPe. TouPes ces conPrainPe serons saPisfaiPe √† l‚Ä±inPerface mulPiuPilisaPeur 
+de type Android sur tablette et Smartphone et Web sur Ordinate
+ur.    
+ 
+ 
+Quelques rÈsultats attendus 
+ 
+ÔÉº
+ 
+Niveau d‚Ä±acc√®s s√©curis√© aux foncPionnaliP√©s de l‚Ä±applicaPion
+ 
+;
+ 
+ÔÉº
+ 
+Listes des Ètudiants autorisÈs ‡ 
+composer (par classe et matiËre
+)
+ 
+;
+ 
+ÔÉº
+ 
+Listes des Ètudiants 
+participent avant, pendant et aprËs une activitÈ
+ 
+;
+ 
+ÔÉº
+ 
+Listes des Ètud
+iants autorisÈs ‡ 
+participer
+ 
+‡ 
+l‚Ä±examen par U
+niP√© d‚Ä±EnseignemenP eP 
+par matiËre
+ 
+;
+ 
+ÔÉº
+ 
+Interface web de planification des activitÈs par le personnel
+ 
+;
+ 
+ÔÉº
+ 
+HnPerface graphique d‚Ä±auPhenPificaPion de l‚Ä±√©PudianP
+ 
+;
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fait 
+‡ Bandjoun, le 
+10 mars 2018
+ 
+Chapitre 1
+ 
+ 
+PrÈsentation
+ 
+du cadre de travail et Cahier de charges
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+5
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Le 
+Directeur de Projet
+ 
+ 
+1.3
+ 
+Pr√©senPaPion de l‚Ä±exisPanP
+ 
+ 
+La gestion des activitÈs dans un Ètablissement est une t‚che trËs dÈlicate et de ce fait, il sera 
+√©videnP de le faire avec beaucoup de pr√©cauPion car la r√©puPaPion de l‚Ä±√©PablissemenP esP en jeu. Ior
+s 
+de nos Ètudes sur la gestion des activitÈs dans des Ètablissements, nous avions choisir de le faire ‡ 
+l‚Ä±HUT
+-
+FV de Bandjoun et nous avons fait ces remarque
+ 
+: la planification des activitÈs est informatiser 
+et assurer par une application web tournant local
+ement sous le nom de ´
+ 
+siges
+ 
+¬ª. Ie conPr√¥le d‚Ä±acc√®s 
+en salle de composiPion se faiP sur la base de la pr√©senPaPion de la FNH ou la carPe d‚Ä±√©PudianP ainsi que 
+les reÁus de paiement des droits universitaires ainsi que les frais mÈdicaux et lorsque les Èpreuv
+es 
+sont distribuÈes, le surveillant fait passer une liste dans laquelle les Ètudiants inscriront leurs noms 
+ainsi que leurs signaPures eP cePPe lisPe fera office de lisPe de pr√©sence. F‚Ä±esP avec lisPe qu‚Ä±ils 
+(administration) pourront les noms de ceux qui o
+nP pris parP √† l‚Ä±examen eP aussi les absenPs. Ia figure 
+ci
+-
+dessous pr√©senPe la circulaPion des informaPions relaPif √† une acPiviP√© de la cr√©aPion jusqu‚Ä±√† la fin 
+de cette activitÈ.
+ 
+ 
+Figure 
+2
+ 
+D
+iagramme de circulation
+ 
+des informations
+ 
+1.4
+ 
+Critiques
+ 
+ 
+AprËs une Ètude critique sur la mÈthode actuelle de planification et de suivi des activitÈs dans 
+nos universitÈs, nous constatons que cette mÈthode marche certes mais, limitÈ par le temps car 
+nÈcessitÈ beaucoup de temps pour vÈ
+rifier les informations avant de les publier et aussi, la traÁabilitÈ 
+d‚Ä±un planning par exemple mePPra beaucoup de Pemps car les informaPions ne sonP pas cenPralis√© eP 
+ 
+Chapitre 1
+ 
+ 
+PrÈsentation
+ 
+du cadre de travail et Cahier de charges
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+6
+ 
+ 
+disPribu√©. En ce qui concerne le suivi des acPiviP√©s (exemple d‚Ä±un examen), l‚Ä±acc√®s dans
+ 
+une salle de 
+composiPion se faiP uniquemenP par simple v√©rificaPion de la carPe d‚Ä±√©PudianP ou de la FNH si la phoPo 
+sur la carPe esP idenPique au candidaP, ceP √©PudianP esP alors auPoriser de parPiciper √† l‚Ä±acPiviP√© ainsi 
+PouPe personne pourra s‚Ä±inProduir
+e dans n‚Ä±imporPe quelle salle de composiPion, s‚Ä±idenPifier eP 
+composer simplemenP. F‚Ä±esP ce qui permeP √† cerPain √©PudianPs v√©reux de composer √† la place des 
+auPres o√π mrme de composer une maPi√®re sans rPre auPoris√© √† y parPicip√© car il esP insolvable o√π n‚Ä±
+est 
+mrme pas inscriP √† la cePPe maPi√®re. ÔÉºoil√† en faiP les lacunes de l‚Ä±ancienne m√©Phode ainsi d√©gag√©. 
+Dans la suite, nous allons vous prÈsentez notre approche pour remÈdier ‡ ces problËmes.
+ 
+1.5
+ 
+Proposition de solution
+ 
+ 
+I‚Ä±apporP de l‚Ä±uPilisaPion dans son ensem
+ble des TCI dans la gestion des activitÈs vient rÈsoudre 
+les probl√®mes Pels la confidenPialiP√©, l‚Ä±inP√©griP√©, la fiabiliP√©, la s√©curiP√© eP le gain de Pemps. Ainsi dans 
+notre dÈmarche, nous avions pris en compte tous ces qualitÈs en proposant une application
+ 
+web qui 
+servira pour la planification, le contrÙle, le suivie et la gÈnÈration des rapports ‡ la fin de chaque 
+acPiviP√© eP aussi une applicaPion mobile (Android) pour l‚Ä±idenPificaPion des √©PudianPs afin de savoir 
+qui esP auPoris√© √† prendre parP √† l‚Ä±acPivi
+tÈ ou pas. De plus notre application dois permettre de savoir 
+quels sonP les √©PudianPs qui sonP en salle de composiPion eP apr√®s l‚Ä±acPiviP√© l‚Ä±obPenPion de la lisPe de 
+prÈsence et du rapport sera instantanÈ et allËgera la t‚che au service de la scolaritÈ ai
+nsi qu‚Ä±au 
+surveillant.   
+ 
+1.6
+ 
+DÈroulement du travail et opÈrations effectuÈes
+ 
+Pour r√©aliser ce projeP, un cerPain nombre de P√¢ches eP d‚Ä±acPiviP√© onP √©P√© effecPu√© eP r√©capiPuler 
+dans le tableau ci
+-
+dessous.
+ 
+Tableau 
+2
+  
+L
+iste des 
+activitÈs menÈes
+ 
+Phase
+ 
+D
+Èbut
+ 
+(date)
+ 
+F
+in
+ 
+(date)
+ 
+DurÈe (en jours)
+ 
+-
+ 
+ImprÈgnation des objectifs du projet
+ 
+27
+-
+02
+-
+2018
+ 
+27
+-
+02
+-
+2018
+ 
+1
+ 
+-
+ 
+Analyse prÈalable et dÈfinition des besoins
+ 
+28
+-
+02
+-
+2018
+ 
+04
+-
+03
+-
+2018
+ 
+5
+ 
+-
+ 
+CrÈation du diagramme de classe
+ 
+et 
+cas d‚Ä±uPilisaPion
+ 
+05
+-
+03
+-
+2018
+ 
+10
+-
+03
+-
+2018
+ 
+5
+ 
+-
+ 
+dÈbut de rÈdaction du rapport, 
+PremiËre de couverture, 
+Remerciement, RÈsume, cahiers des charges 
+ 
+11
+-
+03
+-
+2018
+ 
+14
+-
+03
+-
+2018
+ 
+3
+ 
+-
+ 
+implÈmentation 
+ 
+15
+-
+04
+-
+2018
+ 
+20
+-
+05
+-
+018
+ 
+25
+ 
+-
+ 
+dÈbut de test en local et modification des erreurs
+ 
+21
+-
+05
+-
+2018
+ 
+28
+-
+05
+-
+2018
+ 
+7
+ 
+-
+ 
+d√©ploiemenP de l‚Ä±applicaPion web en ligne 
+ 
+29
+-
+05
+-
+2018
+ 
+31
+-
+05
+-
+2018
+ 
+3
+ 
+Chapitre 1
+ 
+ 
+PrÈsentation
+ 
+du cadre de travail et Cahier de charges
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+7
+ 
+ 
+-
+ 
+modificaPion de l‚Ä±applicaPion Android pour qu‚Ä±il 
+communique avec l‚Ä±applicaPion web en ligne
+ 
+01
+-
+06
+-
+2018
+ 
+25
+-
+06
+-
+2018
+ 
+25
+ 
+-
+ 
+suite et fin de la rÈdaction du rapport 
+ 
+26
+-
+06
+-
+2018
+ 
+08
+-
+07
+-
+2018
+ 
+12
+ 
+-
+ 
+dÈpÙt du rapport
+ 
+09
+-
+07
+-
+2018
+ 
+09
+-
+07
+-
+2018
+ 
+1
+ 
+-
+ 
+Montage du PowerPoint  
+ 
+10
+-
+07
+-
+2018
+ 
+15
+-
+07
+-
+2018
+ 
+5
+ 
+-
+ 
+PrÈsentation du projet aux jurys 
+ 
+16
+-
+07
+-
+2018
+ 
+16
+-
+07
+-
+2015
+ 
+1
+ 
+ 
+1.7
+ 
+EPaP de l‚Ä±arP
+ 
+1.7.1
+ 
+Choix des outils utilisÈs 
+ 
+1.7.1.1
+ 
+Langage de modÈlisation
+ 
+ 
+UML
+ 
+: UPilise principalemenP l‚Ä±approche objeP eP faciliPe la mod√©lisaPion des diff√©renPs aspecPs 
+du projeP. F‚Ä±esP le sPandard de la mod√©lisaPion objeP adopP√© par l‚Ä±OMG eP universellemenP reconnu. 
+Il est indÈpendant de tout langage de programmation, des pro
+cessus de dÈveloppement et permet la 
+communication entre les acteurs ‡ travers la "computation Independant Model" dans le souci de 
+rendre le sysP√®me √©voluPif, ce sysP√®me doiP rPre g√©n√©rique eP √©volu√© plus Pard. Pour plus d‚Ä±informaPion 
+sur UML bien vouloir 
+consulter 
+LW
+-
+UMI
+-
+18]
+ 
+ou 
+LPascRoq
+-
+UMI
+-
+06]
+.
+ 
+ 
+ 
+1.7.1.2
+ 
+Langages de programmation
+ 
+ÔÉò
+ 
+HTML
+, 
+car il pr√©senPe l‚Ä±avanPage d‚Ä±rPre relaPivemenP simple √† ma√ÆPriser eP de produire des 
+pages trËs lÈgËres et rapides ‡ transmettre, mÍme lorsque le dÈbit est faible. Donc nous 
+l‚Ä±adopPerons pour 
+la structuration des informations de notre application web
+ 
+;
+ 
+ÔÉò
+ 
+Jav
+a
+, pour le dÈveloppement de notre interface 
+mobile
+ 
+;
+ 
+ÔÉò
+ 
+PHP
+, 
+pour gÈnÈrer facilement les pages web contenant des informations provenant de la base 
+de donn√©e eP c‚Ä±esP aussi un excellenP langage de scripP coP√© serveur qui serP d‚Ä±inPerm√©diaire 
+entre le client et
+ 
+la base de donnÈes
+ 
+;  
+ 
+ÔÉò
+ 
+JavaScript
+, pour le conPr√¥le d‚Ä±informaPion coP√© clienP eP le r√©fl√©chissemenP cibl√© des √©l√©menPs 
+sur la page
+ 
+;  
+ 
+ÔÉò
+ 
+CSS
+, pour le design de notre application web. 
+ 
+ 
+Chapitre 1
+ 
+ 
+PrÈsentation
+ 
+du cadre de travail et Cahier de charges
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+8
+ 
+ 
+1.7.1.3
+ 
+SGBD
+ 
+ 
+I‚Ä±exploiPaPion des documenPs en ligne conPenu dans 
+LW
+-
+lessgbd
+-
+18]
+ 
+nous onP permis d‚Ä±avoir 
+le classemenP de quelques SGBG parmi lesquelles nous avions filPr√© ceux fr√©quemmenP jusqu‚Ä±ici 
+dans le cadre de notre formation acadÈmique  et aussi les info contenu dans 
+LWikipedia
+-
+Kiwix]
+ 
+nous 
+onP permis d‚Ä±avoir plus de d√©Pail sur c
+hacun d‚Ä±eux. Ainsi on √† ressorPir le Pableau ci
+-
+dessous.
+ 
+Tableau 
+3
+ 
+Comparaison de SGBD les plus utilisÈs 
+ 
+Rang
+ 
+Nom
+ 
+DÈveloppeur
+ 
+Environnements
+ 
+Licence
+ 
+Site web
+ 
+1
+ 
+Oracle
+ 
+Oracle Corporation
+ 
+Multiplateforme
+ 
+PropriÈtaire
+ 
+www.oracle.com/
+ 
+2
+ 
+MySQL
+ 
+MySQL AB / Oracle
+ 
+Multiplateforme
+ 
+GNU (propriÈtaire)
+ 
+www.mysql.com/
+ 
+4
+ 
+PostgreSQL
+ 
+Micheal Stonebraker
+ 
+Multiplateforme
+ 
+BSD
+ 
+www.postgresql.org/
+ 
+7
+ 
+Access
+ 
+Microsoft
+ 
+Windows, Mac OS X
+ 
+PropriÈtaire, EULA
+ 
+office.microsoft.com/
+ 
+ 
+ 
+ 
+Ainsi le SGBG que nous opPons d‚Ä±uPiliser esP PosPgreSQI car c‚Ä±esP un ouPil libre disponible 
+selon les Permes d‚Ä±une licence de Pype BSG conPrairemenP aux Prois auPres qui sonP propri√©Paire. 
+Documentation
+ 
+contenue dans 
+LGoc
+-
+PosPgresSql
+-
+9.D.3]
+ 
+1.7.1.4
+ 
+Framework 
+ 
+ 
+Comme Framework (ou cadriciel en bon franÁais), on en distingue au moins deux types ‡ savoir 
+les 
+Framework
+ 
+front
+-
+end 
+(Bootstrap de Twitter et Foundation de Zurb)
+ 
+et 
+back
+-
+end (
+Symphony, 
+Laravel et CakePhp). En revanche, le 
+Framework
+ 
+que nous avons utilisÈ e
+st Laravel 5.5 car propose 
+offre une faciliP√© d‚Ä±inP√©graPion de nouvelle module eP vienP aussi avec des module Pels que le module 
+d‚Ä±auPhenPificaPion, le query builder √©crire des requrPes de plus Iaravel uPilise 
+HTML
+, 
+PHP
+, 
+JavaScript
+ 
+et Booststrap pour le de
+sign des inPerfaces avec Iaravel, le d√©ploiemenP de l‚Ä±applicaPion esP Pr√®s facile 
+(Inspiration
+ 
+: 
+LW
+-
+FonPEnd
+-
+18]
+).
+ 
+1.7.1.5
+ 
+Dessin des diagrammes
+ 
+ 
+Pour les diagrammes
+,
+ 
+les outils disponible
+s
+ 
+sont, argoUml, p
+o
+w
+A
+Mc, astash, winDesign la liste 
+est trËs longue mais pour
+ 
+les avoirs (ceux qui respectent les normes) bien vouloir visiter le site 
+www.omg.com
+ 
+la parPiculariP√© des ouPils esP qu‚Ä±il respecPe 
+tous les standards
+ 
+d‚Ä±UMI eP offres les 
+ouPils pour repr√©senPer chaque diagramme d‚Ä±UMI. A
+insi l‚Ä±AGI que nous avons uPilis√© lors de la 
+modÈlisation est astash car il est trËs stable et possËde des modules permettant de documentÈ notre 
+modÈlisation sous en format html et aussi les diagrammes sont trËs bien reprÈsentÈs.  
+ 
+Chapitre 2
+ 
+ 
+Analyse, Algorithmes et Structures de donnÈes
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+9
+ 
+ 
+Chapitre 2  
+ 
+Analyse, AlgoriPhmes eP SPrucPures de 
+donn√©es
+ 
+ 
+ 
+AprËs avoir rÈunies les informations sur les diffÈrents objectifs et rÈsultat attendus. Nous allons 
+d‚Ä±abord proc√©der √† une d√©limiPaPion du projeP, qui 
+consistera ‡ cadrer les modules ‡ dÈvelopper par 
+la suite. Ensuite, nous mettrons en exergue les exigences fonctionnelles par des diagrammes de cas 
+d‚Ä±uPilisaPion PouP en √©lucidanP les sc√©narii de cerPains de ces cas d‚Ä±uPilisaPions par des diagrammes de 
+sÈq
+uences eP d‚Ä±acPiviP√©. Enfin, nous allons repr√©senPer, d√©crire le sysP√®me dans son aspecP 
+archiPecPural eP Perminer par la repr√©senPaPion des classes d‚Ä±objePs du sysP√®me ainsi que les liens 
+existent entre eux.
+ 
+2.1
+ 
+Analyse fonctionnelle du systËme
+ 
+2.1.1
+ 
+DÈfinition mod
+ulaire du projet
+ 
+ 
+Notre projet est subdivisÈ en plusieurs modules dÈtaillÈs comme suit
+ 
+:
+ 
+ÔÉò
+ 
+Planification des activitÈs
+ 
+: 
+Ce module est destinÈ uniquement aux personnels, en les offrants 
+des informations rÈel et actualisÈ sous forme de formulaires pour la 
+crÈation des activitÈs
+ 
+;
+ 
+ÔÉò
+ 
+Impression des plannings des activitÈs
+ 
+:
+ 
+ce module permeP √† l‚Ä±adminisPraPion d‚Ä±imprimer le 
+programme de passage de chaque activitÈ dans des meilleurs dÈlais. 
+ 
+ÔÉò
+ 
+Suivie d‚Ä±acPiviP√©s
+ 
+: 
+DestinÈ aux enseignants et aussi aux Ètudiants, et 
+permeP d‚Ä±avoir les 
+rapporPs pour chaque acPiviP√© en cours eP aussi le rapporP finale d‚Ä±une acPiviP√©
+ 
+terminÈ ;
+ 
+ÔÉò
+ 
+FonPr√¥le d‚Ä±acc√®s aux acPiviP√©s
+ 
+: 
+DestinÈ principalement aux Ètudiants pour les permettes de 
+s‚Ä±idenPifier avec leurs carPe d‚Ä±√©PudianPs
+ 
+; 
+ 
+ÔÉò
+ 
+Mise ‡ jo
+ur des informations de base : 
+seul l‚Ä±adminisPraPeur peuP uPiliser ce module qui qui 
+permet de gÈrer (crÈer, modifier, supprimer) les utilisateurs, les matiËres, bref tous ceux dans 
+les autres utilisateurs aurons besoin.
+ 
+2.1.2
+ 
+Interaction entre le systËme et les 
+acteurs
+ 
+2.1.2.1
+ 
+Les principaux acteurs du systËme
+ 
+ 
+Ies acPeurs qui doivenP inPeragir avec le sysP√®me via la r√©alisaPion d‚Ä±un ou de plusieurs cas 
+d‚Ä±uPilisaPion sonP les suivanPs
+ 
+:
+ 
+ÔÉò
+ 
+Etudiant
+ 
+: F‚Ä±esP celui pour qui les acPiviP√©s sonP cr√©√©es eP il doiP s‚Ä±idenPifier pou
+r y participer
+ 
+;
+ 
+Chapitre 2
+ 
+ 
+Analyse, Algorithmes et Structures de donnÈes
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+10
+ 
+ 
+ÔÉò
+ 
+Enseignant
+ 
+: c‚Ä±esP celui qui planifie les acPiviP√©s
+ 
+;
+ 
+ÔÉò
+ 
+Administrateur
+ 
+: Celui
+-
+ci a le contrÙle du systËme entier.
+ 
+2.1.2.2
+ 
+Fas d‚Ä±uPilisaPion pour l‚Ä±√©PudianP
+ 
+ 
+I‚Ä±√©PudianP aura la possibiliP√© de parPiciper √† une acPiviP√© planifier eP pour se faire, il 
+droit 
+d‚Ä±abord s‚Ä±idenPifier eP qui parle d‚Ä±idenPificaPion parle de soiP P‚Ä±uPilisaPion d‚Ä±un lecPeur d‚Ä±empreinPe 
+digiPal √† l‚Ä±aide de la PablePPe, d‚Ä±un lecPeur de code bar √† l‚Ä±aide d‚Ä±un smarPphone ou bien d‚Ä±un lecPeur 
+de carPe magn√©Pique √† l‚Ä±aide de la PablePP
+e. EnsuiPe il peuP aussi voire son rapporP d‚Ä±acPiviP√© apr√®s une 
+activitÈ (en ligne). La figure ci
+-
+dessous illusPre ces cas d‚Ä±uPilisaPion ainsi que les sous cas 
+d‚Ä±uPilisaPions.    
+ 
+ 
+Figure 
+3
+ 
+Giagramme de cas d&#x0027;uPilisaPion de l‚Ä±√©Pud
+iant
+ 
+ 
+2.1.2.3
+ 
+Fas d‚Ä±uPilisaPion pour l‚Ä±enseignanP (personnel)
+ 
+ 
+I‚Ä±enseignanP peuP afficher les acPiviP√©s d√©j√† planifi√© eP aussi peuP modifier ou bien supprimer 
+si eP seulemenP si l‚Ä±acPiviP√© n‚Ä±a pas encore eu lieux. Ge plus il peuP aussi ajouPer une acPiviP√© eP en 
+fins 
+peuP voire les rapporPs des acPiviP√©s pendanP l‚Ä±acPiviP√© eP aussi apr√®s l‚Ä±acPiviP√©. Ia figure qui suiP 
+illusPre clairemenP ces cas d‚Ä±uPilisaPion.
+ 
+Chapitre 2
+ 
+ 
+Analyse, Algorithmes et Structures de donnÈes
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+11
+ 
+ 
+ 
+Figure 
+4
+ 
+Diagramme de cas d'utilisation de 
+l‚Ä±enseignanP
+ 
+ 
+2.1.2.4
+ 
+Fas d‚Ä±uPilisaPion pou
+r l‚Ä±adminisPraPeur 
+ 
+ 
+I‚Ä±adminisPraPeur esP celui qui a la lourde charge d‚Ä±enregisPrer les informaPions de base 
+auxquelles les auPres auronP besoin dans le sysP√®me comme par exemple l‚Ä±enroulemenP des √©PudianPs 
+eP enseignanPs, la mise √† jour eP l‚Ä±ajouP des ma
+Pi√®res, la gesPion des horaires comme l‚Ä±ajouP de nouvelle 
+ligne d‚Ä±ann√©e acad√©mique eP aussi des cr√©neaux
+-
+horaire. Nous allons illustrer cette situations par la 
+figure qui suivante
+ 
+:
+ 
+Chapitre 2
+ 
+ 
+Analyse, Algorithmes et Structures de donnÈes
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+12
+ 
+ 
+ 
+Figure 
+5
+ 
+Diagramme de cas d'utilisation 
+ 
+de l‚Ä±a
+dministrateur  
+ 
+ 
+ 
+2.1.2.5
+ 
+Description
+s
+ 
+PexPuelle des cas d‚Ä±uPilisaPion 
+ 
+ 
+Ies diagrammes pr√©c√©denPs onP donn√©s une repr√©senPaPion d‚Ä±un niveau d‚Ä±absPracPion √©lev√© de 
+cas d‚Ä±uPilisaPion. Ainsi, nous allons proc√©der aux descripPions PexPuelles des quelques
+-
+uns de ces 
+cas 
+d‚Ä±uPilisaPion.
+ 
+ 
+ÔÉò
+ 
+Participer ‡ une activitÈ
+ 
+Tableau 
+4
+ 
+GescripPion PexPuelle du cas d‚Ä±uPilisaPion
+ 
+:
+ 
+´ 
+Participer ‡ une activitÈ
+ 
+ª
+ 
+ 
+Fas d‚Ä±uPilisaPion
+ 
+Participer ‡ une activitÈ
+ 
+Acteur primaire
+ 
+Etudiant
+ 
+SysP√®me d‚Ä±informaPion
+ 
+FonPr√¥le d‚Ä±acc√®s aux infrasPrucPures 
+ 
+Intervenants
+ 
+SystËme
+ 
+Chapitre 2
+ 
+ 
+Analyse, Algorithmes et Structures de donnÈes
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+13
+ 
+ 
+Objectif
+ 
+S‚Ä±idenPifier afin de suivre l‚Ä±acPiviP√©
+ 
+PrÈcondition
+ 
+Avoir sa CNI
+ 
+OpÈration
+ 
+1
+ 
+S‚Ä±idenPifier avec sa carPe d‚Ä±√©PudianP
+ 
+Extension
+ 
+1. a
+ 
+Le system ‡ bien reÁu ses informations
+ 
+?
+ 
+1. a.1
+ 
+Si 
+non
+ 
+: abandonner eP rePour √† l‚Ä±op√©raPion 1
+ 
+1. a.2
+ 
+Si oui
+ 
+: continuer
+ 
+1. b
+ 
+I‚Ä±√©PudianP esP
+-
+il sur la liste des participants
+ 
+?
+ 
+1. b.1
+ 
+Si nom
+ 
+: refuser l‚Äôacc√®s √† cet √©tudiant 
+ 
+1. b.2
+ 
+Si oui
+ 
+: continuer 
+ 
+1. c
+ 
+L‚Äô√©tudiant est
+-
+il inscrit en la matiËre
+ 
+?
+ 
+1. c.1
+ 
+Si nom
+ 
+: refuser l‚Äôacc√®s √† cet √©tudiant
+ 
+1. c.2
+ 
+Si oui
+ 
+: continuer
+ 
+1. d
+ 
+L‚Äô√©tudiant est
+-
+il solvable
+ 
+? 
+ 
+1. d.1
+ 
+Si nom
+ 
+: refuser l‚Äôacc√®s √† cet √©tudiant
+ 
+1. d.2
+ 
+Si oui
+ 
+: continuer
+ 
+Post
+-
+condition 
+ 
+AccËs autorisÈ   
+ 
+ 
+ÔÉò
+ 
+Ajouter une activitÈ 
+ 
+Tableau 
+5
+ 
+GescripPion PexPuelle du cas d‚Ä±uPilisaPion : ¬´
+ 
+ajouter activitÈ
+ 
+ª
+ 
+Fas d‚Ä±uPilisaPion
+ 
+Ajouter activitÈ
+ 
+Acteur primaire
+ 
+Enseignant
+ 
+SysP√®me d‚Ä±informaPion
+ 
+FonPr√¥le d‚Ä±acc√®s aux infrasPrucPures 
+ 
+Intervenants
+ 
+SystËme
+ 
+Objectif
+ 
+Fr√©aPion d‚Ä±une nouvelle acPiviP√©
+ 
+PrÈcondition
+ 
+S‚Ä±auPhenPifier 
+ 
+et avoir le rÙle enseignant ou admin
+ 
+OpÈration
+ 
+1
+ 
+Remplir le formulaire et soumettre 
+ 
+Extension
+ 
+1. a
+ 
+Formulaire valide
+ 
+?
+ 
+1. a.1
+ 
+Si oui
+ 
+: continuer
+ 
+1. a.2
+ 
+Si non
+ 
+: annuler l‚Ä±ajouP
+ 
+Post
+-
+condition 
+ 
+Nouvelle activitÈ crÈÈe
+ 
+ 
+ÔÉò
+ 
+Modifier une matiËre
+ 
+Tableau 
+6
+ 
+GescripPion PexPuelle du cas d‚Ä±uPilisaPion : ¬´
+ 
+modifier matiËre 
+ª
+ 
+Fas d‚Ä±uPilisaPion
+ 
+Modifier une matiËre
+ 
+Acteur primaire
+ 
+Administrateur
+ 
+SystËme 
+d‚Ä±informaPion
+ 
+FonPr√¥le d‚Ä±acc√®s aux infrasPrucPures 
+ 
+Chapitre 2
+ 
+ 
+Analyse, Algorithmes et Structures de donnÈes
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+14
+ 
+ 
+Intervenants
+ 
+SystËme
+ 
+Objectif
+ 
+Mise √† jour d‚Ä±une maPi√®re
+ 
+PrÈcondition
+ 
+S‚Ä±auPhenPifier eP avoir un r√¥le admin
+ 
+OpÈration
+ 
+1
+ 
+Remplir le formulaire et soumettre 
+ 
+Extension
+ 
+1. a
+ 
+Formulaire valide
+ 
+?
+ 
+1. a.1
+ 
+Si oui
+ 
+: continuer
+ 
+1. a.2
+ 
+Si non
+ 
+: annuler l‚Ä±ajouP
+ 
+Post
+-
+condition 
+ 
+MatiËre modifiÈ 
+ 
+ 
+ÔÉò
+ 
+Ajouter un Ètudiant 
+ 
+Tableau 
+7
+ 
+GescripPion PexPuelle du cas d‚Ä±uPilisaPion : ¬´ 
+ajouter etudiant
+ 
+ª
+ 
+Fas d‚Ä±uPilisaPion
+ 
+Ajouter un Ètudiant
+ 
+Acteur primaire
+ 
+Administrateur
+ 
+SysP√®me d‚Ä±informaPion
+ 
+FonPr√¥le d‚Ä±acc√®s aux infrasPrucPures 
+ 
+Intervenants
+ 
+SystËme
+ 
+Objectif
+ 
+Ajouter un Ètudiant dans la base de donnÈes
+ 
+PrÈcondition
+ 
+S‚Ä±auPhenPifier eP avoir un r√¥le admin
+ 
+OpÈration
+ 
+1
+ 
+Remplir le formulaire et soumettre 
+ 
+Extension
+ 
+1. a
+ 
+Formulaire valide
+ 
+?
+ 
+1. a.1
+ 
+Si oui
+ 
+: continuer
+ 
+1. a.2
+ 
+Si non
+ 
+: annuler l‚Ä±ajouP
+ 
+Post
+-
+condition 
+ 
+I‚Ä±√©PudianP a √©P√© 
+ajoutÈ
+ 
+dans la base de donnÈes
+ 
+ 
+ 
+Dans cette partir, il Ètait question pour nous de 
+dÈcrire les communications entre utilisateurs et 
+sysP√®me de quelques cas d‚Ä±uPilisaPion. Gans la suiPe, nous allons poursuivre cePPe fois ci dans la 
+maP√©rialisaPion des inPeracPions enPre objePs pour mieux √©lucid√© nos cas d‚Ä±uPilisaPion. EP pour la 
+circonsta
+nce, UML nous offre le diagramme de sÈquence pour matÈrialiser cette chronologie des 
+communicaPions enPre les objePs du sysP√®me parPicipanP eP r√©alisanP des cas d‚Ä±uPilisaPion.
+ 
+ 
+2.1.3
+ 
+ModÈlisation des interactions entre les objets
+ 
+2.1.3.1
+ 
+Giagramme de s√©quence du cas d‚Ä±u
+tilisation
+ 
+: ´
+ 
+crÈe activitÈ
+ 
+ª
+ 
+ 
+Ia cr√©aPion d‚Ä±une acPiviP√© esP une acPion Pr√®s complexe en fessanP inPeragir plusieurs objePs du 
+sysP√®me. Ia figue 6 pr√©senPe les diff√©renPes communicaPions chronologiques enPre l‚Ä±uPilisaPeur 
+(enseignant) et systËme lors de 
+la cr√©aPion d‚Ä±une acPiviP√©.
+ 
+Chapitre 2
+ 
+ 
+Analyse, Algorithmes et Structures de donnÈes
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+15
+ 
+ 
+ 
+Figure 
+6
+ 
+Giagramme de s√©quence du cas d‚Ä±uPilisaPion : ¬´ cr√©e acPiviP√© ¬ª
+ 
+2.1.3.2
+ 
+Giagramme de s√©quence du cas d‚Ä±uPilisaPion du cas d‚Ä±uPilisaPion
+ 
+: ´
+ 
+participer ‡ 
+une activitÈ
+ 
+ª
+ 
+ 
+En ce qui concerne la participat
+ion ‡ une activitÈ
+ 
+le Ètudiant doit se prÈsenter devant sa salle 
+muni de sa carPe d‚Ä±√©PudianP afin que le surveillanP puisse scanner le code barre pour savoir s‚Ä±il doiP 
+enPrer ou pas. EP la figure 7 ci pr√©senPe bien cePPe siPuaPion d‚Ä±auPhenPificaPion.
+ 
+ 
+Fig
+ure 
+7
+ 
+Giagramme de s√©quence du cas d‚Ä±uPilisaPion du cas d‚Ä±uPilisaPion : ¬´ parPiciper √† une acPiviP√© ¬ª
+ 
+Chapitre 2
+ 
+ 
+Analyse, Algorithmes et Structures de donnÈes
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+16
+ 
+ 
+2.1.4
+ 
+Giagramme d‚Ä±acPiviP√© 
+ 
+2.1.4.1
+ 
+Giagramme d‚Ä±acPiviP√© du cas d‚Ä±uPilisaPion
+ 
+: ´
+ 
+crÈer activitÈ
+ 
+ª
+ 
+ 
+Ici, nous allons montrer les diffÈrentes 
+acPiviP√©s (√©Pape d‚Ä±
+UML
+) dans le processus de crÈation 
+d‚Ä±acPiviP√© (examen, cours ou TP) dans la figure qui suiP
+ 
+:
+ 
+ 
+Figure 
+8
+ 
+D
+iagramme d‚Ä±acPiviP√© du cas d‚Ä±uPilisaPion : ¬´ cr√©er acPiviP√© ¬ª
+ 
+ 
+2.1.4.2
+ 
+Giagramme d‚Ä±acPiviP√© du cas d‚Ä±uPilisaPion
+ 
+:
+ 
+´
+ 
+voire rapporP d‚Ä±acPiviP√©
+ 
+ª
+ 
+ 
+I‚Ä±une des foncPionnaliP√©s que l‚Ä±√©PudianP peuP effecPuer dans cePPe applicaPion, esP la 
+visualisaPion de son rapporP d‚Ä±acPiviP√© que nous illusProns au niveau de la figure 7. 
+ 
+Chapitre 2
+ 
+ 
+Analyse, Algorithmes et Structures de donnÈes
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+17
+ 
+ 
+ 
+Figure 
+9
+ 
+D
+iagramme d‚Ä±acP
+iviP√© du cas d‚Ä±uPilisaPion : ¬´ voire rapporP d‚Ä±acPiviP√© ¬ª
+ 
+ 
+2.1.4.3
+ 
+Giagramme d‚Ä±√©PaP
+-
+PransiPion d‚Ä±une acPiviP√©
+ 
+ 
+Iorsqu‚Ä±une acPiviP√© esP cr√©√©e, elle poss√®de des 
+Ètats
+ 
+en fonction du temps et ses 
+diffÈrents Ètats
+ 
+sont trËs bien 
+prÈsentÈs
+ 
+dans la figure qui suit
+ 
+:
+ 
+ 
+Figure 
+10
+ 
+Giagramme d‚Ä±√©PaP
+-
+PransiPion d‚Ä±une acPiviP√©
+ 
+ 
+Chapitre 2
+ 
+ 
+Analyse, Algorithmes et Structures de donnÈes
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+18
+ 
+ 
+2.1.5
+ 
+PrÈsentation du modËle de navigation 
+de l‚Ä±applicaPion web
+ 
+ 
+La figure ci
+-
+dessous prÈsente les diffÈrents scÈnarios que les utilisateurs auront  ‡ rencontrer  
+dans cette applicati
+on. HniPialemenP, l‚Ä±uPilisaPeur  esP amen√© soiP √† s‚Ä±auPhenPifier 
+s‚Ä±il poss√®de d√©j√† un 
+compPe ou soiP √† cr√©er un compPe s‚Ä±il n‚Ä±en poss√®de pas encore. Pour 
+les utilisateurs
+ 
+possËdent
+ 
+un 
+compPe apr√®s l‚Ä±auPhenPificaPion 
+ils auront
+ 
+dans les menus de navigation 
+en fonction des rÙles comme 
+prÈsentÈ ‡ la figure 12
+ 
+o˘ seule les menus les plus important sont reprÈsentÈ
+.
+ 
+ 
+Figure 
+11
+ 
+Mod√®le de navigaPion relaPif √† l‚Ä±applicaPion web
+ 
+ 
+S‚Ä±auPhenPifier
+ 
+CrÈer compte
+ 
+´
+ 
+Page
+ 
+ª
+ 
+Administrateur
+ 
+´
+ 
+Page
+ 
+ª
+ 
+Enseignant
+ 
+´
+ 
+Page
+ 
+ª
+ 
+Etudiant
+ 
+´
+ 
+Page
+ 
+ª
+ 
+Visiteur
+ 
+ 
+ 
+ 
+ 
+S‚Ä±auPhenPifier
+ 
+Chapitre 2
+ 
+ 
+Analyse, Algorithmes et Structures de donnÈes
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+19
+ 
+ 
+2.2
+ 
+Conception technique, fonctionnelle et objet du systËme 
+ 
+2.2.1
+ 
+A
+rchitecture technique et fonctionnelle du systËme 
+ 
+ 
+La figure suivante prÈsente le 
+fonctionnement
+ 
+architecturel  et technique du systËme du 
+systËme
+ 
+:
+ 
+Si par exemple nous voulons af
+ficher la lisPe des √©PudianPs d‚Ä±une acPiviP√©, nous allons 
+procÈder
+ 
+comme 
+suit
+ 
+:
+ 
+1.
+ 
+Remplir
+ 
+le formulaire 
+de sp√©cificaPion de l‚Ä±acPiviP√©,
+ 
+qui est une
+ 
+suite de code HTML et CSS 
+et
+ 
+le soumet
+tre
+ 
+;
+ 
+2.
+ 
+JavaScript transmet la requÍte
+ 
+AJAX
+ 
+au serveur web Apache ‡ travers le protocole http
+ 
+;
+ 
+3.
+ 
+Le serv
+eur web examine la requÍte
+ 
+gr‚ce au Langage de script PHP qui interroge la base de 
+donnÈes afin 
+d‚Ä±exPraire les infor
+mations
+ 
+;
+ 
+4.
+ 
+Une fois 
+les informations
+ 
+rÈcupÈrer de a base de donnÈes
+, le serveur web renvoi
+e
+ 
+la rÈponse 
+via le protocole HTTP.
+ 
+5.
+ 
+ 
+JavaScript
+ 
+se chargera
+ 
+d‚Ä±afficher
+ 
+la liste des 
+Ètudiants
+ 
+trouvÈ en utilisant du code HTML 
+qui a sont peut utiliser des scripts CSS
+ 
+pour l‚Ä±affichage. 
+ 
+ 
+ 
+Figure 
+12
+ 
+Architecture fonctionnelle et
+ 
+technique du systËme
+ 
+ 
+BD
+ 
+PostgreSql
+ 
+Couche accËs aux donnÈes
+ 
+Serveur Web
+ 
+:
+ 
+Apache
+ 
+Langage de 
+Script PHP
+ 
+Couche mÈtier
+ 
+AJAX
+ 
+HTML
+ 
+CSS
+ 
+JavaScript
+ 
+Couche prÈsentation 
+ 
+HTTP
+ 
+Chapitre 2
+ 
+ 
+Analyse, Algorithmes et Structures de donnÈes
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+20
+ 
+ 
+2.2.2
+ 
+Dictionnaire de donnÈes
+ 
+ 
+Le tableau ci
+-
+dessous donne une descripPion eP Pype de donn√©es sur les noms d‚Ä±aPPribuP en effeP 
+ces aPPribuPs sonP pour la plus parP codifier afin de ne pas Prop uPiliser de l‚Ä±espace dans la base de 
+donnÈes.
+ 
+Tableau 
+8
+ 
+Dictionnaire de donnÈes
+ 
+Clas
+ses
+ 
+Attributs
+ 
+Type
+s
+ 
+Description
+s
+ 
+activites
+ 
+id
+ 
+serial
+ 
+Identifiant 
+unique d‚Ä±un objeP 
+de
+ 
+la table activitÈ
+ 
+id_annee
+ 
+Integer
+ 
+Fl√© √©Prang√®re de l‚Ä±ann√©e 
+ 
+id_semestre
+ 
+Integer
+ 
+ClÈ ÈtrangËre du 
+semestre
+ 
+id_niveau
+ 
+Integer
+ 
+ClÈ ÈtrangËre du niveau 
+ 
+date_debut_activite
+ 
+Date
+ 
+ 
+GaPe de d√©marrage de l‚Ä±acPiviP√©
+ 
+date_fin
+_activite
+ 
+Date 
+ 
+GaPe de la fin de l‚Ä±acPiviP√©
+ 
+annee_academiques
+ 
+id
+ 
+serial
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable
+ 
+libelle_annee
+ 
+String
+ 
+HnPiPul√© de l‚Ä±ann√©e acad√©mique 
+ 
+classes
+ 
+id
+ 
+serial
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable classes
+ 
+id_cursus
+ 
+Integer
+ 
+ClÈ ÈtrangËre du cursus
+ 
+id_departement
+ 
+Integer
+ 
+ClÈ ÈtrangËre du dÈpartement
+ 
+id_niveau
+ 
+Integer
+ 
+ClÈ ÈtrangËre du niveau
+ 
+code_classe
+ 
+String
+ 
+Code de la classe
+ 
+libelle_classe
+ 
+String
+ 
+Libelle de la classe
+ 
+effectif_classe
+ 
+Integer
+ 
+Nombre de place disponible dans une classe
+ 
+cours
+ 
+id
+ 
+serial
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable
+ 
+id_activite
+ 
+Integer
+ 
+Fl√© √©Prang√®re d‚Ä±une 
+activitÈ
+ 
+id_enseigant
+ 
+Integer
+ 
+Fl√© √©Prang√®re de l‚Ä±enseignanP
+ 
+id_matiere
+ 
+Integer
+ 
+ClÈ ÈtrangËre de la matiËre
+ 
+id_creneau
+ 
+Integer
+ 
+ClÈ ÈtrangËre du crÈneau horaire
+ 
+date_cours
+ 
+Date
+ 
+Date de passage de cette matiËre
+ 
+creneaux_horaires
+ 
+id
+ 
+serial
+ 
+Identifiant
+ 
+unique d‚Ä±un objeP de la Pable cr√©neau horaire
+ 
+duree
+ 
+Integer
+ 
+DurÈe de ce crÈneau 
+ 
+libelle_creneaux
+ 
+String
+ 
+Libelle du crÈneau
+ 
+cursus_accs
+ 
+id
+ 
+serial
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable cursus acad√©mique
+ 
+code
+ 
+String
+ 
+Code du cursus
+ 
+libelle
+ 
+String
+ 
+Libelle du cursus 
+ 
+departements
+ 
+id
+ 
+serial
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable d√©parPemenP
+ 
+code_departement
+ 
+String
+ 
+Code du dÈpartement 
+ 
+libelle_departement
+ 
+String
+ 
+Libelle du dÈpartement 
+ 
+enseignants
+ 
+id
+ 
+serial
+ 
+HdenPifianP unique d‚Ä±un objeP
+ 
+de la table enseignant
+ 
+matricule_enseignant
+ 
+String
+ 
+MaPricule de l‚Ä±enseignanP
+ 
+id_user
+ 
+Integer
+ 
+Fl√© √©Prang√®re de l‚Ä±uPilisaPeur 
+ 
+id_departement
+ 
+Integer
+ 
+ClÈ ÈtrangËre du dÈpartement
+ 
+grade
+ 
+String
+ 
+Grade de l‚Ä±enseignanP
+ 
+fonction
+ 
+String
+ 
+FoncPion de l‚Ä±
+enseignant
+ 
+etudiants
+ 
+id
+ 
+Serial 
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable √©PudianP
+ 
+matricule_etudiant
+ 
+ 
+MaPricule de l‚Ä±√©PudianP
+ 
+id_user
+ 
+Integer
+ 
+Fl√© √©Prang√®re de l‚Ä±uPilisaPeur
+ 
+Chapitre 2
+ 
+ 
+Analyse, Algorithmes et Structures de donnÈes
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+21
+ 
+ 
+diplome_entre
+ 
+String
+ 
+Gipl√¥me d‚Ä±enPr√© de l‚Ä±
+Ètudiant
+ 
+examens
+ 
+id
+ 
+Serial 
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable examen
+ 
+id_activite
+ 
+Integer
+ 
+Fl√© √©Prang√®re de l‚Ä±acPiviP√©
+ 
+id_ens_chef_dpt
+ 
+Integer
+ 
+ClÈ ÈtrangËre du chef de dÈpartement
+ 
+id_matiere
+ 
+Integer
+ 
+ClÈ ÈtrangËre de la matiËre
+ 
+id_creneau
+ 
+Integer
+ 
+ClÈ ÈtrangËre du crÈneau
+ 
+horaire
+ 
+id_surveillant
+ 
+Integer
+ 
+Fl√© √©Prang√®re du surveillanP de l‚Ä±examen
+ 
+id_session
+ 
+Integer
+ 
+ClÈ ÈtrangËre de  la session
+ 
+date_examen
+ 
+Date 
+ 
+Date de passage de la matiËre
+ 
+mails
+ 
+id
+ 
+Serial 
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable mail
+ 
+id_user_from
+ 
+Integer
+ 
+Fl√© √©Prang√®re de l‚Ä±
+Èmetteur
+ 
+id_user_to
+ 
+Integer
+ 
+ClÈ ÈtrangËre du destinataire
+ 
+objet
+ 
+String
+ 
+Objet du mail
+ 
+libelle
+ 
+String
+ 
+Contenu du mail
+ 
+lue
+ 
+String
+ 
+Statut du mail
+ 
+matieres
+ 
+id
+ 
+Serial 
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable maPi√®re
+ 
+code_matiere
+ 
+String
+ 
+Code de la matiËre
+ 
+libelle_matiere
+ 
+String
+ 
+Libelle de la matiËre
+ 
+nbr_credit
+ 
+Integer
+ 
+Nombre de crÈdit de la matiËre
+ 
+niveaux
+ 
+id
+ 
+serial
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable niveaux
+ 
+libelle_niveau
+ 
+String
+ 
+Libelle du niveau
+ 
+password_resets
+ 
+email
+ 
+String
+ 
+Email de l‚Ä±uPilisaPeur 
+ 
+token
+ 
+String
+ 
+ClÈ pour la modification
+ 
+roles
+ 
+id
+ 
+Serial 
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable r√¥le
+ 
+name
+ 
+String
+ 
+Nom du rÙle
+ 
+description
+ 
+String
+ 
+Description du rÙle
+ 
+salles
+ 
+id
+ 
+Serial 
+ 
+Identifiant 
+unique d‚Ä±un objeP de la Pable salle
+ 
+code_salle
+ 
+String
+ 
+Code de la salle
+ 
+libelle_salle
+ 
+String
+ 
+Libelle de la salle
+ 
+nbre_places
+ 
+Integer
+ 
+Nombre de place disponible dans la salle
+ 
+semestres
+ 
+id
+ 
+Serial 
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable semesPre 
+ 
+libelle_semestre
+ 
+String
+ 
+Libelle du semestre
+ 
+sessions
+ 
+id
+ 
+Serial 
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable session
+ 
+libelle_session
+ 
+String
+ 
+Libelle de la session
+ 
+surveillants
+ 
+id
+ 
+Serial 
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable surveillanP
+ 
+id_user
+ 
+Integer
+ 
+Fl√© √©Prang√®re de l‚Ä±uPilisaPeur
+ 
+tps
+ 
+id
+ 
+Serial 
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable Pp
+ 
+id_activite
+ 
+Integer
+ 
+Fl√© √©Prang√®re de l‚Ä±acPiviP√©
+ 
+id_enseigant
+ 
+Integer
+ 
+Fl√© √©Prang√®re de l‚Ä±enseignanP
+ 
+id_matiere
+ 
+Integer
+ 
+ClÈ ÈtrangËre de la matiËre
+ 
+id_creneau
+ 
+Integer
+ 
+ClÈ ÈtrangËre du crÈneau horaire
+ 
+date_tp
+ 
+Date 
+ 
+Date de passage du tp
+ 
+users
+ 
+id
+ 
+Serial 
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable uPilisaPeur
+ 
+name
+ 
+String
+ 
+Nom de l‚Ä±uPilisaPeur
+ 
+prenom
+ 
+String
+ 
+Pr√©nom de l‚Ä±uPilisaPeur
+ 
+sexe
+ 
+String
+ 
+Sexe 
+de l‚Ä±uPilisaPeur
+ 
+date_nais
+ 
+Date 
+ 
+GaPe de naissance de l‚Ä±uPilisaPeur
+ 
+telephone
+ 
+Integer
+ 
+Num√©ro(s) de P√©l√©phone de l‚Ä±uPilisaPeur
+ 
+Chapitre 2
+ 
+ 
+Analyse, Algorithmes et Structures de donnÈes
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+22
+ 
+ 
+Email
+ 
+String
+ 
+Email de l‚Ä±uPilisaPeur (login)
+ 
+password
+ 
+String
+ 
+MoP de passe de l‚Ä±uPilisaPeur (password)
+ 
+info_codebar
+ 
+text
+ 
+Gonn√©e du code barre de carPe d‚Ä±√©PudianP
+ 
+info_empreinte
+ 
+text
+ 
+Gonn√©e sur l‚Ä±empreinPe digiPale de l‚Ä±√©PudianP
+ 
+Photo
+ 
+text
+ 
+PhoPo de l‚Ä±√©PudianP (avaPar)
+ 
+remember_token
+ 
+String
+ 
+ClÈ de mÈmorisation du mot de passe
+ 
+salle_activites
+ 
+id
+ 
+Serial 
+ 
+Identifiant 
+unique d‚Ä±un objeP de la Pable
+ 
+salle d‚Ä±une acPiviP√©
+ 
+id_activite
+ 
+Integer
+ 
+Fl√© √©Prang√®re de l‚Ä±acPiviP√©
+ 
+id_salle
+ 
+Integer
+ 
+ClÈ ÈtrangËre de la salle
+ 
+role_user
+ 
+id
+ 
+Serial 
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable
+ 
+rÙ
+le
+-
+utilisateur
+ 
+role_id
+ 
+Integer
+ 
+ClÈ 
+ÈtrangËre du rÙle
+ 
+user_id
+ 
+Integer
+ 
+Fl√© √©Prang√®re de l‚Ä±uPilisaPeur
+ 
+etud_scolariser_clas
+ 
+id
+ 
+serial
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable
+ 
+Ètudiant scolarisÈ  
+ 
+id_etudiant
+ 
+Integer
+ 
+Fl√© √©Prang√®re de l‚Ä±√©PudianP
+ 
+id_classe
+ 
+Integer
+ 
+ClÈ ÈtrangËre de la 
+classe
+ 
+id_annee
+ 
+Integer
+ 
+Fl√© √©Prang√®re de l‚Ä±ann√©e acad√©mique
+ 
+etud_participe_tps
+ 
+id
+ 
+serial
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable
+ 
+Ètudiant
+-
+tp
+ 
+id_tp
+ 
+Integer
+ 
+ClÈ ÈtrangËre de la table  Ètudiant
+-
+tp
+ 
+id_etud_ins_mat
+ 
+Integer
+ 
+ClÈ ÈtrangËre de la matiËre
+ 
+statut
+ 
+Integer
+ 
+SPaPuP de l‚Ä±√©PudianP
+ 
+etud_etudie_cours
+ 
+id
+ 
+serial
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable
+ 
+Ètudiant
+-
+cours
+ 
+id_cours
+ 
+Integer
+ 
+ClÈ ÈtrangËre du cours
+ 
+id_etud_ins_mat
+ 
+Integer
+ 
+ClÈ ÈtrangËre de la table Ètudiant
+-
+matiËre
+ 
+statut
+ 
+Integer
+ 
+SPaPuP de l‚Ä±√©PudianP
+ 
+etud_compose_examens
+ 
+id
+ 
+serial
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable
+ 
+Ètudiant
+-
+examen
+ 
+id_examen
+ 
+Integer
+ 
+Fl√© √©Prang√®re de l‚Ä±examen
+ 
+id_etud_ins_mat
+ 
+Integer
+ 
+ClÈ ÈtrangËre de la table Ètudiant
+-
+examen
+ 
+statut
+ 
+Integer
+ 
+Statut de 
+l‚Ä±√©PudianP
+ 
+activite_conc_classes
+ 
+id
+ 
+serial
+ 
+HdenPifianP unique d‚Ä±un objeP de la Pable
+ 
+activitÈ
+-
+classe
+ 
+id_activite
+ 
+Integer
+ 
+Fl√© √©Prang√®re de l‚Ä±acPiviP√©
+ 
+id_classe
+ 
+Integer
+ 
+ClÈ ÈtrangËre de la classe
+ 
+ens_chef_dpts
+ 
+id
+ 
+serial
+ 
+HdenPifianP unique d‚Ä±un objeP de
+ 
+la table
+ 
+enseignant
+-
+dÈpartement
+ 
+id_enseignant
+ 
+Integer
+ 
+Fl√© √©Prang√®re de l‚Ä±enseignanP
+ 
+id_departement
+ 
+Integer
+ 
+ClÈ ÈtrangËre du dÈpartement
+ 
+date_debut_diriedpt
+ 
+date
+ 
+Date de prise de service 
+ 
+date_fin_diriedpt
+ 
+date
+ 
+Date de passation de service 
+ 
+statut
+ 
+Integer
+ 
+SPaPuP de l‚Ä±enseignanP 
+ 
+ 
+ 
+ 
+ 
+Chapitre 2
+ 
+ 
+Analyse, Algorithmes et Structures de donnÈes
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+23
+ 
+ 
+2.2.3
+ 
+Diagramme de classe
+ 
+ 
+La figure
+ 
+15
+ 
+ci
+-
+dessous est une reprÈsentation globale des objets de notre systËme ainsi que les 
+liens qui existent entre eux.
+ 
+ 
+Figure 
+13
+ 
+Diagramme de classe
+ 
+ 
+Chapitre 2
+ 
+ 
+Analyse, Algorithmes et Structures de donnÈes
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+24
+ 
+ 
+2.2.4
+ 
+ModËle physique de donnÈes 
+ 
+ 
+Apr√®s migraPion des cl√©s, nous obPenons une repr√©senPaPion physique de nos objePs eP c‚Ä±esP avec 
+ce modËle que nous allons crÈer notre base de donnÈes. La figure
+ 
+16
+ 
+ci
+-
+dessous reprÈsente ce modËle 
+ainsi que les liens et clÈ Ètra
+ngËre qui existent entre les diffÈrentes tables.
+ 
+ 
+Figure 
+14
+ 
+ModËle physique de donnÈes
+ 
+ 
+Chapitre 3
+ 
+ 
+ImplÈmentation, Techniques de Programmati
+on et RÈsultats
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+25
+ 
+ 
+Chapitre 3  
+ 
+Hmpl√©menPaPion, Techniques de 
+ProgrammaPion eP R√©sulPaPs
+ 
+3.1
+ 
+Technique de d
+Èveloppement 
+ 
+3.1.1
+ 
+Usage du pattern de dÈveloppement MVC (Model Vue Controller)
+ 
+ 
+Pour implÈmenter notre application nous avons adoptÈ ce pattern (MVC) car il prÈsente 
+plusieurs tels
+ 
+: la modulariP√© de l‚Ä±applicaPion ce qui nous a permis de bien Pravailler en gro
+upe, ainsi 
+faciliPe le d√©veloppemenP de l‚Ä±applicaPion en suivanP bien sur la logique orienP√© objeP, de plus il rend 
+aussi l‚Ä±applicaPion facile √† mainPenir. Gans la figure ci
+-
+dessous nous prÈsentons une lustration de ce 
+pattern dans notre application en met
+tent les composants qui sont directement impliquÈs.
+ 
+ 
+Figure 
+15
+ 
+Diagramme de composants du pattern MVC
+ 
+ 
+3.1.2
+ 
+Arborescence du systËme
+ 
+ 
+La figure
+ 
+18
+ 
+ci
+-
+dessous pr√©senPe l‚Ä±arborescence de noPre sysP√®me, cePPe archiPecPure esP propre 
+‡ Lara
+vel 5.5 et aprËs cette figure nous allons donner le
+s explications sur le
+ 
+contenu 
+de
+s dossiers
+ 
+portant
+ 
+un numÈro dans
+ 
+cette arborescence.
+ 
+Chapitre 3
+ 
+ 
+ImplÈmentation, Techniques de Programmati
+on et RÈsultats
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+26
+ 
+ 
+ 
+Figure 
+16
+ 
+A
+rborescence du systËme
+ 
+Le dossier portant le numÈro 
+:
+ 
+(source
+ 
+:
+ 
+LW
+-
+geP_laravelD.D
+-
+18])
+ 
+1.
+ 
+C
+ontient tous les scripts PHP servant d‚Äôinterm√©diaire entre la vue (7) et la base de donn√©es
+ 
+;
+ 
+2.
+ 
+Contient les middlewares pour assurer la confidentialitÈ des utilisateurs connectÈs en plus de 
+middleware auth et g
+u
+est 
+ 
+de Laravel, nous avons aussi crÈÈ des middlewares pour chaque rÙles 
+des utilisateurs (administrateur, enseignant, Ètudiant)
+ 
+;
+   
+ 
+3.
+ 
+Contient nos diffÈrents modËles
+ 
+;
+ 
+4.
+ 
+Contient les fichiers de configuration de l‚Äôapplication tels que le nom, la cl√©, connexion √†
+ 
+la base de 
+donnÈes
+ 
+;
+ 
+5.
+ 
+Contient les scripts permettent de gÈnÈrer  les tables de la base de donnÈes ainsi que les 
+migrations
+ 
+;
+ 
+6.
+ 
+Co
+ntient le fichier index pour le
+ 
+serveur et aussi les scripts (
+JavaScript
+, 
+CSS
+), 
+les 
+images
+ 
+;
+ 
+7.
+ 
+Contient tous les fichiers de prÈse
+ntation (vue)
+ 
+;
+ 
+8.
+ 
+Contient la dÈclaration des routes que les requÍtes (de type POST, GET, DELETE etc.) doivent suivre 
+de la vue au contrÙleur et vice
+-
+versa.
+ 
+3.2
+ 
+G√©ploiemenP de l‚Ä±applicaPion 
+ 
+3.2.1
+ 
+Environnements et outils de dÈploiement 
+ 
+ 
+Pour le dÈploiement de cette 
+application
+,
+ 
+nous avons co
+mme environnement de travail un 
+ordinateur portable
+ 
+de maque HP et ayant les caractÈristiques suivant
+ 
+:
+ 
+Chapitre 3
+ 
+ 
+ImplÈmentation, Techniques de Programmati
+on et RÈsultats
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+27
+ 
+ 
+ 
+Figure 
+17
+ 
+Informations systËme gÈnÈrales
+ 
+ 
+En ce qui concerne les outils de dÈploiement on a
+ 
+:
+ 
+ÔÉº
+ 
+TÈlÈcharger
+ 
+et installer
+ 
+composer
+ 
+(comme dÈcrit dans
+ 
+[W
+-
+get_composer
+-
+18]
+ 
+qui est un 
+gestionnaire de dÈpendance
+ 
+PHP
+ 
+ 
+ÔÉº
+ 
+TÈlÈcharger
+,
+ 
+installer et configurer
+ 
+Git Bash
+ 
+(comme dÈcrit dans
+ 
+[
+p
+-
+git_tuto
+]
+) 
+qui est un 
+Perminal permePPanP d‚Ä±ex√©cuPer les commandes linux sur  Windows eP servanP aussi de 
+liaison entre notre dÈpÙt 
+local avec le dÈpÙt c
+e trouvant en ligne sur 
+www.github.com
+ 
+ 
+Figure 
+18
+ 
+Interface de
+ 
+Git Bash
+ 
+ÔÉº
+ 
+TÈlÈcharger, installer et configurer 
+CLI Heroku
+ 
+comme dÈcrit dans
+ 
+LW
+-
+heroku
+-
+19]
+ 
+ 
+qui 
+permeP de communiquer avec l‚Ä±h√©bergeur graPuiP heroku.
+ 
+ÔÉº
+ 
+TÈlÈcharger et installer xampp 7.2 
+(
+version de PHP 
+&#x0000;
+=7.1)
+ 
+ÔÉº
+ 
+HnsPaller l‚Ä±applicaPion Iaravel
+5.5
+ 
+en ligne de commande avec composer
+ 
+:
+ 
+(source en ligne 
+[W
+-
+heroku_cli
+-
+18]
+)
+ 
+Chapitre 3
+ 
+ 
+ImplÈmentation, Techniques de Programmati
+on et RÈsultats
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+28
+ 
+ 
+ 
+Figure 
+19
+ 
+Installation de Laravel 5.5 
+ 
+ 
+3.2.2
+ 
+DÈploiement en local 
+ 
+ 
+Pour ce qui est du dÈploiement 
+en 
+local
+,
+ 
+nous allons installer un SGBD (PostgreSQL pour 
+notre) et crÈer une base de donnÈes vide pourtant le mÍme nom que celui qui se trouve dans le fichier 
+.env
+. 
+En suiPe, √† l‚Ä±aide de 
+php
+ 
+artisan
+ 
+de Laravel 
+ 
+nous allons effectuer la migration pour crÈer les 
+tabl
+es dans l‚Ä±applicaPion dans la 
+base de donnÈes avec la commande suivante
+ 
+:
+ 
+ 
+Figure 
+20
+ 
+Migration de la base de donnÈes
+ 
+3.2.3
+ 
+DÈploiement en ligne
+ 
+Pour le dÈploiement en signe (sur heroku dans notre cas) 
+les 
+prÈrequis
+ 
+de la machine pour 
+dÈ
+ployer
+ 
+un projet PHP sont
+ 
+:
+ 
+ÔÉº
+ 
+PHP
+ 
+version 
+&#x0000;=
+ 
+7.0.0
+ 
+ÔÉº
+ 
+Le gestionnaire de dÈpendances 
+Composer
+ 
+ÔÉº
+ 
+Git
+ 
+ÔÉº
+ 
+CrÈer un 
+compte sur Heroku
+ 
+ÔÉº
+ 
+Installer 
+Heroku CLI
+ 
+La procÈdure de d
+Èploiement se trouve en annexe 2
+ 
+(source 
+LW
+-
+deploie
+-
+laravel
+-
+18]
+)
+.
+ 
+Chapitre 3
+ 
+ 
+ImplÈmentation, Techniques de Programmati
+on et RÈsultats
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+29
+ 
+ 
+3.3
+ 
+RÈsultats concrets du 
+dÈveloppement
+ 
+3.3.1
+ 
+Premier rÈsultat
+ 
+:
+ 
+I
+nPerface de gesPion d‚Ä±acPiviP√©
+ 
+3.3.1.1
+ 
+PrÈsentation 
+ 
+ 
+Fe premier r√©sulPaP pr√©senPe une inPerface allanP de la cr√©aPion √† suppression  d‚Ä±une acPiviP√© en 
+passanP par l‚Ä±ajouP des maPi√®res, classe eP salle.
+ 
+ 
+ 
+Figure 
+21
+ 
+HnPerface de gesPion d‚Ä±acPiviPe
+ 
+Sur  la figure prÈcÈdente
+ 
+le numÈro
+ 
+:
+ 
+1)
+ 
+Permet de crÈer une nouvelle activitÈ
+ 
+ 
+2)
+ 
+PermeP d‚Ä±ajouPer des maPi√®res √† l‚Ä±acPiviP√© couranPe
+ 
+ 
+3)
+ 
+PermeP de d√©finir des classes √† l‚Ä±acPiviP√© couranPe
+ 
+ 
+4)
+ 
+Permet de 
+d√©finir des salles √† l‚Ä±acPiviP√© couranPe
+ 
+ 
+3.3.1.2
+ 
+AlgoriPhme d‚Ä±
+obtent
+ion du resultat
+ 
+ 
+Ia cr√©aPion d‚Ä±une acPiviP√© commence par
+ 
+Ia d√©limiPaPion de l‚Ä±acPiviP√© m√®re √† savoir
+ 
+:
+ 
+ÔÉº
+ 
+prÈciser la date de dÈbut et de fin
+ 
+de l‚Ä±acPiviP√©,
+ 
+p
+our la 
+sÈlection
+ 
+de ces dates 
+nous propo
+sons 
+dans le formulaire une plage allant de la date courante ‡ la date de fin des activitÈs dans 
+l‚Ä±insPiPuP
+ 
+et lorsque la date de dÈbut est choisie il est impossible de choisir une date de fin 
+infÈrieur ‡ la date de dÈbut
+. Ce qui permet 
+de crÈer dans activ
+itÈ crÈdible
+ 
+;
+ 
+Chapitre 3
+ 
+ 
+ImplÈmentation, Techniques de Programmati
+on et RÈsultats
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+30
+ 
+ 
+ÔÉº
+ 
+Ie Pype d‚Ä±
+acPiviP√©, qui peuP rPre soiP l‚Ä±examen, soiP le cours ou mrme le TP
+ 
+;
+ 
+ÔÉº
+ 
+L
+e semestre
+ 
+AprËs cette prÈcision nous pouvons ‡ prÈsent passer soit aux numÈros 2, 3 ou 4 sur la figure.
+ 
+Iors de l‚Ä±ajouP d‚Ä±une maPi√®re √† une acPiviP√©, la daPe de
+ 
+de passage de cette activitÈ sera proposÈe 
+dans une plage d√©liP√©e par la daPe de d√©buP eP de fin l‚Ä±acPiviP√©. Fe permeP de ne pas cr√©er maPi√®re 
+d‚Ä±acPiviP√© orpheline. 
+ 
+ 
+3.3.2
+ 
+ 
+DeuxiËme rÈsultat
+ 
+: 
+S
+uivie en Pemps r√©el du d√©roulemenP d‚Ä±une acPiviP√©
+ 
+3.3.2.1
+ 
+PrÈsentation
+ 
+ 
+Ce
+ 
+r√©sulPaP repr√©senPe l‚Ä±une des innovaPions dans le suivie d‚Ä±une acPiviP√© car cePPe inPerface
+ 
+de 
+suivi 
+(figure 
+24
+)
+ 
+pr√©senPe pour chaque cr√©neau horaire, l‚Ä±acPiviP√© qui se d√©roule dans cePPe inPervalle 
+de Pemps ainsi qu‚Ä±un bouPon dans la colonne acPion de chaque acPiviP√© Prouv√© qui permeP de visualiser 
+la liste des 
+Ètudiants en salle (figure 25
+). 
+ 
+ 
+Figure 
+22
+ 
+ActivitÈ en cours (en temps rÈel)
+ 
+ 
+ 
+Figure 
+23
+ 
+Liste des Ètudiants en salle (en temps rÈel)
+ 
+Chapitre 3
+ 
+ 
+ImplÈmentation, Techniques de Programmati
+on et RÈsultats
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+31
+ 
+ 
+3.3.2.2
+ 
+AlgoriPhme d‚Ä±obPenPion du r√©sulPaP
+ 
+ 
+Pour avoir ce rÈsultat, nous effectuons tous les 
+2000
+ 
+millisecondes
+ 
+un requÍte dans la
+ 
+base et 
+le r√©sulPaP esP imm√©diaPemenP afficher √† l‚Ä±√©cran. 
+ 
+ 
+Figure 
+24
+ 
+function qui affiche les activitÈs en cours
+ 
+ 
+Iorsqu‚Ä±une acPiviP√© esP Permin√©e, elle n‚Ä±apparaiP plus dans la lisPe eP si on clique sur le bouPon 
+voire dans la c
+olonne acPion une nouvelle fenrPre s‚Ä±affichera avec les noms des  √©PudianPs en salle
+ 
+avec des Ètats
+ 
+interprÈtÈs comme suit
+ 
+:
+ 
+ÔÉò
+ 
+Etat = 0
+ 
+: Ètudiant en salle
+ 
+;
+ 
+ÔÉò
+ 
+Etat = 1
+ 
+: Ètudiant a
+yant
+ 
+terminÈ 
+ 
+ÔÉò
+ 
+Etat = 2
+ 
+: Ètudiant exclus de la salle
+ 
+ 
+3.3.2.3
+ 
+Application du rÈsultat
+ 
+ 
+Ie suivie du d√©roulemenP d‚Ä±une acPiviP√© permeP √† l‚Ä±adminisPraPion de savoir en Pemps r√©el le 
+nombre, le nom et le comportement de Ètudiant en salle et cette opÈration Ítre important dans la 
+mesure o√π celui en charger de suivre l‚Ä±acPiviP√© en cours n‚Ä±a pas a
+ssez de temps pour la ronde des 
+salles de composition o˘ mÍme ‡ cause du climat dÈfavorable (pluie  o˘ neige dans le campus). 
+ 
+ 
+Chapitre 3
+ 
+ 
+ImplÈmentation, Techniques de Programmati
+on et RÈsultats
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+32
+ 
+ 
+3.3.3
+ 
+TroisiËme rÈsultat
+ 
+: 
+G√©n√©rer le planning d‚Ä±une acPiviP√©
+ 
+3.3.3.1
+ 
+PrÈsentation
+ 
+ 
+Figure 
+25
+ 
+Planning de
+ 
+la normale
+ 
+allant du 17 au 25 juin 2018 (simulation)
+ 
+3.3.3.2
+ 
+AlgoriPhme d‚Ä±obPenPion du r√©sulPaP
+ 
+ 
+Pour avoir ce planning, l‚Ä±uPilisaPeur doiP au pr√©alable remplir le formulaire (
+annexe 3
+, figure 
+35
+)  
+eP le soumePPre au conPr√¥leur qui a son Pour effecPue la requrPe comme l‚Ä±ind
+ique
+ 
+la figure
+ 
+de
+ 
+la 
+page suivant et retourne le rÈsultat
+ 
+dans la variable Ajax pour l‚Ä±
+affichage.
+ 
+ 
+Chapitre 3
+ 
+ 
+ImplÈmentation, Techniques de Programmati
+on et RÈsultats
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+33
+ 
+ 
+Figure 
+26
+ 
+RequrPe de s√©lecPion des maPi√®res d‚Ä±une acPiviP√©
+ 
+3.3.3.3
+ 
+Application du rÈsultat
+ 
+ 
+Avoir le planning des activitÈs nouvellement cr
+ÈÈe est trËs important car il permet aux acteurs 
+(enseignants, surveillant, Ètudiants) de se prÈparer pour la circonstance 
+et avoir un planning ‡ 
+l‚Ä±avance esP un aPouP pour le bon d√©roulemenP des acPiviP√©s. 
+ 
+3.3.4
+ 
+QuatriËme rÈsultat
+ 
+: G√©n√©rer le rapporP d‚Ä±une ac
+tivitÈ  
+  
+ 
+3.3.4.1
+ 
+PrÈsentation
+ 
+ 
+Cette interface
+ 
+permettant aux enseignants 
+de gÈnÈrer le rapport aprËs une activitÈ prÈcise. 
+ 
+ 
+Figure 
+27
+ 
+R
+apporP d‚Ä±examen de normale de la p√©riode du 17 au 2D juin 2018 (simulaPion)
+ 
+3.3.4.2
+ 
+AlgoriPhme d‚Ä±obPenPion 
+du rÈsultat
+ 
+ 
+AprËs 
+avoir remplir le formulaire et le soumettre, le contrÙleur dÈdiÈ ‡ cette opÈration effectue 
+une requÍte SQL 
+‡ 
+ 
+la base de donnÈes
+ 
+(voir annexe 3
+, figure 
+ 
+36 
+et 
+37
+)
+ 
+pour rÈcupÈrer la liste des 
+Ètudiants et le retourne
+r
+ 
+dans la variable Aj
+ax qui 
+a
+ 
+sollicitÈ cette requÍte 
+et par la suite, 
+on 
+prÈpare 
+l‚Ä±affichage 
+en JavaScript 
+utilisant les balise
+s
+ 
+HTMI que la vue se chargera d‚Ä±affiche comme le 
+prÈsente la figure 27
+.
+ 
+3.3.4.3
+ 
+Application du rÈsultat
+ 
+ 
+Fe  r√©sulPaP esP d‚Ä±une grande imporPance comme la pr√©c√©denPe car elle permeP aux dirigeanPs 
+d‚Ä±avoir les sPaPisPiques dans les meilleur d√©lais sur le d√©roulemenP d‚Ä±une acPiviP√©  √† PouP momenP eP de 
+prendre des dÈcisions rapide 
+en cas fraude par exemple.
+Chapitre 4
+ 
+ 
+ 
+L
+eÁons, DifficultÈs
+ 
+et 
+Perspectives
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+34
+ 
+ 
+Chapitre 4  
+ 
+ApporP, Ieoons, GifficulP√©s eP PerspecPives
+ 
+4.1
+ 
+A
+pp
+o
+rts
+ 
+ 
+Dans le passÈ, les mÍmes rÈsultats Ètait presque obtenu mais avec des heures voire mÍme des 
+jours de retard ce qui rend parfois la publication des rÈsultats long o˘ mÍme la 
+production des rapports 
+pour les archives pÈnible car les documents et procËs
+-
+verbaux ne sont pas encore disponible. Avec 
+ce sysP√®me, le PraiPemenP eP la v√©rificaPion des rapporPs d‚Ä±acPiviP√© se ferons √† moins de D minuPes.
+ 
+4.2
+ 
+LeÁons 
+ 
+ 
+Comme 
+leÁons
+ 
+lors de la 
+mise en ‚Ä´uvre de cePPe applicaPion, nous pouvons menPionner enPre 
+autre
+ 
+:
+ 
+-
+ 
+I‚Ä±apprenPissage du Framework Iaravel 
+;
+ 
+-
+ 
+Le travail e
+n
+ 
+utilisant les technologies comme git hub pour garder chaque version de 
+notre application et a aussi facilitÈ la collaboration ave
+c surtout les autres programmeurs 
+sur la toile
+ 
+; 
+ 
+-
+ 
+Pour ce qui esP du langage de programmaPion PHP √©Pais l‚Ä±id√©al car chaque membre du 
+groupe avais sa petite idÈe concernant PHP
+ 
+;
+ 
+-
+ 
+Fourage d‚Ä±avance mrme si on renconPre des obsPacles 
+ 
+-
+ 
+I‚Ä±uPilisaPion des foncPio
+nnalitÈ
+s
+ 
+du navigateur pour corriger les erreurs du code 
+JavaScript qui ne sont pas directement aff
+ich√© √† l‚Ä±√©cran mais dans la console du 
+navigateur
+ 
+; 
+ 
+4.3
+ 
+DifficultÈs 
+ 
+ 
+Apr√®s l‚Ä±analyse de cePPe applicaPion, nous avons eu beaucoup de probl√®mes comme
+ 
+:
+ 
+-
+ 
+Le Frame
+work Iaravel √©PaiP nouveau pour la pluparP d‚Ä±enPre  nous 
+ce qui nous a coutÈ en 
+temps et en connexion internet pour apprendre ce Framework en appliquant directement 
+sur notre application
+ 
+;
+ 
+-
+ 
+Ies caracP√©risPiques de nos machines n‚Ä±√©PaienP pas assez puissanPes
+ 
+pour travailler avec 
+Android Studio et qui plantait beaucoup
+ 
+;
+ 
+-
+ 
+Faible connaissanP de l‚Ä±√©quipe en ce qui concerne la programmaPion pour applicaPion 
+Android
+ 
+-
+ 
+Ia cr√©aPion de la base de donn√©es n‚Ä±a pas √©P√© chose facile car Pr√®s complexe
+ 
+;   
+ 
+-
+ 
+Les tests concerna
+nt les modules temps rÈel demandais chaque fois soit de crÈer les 
+activitÈs et inscrit les Ètudiants dans classe et matiËre avant de les faire participÈ ‡ 
+l‚Ä±acPiviP√© soiP de changer la daPe de la machine si on esP en locale mais pour PesPer en 
+ligne c‚Ä±esP 
+la premiËre solution qui sera utilisÈ
+ 
+ 
+Chapitre 4
+ 
+ 
+ 
+L
+eÁons, DifficultÈs
+ 
+et 
+Perspectives
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+35
+ 
+ 
+4.4
+ 
+Perspectives envisagÈes
+ 
+Comme perspectives envisageable dans cette application
+ 
+:
+ 
+ÔÉº
+ 
+Nous 
+aimerons noPifier les parPies prenanPes lors de la cr√©aPion ou modificaPion d‚Ä±une 
+activitÈ
+ 
+ÔÉº
+ 
+Ies rapporPs d‚Ä±acPiviP√© doivenP g√©n√©rer 
+et envoyer automatiquement au responsable de cette 
+activitÈ (chef de dÈpartement)
+ 
+ÔÉº
+ 
+Terminer les modules inachevÈs 
+ 
+ÔÉº
+ 
+Pour voir cr√©er eP suivre l‚Ä±acPiviP√© avec l‚Ä±applicaPion Android qui jusqu‚Ä±√† pr√©senP donne 
+jusPe l‚Ä±acc√®s en salle aux 
+Ètudiants
+.  
+ 
+ 
+ 
+ 
+ 
+Conclusion gÈnÈrale
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+36
+ 
+ 
+Fonclusion g√©n√©rale
+ 
+ 
+Dans ce  projet, il Ètait question de mettre en place un systËme de planification
+ 
+eP suivie d‚Ä±acPiviP√© 
+ainsi que le conPr√¥le d‚Ä±acc√®s √† ses acPiviP√©s.
+ 
+Pour cela, nous avons fait une revue de la littÈrature sur 
+le langage de mo
+dÈlisation
+ 
+UMI, la m√©Phode d‚Ä±informaPisaPion 2TUP. Fomme ouPils, nous avons 
+uPilis√© Iaravel D.D comme Framework pour l‚Ä±applicaPion web, PosPgreSQI comme serveur de base 
+de donnÈes,
+ 
+Heroku comme h√©bergeur, Android SPudio pour l‚Ä±applicaPion mobile. Fe processus eP 
+l‚Ä±ensemble
+ 
+des outils nous ont permis de mettre en place  une plateforme  (application web) ayant les 
+fonctionnalitÈs
+ 
+principaux
+ 
+suivant
+ 
+: gestion des activitÈs
+ 
+; le suivie 
+des activitÈs en temps rÈel
+ 
+; la 
+visualisaPion des rapporPs d‚Ä±acPiviP√© ainsi que la g√©n√©raPion du planning 
+ 
+des activitÈs et une 
+applicaPion mobile (Android) pour le conPr√¥le d‚Ä±acc√®s des √©PudianPs en  salle.
+ 
+Ces modules sont 
+accessible uniquement en foncti
+on des utilisateurs possËdent un rÙle (admin, enseignant, Ètudiant)   
+et qui se sont au prÈalable authentifiÈ. Tout en ayant atteint les objectifs principal, nous pensons avoir 
+ainsi rÈalisÈ le projet ‡ 75,95%.
+ 
+ 
+ 
+Bibliographie
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+37
+ 
+ 
+ 
+Bibliographie
+ 
+LW
+-
+FonPEnd
+-
+18
+]
+ 
+hPPps:CCwww.alPicreaPion.comCbooPsPrap
+-
+foundaPion
+-
+frameworks
+-
+fonP
+-
+end
+, SiPe Web conPenanP 
+les d√©Pails sur les 
+Framework
+ 
+fonP
+-
+end, consulP√© le 11 mars 2018 √† 23h20.
+ 
+LW
+-
+lessgbd
+-
+18]
+ 
+hPPps:CCwww.sgbdslamD.wordpress.comClessgbdC
+, 
+SiPe Web conPenanP les diff√©rences enPre les 
+SGBG les plus uPilis√©s eP leurs classemenP en 2014, consulP√© le 11 mars 2018 √† 00h49.
+ 
+LWikipedia
+-
+Kiwix]
+ 
+hPPp:CCwww.wikipedia.orgC
+,
+ 
+Kiwis (logiciel)
+, encyclop√©die en ligne eP aussi en locale 
+renfermenP la plus parP de d√©finiPions des m
+oPs eP sigle, consulP√© chaque jours de Pravail sur ce projeP.
+ 
+LGoc
+-
+PosPgresSql
+-
+9.D.3]
+ 
+Documentation du logiciel Post
+greSql 9.5.3, tÈlÈcharger sur Internet ‡ travers le lient 
+suivant
+ 
+: 
+www.doc.postgresSql.com
+, 
+Ègalement consultable dans le dossier &&/documents consu
+lter/site 
+web/documentation de P
+ostgresql 9.5.3/index.html.
+ 
+LW
+-
+UMI
+-
+18]
+  
+hPPp:CCwww.omgsysml.orgC
+, siPe web de r√©f√©rence en ce qui concerne UMI eP son 
+√©voluPion.
+ 
+LPascRoq
+-
+UMI
+-
+06] 
+Pascal Roques ¬´
+ 
+UMI_2_par_la_praPique
+ 
+¬ª,
+ 
+√©Pudes d cas eP exercice corrig√©, D
+e
+ 
+√©diPion, 
+d√©p√¥P l√©gal ao√ªP 2006, HSSN 7280.
+ 
+Lp
+-
+giP
+-
+PuPo] 
+Tilap ¬´
+ 
+giP
+ 
+: les commandes usuelles √† connaiPre
+ 
+¬ª,
+ 
+page web enregisPrer conPenanP le r√©sum√© s
+ur 
+l‚Ä±insPallaPion eP l‚Ä±uPilisaPion de giP pour les d√©buPanPs, mise √† jour 20018, P√©l√©charger le 30
+-
+0D
+-
+2018 √† 16hDD. 
+ 
+LW
+-
+geP_laravelD.D
+-
+18]
+ 
+hPPps:CClaravel.s
+illo.orgCcours
+-
+laravel
+-
+D
+-
+D
+-
+les
+-
+bases
+-
+insPallaPion
+-
+eP
+-
+organisaPionC
+, 
+SiPe 
+Web officiel de 
+Iaravel conPenanP le cours sur les bases de l‚Ä±insPallaPion  l‚Ä±organisaPion d‚Ä±une nouvelle 
+applicaPion Iaravel,
+ 
+langue de la page
+ 
+: franoaise, 
+consulP√© le 
+2D
+ 
+avril
+ 
+2018
+ 
+√† 14
+h0D.
+ 
+ 
+LW
+-
+geP_
+composer
+-
+18]
+ 
+https://getcomposer.org/doc/06
+-
+config.md
+,
+ 
+SiPe Web officiel de 
+composer conPenanP la 
+documenPaPion sur l‚Ä±insPallaPion eP l‚Ä±uPilisaPion de composer
+, 
+langue de la page
+ 
+: 
+anglaise, 
+consulP√© le 
+2D
+ 
+avril
+ 
+2018 √† 14
+h0D.
+ 
+LW
+-
+heroku
+_cli
+-
+18]
+ 
+https://devcenter.heroku.com/articles/heroku
+-
+cli
+, 
+ 
+SiPe Web officiel de heroku conPenanP 
+la 
+documenPaPion sur la
+ 
+prise en mains de heroku, consulP√© le 
+02
+ 
+mai 2018 √† 20h0D.
+ 
+ 
+LW
+-
+deploie
+-
+laravel
+-
+18]
+ 
+hPPp:CCblog.occ.simplon.coCherokuC
+, 
+ 
+blog en ligne conPenanP le PuPoriel sur le d√©ploiemenP 
+d‚Ä±une applicaPion Iaravel D.D
+ 
+sur heroku,
+ 
+langue de la page
+ 
+: franoaise, 
+consulP√© le 
+03
+ 
+juin
+ 
+2018 √† 23h30
+.
+ 
+ 
+ 
+Annexes 
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+A
+ 
+ 
+ 
+Annexes
+ 
+Annexe
+ 
+1 : 
+Quelques vues de l‚Ä±UniversiP√© de Gschang
+ 
+ 
+ 
+ 
+ 
+ 
+Uds
+ 
+IUTFV
+ 
+ 
+Figure 
+28
+ 
+ÔÉºue panoramique de l‚Ä±Uds eP de l‚Ä±HUT FÔÉº de Bandjoun 
+[W
+-
+UDs
+-
+16]
+ 
+ 
+Annexe 2
+ 
+: 
+G√©ploiemenP de l‚Ä±applicaPion sur heroku
+ 
+1
+-
+ 
+CommenÁons par gÈnÈrer le conteneur cÙtÈ heroku :
+ 
+2
+-
+ 
+ 
+ 
+ 
+Annexes 
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+B
+ 
+ 
+Annexe 3
+ 
+: R√©sulPaP d‚Ä±impl√©menPaPion
+ 
+ 
+Figure 
+29
+ 
+Formulaire de connexion sur la plate forme
+ 
+Annexes 
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+C
+ 
+ 
+ 
+Figure 
+30
+ 
+HnPerface de mise √† jours de la bd par l‚Ä±admin
+ 
+ 
+Annexes 
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+D
+ 
+ 
+ 
+Figure 
+31
+ 
+Formulaire de crÈation d'une activitÈ
+ 
+ 
+ 
+Figure 
+32
+ 
+Formulaire 
+pour l‚Ä±affichage du planning d‚Ä±une acPiviP√©
+ 
+ 
+Annexes 
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+E
+ 
+ 
+ 
+Figure 
+33
+ 
+Obtenir la liste des Ètudiants ayant participÈ ‡ une activitÈ
+ 
+Annexes 
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+F
+ 
+ 
+ 
+Figure 
+34
+ 
+ObPenir la lisPe des √©PudianPs n‚Ä±ayanP pas parPicip√© √† une acPiviP√©
+ 
+ 
+Table de matiËres 
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+A
+ 
+ 
+ 
+Table des maPi√®res
+ 
+D…DICACE
+ 
+................................
+................................
+................................
+................................
+................................
+....
+ 
+I
+ 
+REMERCIEMENTS
+ 
+................................
+................................
+................................
+................................
+.......................
+ 
+II
+ 
+LISTE DES ABR…
+VIATIONS
+ 
+................................
+................................
+................................
+................................
+..........
+ 
+III
+ 
+R…SUM…
+ 
+................................
+................................
+................................
+................................
+................................
+....
+ 
+IV
+ 
+ABSTRACT
+ 
+................................
+................................
+................................
+................................
+................................
+..
+ 
+V
+ 
+SOMMAIRE
+ 
+................................
+................................
+................................
+................................
+...............................
+ 
+VI
+ 
+LISTE DES TABLEAUX E
+T FIGURES
+ 
+................................
+................................
+................................
+............................
+ 
+VIII
+ 
+INTRODUCTION G…N…RAL
+E
+ 
+................................
+................................
+................................
+................................
+........
+ 
+1
+ 
+CHAPITRE 1 PR…SENTAT
+ION DU CADRE DE TRAV
+AIL ET CAHIER DE CHA
+RGES
+ 
+................................
+.............................
+ 
+2
+ 
+1.1
+ 
+C
+ADRE DE TRAVAIL
+ 
+................................
+................................
+................................
+................................
+........................
+ 
+2
+ 
+1.1.1 Pr√©sentation de l‚ÄôUniversit√© de Dschang (Uds)
+ 
+................................
+................................
+................................
+ 
+2
+ 
+1.1.2 Pr√©sentation de l‚ÄôIUT FV
+ 
+................................
+................................
+................................
+................................
+...
+ 
+2
+ 
+1.1.3 PrÈsentation du DÈpartement de GÈnie Informatique et du Laboratoire
+ 
+................................
+........................
+ 
+3
+ 
+1.2
+ 
+C
+AHIER DE CHARGES
+ 
+................................
+................................
+................................
+................................
+......................
+ 
+4
+ 
+1.3
+ 
+P
+R…SENTATION DE L
+‚Äô
+EXISTANT
+ 
+................................
+................................
+................................
+................................
+.........
+ 
+5
+ 
+1.4
+ 
+C
+RITIQUES
+ 
+................................
+................................
+................................
+................................
+................................
+...
+ 
+5
+ 
+1.5
+ 
+P
+ROPOSITION DE SOLUTI
+ON
+ 
+................................
+................................
+................................
+................................
+............
+ 
+6
+ 
+1.6
+ 
+D
+…ROULEMENT DU TRAVAI
+L ET OP…RATIONS EFFE
+CTU…ES
+ 
+................................
+................................
+................................
+......
+ 
+6
+ 
+1.7
+ 
+E
+TAT DE L
+‚Äô
+ART
+ 
+................................
+................................
+................................
+................................
+..............................
+ 
+7
+ 
+1.7.1 Choix des outils utilisÈs
+ 
+................................
+................................
+................................
+................................
+....
+ 
+7
+ 
+1.7.1.1 Langage de modÈlisation
+ 
+................................
+................................
+................................
+................................
+............
+ 
+7
+ 
+1.7.1.2 Langages de programmation
+ 
+................................
+................................
+................................
+................................
+......
+ 
+7
+ 
+1.7.1.3 SGBD
+ 
+................................
+................................
+................................
+................................
+................................
+...........
+ 
+8
+ 
+1.7.1.4 Framework
+ 
+................................
+................................
+................................
+................................
+................................
+.
+ 
+8
+ 
+1.7.1.5 Dess
+in des diagrammes
+ 
+................................
+................................
+................................
+................................
+..............
+ 
+8
+ 
+CHAPITRE 2 ANALYSE, 
+ALGORITHMES ET STRUC
+TURES DE DONN…ES
+ 
+................................
+................................
+.........
+ 
+9
+ 
+2.1
+ 
+A
+NALYSE FONCTIONNELLE
+ 
+DU SYST»ME
+................................
+................................
+................................
+..............................
+ 
+9
+ 
+2.1.1 DÈfinition modulaire du projet
+ 
+................................
+................................
+................................
+.........................
+ 
+9
+ 
+2.1.2 Interaction entre le systËme et les acteurs
+ 
+................................
+................................
+................................
+......
+ 
+9
+ 
+2.1.2.1 Les principaux acteurs du systËme
+ 
+................................
+................................
+................................
+.............................
+ 
+9
+ 
+2.1.2.2 Cas d‚Äôutilisation pour l‚Äô√©tudiant
+ 
+................................
+................................
+................................
+...............................
+ 
+10
+ 
+2.1.2.3 Cas d‚Äôutilisation pour l‚Äôenseignant (personnel)
+ 
+................................
+................................
+................................
+........
+ 
+10
+ 
+2.1.2.4 Cas d‚Äôutilisation pour l‚Äôadministrateur
+ 
+................................
+................................
+................................
+.....................
+ 
+11
+ 
+Table de matiËres 
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+B
+ 
+ 
+2.1.2.5 Descriptions textuelle des cas d‚Äôutilisation
+ 
+................................
+................................
+................................
+..............
+ 
+12
+ 
+2.1.3 ModÈlisation des interactions entre les objets
+ 
+................................
+................................
+..............................
+ 
+14
+ 
+2.1.3.1 Diagramme de s√©quence du cas d‚Äôutilisation
+ 
+: ´
+ 
+crÈe activitÈ
+ 
+ª
+ 
+................................
+................................
+...............
+ 
+14
+ 
+2.1.3.2 Diagramme de sÈquence du
+ 
+cas d‚Äôutilisation du cas d‚Äôutilisation
+ 
+: ´
+ 
+participer ‡ une activitÈ
+ 
+ª
+ 
+.............................
+ 
+15
+ 
+2.1.4 Diagramme d‚Äôactivit√©
+ 
+................................
+................................
+................................
+................................
+....
+ 
+16
+ 
+2.1.4.1 Diagramme d‚Äôactivit√© du cas d‚Äôutilisation
+ 
+: ´
+ 
+crÈer activitÈ
+ 
+ª
+ 
+................................
+................................
+...................
+ 
+16
+ 
+2.1.4.2 Diagramme d‚Äôactivit√© du cas d‚Äôutilisation
+ 
+: ´
+ 
+voire rapport d‚Äôactivit√©
+ 
+ª
+ 
+................................
+................................
+...
+ 
+16
+ 
+2.1.4.3 Diagramme d‚Äô√©tat
+-
+transition d‚Äôune activit√©
+ 
+................................
+................................
+................................
+.............
+ 
+17
+ 
+2.1.5 Pr√©sentation du mod√®le de navigation de l‚Äôapplication web
+ 
+................................
+................................
+.........
+ 
+18
+ 
+2.2
+ 
+C
+ONCEPTION TECHNIQUE
+,
+ 
+FONCTIONNELLE ET OBJ
+ET DU SYST»ME
+ 
+................................
+................................
+........................
+ 
+19
+ 
+2.2.1 Architecture technique e
+t fonctionnelle du systËme
+ 
+................................
+................................
+......................
+ 
+19
+ 
+2.2.2 Dictionnaire de donnÈes
+ 
+................................
+................................
+................................
+................................
+ 
+20
+ 
+2.2.3 Diagramme de classe
+ 
+................................
+................................
+................................
+................................
+.....
+ 
+23
+ 
+2.
+2.4 ModËle physique de donnÈes
+ 
+................................
+................................
+................................
+.........................
+ 
+24
+ 
+CHAPITRE 3 IMPL…MENT
+ATION, TECHNIQUES DE
+ 
+PROGRAMMATION ET R…S
+ULTATS
+ 
+................................
+..............
+ 
+25
+ 
+3.1
+ 
+T
+ECHNIQUE DE D…VELOPP
+EMENT
+................................
+................................
+................................
+................................
+....
+ 
+25
+ 
+3.1.1 Usage du pattern de dÈveloppement MVC (Model Vue Controller)
+ 
+................................
+..............................
+ 
+25
+ 
+3.1.2 Arborescence du systËme
+................................
+................................
+................................
+...............................
+ 
+25
+ 
+3.2
+ 
+D
+…PLOIEMENT DE L
+‚Äô
+APPLICATION
+ 
+................................
+................................
+................................
+................................
+...
+ 
+26
+ 
+3.2.1 Environnements et outils de dÈploiement
+ 
+................................
+................................
+................................
+......
+ 
+26
+ 
+3.2.2 DÈploiement en local
+ 
+................................
+................................
+................................
+................................
+.....
+ 
+28
+ 
+3.
+2.3 DÈploiement en ligne
+ 
+................................
+................................
+................................
+................................
+.....
+ 
+28
+ 
+3.3
+ 
+R
+…SULTATS CONCRETS DU
+ 
+D…VELOPPEMENT
+ 
+................................
+................................
+................................
+.....................
+ 
+29
+ 
+3.3.1 Premier rÈsultat
+ 
+: Interface de gestion d‚Äôactivit√©
+ 
+................................
+................................
+...........................
+ 
+29
+ 
+3.3.1.1 PrÈsentation
+ 
+................................
+................................
+................................
+................................
+.............................
+ 
+29
+ 
+3.3.1.2 Algorithme d‚Äôobtention du resultat
+ 
+................................
+................................
+................................
+.........................
+ 
+29
+ 
+3.3.2 DeuxiËme rÈsultat
+ 
+: Suivie en temps r√©el du d√©roulement d‚Äôune activit√©
+ 
+................................
+......................
+ 
+30
+ 
+3.3.2.1 PrÈsentation
+ 
+................................
+................................
+................................
+................................
+.............................
+ 
+30
+ 
+3.3.2.2 
+Algorithme d‚Äôobtention du r√©sultat
+ 
+................................
+................................
+................................
+.........................
+ 
+31
+ 
+3.3.2.3 Application du rÈsultat
+ 
+................................
+................................
+................................
+................................
+.............
+ 
+31
+ 
+3.3.3 TroisiËme rÈsultat
+ 
+: G√©n√©rer le planning d‚Äôune activit√©
+ 
+................................
+................................
+.................
+ 
+32
+ 
+3.3.3.1 PrÈsentation
+ 
+................................
+................................
+................................
+................................
+.............................
+ 
+32
+ 
+3.3.3.2 
+Algorithme d‚Äôobtention du r√©sultat
+ 
+................................
+................................
+................................
+.........................
+ 
+32
+ 
+3.3.3.3 Application du rÈsultat
+ 
+................................
+................................
+................................
+................................
+.............
+ 
+33
+ 
+3.3.4 QuatriËme rÈsultat
+ 
+: G√©n√©rer le rapport d‚Äôune activit√©
+ 
+................................
+................................
+.................
+ 
+33
+ 
+3.3.4.1 PrÈsentation
+ 
+................................
+................................
+................................
+................................
+.............................
+ 
+33
+ 
+3.3.4.2 
+Algorithme d‚Äôobtention du r√©sultat
+ 
+................................
+................................
+................................
+.........................
+ 
+33
+ 
+3.3.4.3 Application du rÈsultat
+ 
+................................
+................................
+................................
+................................
+.............
+ 
+33
+ 
+CHAPITRE 4 APPORT, L
+E«ONS, DIFFICULT…S E
+T PERSPECTIVES
+ 
+................................
+................................
+.................
+ 
+34
+ 
+4.1
+ 
+A
+PPORTS
+ 
+................................
+................................
+................................
+................................
+................................
+...
+ 
+34
+ 
+4.2
+ 
+L
+E«ONS
+ 
+................................
+................................
+................................
+................................
+................................
+.....
+ 
+34
+ 
+4.3
+ 
+D
+IFFICULT…S
+ 
+................................
+................................
+................................
+................................
+...............................
+ 
+34
+ 
+Table de matiËres 
+ 
+RÈdigÈ par
+ 
+: MENKAM Francis & 
+M
+BOUKAM Alex & MANFO Christian & NGNEMCH
+I
+E Nathalie
+      
+                             
+C
+ 
+ 
+4.4
+ 
+P
+ERSPECTIVES ENVISAG…
+ES
+ 
+................................
+................................
+................................
+................................
+............
+ 
+35
+ 
+CONCLUSION G…N…RALE
+ 
+................................
+................................
+................................
+................................
+..........
+ 
+36
+ 
+BIBLIOGRAPHIE
+ 
+................................
+................................
+................................
+................................
+........................
+ 
+37
+ 
+ANNEXES
+ 
+................................
+................................
+................................
+................................
+................................
+....
+ 
+A
+ 
+A
+NNEXE 
+1
+ 
+:
+ 
+Q
+UELQUES VUES DE L
+‚ÄôU
+NIVERSIT… DE 
+D
+SCHANG
+ 
+................................
+................................
+................................
+......
+ 
+A
+ 
+A
+NNEXE 
+2
+ 
+:
+ 
+D
+…PLOIEMENT DE L
+‚Äô
+APPLICATION SUR HERO
+KU
+ 
+................................
+................................
+................................
+........
+ 
+A
+ 
+A
+NNEXE 
+3
+ 
+:
+ 
+R
+…SULTAT D
+‚Äô
+IMPL…MENTATION
+ 
+................................
+................................
+................................
+.............................
+ 
+B
+ 
+TABLE DES MATI»RES
+ 
+................................
+................................
+................................
+................................
+.................
+ 
+A
+ 
+ 
+ 

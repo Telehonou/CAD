@@ -1,0 +1,42 @@
+UNIVERSITE de DSCHANG IUT FOTSO VICTOR de Bandjoun
+ 
+Génie Informatique
+ 
+Licence IR - Année 2015/2016
+ 
+Page  sur 2          Bon courage !
+Rattrapage : Recherche Opérationnelle Aucun document n’est autorisé – Durée : 45min Examinateur : Dr FOTSING TALLA Bernard CM – (20 pts) Donnez la(les) bonne(s) réponse(s). Une réponse juste = 1 pt, une réponse erronée = - 0,5 pt. 1)L'ordre d'un graphe est égale au :  a)Nombre de sommet du graphe  b)Nombre d'arc d'un graphe  c)Degré maximum des sommets du graphe  d)Degré minimum des sommets du graphe  2)La taille d'un graphe est définie par :  a)Le nombre d'arc d'un graphe  b)Le nombre de sommet d'un graphe  c)Le degré maximum des sommets du graphe  d)Le degré minimum des sommets du graphe  3)Un graphe ne possédant pas de boucle ni d'arêtes parallèles est appelé  a)Graphe simple ou 1-graphe  b)Graphe multiple  c)Sous graphe  4)On appelle degré d’un sommet x :  a)L’ensemble des arcs et des sommets  b)L’ensemble des sommets des arcs  c)La somme du degré entrant et du degré sortant  5)Un sommet x est dit isolé si :  a)Degré(x)=1  b)Degré(x)=0  c)Degré(x)&#x0000;0  6)Soit G=(S, A) et S’ sous-ensemble de S le graphe engendré par S’ noté G’=(S’,A’) où A’ ensemble d’arcs avec ses arêtes ayant leurs extrémités dans S’ est appelé :  a)Graphe partiel de G b)Sous graphe de G c)Graphe biparti de G 7)La longueur d’une chaîne est :  a)Le nombre de sommet de cette chaine.  b)Le nombre de graphes de cette chaine  c)Le nombre d’arêtes de cette chaine  8)Un chemin est dit élémentaire si :  a)Les arcs de ce chemin sont distincts  b)Les sommets de ce chemin sont distincts  c)Il passe une et une seule fois par tous les sommets  9)Un cycle qui passe une et une seule fois par tous les sommets est un cycle  a)Hamiltonien.  b)Eulerien  c)Européen  10)Deux sommets x et y d’un graphe G(X,U) ont une relation de forte connexité si et seulement si il existe :  a)un chemin de x à y et de y à x.  b)une chaîne entre x et y.  c)un circuit de x à y. 
+UNIVERSITE de DSCHANG IUT FOTSO VICTOR de Bandjoun
+ 
+Génie Informatique
+ 
+Licence IR - Année 2015/2016
+ 
+Page  sur 2          Bon courage !
+Une buy-and-sellam de l’IUTFV de Bandjoun, vend des citrons et des oranges, et veut les grouper par lots de vente. Le premier lot contient 5 citrons et 1 orange, et se vend à 4 FCFA. Le deuxième lot contient 1 citron et 10 oranges, et se vend à 6 FCFA. Il dispose au total de 60 citrons et de 110 oranges. On cherche la répartition la plus avantageuse pour lui, entre les deux types de lots. 11)Il y a combien de variables d’activités ?  a)2                     b)  1                     c) 3 12)Une variable d’activité représente  a)Le type de lot de citrons et d’oranges b)Le nombre de lots pour chaque type c)Le nombre d’oranges et de citrons par type de lot d)Aucune des réponses présentes 13)Les inéquations suivantes représentent les contraintes de signe : a)x  0          b)  x + y  0        c)  y  0           d)  y   0          e) x  0        f) y  0 14)Les contraintes de disposition des citrons et des oranges sont exprimées par les inéquations suivantes  a)5x + y    110     b)6x + 11y  170 c)x + 10y   60 d)5x + y  60     e)x + 10y  6 f)5x + 1  4 g)x + 10y  110 15)La fonction économique est donnée par : a)z = 4x + 6 y             b)z = 6x + 11y           c)z = 60x + 110y 16)Le programme linéaire obtenu est : a) 5x + y   
+£
+ 110  b)
+ 
+x + 10y 
+£
+ 110 c) x 
+³
+ 0 d) Aucune de ces réponses y 
+£
+  0           y 
+³
+ 0 y 
+³
+ 0 x 
+£
+ 0 x 
+³
+ 0 x + 10y 
+£
+ 6 x + 10y  
+£
+ 60 max (z = 4x + 6 y) 5x + 1 
+£
+ 4 max (z = 4x + 6 y) 5x + y 
+£
+ 60 max (60x + 110y) 17)Le point qui donne la répartition optimale est : a)(x,y) = (0,0)      b)(x,y) = (10,10)         c)(x,y) = (10,11)           d)(x,y) = (12,1)   18)Le bénéfice maximal est :           a)100               b)106           c)1700            d)54               e)1810                f)830 

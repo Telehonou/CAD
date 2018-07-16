@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f7b85e241d6a3164112c234606c8d065",
+    "packages": [
+        {
+            "name": "copyleaks/php-plagiarism-checker",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Copyleaks/PHP-Plagiarism-Checker.git",
+                "reference": "8f1c78e3abaf7b8b216d370e4d52244a9f8c317f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Copyleaks/PHP-Plagiarism-Checker/zipball/8f1c78e3abaf7b8b216d370e4d52244a9f8c317f",
+                "reference": "8f1c78e3abaf7b8b216d370e4d52244a9f8c317f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "autoload.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Copyleaks ltd",
+                    "email": "support@copyleaks.com",
+                    "homepage": "https://copyleaks.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Copyleaks detects online plagiarism and checks content distribution. Use Copyleaks to find out if textual content is original and where it has been used before. This package shows how to integrate with the Copyleaks cloud to search for copyright infringement.",
+            "homepage": "https://api.copyleaks.com",
+            "keywords": [
+                "Copyleaks",
+                "checker",
+                "copyrights",
+                "education",
+                "infringement",
+                "plagiarism",
+                "publisher"
+            ],
+            "time": "2018-05-06T06:19:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "copyleaks/php-plagiarism-checker": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

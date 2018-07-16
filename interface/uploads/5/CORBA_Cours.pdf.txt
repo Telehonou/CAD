@@ -1,0 +1,6 @@
+Utilisation d’un protocole d’interopérabilité : GIOP (Generic Inter-ORB Protocol) et son implantation la plus 
+class CalculatriceImpl extends calc.CalculatricePOA{      public float ajouter(float x, float y)      {!   return a1 + a2;      }...      public
+//       ! Extraction d’un objet NamingContext correspondant       !NamingContext naming = NamingContextHelper.narrow(ns);//       ! On associe l’objet au nom MaCalculatrice       !NameComponent[] name = new NameComponent[1];       !name[0] = new NameComponent();       
+class CalculatriceImpl implements calc.CalculatriceOperations {
+)throws Exception {//       ! Initialisation de l’ORB       !org.omg.CORBA.ORB orb = org.openorb.CORBA.ORB.init(args,null);//       ! Récupération du POA racine       
+//       ! Extraction d’un objet NamingContext correspondant       !NamingContext naming = NamingContextHelper.narrow(ns);//       ! On associe l’objet au nom MyWatch       !NameComponent[] name = new NameComponent[1];       !name[0] = new NameComponent();       

@@ -1,0 +1,118 @@
+body{
+	background-color: rgb(245,245,245);
+}
+              input.hidden {
+    position: absolute;
+    left: -9999px;
+}
+
+#profile-image1 {
+    cursor: pointer;
+  
+     width: 100px;
+    height: 100px;
+	border:2px solid #03b1ce ;}
+	.tital{ font-size:16px; font-weight:500;}
+	 .bot-border{ border-bottom:1px #f8f8f8 solid;  margin:5px 0  5px 0}	
+    .search-box{
+        width: 300px;
+        position: relative;
+        display: inline-block;
+        font-size: 14px;
+    }
+    .search-box input[type="text"]{
+        height: 32px;
+        padding: 5px 10px;
+        border: 1px solid #CCCCCC;
+        font-size: 14px;
+    }
+    .result{
+        position: absolute;        
+        background: #CCCCCC;
+        
+        
+    }
+    .search-box input[type="text"], .result{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    /* Formatting result items */
+    .result p{
+        font-style: italic;
+    }
+    .result p:hover{
+        background: white;
+    }
+    .Bienvenue{
+        font-style: italic;
+        color:#000000;
+        font-family: serif;
+        text-align: center;
+        font-size:large;
+    }
+    .Bienvenu{
+        font-style: italic;
+        color:#2aabd2;
+        font-family: serif;
+        text-align: left;
+        font-size:large;
+    }
+    .Bienven{
+        font-style: italic;
+        color:#000000;        
+        text-align: center;
+        font-size:large;
+    }
+    .t_resultat{
+        text-align: center;
+        color: #03b1ce;
+        text-decoration: underline;
+        font-family: serif;
+    }
+    .titre_annonce{
+        text-align:left;
+        color:blue;
+        font-family:sans-serif;
+        font-size: 20px;
+    }
+    .contenu_annonce{
+        font-family: serif;
+        color: #000000;
+    }
+    .fichier_annonce{
+        font-size: 10px;
+        color:#009999;
+    }
+    tr{
+        font-size:small;
+    }
+    .loader {
+
+        position : fixed;
+        z-index: 9999;
+        background : url('icon-loader.gif') 50% 50% no-repeat;
+        top : 0px;
+        left : 0px;
+        height : 100%;
+        width : 100%;
+        cursor : wait;
+        
+    }
+    .loaders {
+
+        position : fixed;
+        z-index: 9999;
+        background : url('icon-loader.gif') 50% 50% no-repeat;
+        top : 0px;
+        left : 0px;
+        height : 100%;
+        width : 100%;
+        cursor : wait;
+        
+    }
+    .plagier{
+        color: red;
+    }
+    .non_plagier{
+        color: green;
+    }

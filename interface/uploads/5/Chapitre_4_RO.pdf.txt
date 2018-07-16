@@ -1,0 +1,82 @@
+IUT Victor Fotso de Bandjoun 
+Recherche Opérationnelle (1/2) 
+CHAPITRE 4   
+En théorie des systèmes linéaires z,u,v,t sont deQuand x=y=0 de la matrice  du système standard constitue une base la solution extrême admissible(0) dite solution de base.  le système au choix de variables en fonction desquelles on cherche à résoudre le système ,et ,variables qui seront nulles de façon à trouver en un sommet du domaine  polydral hachuré des solutions admissibles.  Soit un programme standard associé à u programme canonique  à n variables et m contraintes. e programme standard comporte donc n+m variables et m contraintes égalités.  Pour toute solution de base(extrême) Le nombre de variables dans la est égale au nombre m de contraintes, qui sont linéairement indépendantes. Les variables hors base sont nulles. Pour toute solution, m est le maximum de variables non nulles n est le nombre minimum de variables nulles. rée ,le nombre de variable non nulles est exactement égale au nombre de contraintes .  Ainsi le système des contraintes montre que : Pour tout programme standard associé à un programme canonique de type exemple 2, il variables d’écart comme variables dans la base ; dont les valeurs sont celles des seconds membres, les autres variable , hors base ,prenant la valeur zéro. cette solution correspond à la solution nulle du programme canonique . Pour exposer les fondements de la méthode de simplexe, nous utilisons l’exemple 2 et 3 ETUDE  ALGEBRIQUE DE LA METHODE DU SIMPLEXE Partons de l’exemple 2 la solution de base (extreme) de deaprt du programme standard correspond au sommet (0) pour le programme canonique. On a       W=300 u=400      V=500  t=700 Valeur de la fonction économique zPour se fixer les idées, nous considérons que les variproduits P,Q,R,T qui ne rapporte rien.    Considérons le système suivant : 
+cherchons la plus grande valeur possible de x compd’après le système (3), x peut prendre toute valeur positive vérifiant le système suivant
+la valeur maximale de x est la plus grande solution du système (4) c’est à dire le plus petit rapport du système (5).
+écriture symbolique qui montre que. La deuxième contrainte est toujours respecté. 
+(contrainte en fait absente). Géographiquement x chemine sur l’axe 0x. l’absence deparallélisme de ce cheminement avec le segment (5) (4). Pour l’exemple (2) x =300 y=0. on dit alors qu’on bute dans ce cas w sature la première contrainte.  La première contrainte itération aboutit alors à : Le nouveau système s’écrit à partir du premier et en fonction des nouvelles variables hors base.équation d’échange pour passer du sommet (0) au sommet (1), x est la variable entrante et w la variable sortante et on a butés  est l’équation 1. le système équivalent est :
+ w n’a pas d’intérêt car toute augmentation de w  on achemine de nouveau sur le segment le 2eme critère de DANTZIP conduit à y comme variable entrante comme w reste hors base (w=0) le cheminement se fait plutôt sur (1) – (2). La première contrainte reste saturée. Et comme w y=MIN
+Ce résultat montre qu’on bute sur la 4variable sortante. Aussi on constate que la première contrainte restera toujours  satisfaite donné à y avec w=0. En effet y étant absent le cheminement se fait parallèlement à oy, tout le long de la frontière de saturation de cette contrainte. La deuxième itération donne comme résultat  On part du système  en fonction des variables hors-base z = 2600+3w-5t w = 0 et sera considère comme variable entrante ; comme il devient non nulle on desature la 1contrainte et le cheminement se fait sur (2)-(3) t = 0 on a le système suivant : 
+0577002500400300zyxtyxvyxuywx           HB B 1 2 ….         C 
+3 
+1 0 1 0 0 0 
+300 
+4 
+0 1 0 1 0 0  
+400 
+5   
+1 1 0 0 1 0 
+500 
+6 
+2 1 0 0 0 1 
+700 
+ 
+7 5 . . . . 
+ 
+La partie centrale reproduit la matrice du système (1), la colonne C est celle des seconds membres de (1). La colonne repérée B (dans la base), 3 exprime la variable  N°dans la première équation dans la base en fonction des variables hors-base. HB(hors-base) donne les numéros des variables hors-base les colonnes étant numéroté dans l’ordre croissant des N° des variables pour les variables dans la base, il est préférable de remplacer dans la base numéros qui figures dans B.  , ligne donnant les coefficients de la fonction économique exprimée seulement en fonction normalement nuls, sont représentés par des points, Enfin la case située en bas et à droite contient le nombre 0 valeur numérique que prend la fonction économique pour Le système (1) et (2) donne cette solution en attribuant la   itération. Règle pratique de pivotage.  Variable Numéro 
+ 
+Fonction économique 
+      La ligne du pivot à été divisée par le produit de la ligne 
+, donc 
+se change en 
+,
+ se change en 0 (c’est l’objectif d’élimination) 
+    change en  
+)('
+. Le moyen le plus rapide ngle  pour transformer un élément non situé dans Pour passer d’un tableau au suivant :  1- diviser la ligne du pivot par le pivot 2- Appliquer la règle du rectangle à tous les autres éléments .    Aussi la règle des rectangles est très lourde ; il faut procédé autrement . 1. Cas d’invariance d’une ligne ou colonne 
+ un élément non situé  sur la ligne du pivot ,
+ sont transformer . 
+seulement si 
+'
+0
+a. si 
+, non seulement 
+ mais tous les éléments de la ligne de d , sont invariant .En d’autres terme si une ligne différente de celle du pivot, coupe la colonne du pivot selon 0, elle reste invariante. b. si 
+=0, non seulement 
+, mais aussi tous les éléments de la colonne de la 
+ sont invariants : c’est à dire si une colonne différente de celle du 2. Cas de simplification de la transformation d’une ligne ou d’une colonne. a. si 
+=
+on a 
+’=
+-
+ la ligne de 
+ se transforme en lui soustrayant celle du 
+= - 
+ on a 
+’=
++
+ la ligne de 
+ se transforme en lui ajoutant celle du b. si 
+=
+ on a 
+’=
+-
+ la colonne de 
+ se transforme en lui soustrayant celle du pivot excepté pour l’élément de la colonne de 
+ sur la ligne du pivot.         si 
+= - 
+ on a 
+’=
++
+ la ligne de 
+ se transforme en lui ajoutant celle du pivot. 3. Marche à suivre pratique. Pour transformer un tableau : 1. Diviser la ligne du point par le pivot. 2. Remplacer la colonne du pivot par une colonne unité, le nombre 1 remplaçant le pivot. 3. Recopier toute ligne coupant 4. Recopier toute colonne coupant 5. Inspecter les colonnes coupant la ligne du pivot selon un élément égal(respectivement opposé) au  du pivot exception faite des éléments de ces 6. Inspecter les lignes coupant la colonne du pivot selon un élément égal (resp opposé) au pivot leur 
+p
+ivot 
+ 
+/
+ 
+                 u  augmente de 2 
+ augmente de 1                  y diminue de +2           Les variations des variables dans la base, dans ces conditions, peuvent donc se lires directement  dans le tableau (2) ;ce sont les  éléments de la 3èmè colonne.           En considérant que les variables d’écarts désignent des niveaux de fabrication de produits fictifs P3,P4 ,P5,P6. On peut dire que :  - La non fabrication d’une unité de P3 produit hors-base doit être compensée par la fabrication cumulée de : Des produits dans la base –2  signifient une non fabrication . On peut alors dire que le nombre de  de base d’une unité de produits hors-base  P3. 
+                   Pour la colonne N°3 - une unité de P3 fabriquée rapporte 0               P3 correspond à une variable d’écart :profit unitaire nul. - La non fabrication d’une unité de P3 remplacée 5=-3  . 7 ;0 ;0 ;5 étant les profits est donc la différence entre ce que rapporte la fabrication d’un produit P3 et ce que rapporte la non fabrication de cette unité ,remplacée par celle de l’équivalent en produit de base . 3 mesures le profit obtenu en fabriquant une unité de P3 c’est-à-dire en faisant 
+-variable hors-base . Il mesure donc le profit marginal de P3 dans le cas de cette solution extrême  . La fonction économique peut être :un coût ,un chiffre d’affaire ,l’effectif du personnel, …).  3 est donc le taux marginale de substitution(TMS). Remarque : Etant donné une solution de base ,les coefficients de la fonction économique exprimée exclusivement en fonction des variables hors-base s’appellent taux marginale de substitution .          Si au départ ,la fonction économique n’est pas exclusivement exprimée en fonction des variables hors-base, elle permet le calcul direct sur le tableau initial des T.M.S.               Soit un programme canonique quelconque comportant n variables et m contraintes autres que a- Espace  vectorielles des programmes.    -Si n=2,toute solution peut être considérée comme un point du plan de (x, y) - Si n = 3, toute solution peut être considéré comme un point de l’espace vectoriel dimensions (x, y, z) par exemple. - &#x0000;Si n 3, toute solution peut être considéré  comme élément de l’espace vectoriel  , la résolution graphique est impossible . 

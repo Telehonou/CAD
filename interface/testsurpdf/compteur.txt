@@ -1,0 +1,5 @@
+Lorsque l’on cherche à comparer deux documents, on recherche tout élément présent dans
+l’un qui est également présent dans l’autre, ces éléments sont dénommés ”similitudes”. Les
+plus évidentes à voir à l’oeil humain sont les similitudes exactes, les parties copiées d’un document
+directement dans l’autre. Cependant, reproduire informatiquement cette capacité humaine
+est une opération délicate. Ce procédé est souvent gourmand en temps, car passant par

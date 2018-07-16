@@ -1,0 +1,6709 @@
+INTRANET ET TRAVAIL 
+COLLABORATIF 
+ 
+ 
+Réalisé par
+ 
+ 
+Narcisse 
+TALLA
+ 
+Enseignant
+-
+Chercheur 
+ 
+narcisse.talla@univ
+-
+dschang.org
+ 
+Support de cours
+ 
+Mai 2016
+ 
+Licence Informatique et Réseau
+ 
+IUT Fotso Victor de Bandjoun
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+i
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+SOM
+M
+AIRE
+ 
+Chapitre 1.
+ 
+Le travail collaborative
+ 
+................................
+................................
+.......................
+ 
+4
+ 
+1.1.
+ 
+Préliminaire
+ 
+................................
+................................
+................................
+................................
+....
+ 
+4
+ 
+1.1.1.
+ 
+Objectif
+ 
+................................
+................................
+................................
+................................
+....
+ 
+4
+ 
+1.1.2.
+ 
+Présent
+ation du cours
+ 
+................................
+................................
+................................
+.......
+ 
+4
+ 
+1.1.3.
+ 
+DurÃ©e et systÃ¨me dâ€™Ã©valuation
+................................
+................................
+.......................
+ 
+4
+ 
+1.2.
+ 
+Introduction
+ 
+................................
+................................
+................................
+................................
+....
+ 
+4
+ 
+1.3.
+ 
+L'intel
+ligence collective
+ 
+................................
+................................
+................................
+..............
+ 
+5
+ 
+1.4.
+ 
+Le travail collaboratif
+ 
+................................
+................................
+................................
+..................
+ 
+5
+ 
+1.5.
+ 
+Pratiques collaboratives et TIC
+ 
+................................
+................................
+...............................
+ 
+6
+ 
+1.6.
+ 
+Construction de connaissances et de mémoire
+ 
+................................
+................................
+ 
+7
+ 
+1.7.
+ 
+Pratiques collaboratives dans la classe
+ 
+: blogs, wikis et autres outils de mise en 
+réseau
+ 
+7
+ 
+1.8.
+ 
+TIC et collaboration
+ 
+................................
+................................
+................................
+.....................
+ 
+8
+ 
+1.8.1.
+ 
+Difficultés inhérentes à 
+l'apprentissage collaboratif en ligne
+ 
+...........................
+ 
+8
+ 
+1.8.2.
+ 
+Apprentissage collaboratif assisté par ordinateur
+ 
+................................
+................
+ 
+8
+ 
+Chapitre 2.
+ 
+Quelques environnements de travail collaboratif
+ 
+................................
+.....
+ 
+9
+ 
+2.1.
+ 
+Agora
+-
+Project
+ 
+................................
+................................
+................................
+................................
+.
+ 
+9
+ 
+2.1.1.
+ 
+Présentation
+ 
+................................
+................................
+................................
+..........................
+ 
+9
+ 
+2.1.2.
+ 
+Installation
+ 
+................................
+................................
+................................
+.............................
+ 
+9
+ 
+2.1.3.
+ 
+Exemple de fonctionnalité
+ 
+................................
+................................
+............................
+ 
+10
+ 
+2.2.
+ 
+Plateforme Chandler
+ 
+................................
+................................
+................................
+................
+ 
+10
+ 
+2.2.
+1.
+ 
+Présentation
+ 
+................................
+................................
+................................
+.......................
+ 
+10
+ 
+2.2.2.
+ 
+Installation
+ 
+................................
+................................
+................................
+..........................
+ 
+13
+ 
+2.2.3.
+ 
+Exemple de fonctionnalité
+ 
+................................
+................................
+............................
+ 
+13
+ 
+2.3.
+ 
+eGroupWare
+ 
+................................
+................................
+................................
+................................
+ 
+13
+ 
+2.3.1.
+ 
+Présentation
+ 
+................................
+................................
+................................
+.......................
+ 
+1
+3
+ 
+2.3.2.
+ 
+I
+nstallation de la plateforme EGroupware
+ 
+................................
+.............................
+ 
+14
+ 
+2.3.3.
+ 
+Exemple de fonctionnalité
+ 
+................................
+................................
+............................
+ 
+14
+ 
+2.4.
+ 
+Lucane
+ 
+................................
+................................
+................................
+................................
+............
+ 
+15
+ 
+2.4.1.
+ 
+Présentat
+ion
+ 
+................................
+................................
+................................
+.......................
+ 
+15
+ 
+2.4.2.
+ 
+Installation
+ 
+................................
+................................
+................................
+..........................
+ 
+15
+ 
+2.4.3.
+ 
+Configuration
+ 
+................................
+................................
+................................
+.....................
+ 
+16
+ 
+2.4.4.
+ 
+Exemple de fonctionnalité
+ 
+................................
+................................
+............................
+ 
+16
+ 
+2.5.
+ 
+Open
+-
+Xchange
+ 
+................................
+................................
+................................
+.............................
+ 
+16
+ 
+2.5.1.
+ 
+Présentation
+ 
+................................
+................................
+................................
+.......................
+ 
+16
+ 
+2.5.2.
+ 
+Installation
+ 
+................................
+................................
+................................
+..........................
+ 
+17
+ 
+2.5.3.
+ 
+Configuration
+ 
+................................
+................................
+................................
+.....................
+ 
+17
+ 
+2.5.4.
+ 
+E
+xemple de fonctionnalité
+ 
+................................
+................................
+............................
+ 
+18
+ 
+2.6.
+ 
+OpenGoo
+ 
+................................
+................................
+................................
+................................
+........
+ 
+18
+ 
+2.6.1.
+ 
+Présentation
+ 
+................................
+................................
+................................
+.......................
+ 
+18
+ 
+2.6.2.
+ 
+Installation
+ 
+................................
+................................
+................................
+..........................
+ 
+18
+ 
+2.6.3.
+ 
+Configuration
+ 
+................................
+................................
+................................
+.....................
+ 
+19
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+ii
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+2.6.4.
+ 
+Exemple de fonctionnalité
+ 
+................................
+................................
+............................
+ 
+19
+ 
+2.7.
+ 
+OpenGroupware
+ 
+................................
+................................
+................................
+.........................
+ 
+19
+ 
+2.7.1.
+ 
+Présentation
+ 
+................................
+................................
+................................
+.......................
+ 
+19
+ 
+2.7.2.
+ 
+E
+xemple de fonctionnalité
+ 
+................................
+................................
+............................
+ 
+20
+ 
+2.8.
+ 
+Ovidentia
+ 
+................................
+................................
+................................
+................................
+.......
+ 
+20
+ 
+2.8.1.
+ 
+Présentation
+ 
+................................
+................................
+................................
+.......................
+ 
+21
+ 
+2.8.2.
+ 
+Installation
+ 
+................................
+................................
+................................
+..........................
+ 
+22
+ 
+2.8.3.
+ 
+Configuration
+ 
+................................
+................................
+................................
+.....................
+ 
+22
+ 
+2.8.4.
+ 
+Exemple de fonctionnalité
+ 
+................................
+................................
+............................
+ 
+22
+ 
+2.9.
+ 
+PhpCollab
+ 
+................................
+................................
+................................
+................................
+......
+ 
+22
+ 
+2.9.1.
+ 
+Présentation
+ 
+................................
+................................
+................................
+.......................
+ 
+22
+ 
+2.9.2.
+ 
+Installation
+ 
+................................
+................................
+................................
+..........................
+ 
+23
+ 
+2.9.3.
+ 
+Configuration
+ 
+................................
+................................
+................................
+.....................
+ 
+23
+ 
+2.9.4.
+ 
+Exemple de fonctionnalité
+ 
+................................
+................................
+............................
+ 
+24
+ 
+2.10.
+ 
+PHProjekt
+................................
+................................
+................................
+................................
+......
+ 
+24
+ 
+2.10.1.
+ 
+Présentation
+ 
+................................
+................................
+................................
+.......................
+ 
+24
+ 
+2.10.2.
+ 
+Installation
+ 
+................................
+................................
+................................
+..........................
+ 
+25
+ 
+2.10.3.
+ 
+Configuration
+ 
+................................
+................................
+................................
+.....................
+ 
+25
+ 
+2.10.4.
+ 
+Exemple de fonctionnalité
+ 
+................................
+................................
+............................
+ 
+25
+ 
+2.11.
+ 
+TkWhiteboard
+ 
+................................
+................................
+................................
+.............................
+ 
+26
+ 
+2.11.1.
+ 
+Présentation
+ 
+................................
+................................
+................................
+.......................
+ 
+26
+ 
+2.11.2.
+ 
+Installation
+ 
+................................
+................................
+................................
+..........................
+ 
+26
+ 
+2.11.3.
+ 
+Configuration
+ 
+................................
+................................
+................................
+.....................
+ 
+27
+ 
+2.11.4.
+ 
+Exemple de fonctionnalité
+ 
+................................
+................................
+............................
+ 
+27
+ 
+2.12.
+ 
+Toutateam
+ 
+................................
+................................
+................................
+................................
+....
+ 
+28
+ 
+2.12.1.
+ 
+Présentation
+ 
+................................
+................................
+................................
+.......................
+ 
+28
+ 
+2.12.2.
+ 
+Installation
+ 
+................................
+................................
+................................
+..........................
+ 
+28
+ 
+2.12.3.
+ 
+Configuration
+ 
+................................
+................................
+................................
+.....................
+ 
+29
+ 
+2.12.4.
+ 
+Exemple de fonctionnalité
+ 
+................................
+................................
+............................
+ 
+29
+ 
+2.13.
+ 
+MRBS 
+-
+ 
+Meeting Room Booking System
+ 
+................................
+................................
+...........
+ 
+29
+ 
+2.13.1.
+ 
+Présentation
+ 
+................................
+................................
+................................
+.......................
+ 
+29
+ 
+2.13.2.
+ 
+Installation
+ 
+................................
+................................
+................................
+..........................
+ 
+30
+ 
+2.13.3.
+ 
+Configuration
+ 
+................................
+................................
+................................
+.....................
+ 
+30
+ 
+2.13.4.
+ 
+Exemple de fonctionnalité
+ 
+................................
+................................
+............................
+ 
+31
+ 
+2.14.
+ 
+Chronopolys
+ 
+................................
+................................
+................................
+................................
+ 
+31
+ 
+2.14.1.
+ 
+Présentation
+ 
+................................
+................................
+................................
+.......................
+ 
+31
+ 
+Chapitre 3.
+ 
+Open Business Management
+ 
+................................
+................................
+...........
+ 
+33
+ 
+3.1.
+ 
+Toutes les fonctionnalitÃ©s dâ€™/BM
+ 
+................................
+................................
+........................
+ 
+33
+ 
+3.1.1.
+ 
+,es fonctionnalitÃ©s dâ€™/BM
+-
+CRM
+ 
+................................
+................................
+.................
+ 
+33
+ 
+3.1.1.1.
+ 
+Gestion des forces de vente
+ 
+................................
+................................
+..........................
+ 
+33
+ 
+3.1.1.2.
+ 
+Marketing
+ 
+................................
+................................
+................................
+............................
+ 
+34
+ 
+3.1.1.3.
+ 
+Service client
+ 
+................................
+................................
+................................
+......................
+ 
+34
+ 
+3.1.2.
+ 
+2Ç¤ ,es fonctionnalitÃ©s dâ€™/BM
+-
+GROUPWARE
+ 
+................................
+..........................
+ 
+34
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+iii
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+3.1.2.1.
+ 
+Agenda partagé
+ 
+................................
+................................
+................................
+.................
+ 
+34
+ 
+3.1.2.2.
+ 
+Carnet dâ€™adresses
+ 
+................................
+................................
+................................
+.............
+ 
+34
+ 
+3.
+1.2.3.
+ 
+Gestion des projets et des tâches
+ 
+................................
+................................
+...............
+ 
+34
+ 
+3.1.2.4.
+ 
+Partage des documents
+ 
+................................
+................................
+................................
+..
+ 
+35
+ 
+3.1.2.5.
+ 
+Synchronisation avec clients de messagerie
+ 
+................................
+.........................
+ 
+35
+ 
+3.1.3.
+ 
+,es fonctionnalitÃ©s dâ€™/BM
+-
+PROJECT
+ 
+................................
+................................
+........
+ 
+35
+ 
+3.1.3.1.
+ 
+,a gestion des temps et le suivi dâ€™activitÃ©
+ 
+................................
+..............................
+ 
+35
+ 
+3.1.3.2.
+ 
+La gestion des projets
+ 
+................................
+................................
+................................
+.....
+ 
+35
+ 
+3.1.3.3.
+ 
+La gestion de documents
+................................
+................................
+...............................
+ 
+36
+ 
+3.1.3.4.
+ 
+Le suivi comptable
+ 
+................................
+................................
+................................
+...........
+ 
+36
+ 
+3.1.4.
+ 
+,es fonctionnalitÃ©s dâ€™/BM
+-
+LDAP
+ 
+................................
+................................
+...............
+ 
+36
+ 
+3.1.4.1.
+ 
+Gestion dâ€™utilisateurs et de groupes
+ 
+................................
+................................
+.........
+ 
+36
+ 
+3.1.4.2.
+ 
+Gestion dâ€™un annuaire partagÃ©
+ 
+................................
+................................
+....................
+ 
+37
+ 
+3.1.4.3.
+ 
+Gestion de lâ€™accÃ¨s )nternet
+ 
+................................
+................................
+...........................
+ 
+37
+ 
+3.1.4.4.
+ 
+Un service DNS interne
+ 
+................................
+................................
+................................
+..
+ 
+37
+ 
+3.1.5.
+ 
+,es fonctionnalitÃ©s dâ€™/BM
+-
+Mail
+ 
+................................
+................................
+.................
+ 
+37
+ 
+3.1.5.1.
+ 
+Gestion de la messagerie
+ 
+................................
+................................
+...............................
+ 
+37
+ 
+3.1.5.2.
+ 
+Gestion de la sécurité de la messagerie
+ 
+................................
+................................
+...
+ 
+38
+ 
+3.1.5.3.
+ 
+Synchronisation autour des clients de messagerie
+ 
+................................
+............
+ 
+38
+ 
+3.1.6.
+ 
+,es fonctionnalitÃ©s dâ€™/BM
+-
+SYNC
+ 
+................................
+................................
+...............
+ 
+38
+ 
+3.1.6.1.
+ 
+Le connecteur Outlook® versions 2000, XP et 2003
+ 
+................................
+.........
+ 
+39
+ 
+3.1.6.2.
+ 
+Le connecteur Thunderbird/Lightning
+ 
+................................
+................................
+...
+ 
+39
+ 
+3.1.6.3.
+ 
+Le 
+connecteur PDA
+ 
+................................
+................................
+................................
+..........
+ 
+39
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+4
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+CHAPITRE 1.
+ 
+LE TRAVAIL COLLABORA
+TIVE
+ 
+1.1.
+ 
+Préliminaire
+ 
+1.1.1.
+ 
+Objectif
+ 
+,â€™objectif de ce cours est de prÃ©senter aux Ã©tudiants les fondamentaux du travail 
+collaboratif, ainsi que quelques environnements adaptés pour un travail collaboratif. A 
+la fin de ce cours, chaque étudiant devra être capable de : 
+ 
+1.
+ 
+D
+é
+finir les concepts fond
+amentaux relatifs au travail collaboratif ; 
+ 
+2.
+ 
+Pr
+é
+senter au moins cinq environnements de travail collaboratif ; 
+ 
+3.
+ 
+Installer, configurer et d
+é
+ployer deux environnements de travail collaboratif, 
+parmi lesquels OBM ; 
+ 
+4.
+ 
+Administrer un environnement de travail coll
+aboratif.
+ 
+1.1.2.
+ 
+Présentation du cours
+ 
+Ce cours est un projet à réaliser. Le présent support de cours présente une douzaine 
+dâ€™environnements de travail collaboratifÇ¤ ,es Ã©tudiants sâ€™organiseront en groupe de 3, 
+avec un chef de groupe, un rapporteur et un membre. 
+Chaque groupe téléchargera 
+lâ€™environnement de travail collaboratif qui lui sera confiÃ©, le dÃ©ploiera, lâ€™administrera et 
+fera une comparaison avec la plateforme OBM (
+Open Business Management
+).
+ 
+1.1.3.
+ 
+DurÃ©e et systÃ¨me dâ€™Ã©valuation
+ 
+,a durÃ©e dâ€™exÃ©cution du projet est
+ 
+de quatre semainesÇ¤ A lâ€™issue des quatre semaines, 
+une séance de présentation des projets sera organisée, au cours de laquelle chaque 
+groupe présentera son projet et remettra dans un support (CD, DVD, etc.) le rapport en 
+version éditable, 
+le fichier de pr
+ésentation PowerPoint, le rapport en version PDF et les 
+codes sources de lâ€™application, accompagnÃ©s dâ€™un document expliquant la dÃ©marche Ã  
+suivre pour lâ€™exÃ©cuterÇ¤
+ 
+Le barème de notation est le suivant
+ 
+:
+ 
+1.
+ 
+Les rapports (PDF, PowerPoint et version éditable) 
+seront notés sur 4 points
+ 
+;
+ 
+2.
+ 
+,â€™exposÃ© de classe sera notÃ© sur 4 points
+ 
+;
+ 
+3.
+ 
+La plateforme réalisée sera notée sur 12 points.
+ 
+La note finale sera obtenue simplement en additionnant les différentes notes obtenues.
+ 
+1.2.
+ 
+Introduction
+ 
+Les outils de mise en réseaux de ty
+pe Facebook
+, Tweeter
+ 
+ou Myspace, qui relèvent 
+a 
+priori
+ 
+d'un usage «
+ 
+privé
+ 
+»,
+ 
+les outils de partages ciblés 
+tels 
+Delicious
+ 
+pour les marque
+-
+pages, 
+Netvibes
+ 
+ou 
+Google 
+R
+eader
+ 
+pour les flux RSS, 
+Youtube
+ 
+pour les vidéo
+s,
+ 
+les mondes 
+virtuels, mais aussi les 
+Espac
+es Numérique de Travail 
+(
+ENT
+) mettent tous en avant les 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+5
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+possibilités collaboratives qu'ils offrent. Le travail collaboratif est devenu un argument 
+de «
+ 
+vente
+ 
+» auprès des internautes. 
+ 
+Avec lâ€™expl
+osion des réseaux sociaux et des
+ 
+technologie
+s
+ 
+web 2.x et web
+ 
+3.x, 
+l
+es
+ 
+fonctions 
+de communication pour du travail collaboratif et d'apprentissage 
+sont en plein essor
+. 
+Mais dans le secteur éducatif, beaucoup de réticences restent perceptibles
+, malgré les 
+progrès technologiques, notamment avec le développement des 
+plateformes 
+dâ€™enseignement Ã  distance
+. En effet, l
+es enseignants ont 
+toujours
+ 
+tendance à fonctionner 
+en vase clos dans leur
+s
+ 
+classe
+s
+. La culture enseignante est 
+pourtant 
+en pleine 
+concordance avec les évolutions les plus 
+récentes du web collaboratif
+.
+ 
+Il es
+t devenu urgent que l'éducation prenne en compte les changements de société. 
+L'apprentissage collaboratif doit être impérativement développé et les étudiants doivent 
+être engagés dans la construction du savoir par eux
+-
+mêmes et avec leurs pairs. Nous 
+reconn
+aissons ici l'approche 
+socioconstructiviste
+ 
+qui semble pouvoir se nourrir des 
+possibilités offertes par les TIC. La pédagogie constructiviste demeure certes l'horizon 
+du changement mais le chemin est 
+encore 
+long
+, bien que les progrès ne soient pas 
+négligea
+bles
+. 
+ 
+1.3.
+ 
+L'intelligence collective 
+ 
+Avant d'aborder le travail collaboratif, il 
+convient de rappeler
+ 
+quelques notions relatives 
+à l'intelligence collective et à ce que les TIC
+s
+ 
+peuvent y apporter. 
+ 
+Les TIC offrent une chance sans égal pour créer ou du moins 
+améliorer les liens sociaux. 
+L'intelligence collective n'est pas une fusion des intelligences individuelles, mais quelque 
+chose de plus élaboré. L'
+homo sapiens 
+est devenu 
+homo communicans
+. Ce savoir d'un 
+type nouveau serait le moteur d'une nouvelle civilis
+ation. Il invite les lecteurs à parler de 
+projet en lien avec les
+ 
+nouvelles technologies plutôt que de raisonner en termes 
+d'impact, qui impliquerait une passivité face à ces nouvelles technologies. 
+ 
+Nous sommes passés du statut d'internautes passifs à cel
+ui de «
+ 
+webacteurs
+ 
+» (des 
+acteurs engagés qui participent à l'élaboration de contenus sur la toile, grâce à des 
+technologies dynamiques et à des mises en réseaux multiples). Lorsque ces auteurs 
+parlent d'intelligence collective, il y a l'idée de partage, d
+e collectif, de co
+-
+c
+réation, et
+ 
+la 
+notion de «
+ 
+collaboratif
+ 
+» est sous
+-
+jacente. 
+ 
+1.4.
+ 
+Le travail collaboratif 
+ 
+En tant que tel, il n'y a pas de définition sur laquelle les chercheurs se sont mis d'accord. 
+Toujours est
+-
+il qu'une situation est dite collaborative 
+lorsqu'elle est interactive, 
+synchrone et négociable entre pairs. 
+La synchronisation ici ne traduit pas forcément la 
+simultanÃ©itÃ©, mais plutÃ´t le partage dâ€™un mÃªme espace gÃ©ographique ou technologique 
+dans un même espace de temps. 
+L'apprentissage collabora
+tif peut prendre des aspects 
+très variés. Le terme même d'«
+ 
+apprentissage collaboratif
+ 
+» est sujet à caution. Il peut 
+être perçu comme une «
+ 
+situation dans laquelle des formes particulières d'interactions 
+entre les personnes sont attendues, qui devraient d
+éclencher des mécanismes 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+6
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+d'apprentissage, sans pour autant que ces interactions aient effectivement eu lieu
+ 
+». Il peut 
+aussi être perçu comme «
+ 
+une situation dans laquelle deux personnes ou plus apprennent, 
+ou tentent d'apprendre, quelque chose ensemble
+ 
+»,
+ 
+avec toute la latitude d'interprétation 
+que permettent les termes «
+ 
+deux ou plus
+ 
+», «
+ 
+apprendre quelque chose
+ 
+» et «
+ 
+apprendre 
+ensemble
+ 
+». Deux conditions sont cependant nécessaires pour un apprentissage 
+collaboratif
+ 
+: le groupe doit avoir des objectifs e
+t des besoins proches
+ 
+; et il doit partager 
+des valeurs communes. On peut établir une typologie et distinguer plusieurs degrés de 
+collaboration pour une tâche d'écriture collective
+ 
+: 
+ 
+ï¶
+ 
+co
+-
+writing
+ 
+: collaboration du début à la fin, pour chaque étape de la ré
+alisation de 
+la tâche
+ 
+; 
+ 
+ï¶
+ 
+co
+-
+publishing
+ 
+: collaborations ponctuelles à partir de textes individuels pour une 
+réalisation commune
+ 
+; 
+ 
+ï¶
+ 
+co
+-
+responding
+ 
+: collaboration limitée aux révisions des articles rédigés 
+individuellement
+ 
+; 
+ 
+ï¶
+ 
+co
+-
+editing
+ 
+: collaboration uniquement pour la correction finale
+ 
+; 
+ 
+ï¶
+ 
+writing
+-
+helping
+ 
+: collaboration seulement en cas de besoin (sans caractère 
+systématique). 
+ 
+Nous voyons que l'approche collaborative peut être multiple et faire référence à des 
+pratiques assez diverse
+s. Elle peut être totale ou épisodique, sur tout le processus ou à 
+certains moments déterminés. 
+ 
+Selon Pascal Leleu, le groupware est «
+ 
+lâ€™utilisation de lâ€™informatique comme systÃ¨me de 
+coopÃ©ration entre les individus et les Ã©quipesÇ¤ En dâ€™autres termes il p
+ermet de "travailler 
+ensemble quand on nâ€™est pas ensemble"Ç¤ Ce concept recouvre tout le champ du travail 
+coopératif et de la production collective. Dans ce cadre, la notion de communication 
+(transmission de messages) sâ€™efface au profit de celle de coopÃ©rat
+ion (mise à disposition 
+dâ€™un espace de travail collectif)Ç¤
+ 
+»
+ 
+Dans le cadre de ce cours, nous considÃ©rons le travail collaboratif comme lâ€™utilisation 
+des outils communs, dans un même espace géographique ou technologie, par un groupe 
+de personnes organisés, 
+pour atteindre un objectif commun bien défini.
+ 
+1.5.
+ 
+Pratiques collaboratives et TIC 
+ 
+Un exemple de collaboration efficace grâce aux TIC est celui de la recherche 
+internationale qui a eu lieu pour découvrir le virus responsable de l'épidémie de grippe 
+aviaire
+ 
+: le SRAS. L'OMS a demandé à 
+treize
+ 
+laboratoires situés dans dix pays différents, 
+de se lancer dans cette recherche, sans imposer de cadre au préalable. Chaque 
+laboratoire travaillait indépendamment, mais ils se retrouvaient tous en visioconférence 
+tous les jours pour faire le point sur leurs avancées respectives. La mise en commun des 
+découvertes des uns, la prise en compte des avancées des autres, ont permis 
+dâ€™identifier 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+7
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+et caractériser
+ 
+le virus en question en seulement quelques semaines. Les TIC peuvent 
+effectivement favoriser la collaboration, et la rendre plus efficace. 
+On parle alo
+rs de
+ 
+technologies de l'information, de la communication et de la collaboration
+ 
+(TICC)
+. La 
+dénomination ne semble pas officielle, mais elle est révélatrice de l'évolution des usages 
+d'Internet. 
+ 
+1.6.
+ 
+Construction de connaissances et de mémoire 
+ 
+Le projet phare 
+de la construction collective de connaissances est l'encyclopédie libre en 
+ligne Wikipédia. La construction de cette encyclopédie est largement collaborative et est 
+rendue possible par l'utilisation d'un moteur de wiki. La collaboration est dans ce cas le 
+fruit de personnes qui ne se connaissent pas forcément, qui ne se sont probablement 
+jamais croisées ni côtoyées, que ce soit physiquement ou virtuellement. La motivation 
+est le produit final, qui est en évolution constante. 
+ 
+La fondation W
+ikimédia
+ 
+à l'orig
+ine de Wikipédia a d'autres projets collaboratifs en 
+cours
+ 
+: les 
+wikilivres
+ 
+(projet de création et de diffusion de ressources pédagogiques 
+libres), 
+wikicommons
+ 
+(banque de fichiers multimédia) et d'autres encore, toutes basées 
+sur le même concept collaborat
+if. La collection de ces bouts d'archives personnelles 
+permet de construire une mémoire collective. L'aspect collaboratif peut se voir à la fois 
+dans l'accumulation de rédactions individuelles, dans la mise en réseaux de ces 
+contributions, mais aussi dans 
+la mise en place d'un travail intergénérationnel où les 
+plus jeunes viennent aider les personnes plus âgés ou moins familières des TIC à mettre 
+en mot et en ligne ce qu'ils ont à dire. 
+ 
+1.7.
+ 
+Pratiques collaboratives dans la classe
+ 
+: blogs, wikis et 
+autres outil
+s de mise en réseau 
+ 
+Ici, le travail collaboratif est à la fois un moyen pour mener à bien des projets, mais aussi 
+une fin dans la mesure où il s'agit de s'approprier des savoir
+-
+faire que les 
+étudiants
+ 
+devront utiliser dans des situations professionnelles.
+ 
+Cela permet de «
+ 
+conserver une 
+trace de son raisonnement, documenter les étapes d'un processus ou d'un long projet
+ 
+». Cet 
+outil aide ainsi les élèves à adopter une attitude réflexive sur leurs apprentissages, sur 
+leurs pratiques. 
+ 
+Les sites utilisant un m
+oteur wiki semblent être emblématiques des possibilités 
+collaboratives de l'Internet aujourd'hui. D'autres outils existent, qui s'inspirent souvent 
+du fonctionnement des wikis. 
+Un wiki peut être perçu comme un site web collectif dans 
+lequel un grand nombre
+ 
+de participants sont autorisés à modifier les pages et à en créer de 
+nouvelles à l'aide de leur navigateur web
+. Le premier wiki date de 1995, inventé par 
+Ward Cunningham. Cette nouvelle façon de créer du contenu a révolutionné les usages. 
+Si d'autres outi
+ls pré
+-
+existants étaient utilisés pour travailler collaborativement 
+(courrier électronique, forum, liste de diffusion, transfert par ftp, etc.), ils n'étaient pas 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+8
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+très pratiques, notamment pour organiser les documents
+ 
+: la collaboration n'était pas 
+aisée. 
+ 
+Ces outils utilisés par les apprenants
+ 
+ou étudiants
+ 
+et par les enseignants ont pour 
+conséquence une redéfinition des rôles. Les enseignants et les apprenants se retrouvent 
+dans un rôle de producteurs de contenus. L'enseignant n'est plus la seule autorité 
+à 
+pouvoir publier, et il doit accepter que ce que les élèves publient ne corresponde pas à 
+ce qu'il attendait. Cependant, il est important de préserver des espaces clos pour les 
+étudiants, qui ne soient pas visibles de l'extérieur, pour qu'ils puissent avo
+ir des 
+discussions non dévoilées, afin de ne pas subir trop de pression par rapport à ce qui est 
+publié. Les frontières s'estompent, mais il faut savoir parfois en rétablir pour que 
+l'apprentissage ne soit pas pénalisé. 
+ 
+1.8.
+ 
+TIC et collaboration
+ 
+1.8.1.
+ 
+Difficultés in
+hérentes à l'apprentissage collaboratif en ligne 
+ 
+Les TIC modifient le monde d
+u travail et le milieu scolaire
+ 
+;
+ 
+elles requièrent de nouvelles 
+compétences, notamment dans le domaine
+ 
+de la gestion de l'information et de
+ 
+la 
+participation à des réseaux de comm
+unication. Le travail collaboratif fait partie des 
+critères d'une approche 
+socioconstructiviste
+, avec la redéfinition des rôles qu'il implique 
+pour l'enseignant, 
+l'apprenant et le savoir.
+ 
+1.8.2.
+ 
+ 
+Apprentissage collaboratif assisté par ordinateur
+ 
+,â€™apprentissage c
+ollaboratif assisté par ordinateur ou le «
+ 
+computer
+-
+supported 
+collaborative learning
+ 
+» (
+CSCL
+) est
+ 
+né 
+à la suite du
+ 
+travail coopératif assisté par 
+ordinateur ou le
+ 
+«
+ 
+computer
+-
+supported cooperative work
+ 
+»
+ 
+(CSCW
+) qui était plus axé sur 
+le travail en entreprise. La deuxième lettre C de «
+ 
+CSCL
+ 
+» peut faire référence à d'autres 
+termes que «
+ 
+collaborative
+ 
+», 
+notamment
+ 
+:
+ 
+«
+ 
+collective
+ 
+», «
+ 
+cooperative
+ 
+» et
+ 
+«
+ 
+coordinated
+ 
+». Les CSCL ne sont pas évidents à cerner, 
+car il
+ 
+n&#x0027;existe pas, jusquâ€™Ã  
+présent, 
+de définition claire. L
+e CSCL s'intéresse à la façon dont l'apprentissage 
+collaboratif, étayé par la technologie, peut favoriser les interactions entre pairs dans les 
+groupes et sur la façon dont la collaboration et la techn
+ologie facilitent le partage et la 
+diffusion du savoir et de l'expertise au sein des membres d'une communauté
+. Ce n'est pas le 
+CSCL qui f
+ait la collaboration
+ 
+;
+ 
+l'apprentissage collaboratif doit être pensé en amont, et 
+les outils techniques permettent de mi
+eux organiser les processus. 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+9
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+CHAPITRE 2.
+ 
+QUELQUES ENVIRONNEME
+NTS DE 
+TRAVAIL COLLABORATIF
+ 
+2.1.
+ 
+Agora
+-
+Project
+ 
+2.1.1.
+ 
+Présentation
+ 
+Agora
+-
+Project est un espace de travail collaboratif complet, simple à administrer, à 
+utiliser, et consultable depuis nâ€™importe quel ordinateur connectÃ©
+ 
+à Internet. Cet outil 
+est accessible depuis un navigateur web, après identification par identifiant et mot de 
+passeÇ¤ )l sâ€™agit donc dâ€™un espace de travail privÃ© ou seules les personnes ayant un compte 
+peuvent se connecter. On peut générer, dans cet espace
+, une infinité de sous
+-
+espaces 
+privés appelés «
+ 
+groupes de travail
+ 
+», auquel des utilisateurs pourront être affectés. 
+Chaque utilisateur peut être affecté à un ou plusieurs groupes de travail
+ 
+Ç£ lâ€™utilisateur 
+(une fois identifié) pouvant très simplement bas
+culer dâ€™un groupe Ã  un autreÇ¤
+ 
+Chaque groupe de travail dispose des modules suivants
+ 
+:
+ 
+ï¶
+ 
+Agenda partagé
+ 
+;
+ 
+ï¶
+ 
+Gestionnaire de fichiers partagés
+ 
+;
+ 
+ï¶
+ 
+Forum de groupe
+ 
+;
+ 
+ï¶
+ 
+Chat de groupe
+ 
+;
+ 
+ï¶
+ 
+Messagerie instantanée de groupe
+ 
+;
+ 
+ï¶
+ 
+Live
+-
+counter
+ 
+(
+Pour
+ 
+connaître les membres du 
+groupe
+ 
+connecté
+s
+ 
+en même 
+temps)
+ 
+;
+ 
+ï¶
+ 
+/utils dâ€™envoi de
+ 
+lettres de nouvelles (
+newsletter
+)
+ 
+;
+ 
+ï¶
+ 
+Outils de prise de notes
+ 
+;
+ 
+ï¶
+ 
+Gestionnaire de liens Internet
+ 
+;
+ 
+ï¶
+ 
+Répertoire de groupe
+ 
+;
+ 
+ï¶
+ 
+Tableau de bord du groupe (permet de visualiser en un instant les nouveaux 
+évènements
+, messages, fichiers, notes, etc.). Mais le système est souple et 
+lâ€™administrateur peut tout Ã  fait, et simplement, dÃ©sactiver les modules inutilesÇ¤
+ 
+Câ€™est un logiciel de groupï¶are libre
+,
+ 
+développé en PHP/MySQL. Il a toutefois la 
+particularitÃ© dâ€™Ãªtre trÃ¨s a
+isÃ© dâ€™installation et dâ€™usageÇ¤ De plus, ce groupï¶are en franÃ§ais 
+dispose dâ€™un forum en franÃ§ais qui permet de rÃ©pondre Ã  nombre de problÃ¨mesÇ¤ En 
+outre, les auteurs dâ€™Agora
+-
+Project proposent une installation automatique sur leurs 
+serveurs avec un hébergemen
+t de 300 Mo
+ 
+Ç£ autant dire que cela peut rassurer plus dâ€™un 
+novice (ou du moins lui simplifier la tâche).
+ 
+2.1.2.
+ 
+Installation
+ 
+,es Ã©tapes dâ€™installation sont les suivantes
+ 
+:
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+10
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+1.
+ 
+Téléchargement de 
+lâ€™archive Agora
+-
+Project 
+à partir du site 
+du projet
+ 
+: 
+http://www.agora
+-
+project.net/
+ 
+;
+ 
+2.
+ 
+Installation du serveur web (EasyPhp, Wamp, Lamp, Mamp ou Xamp)
+ 
+;
+ 
+3.
+ 
+DÃ©compression de lâ€™archive agora
+-
+project
+-
+2.17.2.zip dans le dossier WWW 
+du 
+serveur web
+.
+ 
+4.
+ 
+Démarrage du serveur web
+ 
+;
+ 
+5.
+ 
+,ancement du navigateur ï¶eb et accÃ¨s Ã  la plateforme Ã  partir de lâ€™adresse 
+localhost/agora
+-
+project
+-
+x.y.z, où x.y.z est la version du projet (par exemple 
+2.17.2, une des dernières versions)
+ 
+6.
+ 
+Paramétrage de la plateforme
+ 
+:
+ 
+a.
+ 
+ParamÃ¨tres dâ€™accÃ¨s Ã  la base de donn
+ées Mysql
+ 
+;
+ 
+b.
+ 
+ParamÃ¨tres dâ€™accÃ¨s Ã  la plateforme Agora
+-
+Project
+ 
+;
+ 
+c.
+ 
+Paramétrage général
+ 
+;
+ 
+d.
+ 
+Configuration de lâ€™espace principalÇ¤
+ 
+2.1.3.
+ 
+Exemple de fonctionnalité
+ 
+La figure suivante présente la fonctionnalité Agenda.
+ 
+ 
+Figure 1.
+ 
+FonctionnalitÃ© de lâ€™Agenda sous Agora
+-
+Project.
+ 
+2.2.
+ 
+Plateforme 
+Chandler
+ 
+2.2.1.
+ 
+Présentation
+ 
+Chandler Desktop est un organiseur personnel (agenda et gestion de tâches 
+essentiellement)
+,
+ 
+doublÃ© dâ€™un connecticiel (aka "Groupï¶are
+)
+.
+ 
+Le projet expose dans la 
+page intitulée Chandler Project Vision 
+(http://chandlerproject.
+org/vision) 
+une 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+11
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+conception qui se veut différente des logiciels existants actuellement. Chandler veut 
+faciliter le travail collaboratif de petits groupes de personnes.
+ 
+Développé en Python et 
+multi
+-
+plateforme (Mac, Windows et Linux), Chandler est disponible
+ 
+depuis plusieurs 
+mois déjà en version «
+ 
+Preview
+ 
+». Cette nouvelle mouture 0.7.3 est maintenant 
+disponible en français.
+ 
+De prime abord, Chandler Desktop se présente comme un simple 
+logiciel dâ€™agenda et de gestion des tÃ¢chesÇ¤
+ 
+,â€™interface de lâ€™agenda est ass
+ez similaire à 
+celle de 
+iCalendar
+ 
+dâ€™AppleÇ¤ Celle des tÃ¢ches est une simple listeÇ¤ /n peut utiliser Chandler 
+très simplement en mode local comme un gestionnaire classique
+ 
+: Drag and Drop entre 
+collections et pour modifier les évènements, édition par simple 
+clic, reconnaissance de 
+dates simples dans les champs de saisie (ex. "demain" dans les champs de date est 
+reconnu).
+ 
+Chandler tire de sa philosophie quelques particularités qui le rendent 
+différent et intéressant
+ 
+:
+ 
+ï¶
+ 
+un élément peut être dans plusieurs collec
+tions (folders) en même temps
+ 
+;
+ 
+ï¶
+ 
+un Ã©lÃ©ment peut Ã©voluer dâ€™un type Ã  lâ€™autre ou Ãªtre mÃªme multi
+-
+type
+ 
+;
+ 
+ï¶
+ 
+les éléments peuvent être partagés via le web (en utilisant 
+Chandler Hub
+) ou sur 
+votre propre serveur (si vous installez 
+Chandler Server
+)
+ 
+;
+ 
+ï¶
+ 
+les éléments peuvent être partagés via email.
+ 
+Les fonctionnalités email existent mais sont assez limitées. Pour
+ 
+le moment, il sâ€™agit 
+essentiellement de faciliter lâ€™entrÃ©e de donnÃ©es en utilisant les emails directement dans 
+Chandler, communiquer avec dâ€™autres clients Chandler et envoyer des invitations (sous 
+la forme dâ€™attachement Ç¤ics) Ã  dâ€™autres clients (Chandler 
+ou non).
+ 
+Chandler a émergé des 
+frustrations de Mitch Kapor (fondateur dâ€™/SAF) avec /utlook/Exchange pour son 
+propre usage. Un serveur Exchange est assez cher pour un petit groupe et les logiciels 
+libres fournissant un service comparable très limités (en gé
+néral, sans fonctionalité de 
+publication).
+ 
+Chandler a donc débuté pour répondre à cette frustration et fournir un logiciel libre qui 
+rÃ©ponde aux besoins dâ€™organisation et de collaboration de petits groupes qui ne peuvent 
+ni se payer Exchange, nâ€™ont vraimen
+t lâ€™usage de toutes ses fonctionnalitÃ©sÇ¤
+ 
+Aujourdâ€™hui, 
+bon nombre dâ€™applications Web 2Ç¤0 fournissent un service comparable Ã  Chandler mais 
+Chandler est toujours une application desktop ce qui le rend plus souple (fonctionne 
+hors ligne) et plus facile à modi
+fier (code en Python, résidant localement). Côté 
+protocoles et formats, Chandler supporte CalDAV, WebDAV, IMAP, POP, SMTP et .
+ICS
+.
+ 
+Les fonctionnalités uniques et particulières à Chandler doivent être recherchées dans 
+son mode de fonctionnement
+ 
+:
+ 
+ï¶
+ 
+collections non hiérarchiques
+ 
+: un même élément peut être dans plusieurs 
+collections simultanément. En ce sens, les collections sont des ensembles non 
+hiérarchiques et sont plus facile à concevoir comme des «
+ 
+tags
+ 
+» ou des «
+ 
+play 
+lists
+ 
+». On évite ainsi le
+ 
+problème du «
+ 
+Dans quel dossier classer cette info
+ 
+?
+ 
+» 
+auquel on est généralement soumis dans les systèmes plus classiques.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+12
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+ï¶
+ 
+éléments multiformes
+ 
+: un même élément peut être à la fois un évènement et 
+une tâche. Cela permet là encore de différer le choix et
+ 
+de voir par exemple une 
+simple note, devenir une tâche et une réunion envoyées à des collaborateurs. 
+)nutile de gÃ©rer une sÃ©rie dâ€™incarnation du mÃªme machin sous plusieurs formesÇ¤
+ 
+ï¶
+ 
+synchronisation propagée
+ 
+: les éléments étant repérés de façon unique, une 
+modification sera vue par toutes les personnes qui partagent cet élément. Si cet 
+élément a été copié dans une autre collection elle
+-
+même partagée sur un autre 
+serveur, la modification sera propagée. Cette propagation chainée se fait de façon 
+complètement d
+écentralisée.
+ 
+ï¶
+ 
+partage «
+ 
+hors serveur
+ 
+»
+ 
+: pour ceux ne voulant pas installer de serveur et ne 
+faisant guère confiance à ceux disponibles dans le domaine public, Chandler 
+permet dâ€™Ã©changer des Ã©lÃ©ments avec un autre client Chandler simplement par 
+emailÇ¤ ,â€™em
+ail est ici utilisé comme un conduit de communication de Chandler à 
+Chandler et permet de synchroniser des éléments indépendants.
+ 
+ï¶
+ 
+triage
+ 
+: la fonctionnalité «
+ 
+GTD
+ 
+» de triage permet de se concentrer sur le travail 
+en cours. Les alertes sont disponibles sur
+ 
+tout type de données et permettent de 
+«
+ 
+différer
+ 
+» un élément et de le voir revenir automatiquement dans la liste des 
+«
+ 
+en cours
+ 
+» lorsque son tour est venu.
+ 
+ï¶
+ 
+Multi
+-
+protocoles
+ 
+: Chandler Desktop et le Chandler Server supportent plusieurs 
+protocoles et form
+at (iCalendar, WebDAV, CalDAV, etc...) et il est possible 
+dâ€™utiliser le serveur seul (en se contentant du client Web), le Desktop seul (en 
+travaillant en local seul) ou un mélange des deux.
+ 
+ï¶
+ 
+Multi
+-
+serveurs
+ 
+: il est intéressant que le même client puisse publ
+ier ou 
+sâ€™abonner Ã  des collections et calendrier sur diffÃ©rents serveurs utilisant 
+différents protocoles.
+ 
+Comparé au combo Outlook/Exchange, le combo Chandler 
+Desktop/Chandler Server a quelques points forts et pas mal de points faibles
+ 
+:
+ 
+ï¶
+ 
+Absence de gestion
+naire de Contacts
+ 
+:
+ 
+Même si Chandler gère 
+automatiquement les adresses emails reconnues et auto
+-
+complète les champs de 
+saisie, il nâ€™y a pour le moment aucun support de contacts digne de ce nomÇ¤
+ 
+ï¶
+ 
+Absence de gestion du «
+ 
+Freebusy
+ 
+» (disponibilité)
+ 
+:
+ 
+dans la m
+esure où 
+Chandler de gÃ¨re pas la notion de contacts, il nâ€™y a pas non plus de gestion de la 
+disponibilitÃ©, une fonctionnalitÃ© trÃ¨s utile dâ€™/utlookÇ¤
+ 
+ï¶
+ 
+Absence de gestion de ressources
+ 
+:
+ 
+aucune ressource ne peut être réservée et 
+attachée à une tâche (ex. salle
+ 
+de réunion).
+ 
+ï¶
+ 
+Email assez primitif
+ 
+:
+ 
+Chandler ne remplacera pas la fonctionnalité email 
+dâ€™/utlook
+ 
+Ç£ le champ de saisie de notes ne supporte que du texte simple et nâ€™est 
+pas adapté à
+ 
+lâ€™Ã©criture dâ€™email sophistiquÃ©
+, pas de support dâ€™attachement de 
+fichier.
+ 
+ï¶
+ 
+A
+bsence de Tags et de Priorité
+ 
+:
+ 
+Chandler utilise les collections pour les tags et 
+mise sur la gestion «
+ 
+GTD
+ 
+» de triage pour les priorités. Sans être une complète 
+absence, câ€™est une diffÃ©rence de mÃ©thode de travail quâ€™il faut intÃ©grer lorsquâ€™on 
+passe à Cha
+ndler.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+13
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+2.2.2.
+ 
+Installation
+ 
+Les étapes 
+dâ€™installation de la plateforme Chandler 
+sont les suivantes
+ 
+:
+ 
+1.
+ 
+Téléchargement de 
+la version en cours
+ 
+(par exemple 1.0.3) à partir du site 
+http://chandlerproject.org
+ 
+;
+ 
+2.
+ 
+Lancement de 
+lâ€™installation Ã  partir du fichier exÃ©cutable de la plateforme
+ 
+;
+ 
+3.
+ 
+ParamÃ©trage de lâ€™environnement
+ 
+:
+ 
+a.
+ 
+Compte dâ€™expÃ©dition
+ 
+;
+ 
+b.
+ 
+Compte de réception
+ 
+;
+ 
+c.
+ 
+Publication
+ 
+;
+ 
+d.
+ 
+Sécurité
+ 
+;
+ 
+e.
+ 
+Proxy
+ 
+;
+ 
+4.
+ 
+Synchronisation des modules.
+ 
+2.2.3.
+ 
+Exemple de fonctionnalité
+ 
+La figure suivante 
+présente la fonctionnalité Agenda de Chandler.
+ 
+ 
+Figure 2.
+ 
+Fonctionnalité Agenda avec Chandler
+ 
+2.3.
+ 
+eGroupWare
+ 
+2.3.1.
+ 
+Présentation
+ 
+Cet ensemble de modules 
+PHP
+ 
+dÃ©veloppÃ© autour de lâ€™idÃ©e de travail en Ã©quipe ou 
+groupe, est issu dâ€™
+un schisme avec 
+le
+ 
+projet 
+P
+hpgroupware. En effet, certains 
+développeurs ont décidé de donner un nouvel élan au projet en le rendant plus ouvert, 
+actif et fonctionnelÇ¤ ,e rÃ©sultat est aujourdâ€™hui un 
+gro
+upware
+ 
+de niveau professionnel.
+ 
+Egroupware fonctionne avec un serveur apache et une base de donnée (MySQL, 
+PostgreSQL ou MsSQL) utile à la plupart des applications. Un nombre impressionnant de 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+14
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+modules à choisir et une installation avec clef 
+GPG
+ 
+assez complexe (malgré la présence 
+dâ€™un 
+HOW
+-
+TO
+ 
+exhaustif) rebuteront lâ€™utilisateur simplement curieuxÇ¤ 
+Une fois
+ 
+cette 
+difficulté
+ 
+traversée
+, on dÃ©couvre lâ€™interface sÃ©duisante et les nombreuses fonctionnali
+tés 
+qui donnent à ce logiciel toute sa puissance.
+ 
+On trouve donc,
+ 
+globalement
+, les 
+fonctionnalités suivantes
+ 
+Ç£ Calendrier, Carnet dâ€™adresses, Base de connaissances, E
+-
+mail, 
+Forum
+ 
+(Fudforum), Gestion de pro
+jet, )nfo,og (qui rÃ©unit un carnet dâ€™adresses, 
+tÃ©lÃ©phone ainsi quâ€™une todo
+-
+list), Sondage, SiteMgr (un 
+CMS
+), Système de Tickets 
+dâ€™)ncidents, Titres, 
+Wiki
+, ge
+stionnaire de projet
+ 
+[
+2
+], messagerie instantané
+e
+ 
+. Tout cela 
+est rapidement accessible en un clic via 
+un
+ 
+navigateur web. Il est 
+également possible de 
+synchroniser 
+des
+ 
+données avec différents appareils mobile depuis la version 1.2, grâce 
+au protocole SyncML.
+ 
+Egroupware est multiplateforme.
+ 
+Note
+ 
+:
+ 
+Dans sa version 1Ç¤6, Egroupï¶are utilise environ 50Mo dâ€™espace disque sur le 
+serveur.
+ 
+2.3.2.
+ 
+In
+stallation de la plateforme EGroupware
+ 
+,a procÃ©dure dâ€™installation de la plateforme Egroupï¶are est la suivante
+ 
+:
+ 
+1.
+ 
+TÃ©lÃ©chargement et installation dâ€™un serveur ï¶eb, notamment Ã  travers EasyPhp, 
+LAMP, WAMP, MAMP ou XAMP
+ 
+;
+ 
+2.
+ 
+Téléchargement du package zippé (egrou
+pware
+-
+epl
+-
+14.2.20150603.tar) sur 
+http://www.Egroupware.org
+ 
+;
+ 
+3.
+ 
+DÃ©compression de lâ€™archive dans le
+ 
+répertoire www du serveur wamp
+ 
+;
+ 
+4.
+ 
+,ancement de lâ€™UR, httpÇ£//127Ç¤0Ç¤0Ç¤1/
+eGroupware
+ 
+dans un 
+navigateur 
+web
+ 
+;
+ 
+5.
+ 
+ExÃ©cution de lâ€™installation Test
+ 
+;
+ 
+6.
+ 
+Paramétrage des options marquées en rouge
+ 
+;
+ 
+7.
+ 
+Configuration de lâ€™entÃªteÇ¤
+ 
+2.3.3.
+ 
+Exemple de fonctionnalité
+ 
+La figure suivante présente une vue journalière du calendrier avec Egroupware.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+15
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+ 
+Figure 3.
+ 
+Une vu
+e journalière de calendrier
+ 
+2.4.
+ 
+Lucane
+ 
+2.4.1.
+ 
+Présentation
+ 
+Le logiciel Lucane Groupware est une plate
+-
+forme collaborative écrite entièrement en 
+Java et publié sous licence LGPL (
+Lesser General Public License
+), dont la dernière version 
+en date est la version 0.7.5. El
+le propose diverses fonctionnalités dont les principales 
+sont
+ 
+Ç£ la messagerie instantanÃ©e, lâ€™Ã©change de fichiers, les forums, le calendrier, les notes 
+personnelles et la messagerieÇ¤ Câ€™est une application Client/serveur pouvant fonctionner 
+sur toutes les pl
+ateformes, pour peu quâ€™une machine virtuelle java (JVM) soit installÃ©eÇ¤
+ 
+Cette plateforme fourni
+t 
+une application
+ 
+d
+â€™audio confÃ©rence
+ 
+et une application de dessin
+.
+ 
+ 
+,â€™ensemble est conÃ§u comme une plateforme, les applicatifs
+ 
+venant se greffer dessus 
+comme des plugins. Les différentes applications sont accessibles soit via le web, soit via 
+le client Lucane.
+ 
+Contrairement Ã  dâ€™autres logiciels de cette catÃ©gorie, lâ€™installation et 
+lâ€™utilisation de ,ucane sont simplissimesÇ¤ .ul b
+esoin de serveur web ou de base de 
+données, tout le nécessaire est fourni.
+ 
+ 
+2.4.2.
+ 
+Installation
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+16
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+,es Ã©tapes dâ€™installation de ,ucane sont les suivantes
+ 
+:
+ 
+1.
+ 
+Télécharger le logiciel 
+«
+ 
+lucane
+-
+0
+.7.5
+-
+1.noarch.rpm
+ 
+» pour Linux et «
+ 
+lucane
+-
+0.7.5
+-
+setup.exe
+ 
+»
+ 
+pour Windows
+ 
+;
+ 
+2.
+ 
+Installer Java
+ 
+;
+ 
+3.
+ 
+,ancer lâ€™exÃ©cutable du logiciel lucane (sous ,inux, se dÃ©placer dans le 
+répertoire 
+/usr/local/lucane
+-
+0.7.5
+-
+bin/server/bin/ 
+et taper la commande 
+./server.sh
+.
+ 
+2.4.3.
+ 
+Configuration
+ 
+A lâ€™issue de lâ€™installation, il faut
+ 
+:
+ 
+1.
+ 
+sélectionner la langue 
+préférée
+ 
+;
+ 
+2.
+ 
+Configurer le client pour se connecter au serveur
+ 
+;
+ 
+3.
+ 
+Configuration des comptes «
+ 
+guest
+ 
+», «
+ 
+admin
+ 
+» et «
+ 
+shutdown
+ 
+»
+ 
+2.4.4.
+ 
+Exemple de fonctionnalité
+ 
+La figure suivante présente la fonctionnalité partage de fichiers.
+ 
+ 
+Figure 4.
+ 
+Fenêtre de partage de fichiers.
+ 
+2.5.
+ 
+Open
+-
+Xchange
+ 
+2.5.1.
+ 
+Présentation
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+17
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+Le groupware 
+Open
+-
+Xchange a été libéré par 
+Linux 
+Suse
+.
+ 
+Après une installation 
+assez 
+complexe
+, on se retrouve face à un groupware de très haute qualité avec tous les outils 
+que lâ€™on peut attendre dâ€™un tel logicielÇ¤
+ 
+ 
+La distribution
+ 
+payante Suse /penExchange continue dâ€™Ãªtre vendue Ã  un prix modeste 
+comparé aux solutions propriétaires et se différencie par une garantie de support, une 
+installation assistÃ©e, un module dâ€™
+administration et un connecteur
+ 
+Outlook pour un 
+nombre dâ€™utilisate
+ur illimité gratuit.
+ 
+ 
+Open
+-
+Xchange Server offre des fonctionnalités de travail collaboratif encore plus 
+avancées que celles  que propose MS Exchange, notamment la messagerie, le calendrier, 
+les contacts, les tâches, les projets et la gestion de
+s
+ 
+documents 
+pour la gestion des 
+projets
+, la gestion des rÃ©unions, des flux RSS et lâ€™accÃ¨s aux rÃ©seaux sociaux
+. Comme toute 
+solution basée sur des standards, elle s'intègre parfaitement avec la plupart des 
+environnements bureautiques standards 
+et surtout avec MS Outloo
+k et MS Explorer. 
+Techniquement, cela signifie que les clients peuvent se connecter via leurs logiciels 
+habituels ou une interface WebDAV/XML. Les fonctionnalités en mode déconnecté de 
+M
+S Outlook sont aussi supportées, accentuant
+ 
+lâ€˜avantage de cette soluti
+on en terme
+ 
+de 
+souplesse et d'économie
+.
+ 
+2.5.2.
+ 
+Installation
+ 
+Cet outils sâ€™installe uniquement sous linux et nÃ©cessite une bonne maÃ®trise de ce systÃ¨me 
+dâ€™exploitationÇ¤ /pen Xchange est dÃ©veloppÃ© en javaÇ¤ )l faut Ã  cet effet que JDK soit installÃ© 
+et de préférence la
+ 
+dernière version. De plus, il faut que le couple Apache 
+â€“
+ 
+Mysql
+-
+S
+erver 
+soit installé et que la connexion Internet soit disponible.
+ 
+Une fois ces prérequis vérifiés, les étapes suivantes doivent être suivies pour installer 
+lâ€™application
+ 
+:
+ 
+1.
+ 
+Editer la ligne 
+ci
+-
+dessous dans le 
+fichier /etc/apt/sources.list
+ 
+: 
+ 
+deb
+ 
+http://download.opensuse.org/repositories/server:/OX:/ox6/xBacktrack_4/
+ 
+2.
+ 
+,ancer lâ€™installation de Mysql
+-
+Server
+ 
+2.5.3.
+ 
+Configuration
+ 
+,â€™Ã©tape de configuration consiste en
+ 
+:
+ 
+1.
+ 
+Paramétrage 
+dâ€™/pen Xchange
+ 
+;
+ 
+2.
+ 
+C
+onfiguration des services
+ 
+Ã  travers lâ€™Ã©dition du fichier /etc/apache2/sites
+-
+available/default
+ 
+3.
+ 
+,ancement dâ€™/pen Xchange Ã  travers lâ€™UR, httpÇ£//localhost/ox6/oxÇ¤html
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+18
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+2.5.4.
+ 
+Exemple de fonctionnalité
+ 
+,a figure suivante prÃ©sente lâ€™interface dâ€™accÃ¨s Ã  la base de donn
+ées.
+ 
+Figure 5.
+ 
+Interface de connexion à la base de données.
+ 
+2.6.
+ 
+OpenGoo
+ 
+2.6.1.
+ 
+Présentation
+ 
+/penGoo est une suite bureautique en ligneÇ¤ ,â€™application peut Ãªtre tÃ©lÃ©chargÃ©e et 
+installée sur son propre serveur (support tout type AMP). Les caractéristiques 
+principales incluent en
+tre autre la gestion documentaire, la bureautique (traitement de 
+texte, tableur, pré
+sentation), les contacts, les E
+mail
+s
+, la gestion de projet, la gestion des 
+t
+â
+ches, un calendrier partageable, etc. OpenGoo peut aussi être vue comme une suite 
+collaborative
+ 
+et comme un gestionnaire dâ€™informations personnellesÇ¤ /penGoo se 
+distingue par une grande facilitÃ© dâ€™installation
+ 
+grÃ¢ce Ã  son assistant dâ€™installation
+. 
+,â€™Ã©quipe de dÃ©veloppement est 
+aussi 
+très active. OpenGoo
+ 
+dispose aussi dâ€™un systÃ¨me 
+astucieux de classification des objets en 
+étiquettes
+ 
+et en 
+projets
+ 
+(appelés 
+contextes
+).
+ 
+2.6.2.
+ 
+Installation
+ 
+,es Ã©tapes dâ€™installation sont les suivantes
+ 
+:
+ 
+1.
+ 
+Télécharger OpenGoo depuis http://www.opengoo.org ;
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+19
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+2.
+ 
+Décompresser l'archive dans 
+un répertoire local du disque dur ;
+ 
+3.
+ 
+Copier les fichiers dans sur le serveur dis
+tant (ex. FileZilla ou Fireftp)
+ 
+;
+ 
+4.
+ 
+,ancer lâ€™UR, httpÇ£//127Ç¤0Ç¤0Ç¤1//penGoo et suivre le guide dâ€™inst
+a
+llation
+.
+ 
+2.6.3.
+ 
+Configuration
+ 
+OpenGoo ne nécessite pas un paramétrage particulier. Sim
+ple
+ment, il faut procéder à 
+une mise à jour. Cette mise à jour se fait à travers les étapes suivantes
+ 
+:
+ 
+1.
+ 
+Sauvegarde des fichiers dâ€™installation et de backup
+ 
+;
+ 
+2.
+ 
+Déposer les fichiers de la nouvelle version sans écrasez les répertoires config, 
+upload
+ 
+et public/files
+ 
+;
+ 
+3.
+ 
+,ancer lâ€™UR, 
+http://127.0.0.1/OpenGoo&#x0000;/public/upgrade
+ 
+dans le navigateur 
+web et c
+hoisir la version de migration.
+ 
+2.6.4.
+ 
+Exemple de fonctionnalité
+ 
+La figure suivante présente la fonction
+nalité calendrier avec OpenGoo.
+ 
+Figure 6.
+ 
+Fenêtre de gestion du calendrier
+ 
+2.7.
+ 
+OpenGroupware
+ 
+2.7.1.
+ 
+Présentation
+ 
+/penGroupï¶are est, selon plusieurs Ã©tudes, lâ€™un des meilleurs groupï¶ares libresÇ¤
+ 
+Les 
+fonctionnalitÃ©s proposÃ©es Ã  lâ€™utilisateur sont trÃ¨s complÃ¨tesÇ¤ ,â€™installation 
+sur un 
+système 
+Linux
+ 
+est relativement facile
+,
+ 
+mais reste destinée à un utilisateur expérimenté.
+ 
+,â€™interface graphique (5 thÃ¨mes Ã  choix) est disponible en franÃ§ais, mais nâ€™est pas trÃ¨s 
+érgonomique. La créa
+tion de nouveaux thèmes est, e
+n revanche, relativement aisée.
+ 
+/penGroupï¶are bÃ©nÃ©ficie dâ€™une communautÃ© trÃ¨s active, ainsi que du soutien de 
+lâ€™entreprise qui lâ€™a fait dÃ©marrer et qui continue dâ€™offrir une version payante avec 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+20
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+services et thèmes 
+supplémentaires (peut
+-
+être plus agréable à utiliser).
+ 
+Malheureusement, il nâ€™existe pas de version dÃ©mo officielleÇ¤ Toutefois, un ,ive CD est 
+téléchargeable sur le site. Le logiciel est sous licence GPL ou LGPL pour certains sous
+-
+projets.
+ 
+Il offre entre aut
+res les fonctionnalités suivantes
+ 
+:
+ 
+1.
+ 
+Gestion des utilisateurs
+ 
+;
+ 
+2.
+ 
+Gestion des tâches
+ 
+;
+ 
+3.
+ 
+Gestion des contacts
+ 
+;
+ 
+4.
+ 
+Gestion de planning
+ 
+;
+ 
+5.
+ 
+Gestion documentaire
+ 
+;
+ 
+6.
+ 
+Interopérabilité avec des applications tierces.
+ 
+Remarque
+ 
+:
+ 
+OpenGroupware doit être déployé sur un serveu
+r dÃ©diÃ©, il nâ€™utilise ni PHP 
+ni MySQL. Il est développé en Objective C
+.
+ 
+2.7.2.
+ 
+Exemple de fonctionnalité
+ 
+La figure suivante présente la gestion de la messagerie électronique avec 
+OpenGroupware.
+ 
+ 
+Figure 7.
+ 
+Liste des mails
+ 
+avec OpenGroupware.
+ 
+2.8.
+ 
+Ovidentia
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+21
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+2.8.1.
+ 
+Présentation
+ 
+/videntia permet dâ€™intÃ©grer simplement et facilement un environnement de publication 
+sur 
+I
+nternet ou un portail groupware (
+I
+nternet, extranet, intranet) pour 
+une
+ 
+entreprise, 
+organisation, communauté, etc.
+ 
+Cet outil intègre dans son noyau les fonctions suiv
+antes
+ 
+:
+ 
+ï¶
+ 
+Publication et gestion dâ€™articles et de fichiers
+ 
+;
+ 
+ï¶
+ 
+Gestion de FAQs (foires aux questions)
+ 
+;
+ 
+ï¶
+ 
+Mise en place de forums de discussion
+ 
+;
+ 
+ï¶
+ 
+Gestion dâ€™annuaires partagÃ©e
+ 
+;
+ 
+ï¶
+ 
+CrÃ©ation et administration dâ€™organigrammes
+ 
+;
+ 
+ï¶
+ 
+Gestion dâ€™agendas personnels partageable
+s, agendas collectifs ou agenda de 
+ressources
+ 
+;
+ 
+ï¶
+ 
+Mi
+se en place de «
+ 
+Délégations
+ 
+» ou communautés
+ 
+;
+ 
+ï¶
+ 
+Gestion des demandes de congés (avec génération des planning
+s
+ 
+de congés, calcul 
+des soldes de congés, RTT, jours fractionnés, ...)
+ 
+;
+ 
+ï¶
+ 
+Gestionnaire de tâches et
+ 
+de projets
+ 
+;
+ 
+ï¶
+ 
+Moteur de recherche transversal qui peut sâ€™appuyer sur un moteur dâ€™indexation 
+pour la recherche sur lâ€™ensemble des fichiers publiÃ©s
+ 
+;
+ 
+ï¶
+ 
+Gestion des utilisateurs, groupes et droits
+ 
+;
+ 
+ï¶
+ 
+Authentification possible sur LDAP (Lightweight Directory Acce
+ss Protocol) ou 
+Active Directory
+ 
+;
+ 
+ï¶
+ 
+GÃ©nÃ©ration de statistiques et de tableaux de bord sur lâ€™utilisation de lâ€™outil
+ 
+;
+ 
+ï¶
+ 
+API de développement pour ajout fonctionnel
+ 
+;
+ 
+ï¶
+ 
+Interface et navigation personnalisable (charte graphique et ergonomie)
+ 
+;
+ 
+ï¶
+ 
+Etc.
+ 
+Ovidentia a été
+ 
+développé pour répondre à des problématiques transverses, regroupant 
+des aspects de publication et des aspects collaboratifs auparavant séparés dans des 
+logiciels concurrents et difficilement intÃ©grables entre euxÇ¤ ,a force dâ€™/videntia repose 
+dans lâ€™inter
+action entre ses différentes fonctionnalités natives, qui peu
+vent 
+être 
+étroitement liées entre elles.
+ 
+Une telle plate
+-
+forme "multi
+-
+facette" permettra à la fois la 
+constitution dâ€™une base de connaissance (publication dâ€™articles, fichiers, FAQ, forums, Ç¤Ç¤Ç¤) 
+comme peuvent lâ€™Ãªtre des outils comme SP)P, et un outil de travail collaboratif grÃ¢ce aux 
+fonctions natives dâ€™agendas partagÃ©s, agendas de ressources, organ
+igrammes, schémas 
+dâ€™approbation et
+ 
+demandes de congés
+.
+ 
+Du fait de sa richesse, Ovidentia peut parait
+re complexe. 
+L
+â€™utilisateur 
+a
+ 
+intérêt à aborder 
+lâ€™outil de maniÃ¨re progressive, en ne sâ€™intÃ©ressant quâ€™aux fonctionnalitÃ©s principales 
+dans son contexte dâ€™utilisationÇ¤ De gros efforts ont Ã©tÃ© et sont encore faits pour 
+amÃ©liorer lâ€™ergonomie et la prise en ma
+in de lâ€™outil
+ 
+: tous les retours et suggestions sont 
+les bienvenus, mÃªme si, il faut bien le reconnaÃ®tre, leur rÃ©alisation nâ€™est pas toujours 
+instantanée.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+22
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+2.8.2.
+ 
+Installation
+ 
+,es Ã©tapes dâ€™installation sont les suivantes
+ 
+:
+ 
+1.
+ 
+)nstallation dâ€™un environnement AMP (WAMP, EasyPhp, ,AMP, MAMP, XAMPÇ¥)
+ 
+;
+ 
+2.
+ 
+TÃ©lÃ©charger la version encore dâ€™/videntia et le dÃ©compresser dans le rÃ©pertoire 
+WWW du serveur web apache
+ 
+;
+ 
+3.
+ 
+Démarrer le serveur AMP
+ 
+;
+ 
+2.8.3.
+ 
+Configuration
+ 
+La configuration de la plateforme O
+videntia est semi
+-
+automatique. Il suffit de
+ 
+:
+ 
+1.
+ 
+,ancer lâ€™UR, http
+ 
+://127.0.0.1/ovidentia
+-
+7
+-
+3
+-
+1/Install PHP
+ 
+;
+ 
+2.
+ 
+,ancer lâ€™installation Ã  partir du lien qui sâ€™affiche et suivre les Ã©tapes en 
+renseignant tous les champs demandés.
+ 
+2.8.4.
+ 
+Exemple de fonctionnalité
+ 
+La figur
+e suivante prÃ©sente lâ€™interface de gestion de lâ€™agenda collectifÇ¤
+ 
+ 
+Figure 8.
+ 
+Agenda collectif avec Ovidentia
+ 
+2.9.
+ 
+P
+hpCollab
+ 
+2.9.1.
+ 
+Présentation
+ 
+PhpCollab permet de mettre en place un site Web de travail collaboratif pour gérer des 
+projets en groupe de travail.
+ 
+Il
+ 
+a les fonctio
+ns classiques de gestion de projet
+ 
+:
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+23
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+1.
+ 
+Gestion complÃ¨te dâ€™Ã©tapes de projet
+ 
+:
+ 
+organiser le projet par phases 
+dâ€™avancement, tÃ¢ches et sous
+-
+tâches, puis les a
+ffecter aux membres de lâ€™Ã©quipe
+ 
+;
+ 
+2.
+ 
+Notifications
+ 
+:
+ 
+les modifications et évènements liés à un projet sont
+ 
+transmis par 
+email aux
+ 
+membres de lâ€™Ã©quipe de travail
+ 
+;
+ 
+3.
+ 
+Planning
+ 
+:
+ 
+assignation et suivi des tÃ¢chesÇ¤ Visualiser lâ€™avancement 
+du projet sur 
+un seul graphique
+ 
+;
+ 
+4.
+ 
+Gestion de fichier
+ 
+:
+ 
+stockage d
+es fichiers liés 
+au
+ 
+proje
+t, ajout
+ 
+des commenta
+ires 
+et des numéros 
+de versions
+ 
+;
+ 
+5.
+ 
+Communication
+ 
+:
+ 
+un forum et des commentaires sont associés à chaque projet 
+permettant de partager to
+utes les communications écrites
+ 
+;
+ 
+6.
+ 
+Calendrier
+ 
+:
+ 
+pour gÃ©rer tous les Ã©vÃ¨nements liÃ©s Ã  lâ€™Ã©volution du projetÇ¤
+ 
+7.
+ 
+Signets
+ 
+:
+ 
+pour créer un annu
+aire 
+de liens commun Ã  lâ€™Ã©quipe
+ 
+;
+ 
+8.
+ 
+Moteur de recherche
+ 
+:
+ 
+un moteur de recherche intégré pour retrouver 
+nâ€™importe quel type dâ€™Ã©lÃ©ments (contact, projet, tÃ¢cheÇ¤Ç¤Ç¤)
+.
+ 
+PhpCollab se distingue des autres outils existant par la simplicitÃ© et lâ€™efficacitÃ© de son 
+interfac
+eÇ¤ Ã€ la fois rapide Ã  charger et intuitive Ã  manipulerÇ¤ Ã€ la maniÃ¨re dâ€™un 
+explorateur de fichier, chaque fonctionnalité (planning, fichiers...) associée au projet se 
+retrouve facilement dans un menu déroulant, le tout sur une seule page Web pour avoir 
+une 
+vue globale du projet et en même temps pouvoir rentrer facilement dans les détails. 
+ 
+Un autre point, qui le distingue des autres applications, câ€™est la possibilitÃ© dâ€™associer 
+automatiquement au projet un site pour le client. Celui
+-
+ci verra lâ€™avancement du 
+projet, 
+sans pour autant avoir accÃ¨s Ã  lâ€™espace de travail, e
+t peut émettre des commentaires ou 
+des requÃªtes qui seront intÃ©grÃ©es directement Ã  lâ€™espace de travail collaboratif du projetÇ¤
+ 
+,â€™installation est facile sur un serveur PHP/
+MySQL et
+ 
+une notice est
+ 
+rédigée sur le site. 
+Cependant il y a des problèmes de fonctionnement avec les versions récentes de PHP, il 
+faut télécharger la dernière version de PhpCollab.
+ 
+Enfin, il semble que le développement 
+et les mises à jour de PhpCollab avancent mollement. 
+ 
+2.9.2.
+ 
+Inst
+allation
+ 
+,es Ã©tapes dâ€™installation sont les suivantes
+ 
+:
+ 
+1.
+ 
+Télécharger
+ 
+le dossier dâ€™installation 
+Ã  partir de lâ€™UR, suivante
+ 
+: 
+http:
+//phpcollab.sourceforge.net/
+ 
+;
+ 
+2.
+ 
+Décompresser le dossier et exécuter
+ 
+le fichier setup_xampp.bat
+ 
+;
+ 
+3.
+ 
+Édite
+r
+ 
+le fichier 
+/sendmail/send
+mail.ini
+ 
+et entrer lâ€™adresse du serveur SMTP 
+pour le transfert de mails.
+ 
+4.
+ 
+Exécuter
+ 
+le fichier 
+xampp
+-
+control.exe
+ 
+et lancer Apache et Mysql à partir du 
+bouton «
+ 
+Start
+ 
+»
+ 
+;
+ 
+2.9.3.
+ 
+Configuration
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+24
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+Les étapes de configuration sont les suivantes
+ 
+:
+ 
+1.
+ 
+,ancer lâ€™UR, localhost ou
+ 
+lâ€™adresse )P 127Ç¤0Ç¤0Ç¤1 dans le navigateur ï¶eb
+ 
+;
+ 
+2.
+ 
+Entrer comme paramètres usernames : «admin » ; password : « phpcadmin ».
+ 
+3.
+ 
+Pour mettre lâ€™application en rÃ©seau, Ã©diter le fichier Â«
+ 
+httpd.conf
+ 
+» de 
+configuration dâ€™Apache Ã  partir du dossier Â« 
+admin/phpcadmin
+ 
+» en changeant 
+Deny all
+ 
+en 
+Allow all.
+ 
+2.9.4.
+ 
+Exemple de fonctionnalité
+ 
+,a figure suivante prÃ©sente lâ€™interface de gestion dâ€™un projet (phases, discussions, 
+équipe, fichiers et notes).
+ 
+ 
+Figure 9.
+ 
+)nterface de gestion dâ€™un projet avec PhpColab
+ 
+2.10.
+ 
+PHProjekt
+ 
+2.10.1.
+ 
+Présentation
+ 
+Le 
+groupware 
+Phprojekt
+ 
+se caractérise par son sérieux et son approche très 
+professionnelle
+. 
+,â€™interface de base est assez fruste voire austÃ¨re mais on peut modifier 
+lâ€™habillageÇ¤
+ 
+Parmi les fonctionnalités 
+classiques
+,
+ 
+on notera la prÃ©sence dâ€™un agenda, 
+des 
+pris
+es de notes, 
+de 
+gestion de projets et échéancier, 
+de 
+forums, 
+de 
+client email, 
+de 
+gestion dâ€™adresses et de groupes, import
+-
+export de fichiers, chat, plus lâ€™ajout de modules 
+supplémentaires comme un Wiki.
+ 
+La version 
+5.0 ajoute de nombreuses fonctionnalités e
+t fait suite à une refonte du code
+ 
+:
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+25
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+1.
+ 
+suppression du fonctionnement en frames mais chargement des pages plus 
+lent
+ 
+;
+ 
+2.
+ 
+ajout de nombreuses fonctions en javascript (actions sur le bouton droit...) et 
+généralistes
+ 
+: recherche, filtre et export amélioré, ajout de
+ 
+lâ€™archivage
+ 
+;
+ 
+3.
+ 
+évolution des modules
+ 
+: agenda partagé (vérification des disponibilités, 
+transmission de proposition de réunion, possibilité de délégation de la gestion de 
+lâ€™agenda Ã  dâ€™autres salariÃ©s, ajout dâ€™ordres du jour, etcÇ¤), gestion des contacts 
+(su
+ivi des modifications...), saisie du temps (amélioration des statistiques avec 
+temps cumulés...), possibilité de personnalisation pointue des écrans par ajout de 
+champs
+ 
+;
+ 
+4.
+ 
+les modules externes doivent être réécrits en partie pour être compatibles.
+ 
+2.10.2.
+ 
+Installat
+ion
+ 
+,a procÃ©dure dâ€™installation est la suivante
+ 
+:
+ 
+1.
+ 
+TÃ©lÃ©charger lâ€™archive de lâ€™application sous 
+http://www.phprojekt.com/
+;
+ 
+2.
+ 
+)nstaller un environnement AMP (EasyPhp, ,AMP, WAMP, MAMP, XAMP,Ç¥)
+ 
+;
+ 
+3.
+ 
+Décompress
+er
+ 
+lâ€™archive
+ 
+dans le 
+répertoire 
+www du wampserver et le
+ 
+renommer
+ 
+en phpprojekt.
+ 
+4.
+ 
+Créer
+ 
+une base de données 
+Mysql 
+vide 
+avec le nom phprojekt.
+ 
+2.10.3.
+ 
+Configuration
+ 
+Les étapes de la configuration sont les suivantes
+ 
+:
+ 
+1.
+ 
+,ancer lâ€™UR, httÇ£//localhost/phproject dans le navigateur
+ 
+;
+ 
+2.
+ 
+Choisir le serveur (localhost par exemple)
+ 
+;
+ 
+3.
+ 
+C
+hoisir la base de données (phprojekt)
+ 
+;
+ 
+4.
+ 
+Paramétrer le compte administrateur (login et mot de passe)
+ 
+;
+ 
+5.
+ 
+Définir le dossier privé dans lequel seront rangés les fichiers des utilisateurs
+ 
+;
+ 
+6.
+ 
+Lancer la génération des tables de la base de données.
+ 
+2.10.4.
+ 
+Exemple de 
+fonctionnalité
+ 
+,a figure suivante prÃ©sente lâ€™interface de crÃ©ation dâ€™un nouveau moduleÇ¤
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+26
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+ 
+Figure 10.
+ 
+)nterface de crÃ©ation dâ€™un nouveau moduleÇ¤
+ 
+2.11.
+ 
+TkWhiteboard
+ 
+2.11.1.
+ 
+Présentation
+ 
+TkWhiteboard est un "tableau blanc" entièrement écrit en Tcl/Tk, sans distinction de 
+système 
+dâ€™exploitation
+. 
+Il permet de tenir des "conférences manuscrites" entre plusieurs 
+utilisateurs distants sur un réseau (protocole 
+TCP
+/
+IP
+), par exemple deux personnes 
+conversant par téléphone et souhaitant simultanément gribouiller des équations de 
+mathématiq
+ues "à la main" via Internet.
+ 
+Les utilisateurs travaillent ensemble sur la 
+mÃªme "feuille", lâ€™un pouvant gommer le travail de lâ€™autreÇ¤ Une tablette graphique est 
+nÃ©cessaire Ã  la plupart des cas dâ€™utilisationÇ¤
+ 
+Grâce au module 
+Tkegc
+-
+texte
+, 
+plusieurs
+ 
+utilisate
+urs peuvent
+ 
+écrire des textes 
+pendant la
+ 
+collaboration
+ 
+dans la même febêtre. Tkegc
+-
+dessin quant à lui est le module qui permet à 
+plusieurs utilisateurs de dessiner en même temps dans la même fenêtre.
+ 
+2.11.2.
+ 
+Installation
+ 
+Il faut noter que TkWithboard ne fonctionne
+ 
+quâ€™avec lâ€™/S ,inux, notamment la 
+distribution Ubuntu. 
+,a procÃ©dure dâ€™installation de Tk
+Witheboard est la suivante
+ 
+:
+ 
+1.
+ 
+TÃ©lÃ©charger le code Source de TKWH)TEB/ARD Ã  partir de lâ€™UR, 
+http://wfr.tcl.tk/tkwhiteboard
+ 
+;
+ 
+2.
+ 
+C
+opier le code source 
+tÃ©lÃ©chargÃ© et coller dans lâ€™Ã©diteur 
+de texte
+ 
+gedit et 
+lâ€™enregistrer sous le nom 
+tkwithboard.sh
+ 
+par exemple, dans un répertoire du 
+/home
+.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+27
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+2.11.3.
+ 
+Configuration
+ 
+Les étapes de la configuration de cet environnement sont les suivantes
+ 
+:
+ 
+1.
+ 
+,ancer un terminal dâ€™Ubuntu et s
+e connecter en administrateur (root)
+ 
+;
+ 
+2.
+ 
+ExÃ©cuter le fichier Ã  lâ€™aide de la commande 
+./
+tkwithboard
+.sh
+ 
+;
+ 
+3.
+ 
+Pour créer le serveur, il faut choisir un numéro 
+de "port" (
+un nombre 
+compris 
+entre 1024 et 65535
+) et définir un mot de passe et clique sur le bouton "Cre
+ate 
+server"
+ 
+;
+ 
+4.
+ 
+Pour rejoindre la conférence depuis un autre ordinateur
+ 
+: entrer le numéro d'IP 
+du serveur
+ 
+; entrer le numéro de port choisi  pour le serveur
+ 
+; entrer le mot de 
+passe et cliquer sur le bouton "Connect 
+to server".
+ 
+2.11.4.
+ 
+Exemple de fonctionnalité
+ 
+La 
+fenêtre suivante présente la fonctionnalité 
+Tkegc
+-
+dessin pour le dessin partagé.
+ 
+ 
+Figure 11.
+ 
+Interface de dessin partagé
+ 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+28
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+2.12.
+ 
+Toutateam
+ 
+2.12.1.
+ 
+Présentation
+ 
+L
+e groupware 
+Toutateam est basé sur 
+PHProjekt
+.
+ 
+Il permet à plusieurs utilisateurs, dotés 
+chacun dâ€™un simple 
+navigateur Web
+, de gérer et de partager avec leurs collaborateurs les 
+informations essentielles de leur travail au quotidien
+ 
+: fichier
+s, contacts, rend
+ez
+-
+vous, 
+tÃ¢ches Ã  accomplir,Ç¥
+ 
+Il permet également aux utilisateurs de communiquer et de 
+collaborer directement ou indirectement par plusieurs biais
+ 
+: 
+e
+-
+mail
+, forum, 
+messagerie 
+instantanée
+, et même 
+Wiki
+.
+ 
+Toutateam a pour objectif de base de couvrir les besoins pour une journée de travail au 
+bureau
+ 
+: gérer un agenda, voi
+re déléguer cette gestion à un secrétaire, partager des 
+contacts, mettre en commun une base documenta
+ire afin dâ€™y accÃ©der Ã  distance et
+ 
+gérer 
+les 
+prise
+s
+ 
+de notes
+. 
+Ces fonctions de base peuvent dâ€™ailleurs Ãªtre synchronisÃ©es avec 
+Microsoft Outlook
+ 
+avec un 
+plugin
+ 
+en version bêta. La cohésion du groupe peut être 
+renforcÃ©e par des outils dâ€™Ã©change dâ€™information
+ 
+Ç£ publication dâ€™actualitÃ©s en page 
+dâ€™a
+ccueil, forums, Wiki, et par des outils de communication
+ 
+: mail et messagerie 
+instantanée.
+ 
+,â€™outil
+ 
+offre aussi la possibilité de gérer des projets, de suivre le temps 
+passé sur ces projets, ou de mettre en place des formulaires permettant de gérer de 
+vraie
+s petites bases de donnÃ©es qui, bien quâ€™assez simples, sont assez bien intÃ©grÃ©es Ã  
+lâ€™outilÇ¤
+ 
+Toutateam peut Ãªtre utilisÃ© dans plusieurs butsÇ¤ A chaque fois, câ€™est lâ€™une ou lâ€™autre des 
+fonctions qui est mise en avantÇ¤ Certains prÃ©fÃ¨reront sâ€™appuyer sur lâ€™age
+nda partagé 
+pour gÃ©rer le planning de lâ€™Ã©quipe, dâ€™autres seront plus intÃ©ressÃ©s par la possibilitÃ© 
+dâ€™avoir 
+une 
+base de documents en ligne, certains encore mettront lâ€™accent sur le ï¶
+iki ou 
+la gestion de projets.
+ 
+)l est trÃ¨s simple dâ€™intÃ©grer dâ€™autres applic
+ations web dans 
+Toutateam, par exemple un outil métier
+ 
+qui
+ 
+apparaitra simplement comme un nouvel 
+ongletÇ¤ Ceci permet de centraliser lâ€™accÃ¨s Ã  diffÃ©rents outilsÇ¤
+ 
+Toutateam est un outil à 
+lâ€™apparence rustique, son apparence est par ailleurs relativement figÃ©
+eÇ¤ ,â€™outil compense 
+cela en offrant de bonnes capacitÃ©s dâ€™extension et dâ€™intÃ©gration, et par sa prÃ©sentation 
+simple basée sur des onglets. 
+ 
+2.12.2.
+ 
+Installation
+ 
+,es Ã©tapes dâ€™installation de Toutateam sont les suivantes
+ 
+:
+ 
+1.
+ 
+TÃ©lÃ©charger le logiciel Ã  partir de lâ€™UR, s
+uivante
+ 
+: 
+http://www.toutateam.com/
+;
+ 
+2.
+ 
+)nstaller un environnement AMP (,AMP, WAMP, MAMP, EasyPhp, XAMP,Ç¥)
+ 
+;
+ 
+3.
+ 
+DÃ©compresser le dossier dans le dossier ï¶ï¶ï¶ de lâ€™environnement AMP
+ 
+;
+ 
+4.
+ 
+Sous ,inux, affecter des droits dâ€™exÃ©cution sur tout le rÃ©pertoire dÃ©compressÃ©
+ 
+;
+ 
+5.
+ 
+Démarrer les serveurs Apache et Mysql.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+29
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+ 
+2.12.3.
+ 
+Configuration
+ 
+Les étapes de configuration sont les suivantes
+ 
+:
+ 
+1.
+ 
+,ancer lâ€™UR, 
+http://localhost/toutateam/setup.php dans le navigateur
+ 
+;
+ 
+2.
+ 
+SÃ©lectionner lâ€™option dâ€™installation
+ 
+;
+ 
+3.
+ 
+Paramétrer la base de données
+ 
+;
+ 
+4.
+ 
+Choisir les
+ 
+modules à installer
+ 
+;
+ 
+5.
+ 
+ParamÃ©trer le systÃ¨me et les prÃ©fÃ©rences dâ€™affichage
+ 
+;
+ 
+6.
+ 
+Créer deux comptes utilisateurs parmi lesquels le compte root.
+ 
+2.12.4.
+ 
+Exemple de fonctionnalité
+ 
+,a figure suivante prÃ©sente lâ€™interface dâ€™administration dâ€™un forumÇ¤
+ 
+ 
+Figure 12.
+ 
+Interface de gesti
+on dâ€™un forumÇ¤
+ 
+2.13.
+ 
+MRBS 
+-
+ 
+Meeting Room Booking System 
+ 
+2.13.1.
+ 
+Présentation
+ 
+MRBS permet la gestion à distance des occupations de salles de réunions et autres 
+équipements partagés entre plusieurs structures, par exemple dans le cadre de maisons 
+des associations, MJC, e
+tc.
+ 
+En effet, le partage de lâ€™occupation des salles et des 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+30
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+réservations de matériels collectifs devient vite un casse
+-
+tête pour les collectivités 
+lorsquâ€™il est gÃ©rÃ© avec un simple tableurÇ¤ MRBS propose une solution ergonomique et 
+intuitive
+,
+ 
+sur une archite
+cture Lamp (Linux Apache MySQL Php), compatible également 
+avec Post
+g
+reSQ,Ç¤ )l sâ€™installe sur serveur, et est opÃ©rÃ© via un navigateur ï¶ebÇ¤
+ 
+Entre 
+autres caractéristiques, on distingue
+ 
+:
+ 
+ï¶
+ 
+La description des lieux 
+qui 
+permet de définir des lieux, étage, bâtimen
+t, et dans 
+ces lieux des salles dont on peut préciser une description et la capacité (salle 101, 
+description
+ 
+: avec TBI, 13 places)
+ 
+;
+ 
+ï¶
+ 
+Les 
+réservations
+ 
+des lieux 
+qui 
+peuvent être ponctuelles ou répétitives
+ 
+: tous les 
+jours, toutes les semaines, tous les 
+mois, tous les ans, au bout dâ€™un nombre 
+précisé de semaines et quel jour
+ 
+;
+ 
+ï¶
+ 
+Les permissions utilisateurs sont avancées
+ 
+;
+ 
+ï¶
+ 
+Des visualisations journalière, horaire, hebdomadaire, mensuelle sont 
+proposées
+ 
+;
+ 
+ï¶
+ 
+Plu
+sieurs langues sont supportées, ain
+si que différent
+s systèmes 
+dâ€™authentification (,DAP, etcÇ¤)Ç¤
+ 
+2.13.2.
+ 
+Installation
+ 
+,a procÃ©dure dâ€™installation est la suivante
+ 
+:
+ 
+ï¶
+ 
+TÃ©lÃ©charger lâ€™archive MRBS Ã  partir du site web http://www.mrbs.com
+ 
+;
+ 
+ï¶
+ 
+Installer 
+et démarrer 
+un environnement AMP (LAMP, WAMP, MAMP, EasyPhp, 
+XAMP,â€¦)
+ 
+;
+ 
+ï¶
+ 
+DÃ©compresser lâ€™archive tÃ©lÃ©chargÃ© dans le rÃ©pertoire nommÃ© Â«
+ 
+mrbs
+ 
+» créé sous le 
+rÃ©pertoire www de lâ€™environnement AMP
+ 
+;
+ 
+ï¶
+ 
+Créer une base de données vide nommé 
+«
+ 
+mrbs
+ 
+» sous Mysql ou sous Postgresql
+ 
+;
+ 
+ï¶
+ 
+Importer, depuis le répertoire «
+ 
+mrbs
+ 
+», les 
+fichiers tab
+les.my.pre41.sql 
+ou 
+tables.pg.pre73.sq dans la base de données, selon que le SGBD MySql ou PostGreSql 
+est installé
+ 
+;
+ 
+ï¶
+ 
+Pour des raisons de test, importer, depuis le même répertoire «
+ 
+mrbs
+ 
+», les données du 
+fichier «
+ 
+sampledata.sql
+ 
+».
+ 
+2.13.3.
+ 
+Configuration
+ 
+Les étapes
+ 
+de configuration sont les suivantes
+ 
+:
+ 
+1.
+ 
+,ancer lâ€™UR, 
+http://localhost/mrbs
+ 
+depuis le navigateur web ;
+ 
+2.
+ 
+Editer le fichier de configuration 
+config
+.inc.php
+ 
+présent dans le répertoire «
+ 
+mrbs
+ 
+» 
+en y intégrant les paramètres de connexion à la base de données
+ 
+;
+ 
+3.
+ 
+Affecter la valeur UTC+1 au paramètre «
+ 
+timezone
+ 
+», afin de calibrer le serveur au 
+temps du Cameroun
+ 
+;
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+31
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+2.13.4.
+ 
+Exemple de fonctionnalité
+ 
+,a figure suivante prÃ©sente lâ€™interface de rÃ©servation dâ€™une salleÇ¤
+ 
+ 
+Figure 13.
+ 
+)nterface de rÃ©servation dâ€™une salle avec MRBS
+ 
+2.14.
+ 
+Chronopoly
+s
+ 
+2.14.1.
+ 
+Présentation 
+ 
+Chronopolys est un logiciel de création, de gestion et de supervision de groupes de 
+travail.
+ 
+Câ€™est un 
+Collecticiel
+ 
+avec une fonction wiki qui
+ 
+permet à différentes personnes de 
+pouvoir travailler sur un même projet. Il utilise les différente
+s technologies tels que Java, 
+MySQL (utilisable avec Oracle), le flux 
+RSS
+, le protocole 
+LDAP
+, et la méthode 
+SSO
+ 
+pour 
+lâ€™identification uniqueÇ¤ ,a vue de 
+supervision
+ 
+des groupes se fait soit sous forme de ligne 
+chronologique soit sous forme de tableau de bor
+d qual
+itÃ©Ç¤ )l est dotÃ© dâ€™
+espaces de 
+collaboration avec toutes les fonctions utiles que lâ€™on peut exiger
+ 
+: affectation des tâches, 
+organisation des rendez
+-
+vous et des conférences téléphoniques, micro
+-
+planning projet, 
+partage de documents avec 
+versionnage
+, p
+ages wiki et diverses fonction de gestion 
+avancée des utilisateurs. Les notifications intelligentes avec résumé de modifications 
+pÃ©riodique et un module "mobile" permettant dâ€™accÃ©der aux fonctions du logiciel via un 
+smartphone
+ 
+complète ce logiciel.
+ 
+Pour se
+ 
+faire une idée par soi
+-
+même des capacités de ce logiciel, il est possible de faire 
+un essai
+ 
+en ligne
+ 
+sur le site
+ 
+http://avane.com/spip.php
+ 
+?rubrique43 
+de lâ€™Ã©diteurÇ¤
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+32
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+Câ€™est un outil groupï¶are
+ 
+innovant qui propose une approche originale de la 
+collaboration en entrepriseÇ¤ )l a dâ€™ailleurs Ã©tÃ© labellisÃ© par le pÃ´le de compÃ©titivitÃ© dâ€™Ã©tat 
+Cap Digital.
+ 
+Le lien de téléchargement est le suivant
+ 
+: http://www.chronopolys.org.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+33
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+CHAPITRE 3.
+ 
+OPEN BUSINESS MANAGE
+MENT
+ 
+OBM est une solution collaborative (ou 
+groupware
+) sous licence GPL v2 qui permet à ses 
+utilisateurs de stocker, organiser et partager rendez
+-
+vous, contacts, 
+courriels
+, liens, 
+documents et des modules complémentaires de type gestion de projet/planning.
+ 
+Le 
+serveur est accessible via un navigateur web ou de nombreux clients lourds tel que 
+Kontact
+, 
+Novell Evolution
+, 
+Konqueror
+, 
+Outlook
+Ç¥ pour l&#x0027;annuaire (
+OpenLDAP
+) et les 
+courriels
+ 
+(
+IMAP
+ 
+ou 
+POP3
+).
+ 
+L'ensemble des fonctionnalités d'OBM (contacts, agendas et tâches) sont également 
+accessibles via des connecteurs pour 
+Mozilla Thunderbird
+ 
+et 
+Microsoft Outlook
+ 
+XP/2000/2003 (connecteur non libre).
+ 
+OBM se synchronise (en mode direct par le réseau ou à travers les outils 
+complémentaires tel ActiveSync) également avec la plupart des PDA
+ 
+: 
+PocketPC
+ 
+et 
+Windows Mobile
+ 
+(PDA et SmartPhones), 
+Palm
+, 
+Symbian
+ 
+pour les téléphones mobiles, 
+iSync
+ 
+(MacOS), e
+t 
+Blackberry
+.
+ 
+OBM se base sur des standards tels que 
+SOAP
+, 
+LDAP
+, 
+iCal
+, 
+HTTP
+, 
+HTTPS
+, 
+SMTP
+, IMAP, 
+POP3, 
+SyncML
+.
+ 
+3.1.
+ 
+Toutes les fonctionnalitÃ©s dâ€™/BM
+ 
+La suite OBM propose 5 modules
+ 
+: 
+OBM
+-
+CRM
+,
+ 
+OBM
+-
+GROUPWARE
+,
+ 
+OBM
+-
+PROJECT
+,
+ 
+OBM
+-
+LDAP
+,
+ 
+OBM
+-
+Mail
+ 
+et
+ 
+OBM
+-
+Sync
+ 
+3.1.1.
+ 
+,es fonctionnalitÃ©s dâ€™/BM
+-
+CRM
+ 
+OBM
+-
+CRM est spécialisé dans la vente par Affaire et couvre les principaux domaines du 
+CRM
+ 
+: 
+ 
+3.1.1.1.
+ 
+Gestion des forces de vente
+ 
+,a gestion des forces de vente permet de gÃ©rer et maÃ®triser lâ€™ensemble des donnÃ©es de 
+vente de lâ€™entrepriseÇ¤
+ 
+Elle
+ 
+propose les modules s
+uivants
+ 
+: 
+ 
+ï¶
+ 
+Gestion des comptes (Clients, prospects, nombreuses possibilités de qualification, 
+hiérarchie et relations entre comptes,...)
+ 
+;
+ 
+ï¶
+ 
+Gestion des contacts (position dans les comptes, relations)
+ 
+;
+ 
+ï¶
+ 
+Gestion des leads, opportunités et affaires avec suivi 
+et analyse des 
+opportunités, 
+prÃ©visionnel,Ç¥
+ 
+ï¶
+ 
+Gestion des Ã©vÃ©nements et activitÃ©s (rdv, rÃ©unions via lâ€™agenda partagÃ©, gestion 
+et historisation des relations avec les clients ou prospects, rappel des activités à 
+mener, ...)
+ 
+;
+ 
+ï¶
+ 
+Gestion des contrats avec référe
+ntiel des contrats, gestion des renouvellements 
+(expiration, résiliation, reconduction)
+.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+34
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+3.1.1.2.
+ 
+Marketing
+ 
+Les fonctions avancées de gestion de contacts, de définition de cibles et de gestion des 
+campagnes permettent dâ€™optimiser lâ€™efficacitÃ© des actions marketingÇ¤
+ 
+La gestion du marketing propose les modules suivant
+ 
+: 
+ 
+ï¶
+ 
+Gestion des contacts avec catégorisation évoluée et personnalisable
+ 
+;
+ 
+ï¶
+ 
+Ciblage graphique de contacts (requêtes graphiques ou avancées)
+ 
+;
+ 
+ï¶
+ 
+Gestion des campagnes
+ 
+;
+ 
+ï¶
+ 
+Historisation des emails
+ 
+;
+ 
+ï¶
+ 
+Gestion des 
+documents
+.
+ 
+3.1.1.3.
+ 
+Service client
+ 
+Le service client offre une interface centralisée, se référençant aux bonnes pratiques 
+ITIL, pour la gestion des incidents, des demandes, leur suivi et traitement. Des tableaux 
+de bords permettent une analyse dÃ©taillÃ©e de lâ€™activi
+té du support.
+ 
+Le service client propose les modules suivants
+ 
+: 
+ 
+ï¶
+ 
+Gestion des incidents
+ 
+:
+ 
+les Ã©tats, les responsables, lâ€™historisation des actions, 
+envois de mails automatiques, temps passés,... 
+ 
+ï¶
+ 
+Gestion des contrats
+ 
+:
+ 
+référentiel des contrats, gestion des 
+renouvellements 
+(expiration, résiliation, reconduction)
+.
+ 
+3.1.2.
+ 
+2. 
+,es fonctionnalitÃ©s dâ€™/BM
+-
+GROUPWARE
+ 
+OBM
+-
+Groupware est un outil de travail collaboratif riche, puissant et complet.
+ 
+3.1.2.1.
+ 
+Agenda partagé
+ 
+ï¶
+ 
+Agenda dâ€™utilisateurs et de ressources
+ 
+;
+ 
+ï¶
+ 
+Vues multi planning et de
+ 
+groupes
+ 
+;
+ 
+ï¶
+ 
+Recherche évoluée des créne
+a
+ux libres (utilisateurs et ressources)
+ 
+;
+ 
+ï¶
+ 
+Gestion fine des droits et délégation
+ 
+;
+ 
+ï¶
+ 
+Gestion des conflits avec notification par e
+-
+mail (format ICS)
+ 
+;
+ 
+ï¶
+ 
+Manipulation de lâ€™agenda en "glisser/dÃ©poser" (Dragâ€™n Drop)
+.
+ 
+3.1.2.2.
+ 
+Carnet 
+dâ€™adresses
+ 
+ï¶
+ 
+Gestion des contacts privés et publics 
+ 
+ï¶
+ 
+CritÃ¨res de qualification/catÃ©gorisation dâ€™un contact
+ 
+3.1.2.3.
+ 
+Gestion des projets et des tâches
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+35
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+ï¶
+ 
+Suivi des projets
+ 
+;
+ 
+ï¶
+ 
+Etat de lâ€™avancement, planning
+ 
+;
+ 
+ï¶
+ 
+Gestion des temps.
+ 
+3.1.2.4.
+ 
+Partage des documents
+ 
+ï¶
+ 
+Dépôt de documents 
+ 
+ï¶
+ 
+Gestion de documents privés et publics 
+ 
+ï¶
+ 
+Vues arborescentes et bases de données 
+ 
+ï¶
+ 
+Documents liÃ©s au systÃ¨me dâ€™information 
+ 
+3.1.2.5.
+ 
+Synchronisation avec clients de messagerie
+ 
+ï¶
+ 
+Connecteur Outlook® (versions 2000, XP et 2003) 
+;
+ 
+ï¶
+ 
+Connecteur Thunderbird/Lightning 
+ 
+ï¶
+ 
+Connecte
+ur PDA
+ 
+:
+ 
+o
+ 
+Synchronisation directe ou via Outlook®
+ 
+o
+ 
+Support de très nombreux PDA 
+ 
+3.1.3.
+ 
+,es fonctionnalitÃ©s dâ€™/BM
+-
+PROJECT
+ 
+OBM
+-
+PROJECT est un outil de gestion de production orientée projets. Il couvre de 
+nombreux domaines tels que
+ 
+: 
+ 
+3.1.3.1.
+ 
+La gestion des temps et le suivi
+ 
+dâ€™activitÃ©
+ 
+Grâce à la gestion des temps, chaque collaborateur peut affecter ses journées (par 
+fraction) Ã  vos projets, quâ€™ils soient internes, facturÃ©s ou de rechercheÇ¤
+ 
+,a gestion des temps sâ€™appuie sur un formulaire dont les informations sont prÃ©
+-
+remplies 
+par les autres donnÃ©es dâ€™/BM
+ 
+: 
+ 
+ï¶
+ 
+la base utilisateurs pour les collaborateurs 
+ 
+ï¶
+ 
+les projets internes ou clients pour lâ€™affectation des temps 
+ 
+ï¶
+ 
+les tâches déclarées sur un 
+projet.
+ 
+Au quotidien, vos collaborateurs utilisent la gestion des temps pour indiquer, par une 
+interface simple et ergonomique, le temps passés par projet et par tâche. Cette 
+information alimente évidemment automatiquement le suivi de projets.
+ 
+OBM permet l
+a consolidation automatique des informations saisies dans la gestion des 
+temps pour analyser au plus près la gestion de vos projets. 
+ 
+3.1.3.2.
+ 
+La gestion des projets
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+36
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+OBM intègre un suivi de projets, qui vous permet de définir pour chaque projet
+ 
+:
+ 
+ï¶
+ 
+les intervenants, 
+ 
+ï¶
+ 
+les tâches pour chaque intervenant, 
+ 
+ï¶
+ 
+le temps affecté pour chaque tâche à un intervenant, 
+ 
+ï¶
+ 
+le temps restant pour chaque tâche. 
+ 
+GrÃ¢ce Ã  ces informations, ainsi quâ€™aux temps saisis quotidiennement par 
+des
+ 
+collaborateurs (la gestion des temps décrite ci
+-
+des
+sus) OBM calcule automatiquement 
+lâ€™avance/retard 
+du projet concerné
+.
+ 
+OBM 
+aux chefs
+ 
+de projets et à leurs équipes de mieux gérer 
+les
+ 
+projets en cours
+ 
+:
+ 
+ï¶
+ 
+Annuaire de projets (liÃ© Ã  lâ€™annuaire dâ€™affaire), 
+ 
+ï¶
+ 
+Formulaire de saisie des temps heures par heures sur les projets en cours (lié à 
+lâ€™annuaire de projets), 
+ 
+ï¶
+ 
+Statisques des heures effectués sur les projets en cours, 
+ 
+ï¶
+ 
+Etat dâ€™avancement du projet (temps affectÃ©s aux utilisateurs, temps restants, 
+avancement)
+.
+ 
+3.1.3.3.
+ 
+La gestion de documents
+ 
+Au cou
+r
+s dâ€™un projet, vous pouvez y rattacher des documents techniques importants 
+pour optimiser le partage et la diffusion des informations avec vos collaborateurs. 
+ 
+3.1.3.4.
+ 
+Le suivi comptable
+ 
+Chaque projet terminé est ensuite facturable.
+ 
+3.1.4.
+ 
+,es fonctionnalitÃ©s dâ€™/BM
+-
+LDAP
+ 
+OBM
+-
+LDAP 
+propose un socle commun de différents services réseaux. Il offre une plate
+-
+forme cohÃ©rente pour bÃ¢tir un systÃ¨me de fÃ©dÃ©ration dâ€™identitÃ©s uniqueÇ¤
+ 
+3.1.4.1.
+ 
+Gestion dâ€™utilisateurs et de groupes
+ 
+OBM
+-
+Ldap permet de gérer des uti
+lisateurs et des groupes via une interface orientée 
+utilisateurÇ¤ GrÃ¢ce une approche utilisateur et non technique de lâ€™administrationÇ¤
+ 
+ï¶
+ 
+Gestion des informations administratives
+ 
+;
+ 
+ï¶
+ 
+Gestion des autorisations
+ 
+;
+ 
+ï¶
+ 
+Gestion des services
+ 
+:
+ 
+o
+ 
+Messagerie
+ 
+;
+ 
+o
+ 
+Accès Internet 
+par Proxy
+ 
+;
+ 
+o
+ 
+Domaine Windows
+.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+37
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+ 
+3.1.4.2.
+ 
+Gestion dâ€™un annuaire partagÃ©
+ 
+OBM
+-
+,dap fournit un annuaire dâ€™entreprise complet, par salariÃ© et par service, utilisable 
+via LDAP.
+ 
+ï¶
+ 
+gestion dâ€™un annuaire ,DAP 
+ 
+ï¶
+ 
+gestion dâ€™un annuaire interne dâ€™utilisateurs
+ 
+;
+ 
+ï¶
+ 
+création et utilisati
+on des listes de diffusion et/ou dâ€™alias de groupes/services
+.
+ 
+3.1.4.3.
+ 
+Gestion de lâ€™accÃ¨s 
+I
+nternet
+ 
+Grâce à un service de proxy cache web, OBM
+-
+,DAP permet dâ€™optimiser la bande 
+passante et de gÃ©rer finement les droits dâ€™accÃ¨s aux sites ï¶ebÇ¤
+ 
+ï¶
+ 
+optimisation de la bande 
+passante par un système de cache
+ 
+;
+ 
+ï¶
+ 
+accès autorisé / interdit à internet
+ 
+;
+ 
+ï¶
+ 
+listes noires de sites interdits
+ 
+;
+ 
+ï¶
+ 
+listes blanches de sites autorisés
+ 
+;
+ 
+ï¶
+ 
+statistiques dâ€™utilisation dâ€™internet
+.
+ 
+3.1.4.4.
+ 
+Un service DNS interne
+ 
+OBM
+-
+Ldap contient un serveur DNS auto
+-
+renseigné 
+par les informations que vous entrez 
+concernant vos utilisateurs.
+ 
+ï¶
+ 
+serveur DNS interne
+ 
+;
+ 
+ï¶
+ 
+resolver DNS pour les domaines externes
+ 
+;
+ 
+ï¶
+ 
+automatiquement renseignÃ© dâ€™aprÃ¨s les machines recensÃ©es dans Aliamin
+ 
+;
+ 
+ï¶
+ 
+implification de lâ€™administration et de la configurati
+on de vos postes
+.
+ 
+3.1.5.
+ 
+,es fonctionnalitÃ©s dâ€™/BM
+-
+Mail
+ 
+OBM
+-
+Mail est une plate
+-
+forme de messagerie complète et évoluée offrant une interface 
+simple et intégrée.
+ 
+3.1.5.1.
+ 
+Gestion de la messagerie
+ 
+OBM
+-
+Mail permet de gÃ©rer lâ€™ensemble de lâ€™infrastructure de messagerie
+ 
+: 
+ 
+ï¶
+ 
+support des protocoles SMTP, POP et IMAP
+ 
+;
+ 
+ï¶
+ 
+envoi de mails, avec distinction des flux internes et externes
+ 
+;
+ 
+ï¶
+ 
+stockage des e
+-
+mails pour les utilisateurs autorisés
+ 
+;
+ 
+ï¶
+ 
+anti
+-
+virus sur les flux entrants et sortants
+ 
+;
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+38
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+ï¶
+ 
+anti
+-
+spam sur les flux entrants et sortants.
+ 
+D
+e plus, OBM
+-
+Mail donne accès aux utilisateurs des outils pour une gestion fine de leur 
+messagerie
+ 
+: 
+ 
+ï¶
+ 
+,â€™utilisateur peut avoir accÃ¨s Ã  lâ€™ensemble des fonctionnalitÃ©s ou juste Ã  la 
+messagerie interne
+ 
+;
+ 
+ï¶
+ 
+Chaque utilisateur dispose dâ€™un no
+mbre illimité 
+dâ€™adresses email
+ 
+;
+ 
+ï¶
+ 
+Chaque utilisateur peut se voir affecter un quota, 
+ 
+ï¶
+ 
+,â€™utilisateur peut gÃ©rer son mot de passe, 
+ 
+ï¶
+ 
+,â€™utilisateur peut activer lâ€™utilisation dâ€™un message dâ€™absenceÇ¤ )l peut Ãªtre 
+personnel et modifiable, 
+ 
+ï¶
+ 
+,â€™utilisateur peut effectuer un renvo
+i de messages vers une adresse externe ou 
+interne.
+ 
+3.1.5.2.
+ 
+Gestion de la sécurité de la messagerie
+ 
+OBM
+-
+Mail sÃ©curise lâ€™ensemble des flux entrants et sortants de messagerie et de ï¶ebÇ¤ 
+Virus et spams sont combattus par des solutions libres sélectionnées par AliaSour
+ce. 
+ 
+ï¶
+ 
+filtrage des flux entrants et sortants de messagerie
+ 
+;
+ 
+ï¶
+ 
+iltrage des flux web
+ 
+;
+ 
+ï¶
+ 
+protection anti
+-
+virale
+ 
+;
+ 
+ï¶
+ 
+protection anti
+-
+spam
+ 
+;
+ 
+ï¶
+ 
+mises à jours automatiques et transparentes des bases de données de 
+virus/spam.
+ 
+3.1.5.3.
+ 
+Synchronisation autour des clients de message
+rie
+ 
+ï¶
+ 
+Outlook® (synchronisation, outils de migration de calendriers et contacts, 
+déploiements silencieux, intégration messagerie
+-
+CRM,...) 
+ 
+ï¶
+ 
+Thunderbird/,ightning (outils dâ€™aide au dÃ©ploiement et Ã  la configuration 
+automatique dâ€™un client)Ç¤
+ 
+3.1.6.
+ 
+Les fonctionnalités
+ 
+dâ€™/BM
+-
+SYNC
+ 
+Outil de gestion de la mobilité et des connexions messageries, OBM
+-
+Sync est une 
+plateforme de synchronisation pour OBM permettant de synchroniser les agendas, les 
+contacts et les tâches de OBM
+-
+Groupware ou OBM
+-
+CRM avec
+ 
+: 
+ 
+ï¶
+ 
+Clients lourds de type
+ 
+MS Outlook 2000, XP et 2003, Mozilla Sunbird, 
+ 
+ï¶
+ 
+Les PDA ou assistants personnels,
+ 
+OBM
+-
+Sync propose trois connecteurs
+ 
+:
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+39
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+3.1.6.1.
+ 
+Le connecteur Outlook® versions 2000, XP et 2003
+ 
+ï¶
+ 
+Synchronisation des agendas, contacts et tâches automatique ou manuelle
+ 
+;
+ 
+ï¶
+ 
+Gestion 
+Multi
+-
+utilisateurs et vues multi
+-
+utilisateurs
+ 
+;
+ 
+ï¶
+ 
+Très performant (MAPI pur et web services)
+ 
+;
+ 
+ï¶
+ 
+Respect des droits fins (lecture / délégation) des droits et utilisateurs définis 
+dans OBM
+ 
+;
+ 
+ï¶
+ 
+/utils dâ€™aide Ã  la migration qui permettent la rÃ©cupÃ©ration ou la migr
+ation simple 
+des données depuis un Outlook existant vers OBM
+ 
+;
+ 
+ï¶
+ 
+Intégration totale dans Outlook®
+ 
+;
+ 
+ï¶
+ 
+Compatibilité avec les synchronisations PDA
+ 
+3.1.6.2.
+ 
+Le connecteur Thunderbird/Lightning
+ 
+ï¶
+ 
+Synchronisation des agendas et contacts automatique ou manuelle
+ 
+;
+ 
+ï¶
+ 
+Gestion mono
+-
+utilisateurs
+.
+ 
+3.1.6.3.
+ 
+Le connecteur PDA
+ 
+Deux méthodes de synchronisation
+ 
+: Soit directement via le connecteur PDA (sans 
+passer par un client lourd) ou en utilisant le client de messagerie Outlook® et le 
+connecteur OBM/Outlook® 
+ 
+ï¶
+ 
+FacilitÃ© dâ€™utilisation et gain de t
+emps car plus besoin dâ€™Ãªtre connectÃ© au serveur 
+OBM pour consulter son calendrier ou chercher un contact, 
+ 
+ï¶
+ 
+Synchronisation performante, 
+ 
+ï¶
+ 
+Gestion de synchronisation des contacts prives et/ou publics, 
+ 
+ï¶
+ 
+Support de la majorité des PDA du marché (Windows Mobile
+, Symbian, Black 
+berry,...), 
+ 
+ï¶
+ 
+Utilisation des fonctionnalités natives de synchronisation des PDA quand 
+disponible (SyncML,...), 
+ 
+ï¶
+ 
+Outil évolutif.
+ 
+ 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+Intranet 
+-
+ 
+Travail Collaboratif
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+40
+ 
+Licence Informatique
+ 
+et Réseau
+ 
+Bibliographie 
+ 
+ï¶
+ 
+Chaptal Alain (2009). «
+ 
+Rhapsodie sur la collaboration
+ 
+: Le travail collaboratif
+ 
+». 
+Les 
+dossiers de l'ingénierie éducative,
+ 
+n°
+ 
+65, p.
+ 
+88
+-
+90. 
+ 
+ï¶
+ 
+Dalle Jean
+-
+Michel (2009). «
+ 
+La création de ressources éducatives par les 
+communautés d'enseignants à l'ère d'Internet
+ 
+: Le travail collaboratif
+ 
+». 
+Les 
+dossiers de l'ingénierie éducative,
+ 
+n°
+ 
+65, p.
+ 
+84
+-
+87
+. 
+ 
+ï¶
+ 
+Devouard Florence & Paumier Guillaume (2009). 
+Wikipédia
+ 
+: Découvrir, utiliser, 
+contribuer.
+ 
+Grenoble
+ 
+: Presses universitaires de Grenoble. 
+ 
+ï¶
+ 
+Gueudet Ghislaine & Trouche Luc (2009). «
+ 
+Conception et usages de ressources 
+pour et par les professeurs. développ
+ement associatif et développement 
+professionnel
+ 
+: Le travail collaboratif
+ 
+». 
+Les dossiers de l'ingénierie éducative,
+ 
+n°
+ 
+65, p.
+ 
+76
+-
+80. 
+ 
+ï¶
+ 
+Mallein Philippe (2009). «
+ 
+Penser paradoxal pour innover autrement
+ 
+». In 
+Comment coproduire et organiser les connaissance
+s
+ 
+?
+ 
+Autrans, 7
+-
+9 janvier 2009. 
+ 
+ï¶
+ 
+Nussbaum Miguel, Alvarez Claudio & McFarlane Angela 
+et al.
+ 
+(2009). 
+«
+ 
+Technology as small group face
+-
+to
+-
+face Collaborative Scaffolding
+ 
+». 
+Computers & 
+Education,
+ 
+vol.
+ 
+52, n°
+ 
+1, p.
+ 
+147
+-
+153. 
+ 
+ï¶
+ 
+Peterson Elisha (2009). «
+ 
+Using a Wi
+ki to Enhance Cooperative Learning in a Real 
+Analysis Course
+ 
+». 
+Primus: Problems, Resources & Issues in Mathematics 
+Undergraduate Studies
+, vol.
+ 
+19, n°
+ 
+1, p.
+ 
+18
+-
+28. 
+ 
+ï¶
+ 
+Pisani Francis & Piotet Dominique (2008). 
+Comment le web change le monde
+ 
+: 
+L'alchimie des m
+ultitudes.
+ 
+Paris
+ 
+: Pearson. 
+ 
+ï¶
+ 
+Pochard Marcel (2008). 
+Livre vert sur l'évolution du métier d'enseignant.
+ 
+Paris
+ 
+: 
+Ministère de l'Éducation nationale. 
+ 
+ï¶
+ 
+Sauter Mireille, Combes Marie
+-
+Claire & De Crozals Aurélia 
+et al.
+ 
+(2008). «
+ 
+Une 
+communauté d'enseignants pour
+ 
+une recherche collaborative de problèmes
+ 
+». 
+Repères,
+ 
+n°
+ 
+72, p.
+ 
+25
+-
+45. 
+ 
+ï¶
+ 
+Stahl Gerry (2009). «
+ 
+Yes we can!
+ 
+». 
+Computer
+-
+Supported Collaborative Learning,
+ 
+vol.
+ 
+4, n°
+ 
+1. 
+ 
+ï¶
+ 
+Surowiecki James (2008). La Sagesse des foules. Paris : Éditions Jean
+-
+Claude 
+Lattès. 
+ 

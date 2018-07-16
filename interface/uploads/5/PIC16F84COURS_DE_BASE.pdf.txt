@@ -1,0 +1,563 @@
+ 1
+ 
+ 
+ 
+ 
+ 
+ 
+Les microcontrôleurs  
+PIC 
+de Microchip 
+ 
+Le 16F84 
+ 
+ 
+ 
+ 
+ 2
+Sommaire 
+ 
+INTRODUCTION ......................................................................................................................3 
+Le PIC 16F84....................................................................................................................4
+Aspect externe du 16F84............................................................................................4
+La mémoire programme (flash)...................................................................................5
+La mémoire RAM - Rrgistres........................................................................................5
+L'ALU et le registre W.................................................................................................5
+...................................................................................................................6
+Le ports d' E/S PORTA................................................................................................6
+Le ports d' E/S PORTB................................................................................................7
+Le Timer TMR0..........................................................................................................7
+Le Timer Watchdog WDT (Chien de garde)..................................................................8
+Le mode SLEEP..........................................................................................................8
+La mémoire EEPROM de configuration.........................................................................9
+La mémoire EEPROM de données................................................................................9
+I.12.1Procédure de lecture dans l'EEPROM de données................................................10
+I.12.2Procédure d'écriture dans l'EEPROM de données.................................................10
+......................................................................................................10
+I.13.1Déroulement d'une interruption.........................................................................10
+I.13.2L'interruption INT (Entrée RBO DU PORTB)........................................................11
+I.13.3L'interruption RBI (RB4 A RB7 DU PORTB)..........................................................11
+I.13.4L'interruption T0I : Débordement du Timer TMR0...............................................11
+I.13.5L'interruption EEI : Fin d'écriture dans l'EEPROM.................................................11
+..................................................................................................11
+Le conteur programme.............................................................................................11
+I.15.1GOTO calculé....................................................................................................12
+Les indicateurs.........................................................................................................12
+.........................................................................................12
+I.17.1Les instructions « orientées octet » (adressage direct)........................................12
+I.17.2Les instructions « orientées bits »......................................................................13
+I.17.3Les instructions opérant sur une donnée (adressage immédiat)...........................13
+I.17.4 et appel de procédures..................................................13
+I.17.5Le jeu d'instructions..........................................................................................14
+I.17.6Etat de quelque registre à l'initialisation..............................................................14
+............................................................................................15
+Deux mot sur MPLAB................................................................................................15
+Les directives de MPASM..........................................................................................16
+II.2.1Les directives les plus utilisées...........................................................................16
+Format des nombres................................................................................................17
+Structure d'un programme écrit en assembleur..........................................................17
+Exemples de programme..........................................................................................19
+...............................................................................................................22
+ 
+ 3
+ 
+ 
+INTRODUCTION 
+ 
+Un PIC est un microcontrôleur, c&#146;est une unité de traitement de l&#146;information de type microprocesseur à laquelle on a ajouté des périphériques internes permettant de faciliter l'interfaçage avec le monde extérieur sans nécessiter l&#146;ajout de composants externes. 
+ 
+Les PICs sont des composants RISC (Reduce Instructions Construction Set), ou encore composant à jeu d&#146;instructions réduit. L'avantage est que plus on réduit le nombre d&#146;instructions, plus facile et plus rapide en est le décodage, et plus vite le composant fonctionne. 
+ 
+La famille des PICs est subdivisée en 3 grandes familles : La famille Base-Line, qui utilise des mots d&#146;instructions de 12 bits, la famille Mid-Range, qui utilise des mots de 14 bits (et dont font partie la 16F84 et 16F876), et la famille , qui utilise des mots de 16 bits. 
+ 
+Nous nous limiterons dans ce document à la famille Mid-Range et particulièrement au PIC 16F84, sachant que si on a tout assimilé, on pourra facilement passer à une autre famille, et même à un autre microcontrôleur. 
+ 
+Pour identifier un PIC, on utilise simplement son numéro : 
+Les 2 premiers chiffres indiquent la catégorie du PIC, 16 indique un PIC Mid-Range. 
+Vient ensuite parfois une lettre L, celle-ci indique que le PIC peut fonctionner avec une plage de tension beaucoup plus tolérante. 
+Vient en suite une ou deux lettres pour indiquer le type de mémoire programme : 
+ 
+ indique que la mémoire programme est une EPROM ou plus rarement une EEPROM 
+ pour indiquer une mémoire de type ROM 
+ pour indiquer une mémoire de type FLASH. 
+On trouve ensuite un nombre qui constitue la référence du PIC. 
+ indiquant la fréquence d&#146;horloge maximale que le PIC peut recevoir. 
+ 
+Donc, un 16F84-04 est un PIC Mid-Range donc référence  84 et capable d&#146;accepter une fréquence d&#146;horloge de 4MHz. 
+ 
+Notez que les PICs sont des composants STATIQUES, c&#146;est à dire que la fréquence d&#146;horloge peut être abaissée jusque l&#146;arrêt complet sans perte de données et sans dysfonctionnement. Une version &#150;10 peut donc toujours être employée sans problème en lieu et place d&#146;une &#150;04. Pas l&#146;inverse, naturellement. 
+ 
+Pourquoi choisir un PIC ? 
+Les performances sont identiques voir supérieurs à ses concurrents 
+Les prix sont les plus bas du marché 
+Très utilisé donc très disponible 
+Les outils de développement sont gratuits et téléchargeables sur le WEB 
+Le jeu d'instruction réduit est souple, puissant et facile à maîtriser 
+Les versions avec mémoire flash présentent une souplesse d'utilisation et des avantages 
+La communauté des utilisateurs des PICs est très présente sur le WEB. On trouve sur le net quasiment tout ce dont on a besoin, tutoriaux pour démarrer, documents plus approfondis, schémas de programmeurs avec les logiciels qui vont avec, librairies de routines, forums de discussion . . . 
+ 
+ 
+ 5
+ 
+La mémoire programme (flash) 
+Cette mémoire de 1024 mots stocke le programme. Elle est non volatile et reprogrammable à souhait. Chaque position de 14 bits contient une instruction. L'emplacement du programme peut se situer à n'importe quel endroit de la mémoire. Cependant il faut savoir que suite à un RESET ou lors de la mise sous tension, le PIC commence l'exécution à l'adresse 0000
+H
+. De plus, lorsqu'il y a une interruption, le PIC va à l'adresse 0004
+H
+. Il est donc conseillé de placer le début du 
+H
+ et de mettre un branchement au début du programme à l'adresse  0000
+H
+ et un branchement au début de la routine d'interruption s'il y en a une à l'adresse  
+H
+. Le programme est implanté dans la flash à l'aide d'un programmateur (hard+soft) sur lequel nous reviendrons dans la suite de ce document. 
+ 
+I.3 La mémoire RAM - Rrgistres 
+La mémoire RAM est constituée de deux parties : 
+ 
+ Les registres SFR 
+(Special Function 
+, ce sont les registres de fonctionnement du PIC. L'ensemble de ces registres est souvent appelé fichier des registres. Nous reviendrons sur ces registres tout le long de ce document. 
+ 
+ Les registres GPR 
+(General Propose 
+ sont des positions mémoire que l'utilisateur peut utilisvariables et ces données. On remarquera donc que, indépendamment de leur nature, les position de la RAM sont toujours appelé registres 
+ 
+bank 0 
+bank 1 
+ 
+00 
+INDF 
+INDF 
+80 
+01 
+TMR0 
+OPTION 
+81 
+02 
+PCL 
+PCL 
+82 
+03 
+STATUS 
+STATUS 
+83 
+04 
+FSR 
+FSR 
+84 
+05 
+PORTA 
+TRISA 
+85 
+06 
+PORTB 
+TRISB 
+86 
+07 
+ 
+ 
+87 
+08 
+EEDATA 
+EECON1 
+88 
+09 
+EEADR 
+EECON2 
+89 
+0A 
+PCLATH 
+PCLATH 
+8A 
+0B 
+INTCON 
+INTCON 
+8B 
+0C 
+. 
+. 
+. 
+. 
+. 
+ 
+ 
+ 
+Mémoire 
+ 
+ 
+ 
+8C 
+. 
+. 
+. 
+. 
+. 
+ 
+La mémoire RAM est organisée en deux banks, pour accéder à un registre, il faut d'abord se placer dans le bank où il se trouve. Ceci est réalisé en positionnant le bit RP0 du registre STATUS. (RP0 = 0  Bank 0,  RP0 = 1  Bank 1) 
+Maped in bank0 
+utilisateur 
+4F 
+CF 
+ 
+Registre STATUS 
+IRP 
+RP1 
+RP0 
+TO 
+PD 
+Z 
+DC 
+C 
+ 
+ilisation des pages (Bank ) n'est pas nécessaire puisque le Bank 1 est "mapped" avec le Bank0. Cela signifie qu'écrire une donnée à l'adresse 0C
+H
+ ou à l'adresse 
+H
+ revient au même. 
+ 
+L'ALU et le registre W 
+arithmétique et logique entre l'accumulateur W et n'importe quel autre registre 'F' ou constante K. L'accumulateur W est un registre de travail 8 bits, il n'a pas d'adresse comme les autres SFR. Pour les instructions à deux opérandes, c'est toujours lui qui contient un des deux opérandes. Pour les instructions à un opérande, celui-ci peut être soit W soit n'importe quel registre F. Le résultat de l'opération peut être placé soit dans le registre de travail W soit dans le registre F.  
+ 
+ 
+ 
+ 6
+L'Horloge 
+L'horloge peut être soitL'horloge interne est constituée d'un oscillateur à quartz ou d'un oscillateur RC. 
+ 
+Avec l'oscillateur à Quartz, on peut avoir des fréquences allant jusqu'à 4, 10 ou   20 MHz selon le type de µC. Le filtre passe bas RS, C2 limite les harmoniques dus à l&#146;écrêtage et Réduit l&#146;amplitude de l&#146;oscillation. (il n'est pas obligatoire) 
+ 
+Avec un oscillateur RC, la fréquence de l'oscillation est fixée par Vdd, Rext et Cext. Elle peut varier légèrement d'un circuit à l'autre.  
+ 
+Dans certains cas, une horloge externe au microcontrôleur peut être utilisée pour synchroniser le PIC sur un processus particulier.  
+ 
+Quelque soit l'oscillateur utilisé, l'horloge système dite aussi horloge instruction est obtenue en divisant la fréquence par 4. Dans la suite de ce document on utilisera le terme Fosc/4 pour désigner l'horloge 
+ 
+Avec un quartz de 4 MHz, on obtient une horloge instruction de 1 MHz, soit le temps pour exécuter une instruction de 1µs. 
+ 
+I.6 Le port d' E/S PORTA 
+Le port A désigné par PORTA est un port de 5 bits (RA0 à RA4). Chaque E/S est compatible TTL. La configuration de direction pour chaque bit du port est déterminée avec le registre TRISA. 
+ de TRISA = 0  de PORTA  configuré en sortie
+ de TRISA = 1  de PORTA  configuré en entrée
+ 
+La broche RA4 est multiplexée avec l'entrée horlsoit comme E/S normale du port A, soit comme entrée horloge pour le 
+Timer
+ TMR0, le choix se fait à l'aide du bit T0CS du registre OPTION_REG. 
+T0CS = 0   RA4 est une E/S normale 
+T0CS = 1   RA4 = horloge externe pour le timerTMR0 
+ 
+RA4 est une E/S à drain ouvert, si on veut l'utiliser comme sortie (pour allumer une LED par exemple), il ne faut pas oublier de mettre une résistance externe vers Vdd. Le schéma ci contre illustre (pour les non électronicien) le principe d'une sortie drain ouvert (ou collecteur ouvert) : si RA4 est positionnée à 0, l'interrupteur est fermé, la sortie est reliée à la masse. Si RA4 est placée à 1, l'interrupteur est ouvert, la sortie est déconnectée d'où la nécessite de la résistance externe pour amener le courant de l'alimentation vers la LED. (la valeur de 1k est donnée à titre indicatif, à vous d'ajuster selon votre application) 
+Vdd 
+1k
+RA4 
+LED 
+ 
+Registre OPTION_REG 
+RBPU 
+INTEDG
+TOCS
+TOSE
+PSA 
+PS2 
+PS1 
+PS0 
+ 
+ 
+ 13
+ 
+6 bits pour l&#146;instruction : logique, car comme il y a 35 instructions, il faut 6 bits pour pouvoir 
+ 
+1 bit (d) pour indiquer si le résultat obtenu doit être conservé dans le registre de travail (accumulateur) W de l&#146;unité de calcul (W pour Work) ou sauvé dans un registre F (F pour File).  
+ 
+Reste 7 bits pour encoder l'adresse de l&#146;opérande (128 positions au total) 
+ 
+Problème ! 7 bits ne donnent pas accès à la mémoire RAM totale, donc voici l&#146;explication de la division de la RAM en deux banks. Pour remplacer le bit manquant, on utilise le bit RP0 du registre 
+Bien qu'on ne l'utilise pas sur le 16F84, le bit RP1 est aussi réservé pour le changement de bank, le 16F876 par exemple possède  4 banks. 
+ 
+I.17.2Les instructions « orientées bits » 
+Ce sont des instructions destinées à manipuler directement les bits d&#146;un registre d'une case de la manière suivante : 
+ 
+4 bits pour l&#146;instruction 
+3 bits pour indiquer le numéro du bit à manipuler (de  0 à 7) 
+7 bits pour indiquer l&#146;opérande. 
+ 
+I.17.3Les instructions opérant sur une donnée (adressage immédiat) 
+Ce sont les instructions qui manipulent des données qui sont codées dans l&#146;instruction directement. Elles sont codées de la manière suivante : 
+ 
+L&#146;instruction est codée sur 6 bits 
+Elle est suivie d&#146;une valeur IMMEDIATE codée sur 8 bits (donc de 0 à 255). 
+ 
+I.17.4Les instructions de saut et appel de procédures 
+Ce sont les instructions qui provoquent une rupture dans la séquence de déroulement du de la manière suivante : 
+-   Les instructions sont codées sur 3 bits 
+La destination est codée sur 11 bits 
+Nous pouvons déjà en déduire que les sauts ne donnent accès qu&#146;à 2K de mémoire 
+11
+). Pas de problème pour le 16F84 qui ne possède que 1k de mémoire programme. 
+ 
+I.17.5Exemples d'instruction 
+ 
+MOVWF    F  ; recopie W dans le registre d'adresse F :  W                 
+ désigne l'adresse de n'importe quel registre SFR ou GPR. Pour les registres SFR, on peut utiliser leurs noms à condition d'inclure le fichier p16F84.inc dans le programme 
+MOVWF 0x2C  ; recopie W dans la case mémoire d'adresse 2C
+h
+MOVWF EEDATA ; recopie W dans le registre EEDATA 
+MOVF  0x08  ; recopie W dans le registre EEDATA 
+F 
+W
+d=1 
+d=0
+ 
+ ; recopie le registre F soit dans W soit dans lui-même 
+Recopier un registre sur lui-même peut paraître sans intérêt, mais comme l'instruction positionne les indicateurs, cela peut s'avérer intéressant   
+ 
+ 14
+I.17.6Le jeu d'instructions 
+ 
+INSTRUCTIONS OPERANT SUR REGIST
+indicateurs 
+Cycles
+ADDWF F,d 
+ {W,F ? d} 
+C,DC,Z 
+1 
+ANDWF F,d 
+ {W,F ? d} 
+Z 
+1 
+CLRF F 
+Clear F 
+Z 
+1 
+CLRW 
+Clear W 
+Z 
+1 
+CLRWDT 
+Clear Watchdoc timer 
+TO', PD' 
+1 
+COMF F,d 
+Complémente F  {W,F ? d} 
+Z 
+1 
+DECF F,d 
+décrémente F  {W,F ? d} 
+Z 
+1 
+DECFSZ F,d 
+décrémente F  {W,F ? d} skip if 0 
+ 
+1(2) 
+INCF F,d 
+incrémente F  {W,F ? d} 
+Z 
+1 
+INCFSZ F,d 
+incrémente F  {W,F ? d} skip if 0 
+ 
+1(2) 
+IORWF F,d 
+W or F   {W,F ? d} 
+Z 
+1 
+MOVF F,d 
+ {W,F ? d} 
+Z 
+1 
+MOVWF F 
+W  F 
+ 
+1 
+RLF F,d 
+rotation à gauche de F a travers C  
+C 
+1 
+RRF F,d 
+rotation à droite de F a travers C   {W,F ? d} 
+ 
+1 
+SUBWF F,d 
+F &#150; W  {W,F ? d} 
+C,DC,Z 
+1 
+SWAPF F,d 
+permute les 2 quartets de F  {W,F ? d} 
+ 
+1 
+XORWF F,d 
+W xor F  {W,F ? d} 
+Z 
+1 
+ 
+ 
+ 
+ 
+INSTRUCTIONS OPERANT SUR BIT
+ 
+ 
+BCF F,b 
+RAZ du bit b du registre F 
+ 
+1 
+BSF F,b 
+RAU du bit b du registre F 
+ 
+1 
+BTFSC F,b 
+teste le bit b de F, si 0 saute une instruction 
+ 
+1(2) 
+BTFSS F,b 
+teste le bit b de F, si 1 saute une instruction 
+ 
+1(2) 
+ 
+ 
+ 
+ 
+INSTRUCTIONS OPERANT SUR DONNEE (Immediat)
+ 
+ 
+ADDLW K 
+W + K  W 
+C,DC,Z 
+1 
+ANDLW K 
+W and K  W 
+Z 
+1 
+IORLW K 
+W or K 
+Z 
+1 
+MOVLW K 
+K  W 
+ 
+1 
+SUBLW K 
+K &#150; W  W 
+C,DC,Z 
+1 
+XORLW K 
+W xor K  W 
+Z 
+1 
+ 
+ 
+ 
+ 
+INSTRUCTIONS GENERALES
+ 
+ 
+CALL L 
+Branchement à un sous programme de label L 
+ 
+2 
+GOTO L 
+branchement à la ligne de label L 
+ 
+2 
+NOP 
+No operation 
+ 
+1 
+RETURN 
+retourne d'un sous programme 
+ 
+2 
+RETFIE 
+Retour d'interruption 
+ 
+2 
+RETLW K 
+retourne d'un sous programme avec K dans W 
+ 
+2 
+SLEEP 
+se met en mode standby 
+TO', PD' 
+1 
+ 
+{W,F ? d}  signifie que le résultat va soit dans  W si d=0 ou w, soit dans F si d= 1 ou f 
+ 
+I.17.7Etat de quelque registre à l'initialisation 
+ 
+STATUS 
+IRP 
+RP1 
+RP0 
+TO 
+PD 
+Z 
+DC 
+C 
+000x xxxx
+ 
+ 
+TRISA 
+- - -1 1111
+ 
+OPTION_REG 
+RBPU 
+INTEDG 
+TOCS 
+TOSE
+ 
+PSA 
+PS2 
+PS1 
+PS0 
+1111 1111 
+ 
+TRISB 
+1111 1111
+ 
+INTCON 
+GIE 
+EEIE 
+T0IF 
+INTE 
+RBIE 
+T0IF 
+INTF 
+RBIF 
+0000 000x
+ 
+ 
+PORTA 
+- - -x xxxx
+ 
+EECON1 
+- 
+- 
+- 
+EEIF 
+WRERR
+ 
+WREN
+ 
+WR 
+RD 
+- - -0 x000
+ 
+ 
+PORTB 
+xxxx xxxx 
+ 
+ 1
+ 
+ 
+ 
+ 
+ 
+ 
+Les microcontrôleurs  
+PIC 
+de Microchip 
+ 
+Le 16F84
+ 
+ 
+ 
+ 

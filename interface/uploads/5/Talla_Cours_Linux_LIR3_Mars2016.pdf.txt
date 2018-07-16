@@ -1,0 +1,13112 @@
+ENVIRONNEMENT 
+LINUX
+ 
+ 
+par
+ 
+ 
+Narcisse 
+TALLA
+ 
+UniversitÈ de Dschang
+ 
+Narcisse.talla@univ
+-
+dschang.org
+ 
+Support de cours
+ 
+Mars 2016
+ 
+ 
+Licence Informatique 
+ 
+IUT Fotso Victor de Bandjoun
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+i
+ 
+LIR 2016
+ 
+SOM
+M
+AIRE
+ 
+SOMMAIRE
+ 
+ 
+................................
+................................
+................................
+............................
+ 
+i
+ 
+Chapitre 1.
+ 
+Fondamentaux sur l‚Äôenvironnement Linux
+ 
+................................
+.......
+ 
+1
+ 
+1.1.
+ 
+Introduction
+ 
+................................
+................................
+................................
+................................
+....
+ 
+1
+ 
+1.1.1.
+ 
+DÈfinition de Linux
+ 
+................................
+................................
+................................
+.............
+ 
+1
+ 
+1.1.2.
+ 
+La communautÈ Linux
+ 
+................................
+................................
+................................
+.......
+ 
+1
+ 
+1.
+1.3.
+ 
+Logiciel libre et le GPL
+ 
+................................
+................................
+................................
+.......
+ 
+1
+ 
+1.1.4.
+ 
+Les diffÈrentes licences d'utilisation des logiciels
+ 
+................................
+.................
+ 
+2
+ 
+1.2.
+ 
+Historique des systËmes Unix
+ 
+................................
+................................
+................................
+.
+ 
+2
+ 
+1.3.
+ 
+CaractÈristiques des systËmes Unix
+ 
+................................
+................................
+......................
+ 
+3
+ 
+1.3.1.
+ 
+CaractÈristiques de Linux
+ 
+................................
+................................
+................................
+ 
+3
+ 
+1.3.2.
+ 
+Les distributions Linux
+ 
+................................
+................................
+................................
+.....
+ 
+4
+ 
+Chapitre 2.
+ 
+Environnement GNU/Linux
+ 
+................................
+................................
+.....
+ 
+7
+ 
+2.1.
+ 
+Installation de Linux
+ 
+................................
+................................
+................................
+....................
+ 
+7
+ 
+2.
+1.1.
+ 
+PrÈparation ‡ l'installation de Linux
+ 
+................................
+................................
+...........
+ 
+7
+ 
+2.1.2.
+ 
+Partitionnement des disques
+................................
+................................
+..........................
+ 
+7
+ 
+2.1.3.
+ 
+SystËmes de fichiers journalisÈs
+ 
+................................
+................................
+...................
+ 
+9
+ 
+2.1.4.
+ 
+PrÈsentation des environnements graphiques
+ 
+................................
+.......................
+ 
+9
+ 
+2.1.5.
+ 
+Les disques durs et les partitions
+ 
+................................
+................................
+..............
+ 
+12
+ 
+2.2.
+ 
+Configuration rÈseau et Linux
+ 
+................................
+................................
+..............................
+ 
+14
+ 
+2.2.1.
+ 
+Informations indispensables
+ 
+................................
+................................
+.......................
+ 
+14
+ 
+2.2.2.
+ 
+Configuration initiale lors de l'installation
+ 
+................................
+............................
+ 
+15
+ 
+2.2.3.
+ 
+Interface Ethernet
+ 
+................................
+................................
+................................
+............
+ 
+15
+ 
+2.2.4.
+ 
+Fichiers de configuration
+ 
+................................
+................................
+..............................
+ 
+15
+ 
+2.3.
+ 
+Installer un chargeur ou booter Linux
+ 
+................................
+................................
+..............
+ 
+16
+ 
+2.4.
+ 
+Gestion des packages et applications
+ 
+................................
+................................
+................
+ 
+17
+ 
+2.4.1.
+ 
+Les commandes usuelles
+ 
+................................
+................................
+...............................
+ 
+18
+ 
+2.5.
+ 
+Outils communs d'utilisation d'un rÈseau sous Unix.
+ 
+................................
+.................
+ 
+19
+ 
+2.5.1.
+ 
+Quelques fichiers importants
+ 
+................................
+................................
+......................
+ 
+19
+ 
+2.6.
+ 
+Quelques commandes utiles
+................................
+................................
+................................
+..
+ 
+20
+ 
+2.7.
+ 
+Prise en main du shell
+ 
+................................
+................................
+................................
+..............
+ 
+22
+ 
+2.7.1.
+ 
+Commandes usuelles d'Unix
+ 
+................................
+................................
+........................
+ 
+22
+ 
+2.7.2.
+ 
+MÈtacaractËres du shell
+ 
+................................
+................................
+................................
+.
+ 
+24
+ 
+2.7.3.
+ 
+CrÈation de liens
+ 
+................................
+................................
+................................
+...............
+ 
+24
+ 
+2.8.
+ 
+SystËme de fichiers
+ 
+................................
+................................
+................................
+...................
+ 
+24
+ 
+2.8.
+1.
+ 
+Structure du systËme de fichiers
+ 
+................................
+................................
+...............
+ 
+25
+ 
+2.8.2.
+ 
+La gestion des droits d'accËs aux fichiers
+ 
+................................
+...............................
+ 
+25
+ 
+Chapitre 3.
+ 
+Gestion des droits et Initiation au Shell
+ 
+................................
+...........
+ 
+27
+ 
+3.1.
+ 
+R√¥le de l‚Äôadministrateur r√©seau sous Unix
+ 
+................................
+................................
+......
+ 
+27
+ 
+3.2.
+ 
+Gestion des utilisateurs
+ 
+................................
+................................
+................................
+...........
+ 
+27
+ 
+3.2.1.
+ 
+Notion d‚Äôutilisateur
+ 
+................................
+................................
+................................
+.........
+ 
+27
+ 
+3.2.2.
+ 
+Le systËme d'authentification et ses composants
+ 
+................................
+...............
+ 
+27
+ 
+3.3.
+ 
+Initiation au Shell
+................................
+................................
+................................
+.......................
+ 
+32
+ 
+3.3.1.
+ 
+Jokers
+ 
+................................
+................................
+................................
+................................
+....
+ 
+32
+ 
+3.3.2.
+ 
+Groupement de commandes
+ 
+................................
+................................
+........................
+ 
+32
+ 
+3.3.3.
+ 
+Les redirections
+ 
+................................
+................................
+................................
+................
+ 
+32
+ 
+3.3.4.
+ 
+Editeurs de textes et utilitaires Unix
+ 
+................................
+................................
+........
+ 
+33
+ 
+Chapitre 4.
+ 
+Utilitaires
+ 
+................................
+................................
+................................
+....
+ 
+35
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+ii
+ 
+LIR 2016
+ 
+4.1.
+ 
+Outils multimÈdia sous Linux
+ 
+................................
+................................
+...............................
+ 
+35
+ 
+4.1.1.
+ 
+Outils de musique
+ 
+................................
+................................
+................................
+............
+ 
+35
+ 
+4.1.2.
+ 
+Outils de graphisme
+ 
+................................
+................................
+................................
+........
+ 
+35
+ 
+4.
+1.3.
+ 
+Le logiciel de retouche d'image : GIMP
+ 
+................................
+................................
+....
+ 
+36
+ 
+4.2.
+ 
+Impression
+ 
+................................
+................................
+................................
+................................
+...
+ 
+36
+ 
+4.2.1.
+ 
+Partager une imprimante Linux pour Windows
+ 
+................................
+..................
+ 
+36
+ 
+4.2.2.
+ 
+Partager une imprimante Windows pour Linux
+ 
+................................
+..................
+ 
+37
+ 
+4.3.
+ 
+Archivage, compression
+ 
+................................
+................................
+................................
+..........
+ 
+37
+ 
+4.3.1.
+ 
+Contenu du dossier
+................................
+................................
+................................
+..........
+ 
+37
+ 
+4.3.2.
+ 
+Compression/dÈcompression de fichiers
+ 
+................................
+..............................
+ 
+38
+ 
+4.3.3.
+ 
+Commandes gzip/gunzip
+ 
+................................
+................................
+..............................
+ 
+38
+ 
+4.3.4.
+ 
+Commandes bzip2 et bunzip2
+ 
+................................
+................................
+.....................
+ 
+39
+ 
+4.4.
+ 
+Sauvegarde et archivage de fichiers
+ 
+................................
+................................
+...................
+ 
+39
+ 
+4.4.1.
+ 
+Sauvegarde de fichiers
+ 
+................................
+................................
+................................
+...
+ 
+39
+ 
+4.4.2.
+ 
+Archivage de fichiers : Commande tar
+ 
+................................
+................................
+.....
+ 
+39
+ 
+4.5.
+ 
+Configuration du service d'impression
+ 
+................................
+................................
+.............
+ 
+40
+ 
+4.6.
+ 
+Outil graphique printtool
+ 
+................................
+................................
+................................
+.......
+ 
+40
+ 
+Chapitre 5.
+ 
+Linux UBUNTU administration
+ 
+................................
+...........................
+ 
+42
+ 
+5.1.
+ 
+The user root
+ 
+................................
+................................
+................................
+...............................
+ 
+42
+ 
+5.2.
+ 
+Administrator group users
+ 
+................................
+................................
+................................
+....
+ 
+42
+ 
+5.3.
+ 
+Useful Comands for Linux Administration
+ 
+................................
+................................
+......
+ 
+42
+ 
+5.3.1.
+ 
+Useful Comands for Linux newbies
+ 
+................................
+................................
+...........
+ 
+42
+ 
+5.3.2.
+ 
+Advanced Commands for Middle Level Linux Users
+ 
+................................
+..........
+ 
+50
+ 
+5.3.3.
+ 
+Advanced Commands for Linux Experts
+ 
+................................
+................................
+.
+ 
+61
+ 
+Bibliographie
+ 
+................................
+................................
+................................
+.....................
+ 
+73
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+1
+ 
+LIR 2016
+ 
+Chapitre 1.
+ 
+Fondamentaux sur l‚Äôenvironnement Linux
+ 
+1.1.
+ 
+Introduction
+ 
+Cet enseignement a pour objectif de donner √† l‚Äô√©tudiant des connaissances de base sur 
+l‚Äôenvironnement Linux. 
+ 
+1.1.1.
+ 
+DÈfinition de Linux
+ 
+Linux est un systËme d'exploitation multiutilisateur et multit‚che qui peut Ítre installÈ 
+sur plusieurs 
+plateformes
+ 
+diffÈrentes (Intel, Apple, DEC, Sparc, etc.).
+ 
+Il est conforme ‡ la 
+norme POSIX et peut fonctionner sans problËme avec d'autres systËmes d'ex
+ploitation 
+comme Apple, Microsoft et Novell.
+ 
+Le systËme d'exploitation Linux est libre. Il peut Ítre 
+copiÈ et redistribuÈ gratuitement. Le code source est Ègalement disponible pour tous de 
+la mÍme maniËre. 
+ 
+1.1.2.
+ 
+La communautÈ Linux
+ 
+La communautÈ Linux comprend 
+l'ensemble des dÈveloppeurs, pas seulement du noyau 
+d'ailleurs, et les utilisateurs. Ils mettent ‡ profit l'Internet pour tisser des liens et 
+promouvoir une entraide ‡ tous les niveaux. Aussi de nombreuses associations se sont 
+crÈÈes pour regrouper les ent
+housiastes et faire connaÓtre Linux au plus grand nombre en 
+organisant diverses manifestations. La communautÈ des dÈveloppeurs de Linux, rÈpartie 
+‡ travers le monde, dÈveloppe de nombreux logiciels au sein de projets tout aussi 
+nombreux. Les principaux, ou
+ 
+du moins les plus mÈdiatiques, sont le noyau lui
+-
+mÍme, bien 
+s˚r, mais aussi deux projets de ´ bureaux ª, KDE et GNOME, et de nombreux projets de 
+dÈveloppement de solutions de clusters, de haute disponibilitÈ, ...
+ 
+Cette communautÈ Linux prÈsente deux carac
+tÈristiques qu'il faut souligner :
+ 
+ÔÅ∂
+ 
+PlutÙt que de se plaindre que ´ Áa ne marche pas ª, le linuxien tente gÈnÈralement 
+de dÈcouvrir l'orig
+ine du problËme, et
+ 
+dans la mesure du possible, de le rÈsoudre 
+par lui
+-
+mÍme.
+ 
+ÔÅ∂
+ 
+Sur Internet, on peut trouver aisÈment la 
+solution ‡ la plupart des problËmes 
+courants rencont
+r
+Ès sous Linux. En contrepartie, on attend la mÍme dÈmarche des 
+nouveaux utilisateurs. Une fois un problËme rÈsolu, il peut Ítre utile de faire 
+profiter la communautÈ en publiant la solution sur une page 
+Web, par exemple.
+ 
+1.1.3.
+ 
+Logiciel libre et le GPL
+ 
+On qualifie de libre un logiciel qui rÈpond aux principaux critËres suivants :
+ 
+ÔÅ∂
+ 
+il est livrÈ avec ses sources, qu'il est possible de modifier ;
+ 
+ÔÅ∂
+ 
+il est possible de le redistribuer sans contrainte ;
+ 
+ÔÅ∂
+ 
+il est possible d
+e distribuer les modifications que l'on a faites. Ce type de diffusion 
+n'interdisant pas la commercialisation.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+2
+ 
+LIR 2016
+ 
+Au dÈbut des annÈes
+ 
+80, Richard Stallman
+, alors professeur au M.I.T, le cÈlËbre 
+Massachusetts Institut of Technologie, s'est vu refuser l'accËs a
+u code d'un programme. Il 
+prit conscience du risque de la propriÈtarisation des logiciels. Il affirme qu' 
+´
+ 
+il n'est pas 
+normal que lorsqu'on utilise un logiciel, on ne puisse pas savoir ce qu'il y a dedans ª. En 
+effet, les logiciels commerciaux sont alors
+ 
+livrÈs uniquement en format exÈcutable ; ils 
+sont donc illisibles par le commun des mortels, ou du moins des programmeurs. 
+ 
+L'idÈe de Stallman l'amËnera rapidement ‡ la crÈation d'une fondation appelÈe la 
+Free 
+Software Foundation (FSF),
+ 
+comprendre Fondati
+on pour le logiciel libre. 
+L
+e premier 
+travail de la FSF a ÈtÈ de produire une licence parfaitement adaptÈe au logiciel Libre : il 
+s'agit de la GPL (General Public Licence, ou Licence Publique GÈnÈrale). En 1984 il 
+initialise le projet GNU (prononcer gnou).
+ 
+Ce terme est un acronyme rÈcursif qui signifie 
+GNU is Not Unix.
+ 
+ 
+La GPL, la licence des produits GNU est une licence libre. Elle ajoute une contrainte 
+particuliËre : elle autorise l'utilisation d'un programme GPL ‡ l'intÈrieur d'un autre 
+programme, ‡ la c
+ondition que celui
+-
+ci soit distribuÈ sous licence GPL. Elle garantit ainsi 
+la non
+-
+propriÈtarisation des logiciels. Le hasard et la nÈcessitÈ se rencontrent : Linus 
+Torvalds a adoptÈ la GPL pour son noyau Linux, de mÍme qu'il a 
+rÈcupÈrÈ
+ 
+l'ensemble des 
+progr
+ammes dÈveloppÈs par le projet GNU pour fournir une base d'applications pour le 
+systËme d'exploitation fiable que nous connaissons et qu'il est plus exact de dÈsigner par 
+GNU/Linux.
+ 
+1.1.4.
+ 
+Les diffÈrentes licences d'utilisation des logiciels
+ 
+Tout usage d'un logic
+iel doit s'accompagner de l'acquisition d'une licence d'utilisation. Il 
+s'agit d'un contrat prÈcisant la maniËre dont vous aurez le droit d'utiliser ce logiciel. On 
+peut classer les logiciels en plusieurs catÈgories en fonctions du degrÈ de libertÈ que 
+pro
+cure la licence d'utilisation. C'est ainsi que l'on distingue :
+ 
+ÔÅ∂
+ 
+Les logiciels propriÈtaires. Il
+s
+ 
+s'accompagnent de licences qui n'autorisent que 
+l'utilisation, gÈnÈralement assortie de restrictions (limitation d'usage ‡ un nombre 
+donnÈ d'utilisateurs, inst
+allation restreinte ‡ un ordinateur, etc
+.
+).
+ 
+ÔÅ∂
+ 
+Les partagiciels (
+sharewares
+) et les gratuiciels (
+freewares
+). Il s'agit de logiciels 
+propriÈtaires mais 
+l
+es partagiciels sont distribuÈs gratuitement, charge ‡ 
+l'utilisateur de s'acquitter de son prix s'il contin
+ue ‡ l'utiliser aprËs une pÈriode 
+dÈfinie. Les gratuiciels sont des logiciels dont le prix est nul.
+ 
+1.2.
+ 
+Historique des systËmes Unix
+ 
+En 1989, un Ètudiant amÈricain du nom de Andrew S. Tannenbaum, trouve que le systËme 
+proposÈ sur son ordinateur muni d'un proce
+sseur de la famille i386 ne lui convient pas 
+tout ‡ fait. Il s'attËle ‡ une t‚che ardue puisqu'il se met ‡ Ècrire son propre systËme. Un an 
+plus tard, il sort la version 1.1 de son systËme qu'il appela Minix. C'est un systËme ‡ 
+vocation Èducative, accessib
+le pour un Ètudiant. Mais trËs rapidement Andrew 
+tannenbaum s'essouffle ; il n'a pas que Áa ‡ faire et puis il est tout seul.
+ 
+En 1991, le jeune finlandais Linus Torvalds est Ètudiant en informatique ‡ l'universitÈ 
+d'Helsinki. Il utilise Minix sur son ordin
+ateur tout neuf. Il est convaincu que l'informatique 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+3
+ 
+LIR 2016
+ 
+doit Ítre pour l'utilisateur un moyen de gagner du temps, un outil et non une contrainte. 
+En dehors des systËmes qu'il peut utiliser sur les serveurs de son universitÈ, il trouve que 
+tous les systËmes (y
+ 
+compris Minix) auxquels il a accËs pour sa machine personnelle sont 
+soit trop co˚teux, soit trop peu efficaces. Le systËme Minix qu'il a installÈ sur son 
+ordinateur dotÈ d'un processeur 386 s'avËre trop limitÈ pour lui. En consÈquence, il 
+dÈcide d'Ècrire 
+lui
+-
+mÍme un systËme d'exploitation qui le satisfasse. Pour cela, il se fonde 
+sur le systËme d'exploitation Minix.
+ 
+Au m
+ois d'ao˚t 1991 est nÈ Linux (
+linus'Unix
+)
+, L'Unix de Linus dans sa version 0.0.1. Cette 
+version n'Ètait mÍme pas exÈcutable. L'archive ne 
+contenait que les rudiments des 
+sources du noyau et il fallait compiler Linux sous Minix pour l'utiliser un tant soit peu.
+ 
+Le 5 octobre 1991, Linux devient autonome lors de la sortie officielle de la version 0.0.2. 
+Celle
+-
+ci permet de faire tourner quelques
+ 
+applications GNU (logiciels libres) essentielles 
+comme le compilateur gcc ou le shell bash. Mais Linus Torvalds rÈalise trËs bien que 
+rÈitÈrer l'expÈrience d'Andrew Tannenbaum sur Minix n'est pas viable. Il se convainc qu'il 
+faut rÈpartir la t‚che de dÈve
+loppement, trouver des collaborateurs et Ètendre ce projet ‡ 
+un cercle le plus large possible. Pourquoi pas la planËte ? A cette Èpoque o˘ la guerre 
+froide vient de se terminer, l'Internet commence ‡ envahir les universitÈs et amorce 
+l'explosion que nous c
+onnaissons. Linus Torvalds en profite pour lancer un appel qui est 
+restÈ cÈlËbre, sur le forum comp.os.minix et dÈcide de mettre le code source sous licence 
+GPL de telle sorte que tout le monde peut alors participer au dÈveloppement de Linux.
+ 
+1.3.
+ 
+CaractÈristiq
+ues des systËmes Unix
+ 
+1.3.1.
+ 
+CaractÈristiques de Linux
+ 
+1.3.1.1.
+ 
+La sÈcuritÈ 
+ 
+La sÈcuritÈ est nÈcessaire pour protÈger les donnÈes des utilisateurs mais aussi pour 
+Èviter de servir de point de dÈpart ‡ une attaque sur 
+I
+nternet. L'expÈrience a montrÈ par 
+exemple que le 
+pirate prÈcautionneux n'attaque jamais directement sa cible depuis sa 
+machine ; cela permettrait de remonter jusqu'‡ lui sans trop de difficultÈs. En piratant au 
+prÈalable une machine peu dÈfendue, celle d'un particulier en gÈnÈral, le pirate peut 
+brouille
+r les pistes, causant en fait des ennuis ‡ sa victime. Autre phÈnomËne qui prend 
+de l'ampleur : la propagation rapide des virus qui apparaissent ‡ l'air de l'
+I
+nternet. 
+ 
+Linux offre de bonnes garanties de sÈcuritÈ. D'abord il est conÁu dËs le dÈpart pour 
+fo
+nctionner en rÈseau. Ensuite il profite de son mode de dÈveloppement. Tous les 
+dÈveloppeurs intÈressÈs peuvent examiner le logiciel. Par consÈquent, il y a plus de 
+chances qu'un oeil averti dÈcouvre un bogue potentiellement exploitable. Une fois un 
+problËm
+e diagnostiquÈ, il n'est pas nÈcessaire d'attendre la publication d'un correctif par 
+l'Èditeur original du logiciel. Les chances sont trËs grandes qu'un dÈveloppeur membre de 
+la communautÈ le corrige rapidement si ce n'est le responsable du projet ou de so
+n Èquipe.
+ 
+1.3.1.2.
+ 
+FiabilitÈ et stabilitÈ 
+ 
+Un effort particulier a ÈtÈ fait lors du dÈveloppement de linux pour s'assurer que le 
+systËme soit fiable et stable :
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+4
+ 
+LIR 2016
+ 
+ÔÅ∂
+ 
+Les applications sont cloisonnÈes et ne peuvent faire planter le systËme entier ;
+ 
+ÔÅ∂
+ 
+Linux est conÁu pour d
+es serveurs devant fonctionner des mois durant ;
+ 
+ÔÅ∂
+ 
+les bogues dÈcouverts sont corrigÈs trËs rapidement.
+ 
+1.3.1.3.
+ 
+SimplicitÈ
+ 
+De grands progrËs ont ÈtÈ rÈalisÈs ces derniËres annÈes pour rendre le systËme accessible 
+‡ tous.
+ 
+L'abondance de la documentation permet ‡ tous
+ 
+de rÈsoudre la plupart des 
+problËmes les plus courants ;
+ 
+La grande similaritÈ de principes entre la plupart des 
+composants du systËme facilite la t‚che de comprÈhension des bases du systËme. Il suffit 
+pour tirer pleinement profit du systËme, de passer un 
+peu de temps pour comprendre ces 
+bases.
+ 
+Avec une bonne configuration, Linux se rÈvËle plus simple que la plupart des autres SE 
+dans le cadre de la maintenance quotidienne. D'o˘ un gain de temps apprÈciable.
+ 
+Sa conception multi
+-
+utilisateur rend possible et 
+mÍme facilite la mise en place d'un 
+environnement distinct pour chacune des personnes amenÈes ‡ utiliser la machine. Cet 
+environnement peut Ítre personnalisÈ, empÍchant un utilisateur d'accÈder aux donnÈes 
+des autres. C'est d'ailleurs par dÈfaut le cas.
+ 
+1.3.2.
+ 
+Le
+s distributions Linux
+ 
+1.3.2.1.
+ 
+Pourquoi les distributions
+ 
+L'abondance des applications disponibles et 
+la 
+multiplicitÈ des programmes ayant les 
+mÍmes objectifs
+,
+ 
+c'est
+-
+‡
+-
+dire disponibles pour rÈpondre ‡ un mÍme besoin, pose un 
+problËme de choix pour 
+un 
+utilisateur
+ 
+; 
+C
+ompte tenu du nombre impressionnant 
+d'applications que l'on peut Ítre amenÈ ‡ installer sur une machine, il faut absolument 
+disposer d'un outil d'installation et de gestion de ces applications ; Enfin, faciliter la prise 
+en main pour les dÈbutants doit Ít
+re une prÈoccupation des Èditeurs et de la communautÈ. 
+D'
+o˘ l'importance des manuel
+s d'installation, et autres outils de configuration du systËme.
+ 
+1.3.2.2.
+ 
+Notion de distribution
+ 
+Les distributions sont des ensembles logiciels contenant le systËme linux, une interfa
+ce 
+graphique 
+(
+contrairement ‡ Ms
+-
+Windows, l'interface graphique est dissociÈe du reste du 
+systËme
+)
+ 
+et un ensemble de programmes. En gÈnÈral elles disposent aussi d'un outil de 
+gestion des applications installÈes (comme InstallShield sous Ms
+-
+Windows, mais e
+n plus 
+riche) et d'autres outils de configuration du systËme, plus orientÈs dÈbutant que les 
+mÈthodes de configuration traditionnelle qui s'adressent principalement aux 
+administrateurs.
+ 
+1.3.2.3.
+ 
+Les distributions majeures Linux
+ 
+La distribution
+ 
+Slackware
+ 
+ 
+C'est l'an
+cÍtre des distributions Linux. Pionnier dans ce domaine, la sociÈtÈ Slackware 
+commercialisa une distribution Linux contenue sur une centaine de disquettes (le 
+CD
+-
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+5
+ 
+LIR 2016
+ 
+R
+om n'Ètant pas aussi rÈpandu 
+comme
+ 
+de nos jours
+)
+.
+ 
+Compte tenu de son ‚ge, cette 
+distribution 
+ne disposait pas d'interfaces conviviales de configuration du systËme et de ce 
+fait s'adresse ‡ des utilisateurs expÈrimentÈs.
+ 
+La distribution
+ 
+Redhat
+ 
+ConsidÈrÈe par certains comme la rÈfÈrence professionnelle, l'apparition de cette 
+distribution a constituÈ
+ 
+un ÈvÈnement marquant dans le monde Linux. Elle intËgre un 
+systËme complexe de gestion d'applications qui permet la mise ‡ jour d'une application 
+tout en en conservant les fichiers de configuration et qui gËre les dÈpendances. Ce systËme 
+(
+Redhat Package M
+anager
+ 
+: 
+rpm)
+ 
+peut donc installer automatique tous les ÈlÈments 
+logiciels requis pour faire fonctionner une application.
+ 
+La facilitÈ de trouver des paquets 
+rpm
+ 
+milite Ègalement en faveur de Red Hat et de 
+Mandriva, mais on trouve Ègalement tout en 
+.tar.gz
+, 
+ce qui permet d'installer tout logiciel 
+sur toute distribution ; il suffit de le compiler si le package ne contient pas une version 
+binaire.
+ 
+La distribution Suse
+ 
+DiffusÈe par la sociÈtÈ allemande SuSE GmbH crÈÈe en 1992, la premiËre version de cette 
+distri
+bution sortira en 1993 sur disquettes et Ètait basÈe sur la distribution Slackware. 
+Depuis elle a beaucoup ÈvoluÈ. Techniquement trËs proche de la Redhat, elle est basÈe sur 
+le mÍme type de packages : RPM. Mais elle se diffÈrentie essentiellement par le 
+pr
+ogramme d'installation basÈ sur l'outil YAST et son utilitaire SaX de configuration de 
+l'interface graphique.
+ 
+ÔÅ∂
+ 
+YAST 
+-
+ 
+Yet Another Setu Tool 
+-
+ 
+est un puissant outil d'installation et de 
+configuration disposant des carctÈristiques suivants :
+ 
+o
+ 
+peut Ítre lancÈ 
+aprËs l'installation ;
+ 
+o
+ 
+prend en charge une bonne partie de la configuration de la machine dont 
+l'installation du rÈseau 
+(config de base, NFS, ISDN, Samba, ...) gr‚ce ‡ une 
+dÈtection hardware et un partitionnement automatiques ;
+ 
+o
+ 
+permet d'effectuer des mises
+ 
+‡ jour et des sauvegardes ;
+ 
+o
+ 
+dispose d'une fonction intÈgrÈe de gestion des utilisateurs et des groupes ;
+ 
+o
+ 
+permet une compilation et une personnalisation du noyau ;
+ 
+ÔÅ∂
+ 
+SaX 
+-
+ 
+SuSE Advanced X
+-
+Configuration 
+-
+ 
+est l'utilitaire d'installation et de 
+configuration du
+ 
+serveur Xwindow (l'interface graphique).
+ 
+La distribution Debian
+ 
+La distribution Debian est la seule distribution non commerciale et totalement libre et 
+gratuite. GÈrÈe par une association de plus de 400 volontair
+e
+s bÈnÈvoles dont la majoritÈ 
+sont des 
+dÈveloppeurs, elle est aussi la plus complËte : elle propose un trËs grand nombre 
+d'applications/d'outils reg
+r
+oupÈs en plus de 2500 packages.
+ 
+Son objectif est triple :
+ 
+ÔÅ∂
+ 
+Fournir une distribution entiËrement libre ;
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+6
+ 
+LIR 2016
+ 
+ÔÅ∂
+ 
+DÈvelopper un outil de gestion d'applicatio
+n puissant ;
+ 
+ÔÅ∂
+ 
+N'intÈgrer que des applications stables.
+ 
+Points faibles de cette distribution : 
+ 
+ÔÅ∂
+ 
+le mode graphique n'est pas priviligiÈ : de c
+e
+ 
+fait
+,
+ 
+son installation et sa 
+configuration sont relativement plus difficile ;
+ 
+ÔÅ∂
+ 
+les nouvelles fonctionnalitÈs sont tr
+adivement diffusÈes.
+ 
+En conclusion, on peut retenir que la distribution Debian est une bonne distribution trËs 
+complËte et 100% libre mais pour les connaisseurs, et essentiellement pour les serveurs 
+o˘ la fiabilitÈ et la sÈcuritÈ sont primordiales. Autreme
+nt 
+on peut
+ 
+utiliser Ubuntu qui ‡ 
+l'origine est basÈe sur Debian mais qui ‡ su s'imposer comme une distribution conviviale 
+et facile ‡ prendre en main.
+ 
+La distribution Corel
+ 
+Linux
+ 
+Cette distribution est l'oeuvre de l'Èditeur canadien Corel (qui Èdite aussi 
+Corel 
+Wordperfect).
+ 
+Elle est basÈe sur une Debian, pour laquelle un
+ 
+programme d'installation graphique et une 
+amÈlioration de KDE ont ÈtÈ dÈveloppÈs, de mÍme qu'un nouveau gestionnaire de fichiers 
+(
+Corel File Manager
+)
+ 
+qui permet par exemple d'accÈder au rÈ
+seau Windows par Samba 
+sans passer par les outils complexes de configuration. La gestion de l'impression a aussi 
+ÈtÈ facilitÈe.
+ 
+La distribution
+ 
+Mandriva
+ 
+ 
+La distribution Linux
+-
+Mandriva anciennement Mandra
+ke est une distribution rÈcente
+, ‡ 
+l'origine basÈe s
+ur La RedHat. Elle a ÈtÈ la premiËre (avec sa version 5.x) ‡ intÈgrer 
+l'interface graphique KDE, conviviale et simple d'emploi. Un effort tout particulier a ÈtÈ 
+fait au niveau de la traduction, pour la rendre utilisable par le plus grand nombre.
+ 
+A partir 
+d
+e la version 6
+,
+ 
+Linux
+-
+Mandriva a pris son indÈpendance, et n'est plus basÈe sur la Redhat.
+ 
+La distribution Linux
+-
+Mandriva offre de nombreux packages supplÈmentaires par rapport 
+‡ la Redhat ainsi qu'une installation et une utilisation faciles.
+ 
+Pour cela, el
+le est dotÈe 
+d'outils graphiques pour toutes les Ètapes de l'installation (programme DrakX), pour la 
+gestion des diffÈrents programmes (programme RpmDake), et pour l'installation de 
+nouveaux pÈriphÈriques (DrakConf).
+ 
+Tous ces outils sont intÈgrÈs dans le g
+estionnaire de 
+fenÍtres KDE, une interface graphique intuitive, avec une traduction en franÁais et une 
+personnalisation du bureau KDE.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+7
+ 
+LIR 2016
+ 
+Chapitre 2.
+ 
+E
+nvironnement GNU/Linux
+ 
+2.1.
+ 
+Installation de Linux
+ 
+2.1.1.
+ 
+PrÈparation ‡ l'installation de Linux
+ 
+Linux ne supporte pas tous les matÈriels qui existent dans le commerce ou ailleurs. 
+ 
+PrÈrequis :
+ 
+Microprocesseur
+ 
+:
+ 
+Intel x86 ‡ base de microprocesseur 386 minimum (ou compatible 
+comme AMD, CYRIX, etc.).
+ 
+Disque dur
+ 
+:
+ 
+prÈvoir pour le systËme lui
+-
+mÍme de l'or
+dre de 
+10
+ 
+Go pour une distribution 
+assez rÈcente.
+ 
+MÈmoire
+ 
+:
+ 
+prÈvoir environ 
+2 
+Go avec un systËme X. 512 Mo ou mÍme moins peut aussi 
+aller, mais avec les nouveaux environnements sous X, la rapidit√© n‚Äôest pas garantie. 
+ 
+2.1.2.
+ 
+Partitionnement des disques
+ 
+2.1.2.1.
+ 
+PrÈparatio
+n du disque dur
+ 
+Avant de commencer l'installation, il faut libÈrer de la place pour les nouvelles partitions 
+Linux. Si l‚Äôon d√©sire installer Linux sur un disque vierge, pas de probl√®me. Par contre, si 
+l‚Äôon veut faire cohabiter WindoÔÅ∂s et Linux sur le m√™me 
+disque, et que Windows est dÈj‡ 
+installÈ sur la totalitÈ du disque, il va falloir des amÈnagements. Alors soit on vire tout et 
+on rÈinstalle Windows, c'est le plus simple Èvidemment, soit on redimensionne la 
+partition Windows. Pour ce faire, on peut utilis
+ez un logiciel appropriÈ, comme FIPS ou 
+Partition Manager
+ 
+(un freeware sous DOS) ou encore 
+Partition Magic
+ 
+(produit 
+commercial). 
+ 
+Remarque 1 :
+ 
+Partition Manager
+ 
+a l'air intÈressant, il est 
+freeware
+ 
+et fonctionne sous DOS. 
+Il permet de gÈrer les partitions, de sauver le MBR (Master Boot Record, c'est l‡ que vient 
+s'enregistrer LILO dans un fichier), de le restaurer, de modifier la taille d'une partition, de 
+la formater, etc. 
+ 
+Remarque 2 :
+ 
+la distribu
+tion Ubuntu, tout comme plusieurs autres distributions Linux, 
+est livrÈe avec un utilitaire de repartitionnement trËs performant, sachant mÍme 
+redimensionner les partitions au format NTFS.
+ 
+2.1.2.2.
+ 
+Partitionnement des disques avant installation 
+ 
+AprËs s'Ítre loguÈ 
+en root
+,
+ 
+il faut taper "fdisk" AVANT de taper "setup"). 
+ 
+Pour partitionner un disque, on doit appeler la commande fdisk suivie du nom du disque 
+sur lequel sera installÈ Linux, par exemple 
+"fdisk /dev/hda"
+. Des logiciels plus conviviaux 
+existent comme 
+DiskD
+ruid
+ 
+(disponible lors de l'installation d'une RedHat par exemple) ou 
+DiskDrake
+ 
+de Mandriva fonctionnant en mode graphique.
+ 
+Les principales commandes de fdisk sont : 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+8
+ 
+LIR 2016
+ 
+ÔÅ∂
+ 
+n
+ 
+CrÈe une partition, de type linux native (ext2fs) par dÈfaut.
+ 
+ÔÅ∂
+ 
+t
+ 
+Change le type d'une par
+tition (83 linux native, 82 linux swap).
+ 
+Dans fdisk, tapez "m", afin d'accÈder ‡ la liste de toutes les commandes possibles. Pour 
+toutes les autres commandes de fdisk, on peut se rÈfÈrer ‡ l'installation
+-
+HOWTO 
+ 
+Attention :
+ 
+le nombre de partitions dites "pr
+imaires" est limitÈ ‡ 4. Ainsi, si vous souhaitez 
+dÈfinir plus de 4 partitions sur un mÍme disque, l'une de ces 4 partitions primaires doit 
+Ítre dÈfinie comme "Ètendue", elle contiendra alors toutes les autres partitions. Les 
+partitions primaires sont numÈ
+rotÈes de 1 ‡ 4, les partitions crÈÈ
+e
+s ‡ l'intÈrieur de la 
+partition Ètendue sont numÈrotÈes ‡ partir de 5.
+ 
+Pour ce qui est du nombre de partitions, il faut tout d'abord une partition pour le swap. 
+Le swap c'est la mÈmoire virtuelle de Linux. Sa taille dÈp
+end de la mÈmoire physique. Il 
+est conseillÈ de lui attribuer le minimum entre le double de la RAM et 
+1024 
+Mo.
+ 
+Pour le reste, on a le choix : La chose la plus simple est une seule partition (en plus du 
+swap), qui contiendra toutes les donnÈes (systËme & ut
+ilisateur) ; En fait, il est intÈressant 
+de crÈer au moins deux partitions : une qui contiendra le systËme et une autre pour les 
+donnÈes. On peut ainsi rÈinstaller Linux et mÍme formater la partition systËme sans 
+perdre les donnÈes sauvegardÈes. Pour la mÍ
+me raison, on peut pousser le raffinement 
+jusqu'‡ avoir une troisiËme partition afin de contenir les logiciels installÈs (OpenOffice 
+par exemple). 
+ 
+2.1.2.3.
+ 
+Si 
+nous installons
+ 
+un serveur :
+ 
+L'une des mÈthodes les plus utilisÈes, c'est de mettre le / sur un petit dis
+que ou une 
+partition, puis
+ 
+/usr 
+sur un autre disque en point de montage. Si notre systËme va Ítre un 
+serveur avec beaucoup d'utilisateurs qui vont avoir beaucoup de donnÈes personnelles ‡ 
+stocker, on peut crÈer aussi un 
+/home
+ 
+en point de montage sur un aut
+re disque. On va 
+aussi gÈnÈralement rÈserver un disque ou une partition pour le rÈpertoire temporaire que 
+l'on montera dans 
+/tmp
+, et encore une autre pour le 
+/var
+. En fait, on ne va laisser dans le 
+disque contenant la racine que les informations qui bougen
+t peu et dont le volume 
+augmente peu. Ainsi on ne charge pas le disque de point de montage / des rÈpertoires 
+/usr
+, /home, etc., ce qui permet de facilement maintenir le systËme (si /home est plein, on 
+prend un disque plus gros que l'on monte en /home et on
+ 
+recopie tout dessus, etc.) De 
+plus si un disque crashe, si ce n'est pas le disque contenant la racine /, Áa permet de 
+rebooter quand mÍme la machine, de travailler un minimum pour rÈinstaller un disque 
+sans ‡ avoir ‡ rÈinstaller un systËme de base.
+ 
+2.1.2.4.
+ 
+Si vou
+s installez sur une machine perso :
+ 
+Sur une machine mono
+-
+utilisateur, voire mono
+-
+disque, on 
+peut faire une partition pour la 
+racine 
+/ 
+(mini 1Go, recommandÈ 2Go au moins), une pour 
+/home
+ 
+et une pour le swap 
+(
+1024
+ 
+Mo par exemple). On peut aussi Èventuellemen
+t faire une partition pour 
+/opt
+ 
+qui 
+contiendra les logiciels auxiliaires (qui ne proviennent pas de la distribution) installÈs. 
+Cela permet de mettre ‡ jour, voire de rÈinstaller la distribution sans trop de peine.
+ 
+Lorsqu‚Äôon dispose d‚Äôassez de place sur 
+le
+ 
+disque
+ 
+(par exemple 
+500
+Go), pour une 
+utilisation personnelle, 
+5 ‡ 10
+Go suffisent pour la racine
+ 
+; 5 ‡ 10Go suffisent pour le /usr
+, 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+9
+ 
+LIR 2016
+ 
+on garde le swap entre 512
+ 
+et 1024
+ 
+Mo, et enfin, le reste pour 
+/home
+. On peut aussi crÈer 
+une partition 
+/mnt/data
+ 
+de 200Go pour stocker les donnÈes.
+ 
+2.1.3.
+ 
+SystËmes de fichiers journalisÈs 
+ 
+Le systËme de fichiers (File System ou FS), c'est la faÁon dont le systËme d'exploitation 
+structure les donnÈes sur le disque dur. Comme tout systËme d'exploitation, Linux 
+dispose de ses
+ 
+propres systËmes de fichiers :
+ 
+ 
+EXT2FS
+ 
+(
+ext2
+) :
+ 
+c'est le systËme de fichiers historique de Linux, il n'est pas 
+forcÈment le meilleur choix car, n'Ètant pas journalisÈ, si vous Èteignez mal votre 
+ordinateur, linux prendra beaucoup de temps pour tester les d
+isques durs (de la 
+mÍme maniËre que le 
+scandisk
+ 
+de Microsoft).
+ 
+ 
+EXT3FS
+ 
+(
+ext3
+) :
+ 
+c'est l'Èvolution logique du 
+systËme de fichiers 
+ext2
+. Il prÈsente 
+l'avantage d'Ítre compatible avec 
+l'ext2
+ 
+tout en Ètant journalisÈ. Il n'implÈmente 
+toutefois
+ 
+pas les toutes de
+rniËres innovations en matiËre de journalisation. Ce 
+syst√®me de fichiers est indiqu√© lorsque l‚Äôon veut pouvoir relire des informations 
+depuis windows.
+ 
+ 
+REISERFS
+ 
+:
+ 
+c'est un systËme de fichiers journalisÈ. C'est un bon choix. Il est 
+rÈimplÈmentÈ ‡ partir de z
+Èro et bÈnÈficie de beaucoup d'innovations.
+ 
+Windows utilise quant ‡ lui un systËme VFAT (partitions limitÈes ‡ 2 Go) ou FAT32, voire 
+FAT (l'ancien systËme de fichier du DOS). 
+Il n‚Äôest pas possible
+ 
+d‚Äô
+installer Linux sur une 
+partition de ce type, car elles n
+e gËrent pas les permissions. 
+Certaines version rÈcentes de
+ 
+Windows utilisent aussi le systËme de fichiers NTFS, mais Microsoft n'a pas fourni les 
+spÈcifications techniques de ce format et Linux (ainsi que la plupart des autres systËmes 
+d'exploitation) est
+ 
+incapable de le gÈrer correctement (
+il faut donc prÈvoir
+ 
+une partition 
+en VFAT
+-
+FAT32 pour partager des informations facilement entre Linux et Windows) : 
+Linux sait lire les informations sur une partitions NTFS mais pas en Ècrire (cette 
+fonctionnalitÈ est 
+en cours de dÈveloppement pour certaines distributions).
+ 
+2.1.4.
+ 
+PrÈsentation des environnements graphiques 
+ 
+2.1.4.1.
+ 
+Objectif de l'interface graphique
+ 
+L'objectif de l'interface graphique est de fournir un environnement de travail convivial 
+pour les utilisateurs. Elle n'es
+t qu'une application parmi d'autres et donc est considÈrÈe 
+comme ÈtrangËre au systËme d'exploitation qui au sens strict ne doit que servir 
+d'interface entre les pÈriphÈriques (clavier, carte vidÈo, souris, disques, etc.) et les 
+diffÈrentes applications.
+ 
+2.1.4.2.
+ 
+El
+Èments constitutifs de l'interface graphique
+ 
+L'interface graphique comporte trois types d'ÈlÈments distincts : le serveur d'affichage X, 
+le gestionnaire de fenÍtres et les applications. La modularitÈ de l'interface graphique 
+permet de changer un aspect san
+s modifier les autres et de donner ‡ chaque utilisateur 
+son environnement favori.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+10
+ 
+LIR 2016
+ 
+Le serveur d'affichage
+ 
+X
+ 
+: 
+Encore appelÈ X Window System ou X11, le serveur d'affichage 
+X est le programme charg√© d‚Äôafficher les programmes sur le ou les √©crans disponibles e
+t 
+d‚Äôautoriser ou non les applications √† afficher √† l&#x0027;√©cran. Dans un environnement multi
+-
+utilisateurs, la nÈcessitÈ de X11 s'explique par le fait que plusieurs utilisateurs connectÈs 
+en mÍme temps sur la mÍme machine lancent des applications diffÈrentes et 
+ont besoin 
+de les rediriger vers leur Ècran.
+ 
+Le gestionnaire de
+ 
+fenÍtres
+ 
+: 
+Le gestionnaire de fenÍtres, seconde couche de l'interface 
+graphique, est un programme chargÈ de dÈfinir l'ergonomie de l'affichage. Il dÈfinit la 
+faÁon dont les fenÍtres s'affichen
+t, les boutons prÈsents sur leur barre de titre, les icÙnes 
+prÈsentes ‡ l'Ècran, etc. Sous linux il y en a quelques dizaines parmi lesquelles KDE et 
+GNOME.
+ 
+Les
+ 
+applications
+ 
+: 
+La troisiËme couche se compose des applications (ou programmes). 
+Tous les program
+mes sont conÁus pour fonctionner indÈpendamment des couches 
+infÈrieures. Ils peuvent Èventuellement communiquer entre eux en utilisant une interface 
+commune. KDE offre par exemple une telle interface aux diffÈrentes applications.
+ 
+2.1.4.3.
+ 
+Les interfaces courantes s
+ous Linux
+ 
+Il existe plus d'une cinquantaine d'interfaces graphiques ‡ l'heure actuelle dont on peut 
+citer
+ 
+:
+ 
+GNOME
+ 
+:
+ 
+Bien que moins rÈpandu et moins utilisÈ que KDE, GNOME est l'interface qui 
+monte. Elle est soutenue par le projet GNU et a ÈtÈ officiellemen
+t adoptÈ par plusieurs 
+fabricants d'Unix pour devenir leur interface principale.
+ 
+WindowMaker
+ 
+:
+ 
+C‚Äô
+est un gestionnaire de fenÍtres (window manager) pour XWindow 
+libre et populaire. WindowMaker est un gestionnaire de fenÍtres assez rapide, facile ‡ 
+prendre en
+ 
+main et ‡ configurer. Sa popularitÈ grandissante s'explique aussi par sa 
+finition irrÈprochable et par son esthÈtique travaillÈe.
+ 
+KDE
+ 
+:
+ 
+C‚Äôest
+ 
+l'acronyme de K Desktop Environment, est trËs utilisÈ sous Linux. C'est 
+l'interface retenue par dÈfaut par Linux
+-
+Mandriva et d'autres distributions. Le premier 
+objectif de KDE fut de fournir une interface graphique offrant un moyen simple 
+permettant aux applications graphiques, membres de la couche la plus haute, de 
+communiquer entre elles et de devenir un environnem
+ent de bureau complet. 
+ 
+2.1.4.4.
+ 
+L‚Äôenvironnement KDE
+ 
+Sur le plan technique, KDE vise l'intÈgration des caractÈristiques suivantes qui manquent 
+dans les environnements graphiques de X :
+ 
+ÔÅ∂
+ 
+un protocole Glisser
+-
+Lacher commun pour les applications et le bureau ;
+ 
+ÔÅ∂
+ 
+une conf
+iguration du bureau simple, fondÈe sur des dialogues, pour toutes les 
+fonctionnalitÈs et les applications de bureau ;
+ 
+ÔÅ∂
+ 
+un systËme d'aide uniformisÈ pouvant Ítre accessible de toutes les applications ;
+ 
+ÔÅ∂
+ 
+un atelier de dÈveloppement logiciel commun ;
+ 
+ÔÅ∂
+ 
+un atelier
+ 
+de prÈparation de document semblable ‡ CORBA ou ‡ ActiveX ;
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+11
+ 
+LIR 2016
+ 
+ÔÅ∂
+ 
+une transparence rÈseau amÈliorÈe au niveau application ;
+ 
+ÔÅ∂
+ 
+un type de dÈveloppement simple d'emploi (SDK) pour faciliter la crÈation 
+d'applications compatibles.
+ 
+Du point de vue de l'utilisateur, 
+les objectifs les plus importants sont :
+ 
+ÔÅ∂
+ 
+la prÈsentation d'un bureau attrayant et moderne ;
+ 
+ÔÅ∂
+ 
+le barrage aux problËmes que les applications rencontrent avec les connexions 
+rÈseau (rendant le rÈseau transparent pour le bureau et ses applications) ;
+ 
+ÔÅ∂
+ 
+une aide e
+n ligne intÈgrÈe fournissant des points d'accËs et une interface 
+utilisateur uniforme pour toutes les applications ;
+ 
+ÔÅ∂
+ 
+une apparence uniforme pour toutes les applications y compris les menus, les 
+raccourcis clavier, les palettes de couleurs, etc. ;
+ 
+ÔÅ∂
+ 
+la crÈati
+on d'un produit international, avec un support clavier, menu, aide en ligne 
+et application, pour de nombreuses langues ;
+ 
+ÔÅ∂
+ 
+la fourniture de centaines d'applications intÈgrÈes.
+ 
+La version 2.0 de KDE intËgre une suite bureautique complËte, appelÈe Koffice. A t
+erme, 
+KDE pourrait devenir l'environnement standard de Linux, voire d'Unix s'il parvient ‡ 
+intÈresser les Èditeurs d'Unix propriÈtaires.
+ 
+L‚Äôinterface est constitu√©e de trois principaux composants : le lanceur d&#x0027;applications, le 
+menu de sÈlection du bureau e
+t les icÙnes d'applications.
+ 
+Le lanceur d'applications
+ 
+:
+ 
+Ce menu dÈroulant encore appelÈ menu K permet de lancer 
+les applications faisant partie de l'environnement KDE. Celles
+-
+ci sont classÈes par thËme 
+‡ l'intÈrieur du menu. Son contenu prÈcis dÈpend des 
+logiciels choisis ‡ l'installation.
+ 
+Le menu de sÈlection du bureau
+ 
+:
+ 
+KDE peut afficher les fenÍtres sur plusieurs Ècrans 
+virtuels (quatre par dÈfaut). Chacun de ces Ècrans se comporte comme un bureau 
+totalement indÈpendant, sur lequel on peut choisir un fo
+nd, des icÙnes, et des styles de 
+fenÍtres diffÈrents.
+ 
+Les icÙnes d'applications
+ 
+:
+ 
+Sur la barre d'outils se trouvent des icÙnes reprÈsentant des 
+applications que l'on souhaite avoir sous la main. Il suffit de cliquer sur une icÙne pour 
+dÈmarrer l'applicatio
+n correspondante. Mais il est toujours possible de lancer une 
+application non accessible via une icÙne en tapant 
+Alt
+-
+F2
+. 
+ 
+2.1.4.5.
+ 
+Personnalisation du bureau
+ 
+Lancement automatique des applications
+ 
+Il est possible de lancer les applications automatiquement ‡ la conn
+exion de l'utilisateur 
+gr‚ce au dossier DÈmarrage, reprÈsentÈ par la premiËre icÙne prÈsente sur le bureau. 
+Voici les Ètapes de la procÈdure :
+ 
+ÔÅ∂
+ 
+Ouvrir le dossier DÈmarrage ;
+ 
+ÔÅ∂
+ 
+Cliquer doit dans l'espace de travail ;
+ 
+ÔÅ∂
+ 
+SÈlectionner Nouveau/Application ;
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+12
+ 
+LIR 2016
+ 
+ÔÅ∂
+ 
+Taper le
+ 
+nom de l'application dans la zone ExÈcuter. Si l'application n'est pas 
+graphique, il faut plutÙt taper 
+rxvt 
+-
+e ´ commande ª
+ 
+ou cocher la case 
+´ Lancer dans 
+un terminal
+ 
+ª.
+ 
+Ajout d'une icÙne sur le
+ 
+bureau ou d'une entrÈe dans le lanceur
+ 
+Un clic droit n'impo
+rte o˘ sur le bureau affiche un menu qui permet de rajouter une ou 
+plusieurs icÙnes sur le bureau. Il suffit de sÈlectionner Nouveau/Application. Le dialogue 
+est identique ‡ celui du dossier DÈmarrage.
+ 
+L'ajout d'une entrÈe dans le lanceur se fait ‡ l'aide 
+de l'Èditeur de menu, accessible par 
+Lanceur d'application/Utilitaires/Editeur de menus. Des fenÍtres reprÈsentant les menus 
+s'affichent. Pour en rajouter une, il suffit de cliquer avec le bouton droit sur l 
+reprÈsentation du lanceur, choisir Nouveau et in
+sÈrer la nouvelle entrÈe.
+ 
+Dans la fenÍtre qui s'affiche, il est possible de choisir le nom de l'ÈlÈment ‡ insÈrer, le 
+programme ‡ exÈcuter en mode graphique, puis cliquer sur OK pour confirmer.
+ 
+2.1.5.
+ 
+Les disques durs et les partitions
+ 
+2.1.5.1.
+ 
+Les disques durs
+ 
+Pour les disques 
+IDE
+, la numÈrotation se fait avec un prÈfixe "
+hd
+", suivi par une lettre, "
+a
+" 
+pour le premier IDE maÓtre, "
+b
+" pour le premier esclave, etc. 
+ 
+En rÈsumÈ on a :
+ 
+ÔÅ∂
+ 
+hda
+ 
+Disque ma√Æ tre sur le 1er contro leur IDE
+ 
+ÔÅ∂
+ 
+hdb
+ 
+Disque esclave sur le 1er contro le
+ur IDE
+ 
+ÔÅ∂
+ 
+hdc
+ 
+Disque ma√Æ tre sur le 2eme contro leur IDE
+ 
+ÔÅ∂
+ 
+hdd
+ 
+Disque esclave sur le 2eme contro leur IDE
+ 
+Les lecteurs de CD
+-
+ROM IDE apparaissent comme un disque dur. Si votre CD est maÓtre 
+sur la deuxiËme nappe par exemple, il sera nommÈ 
+hdc
+.
+ 
+Pour les disques 
+SCS
+I
+, cette fois c'est l'ID SCSI qui va donner la lettre, le prÈfixe Ètant "
+sd
+". 
+Prenons par exemple 3 disques 
+SCSI 
+d'id 0,1 et 3 on va avoir :
+ 
+ÔÅ∂
+ 
+sda
+ 
+Disque d&#x0027;ID 0
+ 
+ÔÅ∂
+ 
+sdb
+ 
+Disque d&#x0027;ID 1
+ 
+ÔÅ∂
+ 
+sdd
+ 
+Disque d&#x0027;ID 3
+ 
+Les lecteurs de CD
+-
+ROM SCSI, les ZIP, JAZ, etc. SCSI ainsi qu
+e les pÈriphÈriques de stockage 
+USB (appareils photo, clefs USB...) apparaissent comme un disque dur SCSI ; ils se 
+nomment aussi 
+sdx
+ 
+suivant leur ID. Astuce : pour connaÓtre la liste de vos pÈriphÈriques 
+de ce type, tapez la commande : 
+cdrecord 
+-
+scanbus
+. 
+ 
+2.1.5.2.
+ 
+Partitions et organisation des fichiers sous Linux
+ 
+Les 
+partitions
+ 
+sont quant ‡ elles reprÈsentÈes par le nom du disque dur, suivi d'un chiffre 
+reprÈsentant la partition. Par exemple, la premiËre partition du premier disque IDE se 
+nomme 
+hda1
+, de mÍme, la tr
+oisiËme partition du disque SCSI d'ID 1 se nommera 
+sdb3
+.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+13
+ 
+LIR 2016
+ 
+L'arborescence 
+ 
+Sous Linux, ou tout autre Unix d'ailleurs, il n'y a pas de lettre reprÈsentant le disque dur 
+comme le 
+C:
+ 
+de Windows/DOS. Il y a une seule arborescence, qui dÈbute ‡ la "racine", 
+notÈe
+ 
+'
+/
+', et tous les disques durs/partitions apparaissent dans cette arborescence avec 
+leur contenu de faÁon transparente comme un rÈpertoire.
+ 
+Les partitions / les points de
+ 
+montage
+ 
+ 
+Les partitions que l'on va crÈer sur les disques durs seront attachÈes ‡ des
+ 
+rÈpertoires de 
+l'arborescence, ou "
+points de montage
+". C'est ce qu'on appelle "
+monter une partition
+". Le 
+point de montage est un simple rÈpertoire, vide avant le montage, et qui aprËs le montage, 
+reprÈsente le contenu de la partition montÈe. Par exemple, 
+supposons que nous ayons 
+crÈÈ une partition 
+/dev/hda2
+ 
+(premier disque IDE, 2Ëme partition) pour contenir le 
+systËme. On 
+montera
+ 
+cette partition dans le rÈpertoire racine 
+/
+. Si la partition 
+/dev/hda3
+ 
+est destinÈe ‡ contenir les donnÈes utilisateur, on la mo
+ntera dans le 
+point de montage
+ 
+/home
+. On verra le contenu de cette partition dans le rÈpertoire 
+/home
+ 
+comme si c'Ètait 
+n'importe quel autre rÈpertoire, alors que physiquement les donnÈes sont sur une autre 
+partition. De mÍme, pour accÈder ‡ la disquette, o
+n montera le pÈriphÈrique 
+/dev/fd0
+ 
+dans le point de montage 
+/mnt/floppy
+  
+(ou 
+/floppy 
+selon la distribution) et pour accÈder 
+au CD
+-
+ROM, on montera le pÈriphÈrique 
+/dev/cdrom
+ 
+dans le point de montage 
+/mnt/cdrom
+ 
+ou 
+/cdrom
+.
+ 
+Les rÈpertoires standards 
+ 
+Linux pos
+sËde des rÈpertoires "spÈciaux" ‡ la racine (un peu comme le 
+C:windows
+), qui 
+sont classiques dans les systËmes Unix et peuvent ou non reprÈsenter un point de 
+montage pour une partition.
+ 
+Tableau 1.
+ 
+Les rÈpertoires standards de Linux sont :
+ 
+/
+ 
+La racine du syste me = la 
+base.
+ 
+/boot
+ 
+Fichiers utilise s pour booter le noyau
+ 
+/usr
+ 
+Programmes, donne es, accessibles par les utilisateurs et non ne cessaires lors du boot
+ 
+/home
+ 
+Tous les re pertoires de base des utilisateurs et de certains services comme le FTP, le 
+serveur Web, Samba
+, etc.
+ 
+/dev 
+ 
+Tous les pe riphe riques
+ 
+/bin
+ 
+Programmes ne cessaires au boot, et disponibles ensuite a  tous les utilisateurs
+ 
+/sbin
+ 
+Programmes ne cessaires au boot, disponibles au root uniquement
+ 
+/var
+ 
+Fichiers de log, spool d&#x0027;impression, de mail, etc. En 
+ge ne ral, fichiers qui changent tout le 
+temps
+ 
+/etc 
+ 
+Fichiers de configuration du syste me
+ 
+/root
+ 
+Re pertoire home de l&#x0027;administrateur
+ 
+/lib
+ 
+Bibliothe ques et modules (comme les DLL de WindoÔÅ∂s) ne cessaires au boot
+ 
+/tmp
+ 
+Fichiers temporaires
+ 
+/mnt
+ 
+Re pertoire pr
+opose  pour monter des pe riphe riques (ou /mnt/cdrom, /mnt/floppy, 
+/mnt/zip, etc.)
+ 
+/proc
+ 
+Fichiers d&#x0027;information sur la configuration syste me (les fichiers sont ge ne re s 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+14
+ 
+LIR 2016
+ 
+dynamiquement, pas de modifications possibles). Les fichiers dans ce re pertoire 
+n&#x0027;existent pas sur le disque, c&#x0027;est Linux qui les cre e en temps re el lorsque vous en avez 
+besoin.
+ 
+/opt
+ 
+Dans ce re pertoire (optionnel), on peut ajouter des logiciels afin qu&#x0027;ils ne s&#x0027;installent pas 
+dans les re pertoires syste me.
+ 
+Les pÈriphÈriques 
+ 
+Tout pÈriphÈrique est identifiÈ ‡ un fichier qui se trouve dans le rÈpertoire 
+/dev
+ 
+(comme 
+device
+). Par exemple, le disque maÓtre du deuxiËme port IDE est identifiÈ par 
+/dev/hdc
+, sa 
+deuxiËme partition par 
+/dev/hdc2
+. Le lecteur de disquette est reprÈsentÈ pa
+r 
+/dev/fd0
+, 
+etc.
+ 
+Pour "monter" un pÈriphÈrique ou une partition, il faut utiliser la commande 
+mount
+.
+ 
+Syntaxe : mount ‚àít type‚àídu‚àísupport fichier‚àíp√©riph√©rique point‚àíde‚àímontage
+ 
+Traditionnellement, les pÈriphÈriques tels que les disques et partitions sont mont
+Ès dans 
+le rÈpertoire 
+/mnt
+ 
+: par exemple 
+/mnt/cdrom
+ 
+pour un cdrom.
+ 
+Exemples :Montage d&#x0027;un lecteur de CD‚àíROM : 
+$ mount ‚àít iso9660 /dev/hdb 
+/mnt/cdrom
+ 
+ 
+Montage d&#x0027;une partition WindoÔÅ∂s : $ mount ‚àít vfat /dev/hda1 /mnt/ÔÅ∂in98
+ 
+Pour dÈmonter un pÈriphÈrique, il f
+aut utiliser la commande 
+umount
+.
+ 
+2.2.
+ 
+Configuration rÈseau et Linux
+ 
+Il s'agit de paramÈtrer un systËme LINUX pour qu'il soit connectÈ ‡ un rÈseau local, et 
+puisse Èventuellement accÈder au rÈseau Internet via un accËs distant par routeur ou par 
+modem. Un certai
+n nombre d'ÈlÈments matÈriels et logiciels (d
+ae
+mons lancÈs
+,.
+..) doivent 
+Ítre installÈs, configurÈs et activÈs au dÈmarrage de la machine. 
+ 
+2.2.1.
+ 
+Informations indispensables
+ 
+ÔÅ∂
+ 
+A
+dresse IP 
+de l'adaptateur (on dit aussi interface) rÈseau
+ 
+: c‚Äôest une machine de 
+type 
+passerelle ayant 2 cartes. Par exemple : 192.168.1
+.5
+ 
+se composant de 
+l'adresse du rÈseau (supposÈ de classe C) 
+192.168.1.0
+ 
+et du numÈro de la machine, 
+ici 5 (de 1 ‡ 254) 
+ 
+ÔÅ∂
+ 
+Adresse de "boucle"
+ 
+: une machine isolÈe a toujours l'adresse 
+127.0.0.1
+, ce qui 
+lui p
+ermet de se connecter ‡ elle
+-
+mÍme 
+ 
+ÔÅ∂
+ 
+M
+asque de sous
+-
+rÈseau (netmask)
+ 
+: ce qui dÈtermine les adresses qu'il est 
+possible d'attribuer aux machines de ce sous
+-
+rÈseau, ici 
+255.255.255.0
+ 
+ 
+ÔÅ∂
+ 
+A
+dresse IP gÈnÈrale du sous
+-
+rÈseau 
+: elle se dÈduit du masque et d'une adre
+sse 
+d'une machine quelconque du rÈseau; ici 192.168.1
+.0
+.
+ 
+ÔÅ∂
+ 
+N
+om complet : 
+nom station + nom du domaine 
+ 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+15
+ 
+LIR 2016
+ 
+2.2.2.
+ 
+Configuration initiale lors de l'installation
+ 
+Prenons l'exemple d'une machine Linux, installÈ avec la distribution Mandriva 
+ 
+La configuration rÈseau compr
+end 2 parties : 
+ 
+1) DÈtection de l'adaptateur rÈseau Ethernet et intÈgration du pilote dans le noyau. 
+ 
+2) ParamÈtrage rÈseau 
+TCP/IP
+: il peut s'effectuer ‡ l'aide de fenÍtres de dialogue 
+successives ‡ renseigner. 
+ 
+Par exemple : 
+ 
+ÔÅ∂
+ 
+adresse ip : 192.168
+.2.100 √† 
+192.168.
+2.119
+ 
+ÔÅ∂
+ 
+masque de sous
+-
+re seau : 
+255.255.255.0
+ 
+ 
+ÔÅ∂
+ 
+passerelle par de faut : 192.168
+.2.205 
+ 
+ÔÅ∂
+ 
+serveur de nom primaire : 
+195.98.206.50
+ 
+ 
+ÔÅ∂
+ 
+nom de domaine : 
+iutfv.univ
+-
+dschang.org
+ 
+ÔÅ∂
+ 
+nom de machine : talla.
+iutfv.univ
+-
+dschang.org
+ 
+ÔÅ∂
+ 
+2e me serveur de nom : 
+195.98
+.
+206.10
+ 
+2.2.3.
+ 
+ 
+Interface Ethernet
+ 
+Pour vÈrifier que l'adaptateur rÈseau est bien liÈ ‡ la couche rÈseau du noyau Linux et 
+activÈ, passer la commande 
+ifconfig.
+ 
+ 
+ÔÅ∂
+ 
+$
+ 
+ifconfig nom
+-
+interface
+ 
+ 
+renseigne sur l&#x0027;interface, son parame trage et son activite  
+ 
+ÔÅ∂
+ 
+$
+ 
+ifconfig lo
+ 
+re
+nseigne sur l&#x0027;interface loopback (bouclage local)
+ 
+ÔÅ∂
+ 
+$
+ 
+ifconfig eth0
+ 
+renseigne sur la premie re interface Ethernet 
+ 
+ÔÅ∂
+ 
+$
+ 
+ifconfig nom
+-
+interface adresse
+-
+IP
+ 
+assigne cette adresse a  l&#x0027;interface et l&#x0027;active 
+ 
+2.2.4.
+ 
+ 
+Fichiers de configuration
+ 
+/etc/HOSTNAME 
+nom de la machine 
+dans le domaine (obtenu aussi par la commande $ 
+hostname
+ 
+/etc/hosts 
+table de correspondance des adresses IP des machines du sous
+-
+rÈseau et de 
+leur nom d'hÙtes
+ 
+/etc/host.conf
+ 
+order
+ 
+hosts, bind 
+ 
+multi
+ 
+on
+ 
+# fin du fichier.
+ 
+indique que chaque machine cherche d'abord l'adresse de toute machine dans le fichier 
+/etc/hosts
+ 
+et si la correspondance n'est pas trouvÈe, chercher par requÍte 
+DNS
+.
+ 
+/etc/sysconfig/network
+-
+scripts/ifcfg
+-
+eth0 fichier d'activation au dÈmarrage de 
+l'interface
+ 
+eth0
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+16
+ 
+LIR 2016
+ 
+DEVICE = eth0 
+ 
+IPADDR = 192.168.2.101 
+ 
+NETMASK = 255.255.255.0 
+ 
+NETWORK = 192.168.2.0 
+ 
+BROADCAST = 192.168..2.255 
+ 
+ONBOOT = yes 
+ 
+Plus gÈnÈralement, les interfaces ‡ activer automatiquement au boot sont dÈfinies dans 
+les fichiers du rÈpertoire 
+/etc/sy
+sconfig/network
+-
+scripts/
+ 
+ 
+/etc/sysconfig/network
+ 
+NETWORKING = yes 
+ 
+FORWARD_IPV4 = no(empÍche le transfert automatique des paquets ?)
+ 
+HOSTNAME= pc01 
+ 
+DOMAINNAME = misfu.com
+ 
+GATEWAY= 192.168.2.245
+ 
+#passerelle par dÈfaut, par o˘ chercher si l'adresse IP n'est
+ 
+pas dans le sous
+-
+rÈseau 
+ 
+GATEWAYDEV = eth0 
+ 
+/etc/resolv.conf
+ 
+#nom de domaine local de l'ordinateur 
+ 
+domain misfu.com
+ 
+#adresse du serveur primaire DNS 
+ 
+nameserver 195.98.246.50 
+ 
+#liste de domaines ‡ essayer, si le nom d'hÙte ne prÈcise pas son domaine. On 
+peut mettre 
+jusqu'‡ 3 serveurs de noms
+ 
+domainsearch wanadoo.fr 
+ 
+/etc/networks
+ 
+# dÈcrit les noms et adresses IP des diffÈrents sous
+-
+rÈseaux routables ‡ partir de l'hÙte 
+ 
+/etc/conf.modules
+ 
+#modules installÈs 
+ 
+alias eth0 wd 
+ 
+options wd io=0x240
+ 
+2.3.
+ 
+Installer un 
+chargeur ou booter Linux 
+ 
+LILO
+ 
+(
+LI
+nux 
+LO
+ader) est le petit utilitaire qui permet de faire dÈmarrer Linux. D'o˘ son 
+importance.
+ 
+C'est, en fait, deux programmes :
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+17
+ 
+LIR 2016
+ 
+ÔÅ∂
+ 
+un chargeur de linux 
+ 
+ÔÅ∂
+ 
+le programme qui installe le chargeur sur 
+le
+ 
+disque. 
+ 
+DÈsinstaller LILO 
+ 
+ÔÅ∂
+ 
+Depuis Linux : taper
+ 
+lilo 
+-
+u
+. 
+ 
+ÔÅ∂
+ 
+Depuis DOS : tapez 
+fdisk /mbr
+.
+ 
+GRUB
+ 
+:
+ 
+Le GRUB est le bootloader du projet GNU.
+ 
+LOADLIN
+ 
+:
+ 
+C&#x0027;est un utilitaire fonctionnant sous DOS que l‚Äôon peut utiliser pour d√©marrer 
+Linux, si l‚Äôon ne peut/souhaite pas utiliser LILO, et que
+ 
+l‚Äôon dispose d&#x0027;une partition 
+DOS/WindoÔÅ∂s bootable. Gr√¢ce √† lui, on peut choisir le syst√®me que l‚Äôon souhaite utiliser
+ 
+: Linux, FreeBSD, Windows, OS/2,..., lors du lancement de la machine. Pour cela, lilo est 
+placÈ dans le secteur de boot du disque dur.  I
+l est disponible en gÈnÈral sur les CD des 
+distributions. Pour le faire fonctionner, il est conseillÈ de crÈer un rÈpertoire 
+C:LINUX
+, d'y 
+placer LOADLIN, de copier le noyau 
+/boot/vmlinuz
+-
+2.x.x
+ 
+sous Linux dans ce rÈpertoire 
+sous le nom 
+VMLINUZ
+, et d'y crÈer
+ 
+un fichier 
+linux.bat
+ 
+contenant la ligne de commande : 
+LOADLIN C:LINUXVMLINUZ root=/dev/hdb1 ro %1 %2
+ 
+-
+&#x0000; Il faut ensuite remplacer /dev/hdb1 par la partition "racine" / ou encore, si on utilise 
+initrd
+, if faudra copier /boot/initrd dans le mÍme rÈpertoire,
+ 
+et placez cette ligne dans 
+linux.bat
+ 
+: 
+LOADLIN C:LINUXVMLINUZ initrd=C:LINUXINITRD %1 %2.
+ 
+DËs lors, on peut crÈer une entrÈe dans le 
+c:config.sys
+ 
+pour avoir un choix "Linux" au boot 
+qui en fait lance 
+linux.bat
+. Ou bien on boote en "ligne de commande seule
+ment" et on 
+dÈmarre Linux en tapant 
+linux
+ 
+au prompt 
+&#x0000;C:
+.
+ 
+ 
+En cas d'erreur de manipulation, vous risquez de rendre votre configuration inutilisable. 
+Pensez ‡ avoir toujours une disquette de dÈmarage sous la main au cas o˘ un problËme 
+surviendrait. Vous pouv
+ez Ègalement faire une copie de votre secteur de dÈmarrage sur 
+une disquette avec la commande: 
+ 
+dd if=/dev/hda of=/fd/MBR/ bs=512 count=1
+ 
+Pour modifier la configuration de lilo, il suffit de modifier son fichier de configuration, 
+lequel est gÈnÈralement 
+/e
+tc/lilo.conf
+. 
+ 
+ProblËmes avec le CD
+-
+ROM :
+ 
+Essayer
+ 
+de copier le contenu du CD sur le disque dur et de 
+lancer l'installation depuis le disque dur, cela rËgle bien des problËmes si 
+le
+ 
+lecteur de CD 
+est mal reconnu.
+ 
+2.4.
+ 
+Gestion des packages et applications 
+ 
+Le format RPM (RedHat Package Manager), a ÈtÈ, crÈÈ ‡ l'origine pour la distribution 
+RedHat. Depuis, de nombreuses distributions l'ont adoptÈ et l'utilisent. D'autres formats 
+de packages dans le monde Linux sont DEB (pour Debian) et TGZ (pour Slackware). 
+ 
+Il existe de nombreux utilitaires tels que Kpackage, GnoRPM, Midnight Commander etc. 
+qui permettent d'installer et de gÈrer les packages RPM. L'installation depuis la ligne de 
+commande reste toutefois la solution la plus rapide et la plus efficace pour ce 
+travail.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+18
+ 
+LIR 2016
+ 
+2.4.1.
+ 
+Les commandes usuelles
+ 
+Pour installer un nouveau
+ 
+paquetage
+ 
+: 
+ 
+[
+talla
+@misfu 
+talla
+]$ rpm 
+-
+ivh mon_package.rpm
+ 
+Les options 
+h
+ 
+et 
+v
+ 
+ne sont pas obligatoires, 
+-
+i
+ 
+est suffisant pour faire une installation. 
+L'option 
+h
+ 
+provoque l'affichage d'une barre de progression et 
+v
+ 
+rend l'installation 
+verbeuse, ce qui fournit des messages plus explicites en cas d'erreur. 
+ 
+Pour procÈder ‡ la mise ‡ jour d'un paquetage
+ 
+:
+ 
+[talla@
+iutfv.univ
+-
+dschang.org
+]$ rpm 
+-
+Uvh mon_package.rpm
+ 
+Le "U
+" correspond ‡ "Update". 
+ 
+Pour supprimer un paquetage
+ 
+:
+ 
+[talla@
+iutfv.univ
+-
+dschang.org
+]# rpm 
+-
+e mon_package [talla@
+iutfv.univ
+-
+dschang.org
+]# 
+rpm 
+-
+e mon_package
+-
+version
+ 
+Le "e" correspond ‡ "erase". 
+ 
+Pour faire des requÍtes sur les paquetages
+ 
+:
+ 
+[talla@
+iutfv.un
+iv
+-
+dschang.org
+]# rpm 
+‚Äì
+qa 
+a
+ffiche la liste de tous les paquetages dÈj‡ 
+installÈs.
+ 
+L'option ´ q ª signifie ´ query ª et l'option´ a ª signifie "all".
+ 
+[talla@
+iutfv.univ
+-
+dschang.org
+]# rpm 
+-
+qa | grep mon_package
+ 
+Ainsi par exemple rpm 
+-
+qa | grep 'util' donne la 
+liste de tous les RPM installÈs tels que util
+-
+linux, nautilus, bind_utils etc. 
+ 
+Trouver la liste des fichiers contenus dans un paquetage mon_package qui est dÈj‡ 
+installÈ
+.
+ 
+[talla@
+iutfv.univ
+-
+dschang.org
+]# rpm 
+-
+ql mon_package
+ 
+L'option "l" signifie "list". 
+ 
+O
+btenir des informations relatives ‡ un
+ 
+paquetage
+ 
+[talla@
+iutfv.univ
+-
+dschang.org
+]# rpm 
+-
+qi mon_package
+ 
+L'option "i" signifie "information".
+ 
+Cette commande donne les informations relatives ‡ ce paquetage, une brËve description 
+de ce que fait le paquetage, des
+ 
+dÈpendances qui doivent Ítre satisfaites, etc. 
+ 
+[talla@
+iutfv.univ
+-
+dschang.org
+]# rpm 
+-
+qpi mon_package
+ 
+L'option "p" signifie "package". 
+ 
+Retrouver le paquetage d'origine d'un
+ 
+fichier
+ 
+[talla@
+iutfv.univ
+-
+dschang.org
+]$ rpm 
+-
+qf chemin_absolu/mon_fichier
+ 
+Ici le '
+f' signifie 'file'.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+19
+ 
+LIR 2016
+ 
+[talla@
+iutfv.univ
+-
+dschang.org
+]$ rpm 
+-
+i 
+--
+test mon_package 
+effectue simplement une 
+vÈrification sans installer le paquetage mon_package. Permet essentiellement de vÈrifier 
+si l'installation pourrait se dÈrouler sans encombre ou alors si 
+des dÈpendances non 
+satisfaites risquent de faire avorter l'installation.
+ 
+Si rpm ne veut pas dÈsinstaller le paquetage mon_package, faire :
+ 
+[talla@
+iutfv.univ
+-
+dschang.org
+]$ rpm 
+-
+qa | grep mon_package 
+a
+ffiche la liste des paquetages 
+dont le nom contient mon_package, par exemple : 
+ 
+mon_package
+-
+1.1 mon_package
+-
+1.2 
+ 
+[talla@
+iutfv.univ
+-
+dschang.org
+]# rpm 
+-
+e mon_package
+-
+1.1
+ 
+DÈsinstalle le paquetage dÈsignÈ par son nom et son numÈro de version. 
+ 
+2.5.
+ 
+Outils communs d
+'utilisation d'un rÈseau sous Unix. 
+ 
+Sous Linux, tout est fichier. Que ce soit un rÈpertoire, une imprimante, un disque ou une 
+unitÈ pÈriphÈrique, le systËme le perÁoit comme un fichier. Il existe deux modes de lecture 
+ou d‚Äôouverture de fichier sous Linux
+ 
+: le 
+mode lecture seul
+ 
+et le 
+mode Èdition
+. 
+ 
+L‚Äôouverture du fichier en mode lecture seule peut se faire gr√¢ce √† la commande cat qui 
+offre soit la possibilit√© d‚Äôafficher le contenu du fichier √† l‚Äô√©cran, soit de le rediriger vers un 
+fichier. 
+ 
+L‚Äôouverture du f
+ichier en mode Èdition peut se faire avec des outils tels que 
+gedit
+ 
+ou 
+vi
+. 
+Le contenu est alors affich√© √† l‚Äô√©cran et l‚Äôutilisateur peut proc√©der aux mises
+-
+‡
+-
+jours. 
+ 
+La synthase de tous ces outils et commandes est la mÍme
+ 
+: Nom de la commande suivi du 
+chemi
+n d‚Äôacc√®s au fichier.
+ 
+2.5.1.
+ 
+Quelques fichiers importants
+ 
+Certains fichiers sont fr√©quemment utilis√©s pour l‚Äôadministration des syst√®mes Linux. 
+Parmi ceux
+-
+ci, les plus en vue sont les suivants
+ 
+:
+ 
+2.5.1.1.
+ 
+Fichier de noms d‚Äôh√¥tes
+ 
+: 
+/etc/hosts 
+ 
+Ce fichier 
+est structurÈ sous 
+la forme
+ 
+:
+ 
+adresse IP 
+ 
+ 
+ 
+nom de machine
+ 
+ 
+liste d'ali
+as commentaire
+ 
+ 
+127.0.0.1
+ 
+ 
+ 
+localhost.localdomain
+ 
+localhost
+ 
+192.168
+.11.5
+ 
+ 
+directeur.iutfv
+-
+bandjoun
+ 
+Directeur
+ 
+192.168.11.1
+ 
+ 
+dptinfo.iutfv
+-
+bandjoun
+ 
+ChefDepartement
+ 
+192.168
+.11.2
+ 
+ 
+salletp.iutfv
+-
+band
+joun
+ 
+SalleTP
+ 
+Il assure la correspondance (nom, adresse IP). S'il existe un serveur de noms sur cette 
+machine, il contient trËs peu de lignes et ne sert qu'au dÈmarrage de la machine avant que 
+le serveur de noms ne soit lancÈ. Si le serveur de noms est sur une m
+achine distante il ne 
+contient que les machines du rÈseau local. 
+ 
+ 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+20
+ 
+LIR 2016
+ 
+2.5.1.2.
+ 
+RÈsolveurs de nom
+ 
+:
+ 
+/etc/resolv.conf
+ 
+ 
+search
+ 
+iutfv
+-
+bandjoun 
+ 
+info.
+univ
+-
+dschang.org
+ 
+ 
+univ
+-
+dschang.org
+ 
+nameserver 172.20.41.2
+ 
+Il prÈcise les noms de domaines avec lesquels complÈter le nom d
+'une machine pour 
+connaÓtre son nom complet, ainsi que les adresses de serveurs de noms ‡ interroger. On 
+peut aussi y trouver le domaine d'appartenance de la machine sous la forme 
+domain iutfv
+-
+bandjoun
+ 
+par exemple. 
+ 
+2.5.1.3.
+ 
+Liste des protocoles
+ 
+:
+/etc/protocols
+ 
+ 
+Il
+ 
+contient la liste des protocoles connus et utilisÈs dans Internet sous la forme
+ 
+:
+ 
+nom du protocole
+ 
+ 
+ 
+numÈro du protocole
+ 
+liste d'alias commentaire
+ 
+ 
+#/etc/protocols:
+ 
+ip 0 IP
+ 
+#internet protocol,
+ 
+ 
+pseudo protocol number
+ 
+2.5.1.4.
+ 
+Liste des services
+ 
+:
+ 
+/etc/services 
+ 
+Il
+ 
+contient la liste des services Internet connus sous la forme
+ 
+:
+ 
+nom du service
+ 
+numÈro de port/protocole
+ 
+liste d'alias
+ 
+commentaire
+ 
+ 
+ÔÇ∑
+ 
+ftp
+-
+data
+ 
+ 
+20/tcp
+ 
+ÔÇ∑
+ 
+fsp
+ 
+ 
+ 
+21/udp
+ 
+ 
+ 
+fspd
+ 
+ÔÇ∑
+ 
+ssh
+ 
+ 
+ 
+22/tcp
+ 
+ 
+ 
+# SSH Remote Login Protocol
+ 
+2.5.1.5.
+ 
+Fichier des liens
+ 
+:
+ 
+/etc/inetd.conf
+ 
+ 
+Il contient les liens entre nom de services et ´ exÈcutablesª rÈalisant ce service. 
+ 
+ÔÇ∑
+ 
+ftp
+ 
+stream
+ 
+tcp
+ 
+nowait
+ 
+root
+ 
+/usr/sbin/tcpd
+ 
+in.proftpd
+ 
+2.6.
+ 
+Quelques commandes utiles 
+ 
+Les commandes sont illustrÈes avec leurs rÈsultats aprËs les avoir lancÈes. Il est conseill
+È 
+d'utiliser la commande 
+man
+ 
+du systËme pour obtenir de plus amples informations sur 
+celles
+-
+ci. 
+ 
+hostname
+ 
+retourne le nom de la machine. 
+ 
+finger
+ 
+renvoie des informations sur un utilisateur, en utilisant s'ils existent les fichiers 
+.plan et .project. 
+ 
+ping
+ 
+permet de tester l'accessibilitÈ d'une machine. Elle envoie une requÍte ICMP (echo) 
+‡ destination d'une machine cible, spÈcifiÈe par son nom ou son adresse IP, qui lui 
+retourne une rÈponse ICMP (echo). Si une machine ne rÈpond pas au ping, elle est 
+inutili
+sable pour toute autre application. 
+ 
+ÔÅ∂
+ 
+ping talla
+ 
+ÔÅ∂
+ 
+PING talla.iutfv
+-
+bandjoun (1
+92
+.
+168.
+1.7): 56 data bytes
+ 
+ÔÅ∂
+ 
+64 bytes from 172.20.41.7: icmp_seq=0 ttl=64 time=0.2 ms
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+21
+ 
+LIR 2016
+ 
+Ping
+ 
+renvoie Ègalement le numÈro de la sÈquence ICMP exÈcutÈe, la valeur du champ TTL 
+et le temps d'aller
+-
+retour entre les deux machines. Elle peut le faire car dans le paquet 
+expÈdiÈ pour la requÍte elle place son heure d'Èmission et lorsqu'elle reÁoit la rÈp
+onse 
+elle la soustrait de l'heure systËme. Puis, en fin d'exÈcution (provoquÈe par l'utilisateur 
+ou suite ‡ l'envoi du nombre de paquets spÈcifiÈs), quelques donnÈes statistiques sont 
+affichÈes permettant d'Èvaluer la qualitÈ de la liaison. 
+ 
+traceroute
+ 
+ren
+voie la route prise par des paquets pour atteindre une destination. Elle 
+utilise le champ TTL (Time to Live) des paquets IP transmis selon le protocole UDP. 
+ 
+ÔÅ∂
+ 
+|dptinfo|/etc&#x0000;/
+usr/sbin/traceroute www.
+iutfv.univ
+-
+dschang.org
+ 
+ÔÅ∂
+ 
+traceroute to www.
+iutfv.univ
+-
+dschang.org
+ 
+(195.46.203.182), 30 hops max, 38 byte packets
+ 
+ÔÅ∂
+ 
+1  
+fokam
+ 
+(172.20.41.1)  0.185 ms  0.133 ms  0.121 ms
+ 
+arp
+ 
+permet de visualiser et modifier (si on a le droit) la table de translation adresses 
+Ethernet/adresses Internet. Cette table est 
+en fait un cache qui Èvolue au fur et ‡ mesure 
+des sollicitations des machines du rÈseau. 
+ 
+ÔÅ∂
+ 
+|dptinfo|/etc&#x0000;/sbin/arp 
+-
+a
+ 
+ÔÅ∂
+ 
+fokam
+.iutfv
+-
+bandjoun (172.20.41.1) at 00:A0:C9:EE:EA:6A [ether] on eth0
+ 
+ÔÅ∂
+ 
+g104
+-
+6.iutfv
+-
+bandjoun (172.20.41.146) at 00:02:B3:21:05:BA [ether]
+ 
+on eth0
+ 
+nslookup
+ 
+permet d'interroger les serveurs de noms d'Internet. Elle fonctionne en mode 
+interactif quand on l'appelle sans argument ou avec les arguments 
+-
+ 
+nom ou adresse IP de 
+machine
+, ‡ ce moment
+-
+l‡ on obtient
+ 
+:
+ 
+ÔÅ∂
+ 
+|dptinfo|/etc&#x0000;nslookup
+ 
+ÔÅ∂
+ 
+Default 
+Server: nes.iutfv
+-
+bandjoun
+ 
+ÔÅ∂
+ 
+Address: 172.20.&#x0000;41.2
+ 
+o˘ l'on a le nom du serveur de noms par dÈfaut. Dans le mode interactif on obtient de 
+l'aide sur les diffÈrentes commandes ‡ l'aide de la commande 
+?
+ 
+&#x0000; ?
+ 
+$Id: nslookup.help,v 8.5 2000/03/30 23:25:35 vixie Exp
+ 
+$
+ 
+Commands:       (identifiers are shown in uppercase, [] means optional)
+ 
+    
+domain=NAME 
+-
+ 
+set default domain name to NAME
+ 
+    
+srchlist=N1[/N2/.../N6] 
+-
+ 
+set domain to N1 and search list to N1,N2, etc.
+ 
+whois
+ 
+permet d'interroger une base de donnÈes sur les rÈseaux et leurs administrateurs. 
+Par dÈfaut un serveur global est interrogÈ, mais on peut spÈcifier quel serveur whois on 
+interroge, comme par exemple dans la commande suivante
+ 
+: 
+whois univ
+-
+dschang.
+org
+@whoi
+s.nic.fr
+ 
+On peut aussi utiliser 
+whois nom_de_personne@nom_de_serveur
+. 
+ 
+netstat
+ 
+permet d'obtenir des statistiques sur le nombre de paquets, les erreurs, les 
+collisions etc... sur une interface en donnant la liste de toutes les sockets ouvertes. 
+ 
+On obtient 
+la table de routage par
+ 
+l‚Äôoption
+ 
+:
+ 
+netstat 
+-
+rn
+ 
+Kernel IP routing table
+ 
+Destination
+ 
+Gateway
+ 
+ 
+Genmask
+ 
+ 
+Flags
+ 
+MSS Window  irtt Iface
+ 
+172.20.
+41.8
+ 
+0.0.0.0
+ 
+ 
+255.255.255.255
+ 
+UH
+ 
+40
+ 
+0
+ 
+0 eth0
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+22
+ 
+LIR 2016
+ 
+127.0.0.0
+ 
+ 
+0.0.0.0
+ 
+ 
+255.0.0.0
+ 
+ 
+U
+ 
+40
+ 
+0
+ 
+0 
+ 
+lo
+ 
+0.0.0.0
+ 
+ 
+172.20.41.1
+ 
+0.0.0.0
+ 
+ 
+UG
+ 
+40
+ 
+0
+ 
+0 eth0
+ 
+U route utilisable, G route indirecte 
+(passerelle), H hÙte
+ 
+tcpdump
+ 
+visualise diffÈrentes informations (selon les options de la commande) sur les 
+paquets qui passent par l'interface rÈseau de la machine. C'est une commande rÈservÈe ‡ 
+root
+. 
+ 
+ÔÇ∑
+ 
+|dptinfo|~&#x0000;tcpdump 
+-
+c 20
+ 
+ÔÇ∑
+ 
+tcpdump: listening on eth0
+ 
+tcpdump tcp port 21
+ 
+ne renverra que les paquets liÈs au protocole tcp sur le port 21, ‡ 
+savoir ftp. 
+ 
+2.7.
+ 
+Prise en main du shell
+ 
+2.7.1.
+ 
+Commandes usuelles d'Unix
+ 
+Le tableau suivant prÈsente les principales commandes 
+reconnues par l‚Äôinterpr√©teur de 
+commande Linux (Shell).
+ 
+Tableau 2.
+ 
+Commandes usuelles
+ 
+Commande
+ 
+Action
+ 
+who 
+‚Äì
+s 
+ 
+Utilisateurs connectÈs et leur station
+ 
+man 
+ 
+Obtenir de l‚Äôaide sur une commande Unix
+ 
+man 
+‚Äì
+k 
+ 
+Chercher de l‚Äôaide sur un mot cl√©
+ 
+exit
+ 
+Se dÈlogger
+ 
+pwd
+ 
+Obtenir le chemin actif
+ 
+ps 
+-
+A
+ 
+Obtenir la liste des jobs actifs
+ 
+ 
+| pg ou  | more
+ 
+Paginer une commande (arrÍt fin Ècran)
+ 
+kill 
+‚Äì
+9 
+ 
+ArrÍter un job
+ 
+ls ("LS" minuscule)
+ 
+Liste des fichiers du rÈpertoire courant
+ 
+shutdown
+ 
+ArrÍt serveur
+ 
+su nom_utilisateur
+ 
+Changer de profil utilisateur
+ 
+cp fichier_source fichier_destination
+ 
+Copier un fichier
+ 
+LS 
+‚Äì
+L (en minuscules, Áa suffit)
+ 
+Commande Èquivalent au DIR du DOS
+ 
+CAT nom_fich
+ 
+Commande Èquivalente au TYPE du DOS. Utiliser MORE 
+pour paginer
+ 
+ 
+&#x0000; nom_fichier
+ 
+Redirection des sorties vers un fichier
+ 
+2.7.1.1.
+ 
+Autres commandes utiles
+ 
+hostname
+ 
+Nom de la station sur laquelle on est connctÈ
+ 
+uname
+ 
+Nom de l'utilisateur courant
+ 
+date
+ 
+renvoie la date
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+23
+ 
+LIR 2016
+ 
+cal
+ 
+calendrier
+ 
+logname
+ 
+nom de login courant
+ 
+id
+ 
+renvoie les UID et GID de 
+l'utilisateur courant
+ 
+more
+ 
+permet de paginer une sortie Ècran
+ 
+clear
+ 
+efface l'Ècran
+ 
+echo
+ 
+visualise une chaine ou variable
+ 
+man
+ 
+aide d'UNIX
+ 
+env
+ 
+visualise les variables d'environnement
+ 
+whereis
+ 
+localise une commande sur les disques
+ 
+apropos
+ 
+recherche des 
+rubriques connexes de l'aide
+ 
+grep
+ 
+recherche une chaine
+ 
+tty
+ 
+donne le nom du pÈriphÈrique de sortie standard
+ 
+mkdir
+ 
+crÈer un rÈpertoire
+ 
+mv
+ 
+dÈplace un fichier/rÈpertoire
+ 
+cp
+ 
+copie un fichier/rÈpertoire
+ 
+touch
+ 
+crÈe un fichier vide ou met ‡ jour les flags 
+d'un fichier
+ 
+df
+ 
+donne l'utilisation des disques
+ 
+cd ~ ou cd
+ 
+replace dans le $HOME de l'utilisateur courant
+ 
+whoami
+ 
+donne le nom de login de l'utilisateur courant
+ 
+mkdir 
+-
+p
+ 
+crÈe une arborescence
+ 
+rm 
+-
+r
+ 
+supprime une arborescence
+ 
+ls 
+-
+R
+ 
+Èquiv. au tree
+ 
+su 
+-
+ 
+loginname
+ 
+cette commande permet de changer de login et en plus de 
+lire l'environnement complet de l'utilisateur
+ 
+cat fich1 fic&#x0000;h2 fich3
+ 
+concatÈnation des fichiers fich1 et fich2 et envoie du 
+rÈsultat dans fich3
+ 
+tail 
+-
+f 
+ 
+visualise la fin d'un fichier
+ 
+2.7.1.2.
+ 
+Commandes de t
+ris et 
+d‚Äô
+actions d'extraction
+ 
+sort
+ 
+Tri standard
+ 
+uniq
+ 
+Èlimine les lignes identiques consÈcutives
+ 
+head
+ 
+extrait le dÈbut d'un fichier
+ 
+tail
+ 
+extrait la fin d'un fichier (tail +2 pour sauter une entÍte 
+par exemple)
+ 
+split
+ 
+dÈcoupage en paquets
+ 
+cut
+ 
+extraction d'une partie d'un fichier, colonnes, caractËres, 
+etc‚Ä¶
+ 
+grep
+ 
+recherche une chaine et extrait les lignes 
+correspondantes
+ 
+paste
+ 
+colle ligne ‡ ligne deux fichiers
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+24
+ 
+LIR 2016
+ 
+join
+ 
+rÈalise une jointure entre deux fichiers de type base de 
+donnÈes
+ 
+wc
+ 
+compte
+ 
+le nombre de lignes ou de mots
+ 
+2.7.1.3.
+ 
+Commandes d‚Äôentr√©e/sortie basiques
+ 
+read var
+ 
+attend une saisie au clavier et positionne var
+ 
+echo
+ 
+affiche ‡ l'Ècran
+ 
+echo 
+-
+e
+ 
+affiche avec codes de contrÙle Ètendus
+ 
+tput
+ 
+locate + invertion vidÈo
+ 
+ 
+2.7.2.
+ 
+MÈtacaractËres du shell
+ 
+Le tableau suivant pre sente 
+les caracte res e tendus 
+compris par le Shell
+ 
+Tableau 3.
+ 
+CaractËres Ètendus compris par le Shell
+ 
+Caract√®
+re
+ 
+Action
+ 
+&#x0027; &#x0027;
+ 
+permet de spe cifier une chaine dont le contenu ne sera PAS interpre te  par le shell
+ 
+Ã∂ Ã∂
+ 
+permet de spe cifier une chaine 
+dont le contenu sera interpre te  par le shell (peut 
+contenir des variables $ qui seront interpre te es)
+ 
+*
+ 
+tous les fichiers
+ 
+?
+ 
+remplace un caracte re dans le nom d&#x0027;un fichier
+ 
+[ ]
+ 
+spe cifie une liste
+ 
+«¢
+ 
+permet d&#x0027;
+encha√Æ ner
+ 
+des commandes (attention, diffe rent du
+ 
+pipe)
+ 
+&
+ 
+lancer un processus en arrie re
+-
+plan
+ 
+#
+ 
+commentaire
+ 
+` `
+ 
+re cupe re le re sultat d&#x0027;une commande
+ 
+$
+ 
+= contenu de
+ 
+2.7.3.
+ 
+CrÈation de liens
+ 
+La notion de lien est tout aussi importante dans Linux. 
+Ils permettent ‡ plusieurs 
+utilisateurs de travailler sur un mÍme fichier. 
+On distingue deux sortes de liens, les liens 
+physiques et les liens logiques.
+ 
+Pour le lien logique, le fichier est physiquement unique, 
+mais le lien crÈe une vue logique dessus, une
+ 
+sorte de duplication du nom du fichier tel 
+que les deux noms indexent le mÍme fichier physique.
+ 
+Le lien physique quant ‡ lui 
+duplique physiquement le fichier.
+ 
+ln fichier
+ 
+p
+ermet cre er un lien physique.
+ 
+ln 
+-
+s r√©pertoire 
+permet de cre er un lien logique.
+ 
+2.8.
+ 
+Syst
+Ëme de fichiers
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+25
+ 
+LIR 2016
+ 
+2.8.1.
+ 
+Structure du systËme de fichiers
+ 
+2.8.1.1.
+ 
+Organisation
+ 
+Comme tous les systËmes Unix, Linux organise ses fichiers selon un modËle en 
+arborescence. Ceci est devenu pratiquement une rËgle pour la plupart des systËmes 
+d'exploitation modernes. Mais par 
+rapport au DOS qui est issu d'Unix, il y a des diffÈrences 
+notables qu'il faut toujours avoir ‡ l'esprit :
+ 
+Sous DOS
+, chaque lecteur (disquette, CD
+-
+R
+om, disque, partage, 
+USB,
+...) dispose d'une 
+arborescence indÈpendante qui se dÈploie sous une racine identif
+iÈe par une lettre (A:, B:, 
+C:, etc.). A l'inverse, sous Linux, tous les lecteurs sont intÈgrÈs sous une arborescence 
+unique dont la racine est dÈsignÈe par le caractËre /. Cette organisation bÈnÈficie d'une 
+souplesse et d'une efficacitÈ qui feraient p‚lir
+ 
+le systËme DOS. 
+ 
+Contrairement ‡ DOS/Windows, Linux respecte les casses des caract
+Ëres dans les noms 
+de fichiers. 
+Il est frÈquent d'avoir des noms de fichiers avec plusieurs points comme par 
+exemple bash.tar.gz.
+ 
+Dans le nom d'un fichier on peut choisir n'
+importe quel caractËre, ‡ l'exception de la barre 
+oblique (on dit aussi slash) qui sert de sÈparateurs entre les rÈpertoires. Il est possible 
+d'avoir des noms de fichier relativement longs.
+ 
+Le systËme de fichiers par DÈfaut ext2FS peut contenir des fichier
+s d'une taille maximale 
+de 2 Go.
+ 
+2.8.1.2.
+ 
+Quelques rËgles et conventions de nommage
+ 
+Les fichiers dont le nom commence par l
+e
+ 
+caractËre point sont des fichiers cachÈs qui 
+ne 
+sont pas affichÈs par dÈfaut
+.
+ 
+Il est conseillÈ
+ 
+:
+ 
+ÔÅ∂
+ 
+d'utiliser les minuscules pour le nommage d
+es fichiers. Toutefois, la tradition fait 
+choisir une lettre majuscule pour la premiËre lettre des rÈpertoires personnels.
+ 
+ÔÅ∂
+ 
+d'Èviter les caractËres spÈciaux et les blancs dans les noms de fichiers.
+ 
+ÔÅ∂
+ 
+de ne pas dÈpasser plus de 1024 caractËres pour un nom de f
+ichiers.
+ 
+2.8.2.
+ 
+La gestion des droits d'accËs aux fichiers
+ 
+Les droits (ou autorisations) d'accËs constituent un moyen pour protÈger les donnÈes 
+(fichiers UNIX) appartenant ‡ chacun contre une destruction ou altÈration accidentelle 
+(ou intentionnelle) par soi
+-
+mÍme
+ 
+ou les autres utilisateurs.
+ 
+Principe :
+ 
+Chaque fichier ou rÈpertoire peut avoir trois types d'utilisateurs et quatre 
+types d'autorisation ou modes (ou encore droits) d'accËs.
+ 
+2.8.2.1.
+ 
+Les droits (ou autorisations ou modes) d'accËs
+ 
+Ils dÈfinissent les types d'action
+s que l'on peut effectuer sur le fichier.
+ 
+On en distingue 4 
+conformÈment au tableau suivant
+ 
+:
+ 
+Tableau 4.
+ 
+Sp√©cification des droits d‚Äôutilisateurs
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+26
+ 
+LIR 2016
+ 
+Code d&#x0027;autoris
+ation
+.
+ 
+Signification
+ 
+r (readable
+)
+ 
+Acce s en lecture. Permet de lire le contenu ou de copier le fichier
+ 
+Les e le ments du re pertoire sont accessibles en lecture, 
+ls
+ 
+est possible.
+ 
+ÔÅ∂ (ÔÅ∂ritable)
+ 
+Acce s en e criture. Modification du contenu du fichier possible
+ 
+Cre ation et suppression de fichiers dans le re pertoire possible (mais 
+inde pendant des autorisations. d&#x0027;acc
+e s aux fichiers).
+ 
+x (executable)
+ 
+Acce s en exe cution. Le fichier contient un programme (binaire ou 
+script) et peut e tre exe cute .
+ 
+Le nom du re pertoire peut appara√Æ tre dans un chemin d&#x0027;acce s. Cd 
+possible.
+ 
+-
+ 
+(pas d&#x0027;acce s)
+ 
+Mode prote ge . Aucun acce s n&#x0027;est 
+possible
+ 
+2.8.2.2.
+ 
+Les types d'utilisateurs
+ 
+Pour chaque fichier ou rÈpertoire, les autorisations d'accËs en lecture, en Ècriture ou en 
+exÈcution peuvent Ítre positionnÈes sÈparÈment pour trois types d'utilisateurs : le 
+propriÈtaire, le groupe et les autres.
+ 
+Le tabl
+eau suivant prÈsente une spÈcification
+ 
+Tableau 5.
+ 
+Sp√©cification des codes d‚Äôutilisation des fichiers
+ 
+Code d&#x0027;utilis
+ation
+.
+ 
+Signification
+ 
+u (user)
+ 
+Proprie taire. Cre ateur du fichier ou du re pertoire. Les trois premiers 
+caracte res de la liste d&#x0027;autorisations.
+ 
+g (groupe)
+ 
+Chaque utilisateur est membre d&#x0027;un groupe de fini par l&#x0027;administrateur du 
+syste me «¢ les membres d&#x0027;un groupe partagent l&#x0027;acce s aux fichiers des uns 
+et des autres. 0e , 5e  et 6e  caracte res de la liste d&#x0027;autorisation.
+ 
+o (Others)
+ 
+Tous les autres utilisateurs a
+utorise s a  se servir du syste me. 
+7e , 8e  et 9e  
+caracte res.
+ 
+2.8.2.3.
+ 
+Affichage des autorisations d'accËs des fichiers 
+ 
+On utilise la commande ls (de l'anglais 
+l
+i
+s
+t) avec l'option 
+-
+l combinable avec l'option 
+-
+a
+ 
+Typ
+es de fichiers et rÈpertoires (
+le premier caractËre de la liste Èlargie d'autorisation) 
+ 
+Tableau 6.
+ 
+Options de la commande ls
+ 
+Code
+ 
+Signification
+ 
+-
+ 
+ 
+Le type le plus courant, type standard
+ 
+d
+ 
+Re pertoire (de l&#x0027;anglais directory)
+ 
+b
+ 
+Fichier de pe riphe rique bloc (programme de gestion de pe riphe rique)
+ 
+c
+ 
+Fichier de pe riphe rique caracte re.
+ 
+s
+ 
+Fichier Ã∂socketÃ∂ utilise  pour la communication entre des programmes fonctionnant 
+simultane ment
+ 
+l
+ 
+Indique que le fichier est un lien, utilise  pour relier logiquement deux fichiers.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+27
+ 
+LIR 2016
+ 
+Chapitre 3.
+ 
+Gestion des droits
+ 
+et Initiation au Shell
+ 
+3.1.
+ 
+R√¥le de l‚Äôadministrateur r√©seau sous Unix
+ 
+Unix Ètant un systËme d'exploitation Multi
+-
+Utilisateurs, la gestion du systËme et des 
+utilisateurs est confiÈe ‡ un super utilisateur nommÈ root ou racine. 
+ 
+Le rÙle de l'administrateur ou root est de : 
+ 
+1.
+ 
+configurer le noyau du systËme d'exploitation ; 
+ 
+2.
+ 
+sauvegarder les donnÈes et rÈparer les systËmes de fichier ; 
+ 
+3.
+ 
+gÈrer les utilisateurs ; 
+ 
+4.
+ 
+installer de nouveaux logiciels ; 
+ 
+5.
+ 
+intÈgrer de nouveaux disques durs et d
+e nouvelles partitions ; 
+ 
+6.
+ 
+configurer le processus de dÈmarrage de Linux ; 
+ 
+7.
+ 
+configurer le rÈseau 
+ 
+3.2.
+ 
+Gestion des utilisateurs
+ 
+3.2.1.
+ 
+Notion d‚Äôutilisateur
+ 
+MÍme si vous Ítes le seul utilisateur, il est indispensable de crÈer des utilisateurs ne 
+serait
+-
+ce que pour des r
+aisons de sÈcuritÈ. L'utilisateur root ayant tous les droits, il est 
+recommandÈ de se connecter avec un autre compte utilisateur afin d'Èviter d'effectuer de 
+fausses manipulations qui pourraient avoir de lourdes consÈquences sur la stabilitÈ du 
+systËme. Lo
+rsque vous avez besoin de faire de l'administration systËme, vous avez 
+toujours la possibilitÈ de changer d'utilisateur et de devenir root ‡ partir de la commande 
+su : 
+$ su root ; 
+ 
+Chaque utilisateur dispose d'un rÈpertoire personnel sous 
+/home
+, par exempl
+e 
+/home/talla
+ 
+pour l'utilisateur 
+talla
+. Outres les fichiers personnels de l'utilisateur, son 
+compte comprend des fichiers cachÈs de configuration du shell ainsi que les prÈfÈrences 
+de l&#x0027;interface graphique X‚àíWindoÔÅ∂. 
+ 
+3.2.2.
+ 
+Le systËme d'authentification et ses co
+mposants
+ 
+3.2.2.1.
+ 
+Session utilisateur
+ 
+Le systËme d'authentification comprend, pour chaque utilisateur dÈclarÈ dans le systËme, 
+deux informations capitales qui sont demandÈes ‡ l'utilisateur, au dÈbut de la session : 
+son nom d'utilisateur et son mot de passe.
+ 
+C'est 
+gr‚ce ‡ ces informations que le systËme 
+arrive ‡ conserver, pour chaque utilisateur, ses prÈfÈrences d'une session sur l'autre ainsi 
+que ses droits d'accËs et lui permet de retrouver son fond d'Èc
+ra
+n, ses icÙnes, la 
+configuration de ses programmes, ... ain
+si que ses donnÈes privÈes. C'est donc un systËme 
+de reconnaissance de l'utilisateur.
+ 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+28
+ 
+LIR 2016
+ 
+3.2.2.2.
+ 
+Le nom d'utilisateur
+ 
+On distingue deux grand types de comptes utilisateur sur un systËme linux : les comptes 
+administratifs (sys, mail, etc...) qui ne sont utilisÈs que 
+par le systËme pour des t‚ches 
+spÈcifiques et les comptes d'utilisateurs rÈels utilisÈs par les linuxiens.
+ 
+3.2.2.3.
+ 
+Le mot de passe
+ 
+Le mot de passe permet ‡ l'utilisateur d'apporter au systËme la preuve de son identitÈ. On 
+dit que l'authentification se fait au moye
+n d'un mot de passe. Et si quelqu'un connaÓt le 
+mot de passe d'un utilisateur, il peut accÈder ‡ toutes ses donnÈes, ou usurper son identitÈ 
+pour dÈclencher des actions qui pourraient s'avÈrer nuisibles. C'est pourquoi il faut 
+prendre les prÈcautions suiva
+ntes concernant son mot de passe :
+ 
+ÔÅ∂
+ 
+Ne pas le communiquer 
+‡ 
+une autre personne quelle qu'elle soit ;
+ 
+ÔÅ∂
+ 
+Ne pas l'Ècrire ou le noter 
+de
+ 
+quelque maniËre que ce soit ;
+ 
+ÔÅ∂
+ 
+Ne pas choisir un mot de passe trop simple ou que les autres peuvent deviner sans 
+difficultÈs.
+ 
+Un bon mot de passe doit :
+ 
+ÔÅ∂
+ 
+comporter un mÈlange de lettres, de chiffres, de ponctuations, etc...
+ 
+ÔÅ∂
+ 
+Ítre suffisamment long (8 caractËres) ;
+ 
+ÔÅ∂
+ 
+Ítre dÈnuÈ de sens (par exemple, ne pas choisir une date d'anniversaire, ou un mot 
+du dictionnair
+e, son nom d'utilisate
+ur, etc.)
+ 
+3.2.2.4.
+ 
+Gestion des comptes et groupes d'utilisateurs sur Linux
+ 
+Les comptes utilisateur servent ‡ beaucoup de choses sur les systËmes UNIX et Linux :
+ 
+ÔÅ∂
+ 
+Ils permettent de distinguer les diffÈrents utilisateurs qui ont accËs au systËme, 
+pour des raisons de s
+√©curit√© et d‚Äôorganisation. 
+ 
+ÔÅ∂
+ 
+Ces utilisateurs peuvent dÈfinir des permissions d'accËs ‡ leurs donnÈes, afin d'en 
+autoriser ou d'en interdire l'exploitation par les autres.
+ 
+ÔÅ∂
+ 
+Les comptes permettent l'authentification de chaque utilisateur accÈdant au 
+systËme, 
+ce qui permet bien d'autres actes de gestion tels que gÈrer les courriers 
+Èlectroniques des utilisateurs par exemple ou savoir qui a fait quoi, en examinant 
+les fichiers de trace du systËme.
+ 
+3.2.2.5.
+ 
+Gestion des comptes d'utilisateurs
+ 
+CrÈation d'un compte d'utilisa
+teur
+ 
+La crÈation d'un compte demande plusieurs opÈrations : l'ajout d'une entrÈe dans le 
+fichier 
+/etc/passwd,
+ 
+la crÈation du rÈpertoire personnel de l'utilisateur, et la mise en place 
+de la configuration par dÈfaut dans le rÈpertoire de cet utilisateur.
+ 
+L'
+ensemble de ces opÈrations est pris en charge par la commande 
+adduser
+.
+ 
+(
+ou useradd 
+selon la distribution) 
+dont la syntaxe se prÈsente comme suit : 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+29
+ 
+LIR 2016
+ 
+adduser
+ 
+[
+-
+c commentaires] [
+-
+d rep_personnel]
+ 
+[
+-
+e date_expiration] [
+-
+f tps_inactivitÈ]
+ 
+[
+-
+g 
+groupe_initial] 
+[
+-
+G groupe
+] [
+...]
+ 
+[
+-
+m [
+-
+k squelette_rep | 
+-
+M] [
+-
+p motdepasse]
+ 
+[
+-
+s shell] [
+-
+u 
+uid [
+-
+o]] [
+-
+n] [
+-
+r] utilisateur
+ 
+UtilisÈe sans aucun argument, cette commande demande de maniËre interactive toutes 
+les informations nÈcessaires pour identifier l'utilisateur en co
+urs de crÈation.
+ 
+UtilisÈe sans 
+option (donc uniquement avec l'argument nom d'utilisateur
+)
+, cette commande applique 
+un ensemble de valeurs par dÈfaut qui sont consignÈes dans le fichier : 
+/etc/default/useradd 
+ 
+Voici un exemple de ce fichier, auquel de brefs
+ 
+commentaires sont rajoutÈs.
+ 
+GROUP=100
+ 
+identifiant du groupe primaire
+ 
+HOME=/home
+ 
+racine des rÈp. Personnels
+ 
+INACTIVE=
+-
+1 
+(nb de jours avant destruction du compte
+)
+ 
+EXPIRE= 
+nb de jours avant expiration du mot de passe
+ 
+SHELL=/bin/bash 
+shell de connexion attrib
+uÈ au compte
+ 
+SKEL=/etc/skel 
+fichiers recopiÈs par dÈfaut dans chaque rÈp
+ertoire
+ 
+personnel
+ 
+Tableau 7.
+ 
+O
+ptions les plus utilisÈes
+ 
+Option
+ 
+R√©sum√©
+ 
+-
+c 
+commentaires 
+ 
+Nom complet de l&#x0027;utilisateur et des commentaires divers
+ 
+-
+d 
+rep^personnel
+ 
+Par de faut dans le re pertoire 
+/home
+ 
+-
+e 
+date^expiration
+ 
+Fixe la date d&#x0027;expiration du compte (format MM/JJ/AA)
+ 
+-
+f tps^inactivite 
+ 
+Nombre de jours entre l&#x0027;expiration et la de sactivation permanente du compte
+ 
+-
+g groupe^initial
+ 
+Groupe d&#x0027;affectation du compte. Doit exister avant la cre ation
+ 
+du compte.
+ 
+-
+G liste
+ 
+Fixe l&#x0027;appartenance de l&#x0027;utilisateur a  une liste de groupes secondaires
+ 
+(se parateur
+, sans espace)
+ 
+-
+m
+ 
+Le re pertoire personnel sera cre e  s&#x0027;il n&#x0027;existe pas. L&#x0027;option 
+-
+k n&#x0027;est valide qu&#x0027;en 
+conjonction avec l&#x0027;option 
+-
+m
+ 
+-
+k squelette^rep
+ 
+Recopie le contenu du re pertoire squelette^rep dans le re p. Personnel «¢ par 
+de faut /etc/skel
+ 
+-
+p motdepasse
+ 
+Mot de passe crypte . Par de faut le compte est de sactive 
+ 
+-
+s shell
+ 
+Par de faut, attribution du shell par de faut bash
+ 
+-
+u uid
+ 
+Pour fixer l&#x0027;identifiant 
+uid a  l&#x0027;utilisateur
+ 
+-
+n
+ 
+Un groupe ayant le me me nom que le compte en cours de cre ation sera cre e sur 
+le syste me par de faut. Cette option de sactivera ce comportement spe cifique a  
+Linux Mandriva
+ 
+Suppression d'un compte d'utilisateur :
+ 
+Pour supprimer le 
+compte
+ 
+d'un utilisateur (non connectÈ), on utilise la commande 
+userdel
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+30
+ 
+LIR 2016
+ 
+userdel [
+-
+r] utilisateur
+ 
+L'option 
+-
+r
+ 
+supprime aussi le rÈpertoire personnel et les fichiers de l'utilisateur.
+ 
+La commande supprime toute trace de l'utilisateur dans le fichier de config
+uration : 
+/etc/passwd
+ 
+y compris dans les groupes d'utilis
+at
+eurs. 
+ 
+Modification d'un compte d'utilisateur
+ 
+:
+ 
+Pour modifier le compte d'un utilisateur, on utilise la commande 
+usermod
+ 
+comme suit : 
+ 
+usermod [options] utilisateur 
+ 
+Les options sont 
+les mÍmes
+ 
+que 
+adduser
+ 
+ 
+usermod
+ 
+-
+G stagiaire,
+ 
+prof 
+stagex
+ 
+ajoute 
+l‚Äôutilisateur 
+stagex dans 
+les 2 groupes stagiaire et 
+prof
+ 
+(qui doivent exister au prÈalable) 
+ 
+Pour lui attribuer le nouveau 
+mot de passe stgx : passwd stagex
+. 
+La saisie du nouveau mot 
+de passe sera demandÈe deux fois.
+ 
+Remarques
+ 
+:
+ 
+ÔÅ∂
+ 
+Si root souhaite redÈfinir son propre mot de passe, il doit passer la commande 
+passwd
+ 
+;
+ 
+ 
+ÔÅ∂
+ 
+Un utilisateur quelconque ne peut pas crÈer de compte, mÍme s
+'il a le privilËge de 
+faire partie du groupe root.! Par contre, il peut modifier lui
+-
+mÍme son mot de 
+passe.
+ 
+ÔÅ∂
+ 
+Pour pouvoir se connecter au rÈseau SAMBA, ‡ partir d'une station distante 
+Windows, il faut crÈer un compte Samba avec l'utilitaire smbpasswd
+ 
+Gestio
+n des groupes
+ 
+d'utilisateurs
+ 
+Un groupe
+ 
+sous Linux est un ensemble d'utilisateurs qui partagent les mÍmes fich
+i
+ers et 
+rÈpertoires. Nous verrons que les fichiers accordent des droits d'accËs rÈglables ‡ ces 
+groupes. 
+ 
+Chaque utilisateur doit faire partie au m
+oins d'un groupe, son 
+groupe initial ou primaire
+. 
+Celui
+-
+ci est dÈfini au moment de la crÈation du compte, et 
+par dÈfaut sous Linux 
+Ubuntu
+, 
+l'utilisateur appartient ‡ un nouveau groupe crÈÈ, portant son nom. 
+ 
+Ainsi, dans 
+/etc/passwd
+ 
+chaque utilisateur possË
+de un groupe par dÈfaut, prÈcisÈ par son 
+identifiant 
+gid
+ 
+dans ce fichier.
+ 
+Pour lister tous les groupes (primaire et secondaires) d'un utilisateur : 
+groups 
+utilisateur
+. 
+Pour crÈer un nouveau groupe : 
+groupadd groupe
+ 
+ 
+Supprimer le groupe .stagiaires : 
+groupd
+el
+ 
+stagiaires
+ 
+(Le groupe est alors supprimÈ du 
+fichier /etc/group).
+ 
+Pour ajouter un utilisateur ‡ un groupe, le plus simple est d'Èditer le fichier /etc/group et 
+d'ajouter une liste d'utilisateurs (sÈparÈs par des virgules) sur la ligne du groupe (ou 
+utiliser 
+Linuxconf
+). 
+ 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+31
+ 
+LIR 2016
+ 
+Tableau 8.
+ 
+RÈcapitulatif des principales commandes 
+ 
+Commande
+ 
+Action
+ 
+useradd, usermod, userdel 
+ 
+gestion des comptes utilisateur 
+ 
+groupadd, groupmod, groupdel 
+ 
+gestion des groupes 
+ 
+passÔÅ∂d 
+ 
+changer le mot de passe d&#x0027;un utilisateur 
+ 
+id, groups, finger 
+ 
+utilitaires divers 
+ 
+3.2.2.6.
+ 
+Outils graphiques de gestion des comptes et
+ 
+groupes
+ 
+Les outils que nous prÈsentons briËvement nÈcessitent tous une connexion au systËme en 
+tant que root.
+ 
+Webmin 
+ 
+Rubrique "SystËme" puis "Utilisateurs et groupes"
+ 
+ÔÅ∂
+ 
+Cliquer sur un utilisateur ou un groupe pour modifier leurs propriÈtÈs.
+ 
+ÔÅ∂
+ 
+Cliquer sur 
+"CrÈer un nouvel utilisateur" pour ajouter un utilisateur.
+ 
+ÔÅ∂
+ 
+Cliquer sur "CrÈer un nouveau groupe" pour ajouter un groupe.
+ 
+Linuxconf
+ 
+:
+ 
+En gÈnÈral il se lance en ligne de commande (on peut utiliser linuxconf sous 
+X
+-
+KDE sur les systËmes Redhat Section Comptes 
+utilisateurs)
+ 
+Kuser
+ 
+:
+ 
+c‚Äô
+est une petite application graphique intÈgrÈe ‡ l'interface graphique KDE. Pour 
+le lancer
+, on peut utiliser 
+la commande Kuser dans une fenÍtre console.
+ 
+Userdrake
+ 
+:
+ 
+Pour le lancer 
+on peut utiliser
+ 
+la commande
+ 
+userdrake
+ 
+dans une 
+fenÍtre 
+console.
+ 
+Le 
+superutilisateur 
+ne se nomme pas obligatoirement 
+root
+. Pour le changer, il suffit de 
+remplacer le nom du compte root par celui dÈsirÈ. Un compte privilÈgiÈ est un compte 
+dont l'identifiant (UID, User ID) vaut zÈro. 
+ 
+L'administrateur con
+figure un prompt identique pour tous les utilisateurs du systËme en 
+modifiant la variable PS1 dans le fichier 
+/etc/profile
+.
+ 
+S'il veut un prompt du genre 
+"
+Bonjour#
+", il lui faut d'Èditer le fichier. Toutes les lignes concernant la variable PS1 
+doivent alors
+ 
+Ítre prÈcÈdÈes d'un diËze: 
+#
+. Il suffit alors d'ajouter la ligne 
+PS1='Bonjour#'.
+ 
+Il est Ègalement possible d'utiliser des variables dans le prompt (pour 
+afficher par exemple l'heure ou le nom de la machine...) :
+ 
+ÔÅ∂
+ 
+d
+ 
+pour ajouter la date (format anglais)
+ 
+ÔÅ∂
+ 
+t
+ 
+p
+our ajouter l'heure (HH:MM:SS) 
+ 
+ÔÅ∂
+ 
+u
+ 
+pour ajouter le nom de l'utilisateur
+ 
+ÔÅ∂
+ 
+w
+ 
+pour ajouter le chemin complet du rÈpertoire courant
+ 
+ÔÅ∂
+ 
+W
+ 
+pour ajouter le rÈpertoire courant
+ 
+ÔÅ∂
+ 
+h
+ 
+pour ajouter le nom de la machine
+ 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+32
+ 
+LIR 2016
+ 
+3.3.
+ 
+Initiation au Shell
+ 
+3.3.1.
+ 
+Jokers
+ 
+Commande
+ 
+Action
+ 
+?
+ 
+remplace 
+un seul caractËre
+ 
+*
+ 
+remplace 0 ou plusieurs caractËres
+ 
+[]
+ 
+remplace par n'importe quel caractËre situÈ ‡ l'
+intÈrieur
+ 
+des crochets
+ 
+[ 
+-
+ 
+]
+ 
+remplace par un caractË
+re qui se situe dans la suite (
+0
+-
+9 de 0 ‡ 9, a
+-
+z 
+de a ‡ z)
+ 
+[!]
+ 
+le contraire de []
+ 
+3.3.2.
+ 
+Groupement 
+de commandes
+ 
+Op√©ration
+ 
+Action
+ 
+commande1 «¢ commande2
+ 
+Lance commande2 
+apre s
+ 
+commande 1
+ 
+commande1 »Å commande2
+ 
+Renvoie le re sultat de commande1 a  commande2
+ 
+commande & 
+ 
+Lance commande en arrie re
+-
+plan
+ 
+commande1 »Å»Å commande2
+ 
+SINON : ne lance commande2 que si 
+commande1 
+e choue
+ 
+Commande1
+ 
+&& commande2
+ 
+ET : Lance commande2
+ 
+si commande1 re ussi
+ 
+( liste ) 
+ 
+Groupe de commandes
+ 
+{ liste«¢ }
+ 
+Groupe de commandes 
+ 
+`Commande` $(commande) 
+ 
+Substitution de commandes : 
+ 
+3.3.3.
+ 
+Les redirections
+ 
+Entr√©
+e/Sortie 
+standard
+ 
+(
+E/S )
+ 
+0
+ 
+Entre 
+e 
+Standard
+ 
+(clavier
+)
+ 
+1
+ 
+Sortie 
+Standard
+ 
+(e cran
+) 
+ 
+2
+ 
+Erreur 
+Standard
+ 
+(e 
+cran) 
+ 
+Entr√©
+e
+ 
+/
+ 
+Sortie 
+standard
+ 
+ 
+> fichier 
+ 
+Redirection en sortie vers un fichier, e crase le fichier si le fichier existe 
+ 
+< fichier
+ 
+L&#x0027;entre e 
+standard
+ 
+est un fichier 
+ 
+>> fichier
+ 
+Redirection en sortie vers un fichier, sans e crasement de fichiers
+ 
+<< mot 
+ 
+Lecture au clavier jusqu&#x0027;
+a 
+ 
+Ã∂motÃ∂
+ 
+<> fichier 
+ 
+L&#x0027;entre e et la sortie 
+standard
+ 
+est un fichier
+ 
+ 
+ 
+ 
+ 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+33
+ 
+LIR 2016
+ 
+3.3.4.
+ 
+E
+diteurs de textes
+ 
+et utilitaires Unix
+ 
+3.3.4.1.
+ 
+L'Èditeur de texte V
+i
+ 
+ 
+Commande
+ 
+Signification
+ 
+Action
+ 
+i
+ 
+insert
+ 
+insertion avant le curseur
+ 
+I
+ 
+insert
+ 
+insertion au de but de la ligne
+ 
+a
+ 
+append
+ 
+insertion apre s le curseur
+ 
+A
+ 
+append
+ 
+insertion a  la fin de la ligne
+ 
+o
+ 
+open
+ 
+ouvre une ligne blanche en dessous de la ligne courante
+ 
+O
+ 
+open
+ 
+ouvre une ligne blanche 
+au
+-
+dessus
+ 
+de la ligne courante
+ 
+J
+ 
+concatenate
+ 
+concate ne la ligne suivante a  la fin de la ligne courante
+ 
+<=
+ 
+curseur
+ 
+de placement d&#x0027;un caracte re vers la gauche
+ 
+=>
+ 
+curseur
+ 
+de placement d&#x0027;un caracte re vers la droite
+ 
+ÔÅ∂
+ 
+ÔÅ∂ord
+ 
+avance au 
+de but du mot suivant
+ 
+F
+ 
+forÔÅ∂ard
+ 
+page suivante
+ 
+B
+ 
+backÔÅ∂ard
+ 
+page pre ce dente
+ 
+^ ou 0
+ 
+ 
+ 
+de but de la ligne courante
+ 
+$
+ 
+ 
+ 
+fin de la ligne courante
+ 
+/toutou
+ 
+ 
+recherche la cha√Æ ne Ã∂toutouÃ∂ a  partir de la position actuelle 
+du curseur vers le bas du fichier
+ 
+?
+text
+ 
+ 
+recherche la cha√Æ ne Ã∂
+text
+Ã∂ a  partir de la position actuelle du 
+curseur vers le haut du fichier
+ 
+n
+ 
+neÔÅ∂
+ 
+recherche la prochaine occur
+r
+ence de la cha√Æ ne Ã∂toutouÃ∂ 
+recherche vers le bas du fichier
+ 
+N
+ 
+neÔÅ∂
+ 
+recherche l&#x0027;occur
+r
+ence pre ce dente de la cha√Æ ne Ã∂toutouÃ∂ 
+recherche vers le haut du fichier
+ 
+x
+ 
+ 
+suppression du caracte re sous le curseur
+ 
+X
+ 
+ 
+suppression du caracte re pre ce dent le curseur
+ 
+dd
+ 
+delete
+ 
+suppression de la ligne courante
+ 
+yy
+ 
+yank
+ 
+copie la ligne courante dans le buffer
+ 
+p
+ 
+paste
+ 
+colle la ligne contenu
+e
+ 
+dans le buffer apre s la ligne courante
+ 
+P
+ 
+paste
+ 
+colle la ligne contenu
+e
+ 
+dans le buffer avant la ligne courante
+ 
+u
+ 
+undo
+ 
+annule la dernie re commande et seulement la dernie re
+ 
+r
+ 
+replace
+ 
+remplace le caracte re sous le curseur par un nouveau 
+caracte re 
+ 
+R
+ 
+replace
+ 
+remplace tous les caracte res par de nouveaux caracte res
+.
+ 
+ 
+C
+ 
+change
+ 
+remplace la fin de la ligne par de nouveaux caracte res 
+ 
+Par d√©faut, l‚Äô√©diteur s‚Äôouvre en mode commande. Pour activer le mode insertion, il faut appuyer 
+sur la touche ´
+ 
+i
+ 
+ª au clav
+ier. 
+Pour abandonner le mode insertion et retourner au mode commande, 
+appuyer sur la touche ESCHAP
+.
+ 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+34
+ 
+LIR 2016
+ 
+3.3.4.2.
+ 
+Expressions rÈguliËres et mode commande globale
+ 
+Les expressions rÈguliËres servent ‡ manipuler le fichier texte dans son ensemble.
+ 
+Tableau 9.
+ 
+SpÈcification des 
+expressions rÈguliËres
+ 
+.
+ 
+reprÈsente un caractËre quelconque 
+ 
+*
+ 
+multiplicateur du caractËre prÈcÈdent
+ 
+^
+ 
+dÈbut de ligne
+ 
+$
+ 
+fin de ligne ou fin de fichier
+ 
+ 
+permet de reprÈsenter les caractËres 
+´
+ 
+.
+ 
+ª,
+ 
+´
+ 
+*
+ 
+ª,
+ 
+´
+ 
+^
+ 
+ª et ´
+ 
+$
+ 
+ª
+ 
+en le 
+mettant devant. Exemple : * ou $
+ 
+1
+ 
+permet la rÈÈcriture de l'expression rÈguliËre lors d'une substitution 
+ 
+s
+ 
+commande de substitution
+ 
+d
+ 
+commande de destruction de lignes
+ 
+:
+ 
+passage en mode commande globale
+ 
+g
+ 
+parcours global du fichier ou de la 
+ligne
+ 
+3.3.4.3.
+ 
+Exemples 
+de commandes avec expressions rÈguliËres
+ 
+Tableau 10.
+ 
+Quelques commandes avec expressions rÈguliËres
+ 
+:1,$s/neant/bof/g
+ 
+de la ligne 1 a  la dernie re ligne, substitution de la cha√Æ ne 
+neant
+ 
+ 
+par la cha√Æ ne 
+bof
+ 
+:1,$s/neant/bof/
+ 
+idem mais seulement pour la 
+premie re occur
+r
+ence de la cha√Æ ne 
+neant
+ 
+par 
+ligne
+ 
+:1,3s/^.*=/BRAVO/
+ 
+de la ligne 
+1
+ 
+a  la ligne 
+3
+, substitution du de but de la ligne (^) jusqu&#x0027;au (.*) 
+ 
+caracte re = par la cha√Æ ne 
+BRAVO
+ 
+1,$s/B.*O/1 Veinard/
+ 
+rajoute aux mots commen√ßant par B et terminant par O,
+ 
+le mot Ã∂VeinardÃ∂ 
+ 
+:1,$s/.$//
+ 
+suppression du dernier ($) caracte re quel qu&#x0027;il soit (.)
+ 
+:10,20d
+ 
+suppression des lignes 10 a  20 
+ 
+:g/^#/d
+ 
+suppression des lignes commen√ßant par un #
+ 
+:g/^M/s//v=Ã∂Ã∂^M/g 
+ 
+suppression des ^M en milieu de ligne et substitution par un vrai retour a  
+la ligne. 
+Taper sur "Enter" pour obtenir le ^M
+.
+ 
+3.3.4.4.
+ 
+Autres commandes
+ 
+utiles
+ 
+Tableau 11.
+ 
+Quelques commandes diverses
+ 
+:set shoÔÅ∂mode
+ 
+indique le mode (insertion ou commande) en bas de la fene tre 
+ 
+:set number
+ 
+affiche le nume ro de chaque ligne
+ 
+:155
+ 
+positionne sur la ligne 155
+ 
+:set filetype=unix 
+ 
+transforme le type DOS d&#x0027;un fichier en type UNIX 
+ 
+:ÔÅ∂
+ 
+ÔÅ∂rite
+ 
+sauvegarde le fichier en cours d&#x0027;e dition 
+ 
+:q
+ 
+quit
+ 
+abandonne l&#x0027;e dition
+ 
+:q!
+ 
+quit
+ 
+abandonne l&#x0027;e dition sans sauvegarder le fichier 
+ 
+:x
+ 
+exit
+ 
+sauvegarde le fichier en cours d&#x0027;e dition et abandonne l&#x0027;e dition (idem 
+:ÔÅ∂q
+)
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+35
+ 
+LIR 2016
+ 
+Chapitre 4.
+ 
+Utilitaires
+ 
+4.1.
+ 
+Outils multimÈdia sous Linux
+ 
+4.1.1.
+ 
+Outils de musique
+ 
+4.1.1.1.
+ 
+Lecteur
+s
+ 
+de CD audio
+ 
+et multimÈdia XMMS
+ 
+Le lecteur de CD audio 
+de KDE porte le nom de kscd. Il offre toutes les fonctionnalitÈs d'un 
+platine classique. Il fait partie des nombreuses applications intÈgrÈes dans KDE.
+ 
+Il est 
+important d'avoir toujours ‡ l'esprit que lorsqu'il est lancÈ, il prend le contrÙle du lecteur 
+et
+ 
+qu'il devient impossible d'Èjecter le CD en utilisant les contrÙles habituels, que ce soit 
+le ges
+t
+ionnaire de fichiers ou le bouton de la faÁade du lecteur.
+ 
+X MultiMedia System ou XMMS, c'est le nom d'un logiciel centralisÈ capable de jouer des 
+fichiers s
+ons de tous types et qui supporte aussi la diffusion de fichiers par 
+I
+nternet, via 
+son option 
+Lire ‡ un emplacement
+, en tapant l'URL correspondante. Il est multifonction 
+: permet de gÈrer une liste d'attente des fichiers ‡ jouer,
+ 
+d'utiliser un equalizer, e
+tc.
+ 
+4.1.1.2.
+ 
+Outils d'enregistrement et de mixage
+ 
+Sous Linux, il est possible de transcrire des parties d'un CD audio 
+-
+en indiquant un numÈro 
+de plage ou une durÈe 
+-
+ 
+sous forme de fichiers, ce qui permet ensuite de les traiter ‡ loisir 
+dans une table de mixage. Il 
+existe de nombreux programmes sous Linux permettant de 
+procÈder ‡ ce genre de transcription. Citons pour exemple 
+cdda2wav
+.
+ 
+Afin de rÈduire 
+l'espace ainsi occupÈ sur le disque
+,
+ 
+il est possible de convertir ces fichiers au format mp3, 
+avec l'utilitaire 
+bladeenc
+.
+ 
+kmix est le nom de l'application intÈgrÈe de KDE, permettant de mixer les diffÈrentes 
+entrÈes de son. On y accËde via le lanceur d'applications, dans MultimÈdia/Console de 
+mixage. 
+ 
+4.1.2.
+ 
+Outils de graphisme
+ 
+4.1.2.1.
+ 
+kview
+ 
+kview est une application intÈgrÈe de K
+DE
+ 
+qui permet
+ 
+de visualiser de nombreux formats 
+de fichiers graphiques contenant des images statiques. 
+Elle
+ 
+permet Ègalement de 
+manipuler des images simples et de procÈder ‡ des conversions de format.
+ 
+4.1.2.2.
+ 
+Xv et kpaint
+ 
+xv est un petit outil d'affichage d'image.
+ 
+Il reconnaÓt la plupart des formats courants : gif, 
+jpg, png, bmp, tiff, etc. Il permet aussi de procÈder ‡ des captures d'Ècrans. 
+Son dÈfaut est 
+qu‚Äô
+il n'est pas libre.
+ 
+A contrario kpaint est une application intÈgrÈe ‡ KDE destinÈe ‡ la manipulation d'ima
+ges 
+bitmap ; il permet aussi de procÈder ‡ de lÈgËres modifications d'images
+.
+ 
+ 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+36
+ 
+LIR 2016
+ 
+4.1.2.3.
+ 
+Aktion! et ksnapshot
+ 
+Aktion! Est ce que l'on appelle un player vidÈo (un visualiseur d'animation) de KDE 
+utilisant l'application xanim. Il supporte un grand nombre de formats :
+ 
+A
+VI, Quick
+-
+Time, 
+gif, FLI, etc. 
+Il supporte pour la plupart des formats la gestion du son.
+ 
+Ksnapshot est 
+quant 
+‡ lui 
+une application de capture d'Ècrans intÈgrÈe ‡ KDE. 
+ 
+4.1.3.
+ 
+Le logiciel de retouche d'image : GIMP
+ 
+Gimp est l'acronyme de GNU image Manipulation 
+Program. Il s'agit d'un logiciel d'Èdition 
+et de retouche d'images numÈriques issu du projet GNOME.
+ 
+Gimp est dans son ensemble 
+un logiciel extrËmement complet et complexe. Il permet de faire du dessin mais aussi de 
+la retouche photo ou du photo
+-
+montage. Il
+ 
+n'est pas prÈvu pour rÈaliser un dessin de A ‡ 
+Z ; pour cela, d'autres outils de dessin sont plus adaptÈs, comme kpaint ou killustrator 
+pour le dessin vectoriel. En fait, il a pour but de reprendre en mieux toutes les 
+fonctionnalitÈs offertes par un logic
+iel comme Photoshop.
+ 
+4.2.
+ 
+Impression 
+ 
+4.2.1.
+ 
+Partager une imprimante Linux pour Windows
+ 
+Pour partager une imprimante Linux pour des stations Windows, il faut s'assurer que 
+l'imprimante est configurÈe pour fonctionner sous Linux. 
+L
+a mise en place d'un partage 
+de l'impr
+imante par SMB est quasi
+-
+automatique.
+ 
+Ajouter la configuration d'impression ‡ votre smb.conf 
+comme dans l'exemple ci
+-
+dessous
+:
+ 
+[global]
+ 
+printing = bsd
+ 
+printcap name = /etc/printcap
+ 
+load printers = yes
+ 
+log file = /var/log/samba
+-
+log.%m
+ 
+lock directory = 
+/var/lock/samba
+ 
+[printers]
+ 
+comment = Toutes les imprimantes
+ 
+security = server
+ 
+path = /var/spool/lpd/lp
+ 
+browseable = no
+ 
+printable = yes
+ 
+public = yes
+ 
+writable = no
+ 
+create mode = 0700
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+37
+ 
+LIR 2016
+ 
+[ljet]
+ 
+security = server
+ 
+path = /var/spool/lpd/lp
+ 
+printer name = lp
+ 
+writabl
+e = yes
+ 
+public = yes
+ 
+printable = yes
+ 
+print command = lpr 
+-
+r 
+-
+h 
+-
+P %p %s
+ 
+Il faut s‚Äôassurer
+ 
+que le ´ path ª corresponde au rÈpertoire de spool dÈfini dans 
+/etc/printcap
+.
+ 
+4.2.2.
+ 
+ 
+Partager une imprimante Windows 
+pour 
+Linux
+ 
+ 
+Pour partager une imprimante sur une machin
+e Windows, il 
+faut suivre les points 
+suivants
+:
+ 
+1.
+ 
+Il faut avoir les entrÈes correspondantes ‡ l'imprimante dans 
+/etc/printcap
+ 
+et 
+elles doivent correspondre ‡ la structure locale des rÈpertoires (pour le rÈpertoire 
+de 
+spool
+, etc...).
+ 
+2.
+ 
+Il faut avoir le script 
+/u
+sr/bin/smbprint
+. Il est fourni avec les sources de Samba, 
+mais pas avec toutes les distributions binaires.
+ 
+3.
+ 
+Si on veut convertir des fichiers ASCII en Postscript, il faut avoir nenscript, ou 
+Èquivalent. nenscript est un convertisseur Postscript et se trouve
+ 
+gÈnÈralement 
+dans 
+/usr/bin
+.
+ 
+4.3.
+ 
+Archivage, compression 
+ 
+4.3.1.
+ 
+ 
+Contenu du dossier
+ 
+La
+ 
+commande 
+find
+ 
+permet de localiser facilement un fichier. Elle recherche les fichiers 
+remplissant certaines conditions, en commenÁant par le rÈpertoire indiquÈ ou le 
+rÈpertoire courant. 
+Sa syntaxe est la suivante
+ 
+:
+ 
+find
+ 
+RÈpertoire_de_dÈpart [CritËres] [Options de command
+e]
+ 
+Les crit√®res sp√©cifient les restrictions de recherche, notamment par date, par taille,‚Ä¶ Les 
+options quant ‡ elle
+s
+ 
+spÈcifient les traitements ‡ appliquer, par exemple que le rÈsultat 
+s
+‚Äôaffiche √† l‚Äô√©cran, qu‚Äôune comma
+nde s‚Äôapplique aux fichiers trouv√©s,‚Ä¶
+ 
+Exemple
+ 
+:
+ 
+$ find
+ 
+-
+mtime 
+-
+3 
+-
+print
+ 
+ 
+Dans cet exemple, on cherche ‡ affiche
+r
+ 
+tous les fichiers dont les derniËres modifications 
+remontent ‡ moins de 3 jours ‡ partir du rÈpertoire courant.
+ 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+38
+ 
+LIR 2016
+ 
+4.3.2.
+ 
+ 
+Compression/dÈcompression de fichiers
+ 
+Commandes compress/uncompress
+ 
+et zcat :
+ 
+ 
+La commande 
+compress
+ 
+permet de rÈduire la taille des fichiers spÈcifiÈs en utilisant le 
+codage adaptatif de Lempel
+-
+Ziv. Si la rÈduction est possible, chaque fichier est remplacÈ 
+par un nouveau fichier de mÍme nom avec une extension .Z
+.
+ 
+La comma
+nde 
+uncompress
+ 
+restitue les fichiers compressÈs dans leur Ètat original. Les 
+fichiers rÈsultats ont les nom
+s
+, propriÈtaire et droits d'accËs originaux et l'extension .Z est 
+enlevÈ
+e
+. 
+ 
+La commande 
+zcat
+ 
+restitue les fichiers compressÈs dans leur Ètat original
+ 
+et envoie le 
+rÈsultat sur la sortie standard
+.
+ 
+Syntaxes
+ 
+: 
+ 
+compress [
+-
+d] [
+-
+f|
+-
+z] [
+-
+z] [
+-
+v] [
+-
+c] [
+-
+V] [Fichier ...]
+ 
+uncompress [
+-
+f] [
+-
+v] [
+-
+c] [
+-
+V] [Fichier ...]
+ 
+zcat [
+-
+V] [Fichier ...]
+ 
+compressdir [options][RÈpertoire ...]
+ 
+uncompressdir [options][RÈpertoire
+ 
+...]
+ 
+Exemples
+ 
+:
+ 
+$ compress 
+-
+v Fessai
+ 
+Fessai : Compression : 23.55% 
+--
+ 
+replaced with Fessai.Z
+ 
+$ uncompress Fessai.Z
+ 
+$ compress 
+-
+f Fessai
+ 
+$ compress 
+-
+d Fessai.Z
+ 
+$ uncompress 
+-
+c arch.tar.Z | tar 
+-
+tvf 
+-
+ 
+4.3.3.
+ 
+Commandes gzip/gunzip
+ 
+La fonction de base de la commande
+ 
+gzip
+ 
+consiste ‡ prendre un fichier, le compresser, 
+sauvegarder la version compactÈe sous la forme .gz, puis ‡ supprimer l'original. Elle 
+stocke le nom du fichier original dans la version compressÈe.
+ 
+Si aucun fichier n'est 
+spÈcifiÈ, 
+gzip
+ 
+tentera de compres
+ser les donnÈes arrivant sur l'entrÈe standard. De mÍme 
+l'option 
+-
+c
+ 
+de 
+gunzip
+ 
+permet d'Ècrire les donnÈes dÈcompactÈes sur la sortie standard.
+ 
+zcat
+ 
+est souvent identique ‡ 
+gunzip 
+-
+c
+.
+ 
+Syntaxe
+ 
+: 
+ 
+gzip [
+-
+l] [Fichier] 
+ 
+gunzip [
+-
+c] [
+-
+N] [Fichier]
+ 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+39
+ 
+LIR 2016
+ 
+4.3.4.
+ 
+Commandes 
+bzip2 et bunzip2
+ 
+bzip2
+ 
+compacte des fichiers en utilisant l'algorithme de rÈduction de texte par tri de blocs 
+de Burrows
+-
+Wheeler, et le codage d'Huffman. Les options de ligne de commandes sont 
+dÈlibÈrÈment trËs similaires ‡ celles de GNU 
+gzip
+, mais elles n
+e sont pas identiques.
+ 
+bzip2
+ 
+attend une liste de noms de fichiers pour accompagner les options de ligne de 
+commandes.
+ 
+Chaque fichier est remplacÈ par une version compactÈe de lui
+-
+mÍme, avec le 
+nom ´ nom_original.bz2 ª. 
+ 
+bzip2
+ 
+et 
+bunzip2
+, n'Ècraseront par d
+Èfaut pas les fichiers existants. 
+Par contre, 
+l‚Äôadjonction de l‚Äôoption 
+‚Äì
+f
+ 
+permet de le faire.
+ 
+Syntaxe
+ 
+: 
+ 
+bzip2 [
+-
+cdztkqv] [noms_fichiers] 
+ 
+bunzip2 [
+-
+fkvs] [noms_fichiers]
+ 
+4.4.
+ 
+Sauvegarde et archivage de fichiers
+ 
+4.4.1.
+ 
+ 
+Sauvegarde de fichiers
+ 
+La c
+ommande 
+cpio
+ 
+copie un
+e entrÈe sur une sortie en archivant tout au passage.
+ 
+Par tube, 
+on peut diriger la sortie des commandes 
+ls 
+ou 
+find 
+vers 
+cpio
+. 
+Une archive au format cpio 
+est composÈe de la concatÈnation du contenu des fichiers qui ont servi ‡ la crÈer.
+ 
+Syntaxe
+ 
+: 
+ 
+cpio 
+-
+o [v] 
+ 
+cpio 
+-
+i [dfmrtuv]] [motifs]
+ 
+cpio 
+-
+p [dmmruv] catalogue
+ 
+Exemples
+ 
+: 
+ 
+$ ls | cpio 
+-
+&#x0000;o  /dev/floppy
+ 
+$ find . 
+-
+depth 
+-
+print | cpio 
+-
+&#x0000;o  /dev/rmt0 
+ 
+Dans cet exemple, on sauvegarde le contenu du rÈpertoire courant avec les sous
+-
+rÈpertoires.
+ 
+$ mkdir /
+tmp/test; cd /tmp/test
+ 
+$ cpio 
+-
+id  /tmp/f.cpio
+ 
+Ici on restaure le rÈpertoire courant.
+ 
+4.4.2.
+ 
+Archivage de fichiers : Commande tar
+ 
+La commande tar (
+t
+ape 
+ar
+chive
+)
+, permet d'assembler de nombreux fichiers en une seule 
+archive, tout en conservant tous les attributs 
+des fichiers (date, permissions, 
+propriÈtaires)
+ 
+Syntaxe
+ 
+: 
+tar
+ 
+‚Ä¶
+ 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+40
+ 
+LIR 2016
+ 
+Exemples :
+ 
+$ tar 
+-
+cf. mt.tar mt
+ 
+ 
+Dans cet exemple, on archive le rÈpertoire mt. Attention ‡ la position de l'option 
+f
+. Elle 
+doit, si elle est utilisÈe, Ítre toujours la derniËre et le nom de 
+fichier qui la suit doit Ítre le 
+nom de l'archive.
+ 
+4.5.
+ 
+Configuration du service d'impression
+ 
+La configuration lors de l'installation est recommandÈe.
+ 
+Le fichier de config 
+/etc/printcap
+ 
+contient des informations sur les imprimantes 
+rattachÈes localement ou loin
+taine
+ 
+ 
+avec lesqu
+elles le dae
+mon doit communiquer.
+ 
+On 
+conseille de ne pas directement le modifier
+ 
+ 
+(trËs risquÈ ‡ cause de la difficultÈ de 
+respecter les formats d'Ècriture).
+ 
+Pour tous les dÈtails voir le manuel : 
+man printcap
+ 
+ 
+Exemples
+ 
+# nom court de l'im
+primante locale lp:
+\
+ 
+ 
+# nom du rÈpertoire de la file d'attente (sd=spool directory) 
+ 
+:sd=/var/spool/lpd/lp:
+\
+ 
+ 
+# la taille maximum du fichier est illimitÈe (car 0) 
+ 
+:mx#0:
+\
+ 
+ 
+# pas de page de sÈparation 
+ 
+:sh:
+\
+ 
+ 
+# nom du fichier spÈcial pour printer locale 
+ 
+:
+lp=/dev/lp0:
+\
+ 
+ 
+# nom du fichier de traitement du fichier 
+ 
+:if=/var/spool/lpd/lp/filter:
+ 
+# nom court de l'imprimante REMOTE 
+ 
+lp:
+\
+ 
+ 
+# nom du rÈpertoire de la file d'attente 
+ 
+:sd=/var/spool/lpd/lp:
+\
+ 
+ 
+# nom du serveur d'impression
+ 
+ 
+distant (rm=remote machine) 
+ 
+:rm=pc1.cfipen.fr:
+\
+ 
+ 
+# nom de l'imprimante distante (rp=remote printer) 
+ 
+&nbModifications, ajout d'une imprimantesp;
+ 
+ 
+:rp=lp:
+\
+ 
+4.6.
+ 
+Outil graphique printtool
+ 
+On peut complËtement modifier le paramÈtrage du service d'impression, supprimer 
+ajouter des imprimantes gr‚ce ‡ l'utilitaire graphique 
+printtool
+ 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+41
+ 
+LIR 2016
+ 
+Le lancer dans un terminal 
+X
+ 
+ou par : 
+K/appli non KDE/SystËme/Printtool
+, puis 
+Add
+ 
+ 
+Si l'imprimante est connect
+Èe ‡ un port parallËle, elle est auto
+-
+dÈtectÈe, en gÈnÈral sur 
+/dev/lp0
+, l'Èquivalent de LPT1. 
+ 
+Normalement, l'installation va crÈer un rÈp. de spool dans 
+/var/spool/lpd/ 
+qui 
+appartient ‡ 
+root
+ 
+avec les droits 755 
+ 
+Exemple d'installation d'une imprimante lo
+cale 
+ 
+ 
+Exemple d'installation d'une imprimante lointaine 
+ 
+ 
+ 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+42
+ 
+LIR 2016
+ 
+Chapitre 5.
+ 
+Linux UBUNTU administration
+ 
+5.1.
+ 
+The user root
+ 
+By default, the passÔÅ∂ord for the user ‚Äú
+root
+‚Äù (the system administrator) is locked. This 
+means that it is not possible to login as root or to use ‚Äú
+su
+‚Äù c
+ommand. Instead, the installer 
+ÔÅ∂ill set up ‚Äú
+sudo
+‚Äù to alloÔÅ∂ the user that is created during install to run all administrative 
+commands.
+ 
+This means that in the terminal, one can use 
+sudo
+ 
+for command that require 
+root 
+privileges.
+ 
+All programs in the menu will
+ 
+use a graphical sudo to prompt for a password. 
+When sudo ask for a password, it needs the password of the user account created during 
+installation process. This means that root password is not needed.
+ 
+To run a comman which requires root privileges in a te
+rminal, simply prepend sudo in 
+front of it. To get an interactve root shell, use 
+‚Äúsudo 
+‚Äì
+i‚Äù
+.
+ 
+5.2.
+ 
+Administrator group users
+ 
+By default, only the user who installed the system is permitted to run sudo. To add more 
+administrators, one just have to assign the group
+ 
+‚Äúadmin‚Äù to the concerned users through 
+the following command:
+ 
+From a shell, do the following
+ 
+Sudo
+ 
+adduser
+ 
+username
+ 
+admin
+ 
+From the GUI, do the following
+ 
+1.
+ 
+Access the system setting;
+ 
+2.
+ 
+Select ‚ÄúUsers and groups‚Äù program«¢
+ 
+3.
+ 
+Add the new user to the admin group.
+ 
+To 
+change the rights of files and directories
+ 
+find /srv 
+-
+ 
+type f 
+-
+exec chmod 640 {}
+\
+;
+ 
+find /srv 
+-
+ 
+type d 
+-
+exec chmod 750 {}
+\
+;
+ 
+5.3.
+ 
+Useful Comands for Linux Administration
+ 
+5.3.1.
+ 
+Useful Comands for Linux newbies
+ 
+5.3.1.1.
+ 
+Command: ls
+ 
+The command ‚Äú
+ls
+‚Äù stands for (
+List Directory Cont
+ents
+), List the contents of the specified 
+location. If no location is specified, it gives the content of the current folder.
+ 
+root@TALLA:~# 
+ls
+ 
+Android
+-
+Games
+ 
+Music
+ 
+Pictures
+ 
+ 
+Public
+ 
+Documents
+ 
+TALLA
+-
+Sync
+ 
+Downloads
+ 
+Templates
+ 
+The command ‚Äú
+ls 
+-
+l
+‚Äù list
+s
+ 
+the content of current (or specified) folder, in 
+long listing
+ 
+fashion.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+43
+ 
+LIR 2016
+ 
+root@TALLA:~# 
+ls 
+-
+l
+ 
+total 40588
+ 
+drwxrwxr
+-
+x 2 talla talla     4096 May  8 01:06 Android Games
+ 
+drwxr
+-
+xr
+-
+x 2 talla talla     4096 May 15 10:50 Desktop
+ 
+drwxr
+-
+xr
+-
+x 2 talla talla     4096 
+May 16 16:45 Documents
+ 
+drwxr
+-
+xr
+-
+x 6 talla talla     4096 May 16 14:34 Downloads
+ 
+Command ‚Äú
+ls 
+-
+a
+‚Äú, list
+s
+ 
+the content of folder, including 
+hidden
+ 
+files starting ÔÅ∂ith ‚Äò.‚Äô.
+ 
+root@TALLA:~# 
+ls 
+-
+a
+ 
+.
+ 
+.gnupg
+ 
+.dbus
+ 
+.goutputstream
+-
+PI5VVW
+ 
+.mission
+-
+control
+ 
+.adobe
+ 
+deja
+-
+du
+p
+ 
+.grsync
+ 
+.mozilla
+ 
+.themes
+ 
+.Xauthority
+ 
+ 
+.gconf
+ 
+.local
+ 
+.Xauthority
+ 
+.cache
+ 
+Note:
+ 
+In 
+Linux
+, a
+ 
+file name starting ÔÅ∂ith ‚Äò
+.
+‚Äò is hidden. Every file/folder/device/command 
+is a file. The output of 
+ls 
+-
+l
+ 
+is:
+ 
+1.
+ 
+d
+ 
+(stands for directory).
+ 
+2.
+ 
+rwxr
+-
+xr
+-
+x
+ 
+is the file permission of the file/folder for owner, group and world.
+ 
+3.
+ 
+The 1st 
+talla
+ 
+in the above example means that file is owned by user talla.
+ 
+4.
+ 
+The 2nd 
+talla
+ 
+in the above example means 
+that 
+file belongs to user group talla.
+ 
+5.
+ 
+4096
+ 
+means file size is 4096 B
+ytes.
+ 
+6.
+ 
+May 8 01:06
+ 
+is the date and time of last modification.
+ 
+7.
+ 
+And at the end is the name of the 
+File/Folder
+.
+ 
+5.3.1.2.
+ 
+Command: lsblk
+ 
+The ‚Äú
+lsblk
+‚Äù stands for (
+List Block Devices
+), print block devices by their assigned name 
+(but not 
+RAM
+) on the standard output in a tre
+e
+-
+like fashion.
+ 
+root@TALLA:~# 
+lsblk
+ 
+NAME 
+ 
+MAJ:
+ 
+MIN 
+RM  
+ 
+SIZE RO 
+ 
+TYPE MOUNTPOINT
+ 
+sda      
+ 
+8:0    
+ 
+0 
+ 
+232.9G  0 
+ 
+disk 
+ 
+‚îú
+‚îÄ
+sda1   
+ 
+8:1    
+ 
+0  
+ 
+46.6G  0 
+ 
+part /
+ 
+‚îú
+‚îÄ
+sda2   
+ 
+8:2    
+ 
+0     
+ 
+1K  0 
+ 
+part 
+ 
+‚îú
+‚îÄ
+sda5   
+ 
+8:5    
+ 
+0   
+ 
+190M  0 
+ 
+part /boot
+ 
+‚îú
+‚îÄ
+sda6   
+ 
+8:6    
+ 
+0   
+ 
+3.7G  0 
+ 
+part [SWAP]
+ 
+‚îú
+‚îÄ
+sda7   
+ 
+8:7    
+ 
+0  
+ 
+93.1G  0 
+ 
+part /data
+ 
+‚îî‚îÄsda8   
+ 
+8:8    
+ 
+0  
+ 
+89.2G  0 
+ 
+part /personal
+ 
+sr0     
+ 
+11:0    
+ 
+1  
+ 
+1024M  0 
+ 
+rom
+ 
+The ‚Äú
+lsblk 
+-
+l
+‚Äù command list
+s
+ 
+block devices in ‚Äò
+list
+‚Äò structure (not tree like fashion).
+ 
+root@TALLA:~# 
+lsblk 
+-
+l
+ 
+NAME MAJ:
+ 
+MIN RM   SIZE RO TYPE MOUNTPOINT
+ 
+sda    8:0    0 232.9G  0 disk 
+ 
+sda1   8:1    0  46.6G  0 part /
+ 
+sda2   8:2    0     1K  0 part 
+ 
+sda5   8:5    0   190M  0 part /boot
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+44
+ 
+LIR 2016
+ 
+sda6   8:6    0   3.7G  0 part [SWAP]
+ 
+sda7   8:7    0  93.1G  0 part 
+/data
+ 
+sda8   8:8    0  89.2G  0 part /personal
+ 
+sr0   11:0    1  1024M  0 rom
+ 
+Note:
+ 
+lsblk
+ 
+is very useful and easiest way to know the name of 
+New Usb Device
+ 
+you just 
+plugged in, especially when you have to deal with disk/blocks in terminal.
+ 
+5.3.1.3.
+ 
+Command: md5sum
+ 
+T
+he ‚Äú
+md5sum
+‚Äù stands for (
+Compute
+ 
+and 
+Check MD5 Message Digest
+), md5 checksum 
+(commonly called 
+hash
+) is used to match or verify integrity of files that may have changed 
+as a result of a faulty file transfer, a disk error or non
+-
+malicious interference.
+ 
+root@T
+ALLA:~# 
+md5sum
+ 
+teamviewer_linux.deb 
+ 
+47790ed345a7b7970fc1f2ac50c97002  teamviewer_linux.deb
+ 
+Note:
+ 
+The user can match the generated 
+md5sum
+ 
+with the one provided officially. 
+Md5sum is considered less secure than 
+sha1sum
+ 
+for example.
+ 
+5.3.1.4.
+ 
+Command: dd
+ 
+Command ‚Äú
+dd
+‚Äù 
+stands for (
+Convert
+ 
+and 
+Copy a file
+), Can be used to convert and copy a 
+file and most of the times is used to copy an iso file (or any other file) to a usb device (or 
+any other location), thus can be used to make a ‚Äò
+Bootlable‚Äô
+ 
+Usb Stick.
+ 
+root@TALLA:~# 
+dd
+ 
+if=/home/user/Downloads/debian.iso of=/dev/sdb1 bs=512M; sync
+ 
+Note:
+ 
+In the above example the usb device is supposed to be sdb1 (one can verify it by 
+using the command 
+lsblk
+, otherwise the disk and OS could be overwritten), use name of 
+disk very cautiously
+!
+ 
+dd
+ 
+command takes some time ranging from a few seconds to several minutes in execution, 
+depending on the size and type of file and read and write speed of Usb stick.
+ 
+5.3.1.5.
+ 
+Command: uname
+ 
+The ‚Äú
+uname
+‚Äù command stands for (
+Unix Name
+), print detailed information abo
+ut the 
+machine name, Operating System and Kernel.
+ 
+root@TALLA:~# 
+uname 
+-
+a
+ 
+Linux TALLA 3.8.0
+-
+19
+-
+generic #30
+-
+Ubuntu SMP Wed May 1 16:36:13 UTC 2015 i686 i686 i686 GNU/Linux
+ 
+Note:
+ 
+uname shows type of kernel. 
+uname 
+-
+a
+ 
+output detailed information. 
+Elaborating 
+the above output of 
+uname 
+-
+a
+.
+ 
+1.
+ 
+‚Äú
+Linux
+‚Äú: The machine‚Äôs kernel name.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+45
+ 
+LIR 2016
+ 
+2.
+ 
+‚Äú
+TALLA
+‚Äú: The machine‚Äôs node name.
+ 
+3.
+ 
+‚Äú
+3.8.0
+-
+19
+-
+generic
+‚Äú: The kernel release.
+ 
+4.
+ 
+‚Äú
+#30
+-
+Ubuntu SMP
+‚Äú: The kernel version.
+ 
+5.
+ 
+‚Äú
+i686
+‚Äú: The architecture of the processor.
+ 
+6.
+ 
+‚Äú
+GNU/Linux
+‚Äú: The 
+operating system name.
+ 
+5.3.1.6.
+ 
+Command: history
+ 
+The ‚Äú
+history
+‚Äù command stands for 
+History (Event) Record
+, it prints the history of long 
+list of executed commands in terminal.
+ 
+root@TALLA:~# 
+history
+ 
+ 
+1  sudo add
+-
+apt
+-
+repository ppa:tualatrix/ppa
+ 
+ 
+2  sudo apt
+-
+get updat
+e
+ 
+ 
+3  sudo apt
+-
+get install ubuntu
+-
+tweak
+ 
+ 
+4  sudo add
+-
+apt
+-
+repository ppa:diesch/testing
+ 
+ 
+5  sudo apt
+-
+get update
+ 
+5.3.1.7.
+ 
+Command: sudo
+ 
+The ‚Äú
+sudo
+‚Äù (
+super user do
+) command allows a permitted user to execute a command as 
+the superuser or another user, as specified by t
+he security policy in the sudoers list.
+ 
+root@TALLA:~# 
+sudo
+ 
+add
+-
+apt
+-
+repository ppa:tualatrix/ppa
+ 
+Note:
+ 
+sudo
+ 
+alloÔÅ∂s user to borroÔÅ∂ superuser privileged, ÔÅ∂hile a similar command ‚Äò
+su‚Äô
+ 
+allows user to actually log in as superuser. 
+Sudo
+ 
+is safer than 
+su
+. It is not advised to use 
+sudo
+ 
+or 
+su
+ 
+for day
+-
+to
+-
+day normal use, as it can result in serious error if accidentally you 
+did something ÔÅ∂rong, that‚Äôs ÔÅ∂hy a very popular saying in Linux community is:
+ 
+‚ÄúTo err is human, but to really foul up everything, you need
+ 
+root passÔÅ∂ord.‚Äù
+ 
+5.3.1.8.
+ 
+Command: mkdir
+ 
+The ‚Äú
+mkdir
+‚Äù (
+Make directory
+) command creates a new directory with name path. 
+HoÔÅ∂ever, if the directory already exists, it ÔÅ∂ill return an error message ‚Äú
+cannot create 
+folder, folder already exists‚Äù
+.
+ 
+root@TALLA:~# 
+mkdir
+ 
+TALLA
+ 
+Note:
+ 
+Directory can only be created inside the folder, in which the user has write 
+permission.
+ 
+5.3.1.9.
+ 
+Command: touch
+ 
+The ‚Äú
+touch
+‚Äù command stands for (Update the access and modification times of each 
+FILE
+ 
+to the current time). 
+touch
+ 
+command creates the file, only i
+f it doesn‚Äôt exist. If the file 
+already exists it will update the timestamp and not the contents of the file.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+46
+ 
+LIR 2016
+ 
+root@TALLA:~# 
+touch
+ 
+TALLA_file
+ 
+Note:
+ 
+touch
+ 
+can be used to create file under directory, on which the user has write 
+permission, only if the file don‚Äôt exist there.
+ 
+5.3.1.10.
+ 
+ 
+Command: chmod
+ 
+The Linux ‚Äú
+chmod
+‚Äù command stands for (
+change file mode bits
+). chmod changes the file 
+mode (
+permission
+) of each given fi
+le, folder, script, etc. according to mode asked for. 
+There exist 3 types of permission on a file.
+ 
+Read (r)=4
+ 
+Write(w)=2
+ 
+Execute(x)=1
+ 
+So if you ÔÅ∂ant to give only read permission on a file it ÔÅ∂ill be assigned a value of ‚Äò
+4
+‚Äò, for 
+write permission only, a val
+ue of ‚Äò
+2
+‚Äò and for execute permission only, a value of ‚Äò
+1
+‚Äò is to be 
+given. For read and write permission 
+4+2
+ 
+= ‚Äò
+6
+‚Äò is to be given, and so on. NoÔÅ∂ permission 
+need to be set for 
+3
+ 
+kinds of user and usergroup. The first is owner, then usergroup and 
+finally world. For example, let consider the following permission on the file abc.sh.
+ 
+rwxr
+-
+x
+--
+x   abc.sh
+ 
+Here the root‚Äôs permission is
+ 
+rwx
+ 
+(
+read
+, 
+write
+ 
+and 
+execute
+). usergroup to which it
+ 
+belongs, is 
+r
+-
+x
+ 
+(
+read
+ 
+and 
+execute
+ 
+only, no write permission) and for world is 
+‚Äì
+x 
+(only 
+execute
+).
+ 
+The following command
+ 
+change
+s
+ 
+its permission and provide
+s
+ 
+read
+, 
+write
+ 
+and 
+execute
+ 
+permission
+s
+ 
+to owner, group and world.
+ 
+root@TALLA:~# 
+chmod 777
+ 
+abc.sh
+ 
+The fo
+llowing command allows 
+only 
+read
+ 
+and 
+write
+ 
+permission to all three.
+ 
+root@TALLA:~# 
+chmod 666
+ 
+abc.sh
+ 
+Note:
+ 
+one of the most important command useful for sysadmin and user both. On a multi
+-
+user environment or on a server, this command comes to rescue, setting wrong 
+permission will either make a file inaccessible or provide unauthorized access to 
+someone.
+ 
+5.3.1.11.
+ 
+ 
+Comman
+d: chown
+ 
+The Linux ‚Äú
+chown
+‚Äù command stands for (
+change file owner and group
+). Every file 
+belongs to a 
+user 
+group 
+and an owner.
+ 
+The command
+ 
+‚Äú
+ls 
+‚Äì
+l
+‚Äù
+ 
+shows the following contain: 
+ 
+root@TALLA:~# 
+ls 
+-
+l
+ 
+ 
+drwxr
+-
+xr
+-
+x 3 server root 4096 May 10 11:14 Binary 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+47
+ 
+LIR 2016
+ 
+drwxr
+-
+xr
+-
+x 2 server talla 4096 May 15 09:42 Desktop
+ 
+Here the directory 
+Binary
+ 
+is oÔÅ∂ned by user ‚Äú
+server
+‚Äù and it belongs to usergroup ‚Äú
+root
+‚Äù 
+ÔÅ∂here as directory ‚Äú
+Desktop
+‚Äù is oÔÅ∂ned by user ‚Äú
+server
+‚Äù and belongs to user group 
+‚Äú
+server
+‚Äú.
+ 
+This ‚Äú
+chown
+‚Äù command is 
+used to change the file ownership and thus is useful in 
+managing and providing file to authorised user and usergroup only.
+ 
+root@TALLA:~# 
+chown
+ 
+server:talla Binary
+ 
+drwxr
+-
+xr
+-
+x 3 server talla 4096 May 10 11:14 Binary 
+ 
+drwxr
+-
+xr
+-
+x 2 server talla 4096 May 15 09:
+42 Desktop
+ 
+Note:
+ 
+‚Äú
+chown
+‚Äù changes the user and group oÔÅ∂nership of each given 
+FILE
+ 
+to 
+NEW
+-
+OWNER
+ 
+or to the user and group of an existing reference file.
+ 
+5.3.1.12.
+ 
+ 
+Command: apt
+ 
+The Debian based ‚Äú
+apt
+‚Äù command stands for (
+Advanced Package Tool
+). 
+a
+pt
+ 
+is an 
+advanced package manager for 
+Debian
+ 
+based system (
+Ubuntu
+, 
+Kubuntu
+, etc.), that 
+automatically and intelligently 
+search
+, 
+install
+, 
+update
+ 
+and 
+resolves dependency
+ 
+of 
+packages on 
+Gnu/Linux
+ 
+system from command line.
+ 
+root@TALLA:~# apt
+-
+get install mplayer
+ 
+R
+eading package lists... Done
+ 
+Building dependency tree       
+ 
+Reading state information... Done
+ 
+The following package was automatically installed and is no longer required:
+ 
+java
+-
+wrappers
+ 
+Use 'apt
+-
+get autoremove' to remove it.
+ 
+---
+ 
+0 upgraded, 9 newly install
+ed, 0 to remove and 8 not upgraded.
+ 
+Need to get 3,567 kB of archives.
+ 
+After this operation, 7,772 kB of additional disk space will be used.
+ 
+Do you want to continue [Y/n]? y
+ 
+root@TALLA:~# apt
+-
+get update
+ 
+Hit http://ppa.launchpad.net raring Release.gpg                                           
+ 
+Hit http://ppa.launchpad.net raring Release.gpg                                           
+ 
+Hit http://ppa.launchpad.net raring Release.gpg                      
+ 
+Hit 
+http://ppa.launchpad.net raring Release.gpg                      
+ 
+Get:1 http://security.ubuntu.com raring
+-
+security Release.gpg [933 B] 
+ 
+---
+ 
+Note:
+ 
+The above commands results into system
+-
+wide changes and hence requires root 
+passÔÅ∂ord (Check ‚Äò
+#
+‚Äò and not ‚Äò
+$‚Äô
+ 
+as prompt). 
+Apt
+ 
+is considered more advanced and 
+intelligent as compared to 
+yum command
+.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+48
+ 
+LIR 2016
+ 
+As the name suggest, 
+apt
+-
+cache
+ 
+search
+es
+ 
+for package containing sub package 
+mpalyer
+. 
+apt
+-
+get
+ 
+install, update
+s
+ 
+all the packages, that are already installed, to the newes
+t one.
+ 
+5.3.1.13.
+ 
+Command: tar
+ 
+The ‚Äú
+tar
+‚Äù command is a 
+Tape Archive,
+ 
+useful in creation of archive, in a number of file 
+format and their extraction.
+ 
+root@TALLA:~# tar 
+-
+zxvf abc.tar.gz (Remember '
+z
+' for 
+.tar.gz
+)
+ 
+root@TALLA:~# 
+tar 
+-
+jxvf
+ 
+abc.tar.bz2 (Remember '
+j
+' for 
+.tar.bz2
+)
+ 
+root@TALLA:~# 
+tar 
+-
+cvf 
+archieve.tar.gz(
+.bz2
+) /path/to/folder/abc
+ 
+Note:
+ 
+A ‚Äò
+tar.gz
+‚Äò means gzipped. ‚Äò
+tar.bz2
+‚Äò is compressed ÔÅ∂ith bzip ÔÅ∂hich uses a better but 
+slower compression method.
+ 
+5.3.1.14.
+ 
+ 
+Command: cal
+ 
+The ‚Äú
+cal
+‚Äù (
+Calendar
+), is used to display calendar 
+of the present month or any other month 
+of any year that is advancing or passed.
+ 
+root@TALLA:~# 
+cal
+ 
+ 
+March 2016
+        
+ 
+Su 
+ 
+Mo 
+ 
+Tu 
+ 
+We 
+ 
+Th 
+ 
+Fr 
+ 
+Sa  
+ 
+ 
+ 
+1  
+ 
+2  
+ 
+3  
+ 
+4  
+ 
+5
+ 
+6  
+ 
+7  
+ 
+8  
+ 
+9 
+ 
+10 
+ 
+11  
+ 
+12
+ 
+13 
+ 
+14 
+ 
+15 
+ 
+16 
+ 
+17 
+ 
+18  
+ 
+19
+ 
+20 
+ 
+21 
+ 
+22 
+ 
+23 
+ 
+24 
+ 
+25  
+ 
+26
+ 
+27 
+ 
+28 
+ 
+29 
+ 
+30 
+ 
+31
+ 
+To show the calendar of the passed month of February in the year 
+1835,
+ 
+one can type the 
+following command.
+ 
+root@TALLA:~# 
+cal 02 1835
+ 
+   
+February 1835      
+ 
+Su 
+ 
+Mo 
+ 
+Tu 
+ 
+We 
+ 
+Th 
+ 
+Fr 
+ 
+Sa  
+ 
+1  
+ 
+2  
+ 
+3  
+ 
+4  
+ 
+5  
+ 
+6  
+ 
+7  
+ 
+8  
+ 
+9 
+ 
+10 
+ 
+11 
+ 
+12 
+ 
+13 
+ 
+14  
+ 
+15 
+ 
+16 
+ 
+17 
+ 
+18 
+ 
+19 
+ 
+20 
+ 
+21  
+ 
+22 
+ 
+23 
+ 
+24 
+ 
+25 
+ 
+26 
+ 
+27 
+ 
+28
+ 
+The ‚Äú
+date
+‚Äù (
+Date
+) command prints the current date and time on the standard output, and 
+can further be set.
+ 
+root@TALLA:~# date
+ 
+ 
+Sun May 17 14:13:29 IST 2015
+ 
+root@TALLA:~# date 
+--
+set='11 may 2015 13:57' 
+ 
+ 
+Mon May 11 13:57:00 IST 2015
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+49
+ 
+LIR 2016
+ 
+5.3.1.15.
+ 
+ 
+Command: cat
+ 
+The ‚Äú
+cat
+‚Äù stands for (
+Concatenation
+). Concatenate (join) two or more plain file and/or 
+print contents of a file on standard output.
+ 
+root@TALLA:~# 
+cat
+ 
+a.txt b.txt c.tx
+t d.tx&#x0000;&#x0000;t  abcd.txt
+ 
+root@TALLA:~# 
+cat
+ 
+abcd.txt
+ 
+ 
+This command displays the content
+ 
+of 
+the 
+file abcd
+.txt, which is the initial content 
+of abcd.txt followed by the content of a.txt, followed by the content of b.txt, followed by 
+the content of c.txt and ended 
+with the content of d.txt.
+ 
+Note:
+ 
+‚Äú
+&#x0000;&#x0000;
+‚Äù and ‚Äú
+&#x0000;
+‚Äù are called 
+append symbol
+s
+. They are used to append the output to a 
+file and not on standard output. ‚Äú
+&#x0000;
+‚Äù symbol ÔÅ∂ill delete a file already existed and create a 
+new file
+;
+ 
+hence for security reason
+,
+ 
+it is advised 
+to use ‚Äú
+&#x0000;&#x0000;
+‚Äù that ÔÅ∂ill ÔÅ∂rite the output 
+without overwriting or deleting the file.
+ 
+Wildcards are a shell feature that makes the command line much more powerful than any 
+GUI
+ 
+file managers. To select for example a big group of files in a graphical file manager
+, 
+the mouse is frequently used. This may seem simple, but in some cases it can be very 
+frustrating. For example, let consider a directory with a huge amount of all kinds of files 
+and subdirectories. Suppose we want to move all the HTML files that have the 
+word 
+‚ÄúLinux‚Äù someÔÅ∂here in the middle of their names, from that big directory into another 
+directory. What‚Äôs a simple ÔÅ∂ay to do this? If the directory contains a huge amount of 
+differently named HTML files, the task is everything but simple!
+ 
+In the Linux CL
+I that task is just as simple to perform as moving only one HTML file, and 
+it‚Äôs so easy because of the shell ÔÅ∂ildcards. These are special characters that alloÔÅ∂ to select 
+file names that match certain patterns of characters. This helps to select even a big 
+group 
+of files by typing just a feÔÅ∂ characters, and in most cases it‚Äôs easier than selecting the files 
+ÔÅ∂ith a mouse. Here‚Äôs a list of the most commonly used ÔÅ∂ildcards:
+ 
+Wildcard
+ 
+ 
+ 
+Matches
+ 
+   
+*
+ 
+ 
+ 
+zero or more characters
+ 
+   
+?
+ 
+ 
+ 
+exactly one character
+ 
+[abcde]
+ 
+ 
+ 
+exactly one character listed
+ 
+[a
+-
+e]
+ 
+ 
+ 
+exactly one character in the given range
+ 
+[!abcde]
+ 
+ 
+ 
+any character that is not listed
+ 
+[!a
+-
+e]
+ 
+ 
+ 
+any character that is not in the given range
+ 
+{debian,linux}
+ 
+ 
+exactly one entire word in the options given
+ 
+5.3.1.16.
+ 
+Command: cp
+ 
+The ‚Äú
+cp
+‚Äù command stands for (
+Copy
+). It copies a file from one location to another location.
+ 
+root@TALLA:~# 
+cp /home/user/Downloads abc.tar.gz /home/user/Desktop
+ 
+ 
+ 
+This command 
+Return
+s
+ 
+0 when suc
+cess
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+50
+ 
+LIR 2016
+ 
+Note:
+ 
+cp
+ 
+is one of the most commonly used command in shell scripting and it can be used 
+with wildcard characters (Describe in the above block), for customised and desired file 
+copying.
+ 
+5.3.1.17.
+ 
+Command: mv
+ 
+The ‚Äú
+mv
+‚Äù command stands for (
+move
+). It moves a file from one locati
+on to another 
+location.
+ 
+root@TALLA:~# 
+mv /home/user/Downloads abc.tar.gz /home/user/talla
+ 
+ 
+ 
+This command Returns 0 when success
+ 
+Note:
+ 
+mv
+ 
+command can be used with wildcard characters. 
+mv
+ 
+should be used with 
+caution, as moving of system/unauthorised file may lead to security as well as breakdown 
+of system.
+ 
+5.3.1.18.
+ 
+Command: pwd
+ 
+The command ‚Äú
+pwd
+‚Äù stands for (
+print working directory
+). It prints the current working 
+directory with full path name from t
+erminal.
+ 
+root@TALLA:~# 
+pwd
+ 
+ 
+/home/user/talla
+ 
+Note:
+ 
+This command ÔÅ∂on‚Äôt be much frequently used in scripting but it is an absolute life 
+saver for newbie who gets lost in terminal in their early connection with 
+Li
+nux
+. 
+ 
+5.3.1.19.
+ 
+Command: cd
+ 
+Finally, the frequently used
+ 
+‚Äú
+cd
+‚Äù command stands for (
+change directory
+), it changes the 
+working directory to execute, copy, move, write, read, etc. from terminal itself.
+ 
+root@TALLA:~# 
+cd
+ 
+/home/user/Desktop
+ 
+server@localhost:~$ 
+pwd
+ 
+/home/user/Desktop
+ 
+Note:
+ 
+cd
+ 
+comes to rescue when switc
+hing betÔÅ∂een directories from terminal. ‚Äú
+Cd ~
+‚Äù ÔÅ∂ill 
+change the ÔÅ∂orking directory to user‚Äôs home directory, and is very useful if a user finds 
+himself lost in terminal. ‚Äú
+Cd ..
+‚Äù ÔÅ∂ill change the ÔÅ∂orking
+ 
+directory to parent directory
+.
+ 
+5.3.2.
+ 
+Advanced Commands for Mid
+dle Level Linux Users
+ 
+5.3.2.1.
+ 
+Command: Find
+ 
+Search for files in the given directory, hierarchically starting at the parent directory and 
+moving to sub
+-
+directories.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+51
+ 
+LIR 2016
+ 
+root@TALLA:~# 
+find 
+-
+name *.sh
+ 
+ 
+./Desktop/load.sh 
+ 
+./Desktop/test.sh 
+ 
+./Desktop/shutdown.sh 
+ 
+./Binary/firefox/run
+-
+mozilla.sh 
+ 
+./Downloads/kdewebdev
+-
+3.5.8/quanta/scripts/externalpreview.sh 
+ 
+./Downloads/wheezy
+-
+nv
+-
+install.sh
+ 
+Note:
+ 
+The `
+-
+name
+‚Äò option makes the search case sensitive. The option `
+-
+iname
+‚Äò can be 
+used to find something regardless of case.
+ 
+(
+*
+ 
+is a wildcard).
+ 
+root@TALLA:~# 
+find 
+-
+iname *.SH
+ 
+(find 
+-
+iname *.Sh / find 
+-
+iname *.sH)
+ 
+./Desktop/load.sh 
+ 
+./Desktop/test.sh 
+ 
+./Desktop/shutdown.sh 
+ 
+./Binary/firefox/run
+-
+mozilla.sh 
+ 
+./Downloads/kdewebdev
+-
+3.5.8/quanta/scripts/externalpreview.sh 
+ 
+./Downloads/wheezy
+-
+nv
+-
+install.sh
+ 
+root@TALLA:~# 
+find 
+-
+name *.tar.gz
+ 
+ 
+/var/www/modules/update/tests/aaa_update_test.tar.gz 
+ 
+./var/cache/flashplugin
+-
+nonfree/install_flash_player_11_linux.i386.tar.gz 
+ 
+./home/server/Downloads/drupal
+-
+7.22.tar.gz 
+ 
+./usr/share/get
+text/archive.git.tar.gz 
+ 
+./usr/share/doc/apg/php.tar.gz 
+ 
+./usr/share/usb_modeswitch/configPack.tar.gz
+ 
+Note
+: The above command searches for all the file having extension ‚Äò
+tar.gz
+‚Äò in root 
+directory and all the sub
+-
+directories including mounted devices.
+ 
+5.3.2.2.
+ 
+Comma
+nd: grep
+ 
+The 
+‚Äú
+grep
+‚Äù
+ 
+command searches the given file for lines containing a match to the given 
+strings or ÔÅ∂ords. Search ‚Äò
+/etc/passwd
+‚Äò for ‚Äò
+TALLA
+‚Äò user.
+ 
+root@TALLA:~# 
+grep TALLA /etc/passwd
+ 
+ 
+TALLA:x:1000:1000:TALLA,,,:/home/TALLA:/bin/bash
+ 
+Ignore word case 
+and all other combination ÔÅ∂ith ‚Äò
+-
+i
+‚Äò option.
+ 
+root@TALLA:~# grep 
+-
+i TALLA /etc/passwd 
+ 
+TALLA:x:1000:1000:TALLA,,,:/home/TALLA:/bin/bash
+ 
+Search recursively (
+-
+r
+) 
+i.e.
+ 
+read all files under each directory for a string ‚Äú
+127.0.0.1
+‚Äú.
+ 
+root@TALLA:~# 
+grep 
+-
+r "127.0.0.
+1" /etc/ 
+ 
+/etc/vlc/lua/http/.hosts:127.0.0.1
+ 
+/etc/speech
+-
+dispatcher/modules/ivona.conf:#IvonaServerHost "127.0.0.1"
+ 
+/etc/apache2/mods
+-
+available/status.conf:    Allow from 127.0.0.1 ::1
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+52
+ 
+LIR 2016
+ 
+/etc/apache2/mods
+-
+available/proxy_balancer.conf:#  Allow from 127.0.0.1
+ 
+::1
+ 
+/etc/security/access.conf:#+ : root : 127.0.0.1
+ 
+/etc/dhcp/dhclient.conf:#prepend domain
+-
+name
+-
+servers 127.0.0.1;
+ 
+/etc/init/network
+-
+interface.conf:
+ 
+ifconfig lo 127.0.0.1 up || true
+ 
+/etc/java
+-
+6
+-
+openjdk/net.properties:# 
+http.nonProxyHosts=localhost|127.0.0.1
+ 
+/etc/java
+-
+6
+-
+openjdk/net.properties:# ftp.nonProxyHosts=localhost|127.0.0.1
+ 
+/etc/hosts:127.0.0.1
+ 
+localhost
+ 
+Note
+: The following options can be used along with 
+grep
+.
+ 
+1.
+ 
+-
+w
+ 
+for word (egrep 
+-
+ÔÅ∂ ‚Äò
+word1
+|
+word2
+‚Äò /path/to/file).
+ 
+2.
+ 
+-
+c
+ 
+for count (i.e., total number of times the pattern matched) (grep 
+-
+c ‚Äò
+word
+‚Äò 
+/path/to/file).
+ 
+3.
+ 
+‚Äì
+color
+ 
+for coloured output (grep 
+‚Äì
+color
+ 
+server /etc/passwd).
+ 
+5.3.2.3.
+ 
+Command: man
+ 
+The ‚Äò
+man
+‚Äò is the system‚Äôs manual pager. Man provides online documentation for all the 
+pos
+sible options with a command and its usages. Almost all the command comes with 
+their corresponding manual pages. For example,
+ 
+root@TALLA:~# 
+man man
+ 
+ 
+MAN(1)
+ 
+ 
+ 
+ 
+Manual pager utils 
+ 
+ 
+ 
+MAN(1)
+ 
+NAME
+ 
+       
+man 
+-
+ 
+an interface to the on
+-
+line reference manuals
+ 
+SYNOPSIS
+ 
+ 
+man [
+-
+C file] [
+-
+d] [
+-
+D] [
+--
+warnings[=warnings]] [
+-
+R  encoding] [
+-
+L locale] [
+-
+m system[,...]] [
+-
+M path] [
+-
+S 
+list] [
+-
+e extension] [
+-
+i|
+-
+I]
+ 
+ 
+man 
+-
+k [apropos options] regexp ...
+ 
+ 
+man 
+-
+K [
+-
+w|
+-
+W] [
+-
+S list] [
+-
+i|
+-
+I] [
+--
+regex] [section] term ...
+ 
+ 
+man 
+-
+f [w
+hatis options] page ...
+ 
+ 
+[
+-
+H[browser]] [
+-
+X[dpi]] [
+-
+Z] file ...
+ 
+ 
+ 
+man 
+-
+w|
+-
+W [
+-
+C file] [
+-
+d] [
+-
+D] page ...
+ 
+ 
+man 
+-
+c [
+-
+C file] [
+-
+d] [
+-
+D] page ...
+ 
+ 
+man [
+-
+hV]
+ 
+5.3.2.4.
+ 
+Command: ps
+ 
+ps
+ 
+(
+Process
+) gives the status of running processes with a unique 
+Id
+ 
+called 
+PID
+.
+ 
+root@TALLA:~# 
+ps
+ 
+ 
+PID 
+ 
+ 
+TTY          
+ 
+TIME 
+ 
+CMD
+ 
+ 
+4170 
+ 
+ 
+pts/1    
+ 
+00:00:00 
+ 
+bash
+ 
+ 
+9628 
+ 
+ 
+pts/1    
+ 
+00:00:00 
+ 
+ps
+ 
+To list status of all the processes along with process 
+id
+ 
+and 
+PID
+, use option ‚Äò
+-
+A
+‚Äò.
+ 
+root@TALLA:~# 
+ps 
+-
+A
+ 
+ 
+ 
+PID 
+ 
+TTY   
+ 
+TIME 
+ 
+ 
+CMD
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+53
+ 
+LIR 2016
+ 
+    
+ 
+1 
+ 
+?   
+ 
+00
+:00:01 
+ 
+init
+ 
+    
+ 
+2 
+ 
+?  
+ 
+00:00:00 
+ 
+kthreadd
+ 
+   
+ 
+3 
+ 
+? 
+ 
+00:00:01 
+ 
+ksoftirqd/0
+ 
+    
+ 
+5 
+ 
+?  
+ 
+00:00:00 
+ 
+kworker/0:0H
+ 
+    
+ 
+7 
+ 
+?  
+ 
+00:00:00 
+ 
+kworker/u:0H
+ 
+    
+ 
+8 
+ 
+?  
+ 
+00:00:00 
+ 
+migration/0
+ 
+    
+ 
+9 
+ 
+? 
+ 
+00:00:00 
+ 
+rcu_bh
+ 
+Note
+: This command is very useful when you want 
+to know which processes are running 
+or may need 
+PID
+ 
+sometimes, for process to be killed. You can use it ÔÅ∂ith ‚Äò
+grep
+‚Äò command 
+to find customised output. For example,
+ 
+root@TALLA
+:~# ps 
+-
+A | grep 
+-
+i ssh
+ 
+ 
+1500 ?        00:09:58 sshd
+ 
+ 
+4317 ?        00:00:00 sshd
+ 
+Here ‚Äò
+ps
+‚Äò is pipelined ÔÅ∂ith ‚Äò
+grep
+‚Äò command to find customised and relevant output of our 
+need.
+ 
+5.3.2.5.
+ 
+Command: kill
+ 
+This command is used to kill process which is not relevant now or is not respon
+ding. It is 
+very useful command
+. Here you can kill a process and 
+start it without restarting the whole 
+system.
+ 
+You need a process‚Äô
+ 
+pid (ps) to kill it.
+ 
+Let suppose you want to kill 
+the 
+program ‚Äò
+apache2
+‚Äò that might not be responding. Run 
+‚Äò
+ps 
+-
+A
+‚Äò along ÔÅ∂ith 
+grep
+ 
+command.
+ 
+root@TALLA:~# ps 
+-
+A | grep 
+-
+i apache2
+ 
+ 
+1285 ?      
+  
+00:00:00 apache2
+ 
+Find process ‚Äò
+apache2
+‚Äò, note its 
+pid
+ 
+and 
+kill
+ 
+it. For example, in my case
+, the pid of
+ 
+‚Äò
+apache2
+‚Äò
+ 
+is ‚Äò
+1285
+‚Äò.
+ 
+With the following command, you can kill the process.
+ 
+root@TALLA:~# kill 1285 
+ 
+Note
+: Every time you re
+-
+run a process or start a sy
+stem, a new 
+pid
+ 
+is generated for each 
+process and you can know about the current running processes and its 
+pid
+ 
+using 
+command ‚Äò
+ps
+‚Äò.
+ 
+Another way to kill the same process is.
+ 
+root@TALLA:~# pkill apache2
+ 
+Note
+: Kill requires 
+job id
+ 
+/ 
+process id
+ 
+for sending signals, where as in 
+pkill, 
+you have an 
+option of using pattern, specifying process owner, etc.
+ 
+5.3.2.6.
+ 
+Command: whereis
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+54
+ 
+LIR 2016
+ 
+The ‚Äò
+whereis
+‚Äò command is used to locate the 
+Binary
+, 
+Sources
+ 
+and 
+Manual Pages
+ 
+of the 
+command. For example, to locate the 
+Binary
+, 
+So
+urces
+ 
+and 
+Manual Pages
+ 
+of the command 
+‚Äò
+ls
+‚Äò and ‚Äò
+kill
+‚Äò.
+ 
+root@TALLA:~# whereis ls 
+ 
+ 
+ls: /bin/ls /usr/share/man/man1/ls.1.gz
+ 
+root@TALLA:~# whereis kill
+ 
+ 
+kill: /bin/kill /usr/share/man/man2/kill.2.gz /usr/share/man/man1/kill.1.gz
+ 
+Note
+: This is useful to know w
+here the binaries are installed for manual editing 
+sometimes.
+ 
+5.3.2.7.
+ 
+Command: service
+ 
+The ‚Äò
+service
+‚Äò command controls the 
+Starting
+, 
+Stopping
+ 
+or 
+Restarting
+ 
+of a ‚Äò
+service
+‚Äò. This 
+command makes it possible to 
+start
+, 
+restart
+ 
+or 
+stop
+ 
+a service without restarting the 
+system, for the changes to be taken into effect.
+ 
+Startting an apache2 server on Ubuntu
+ 
+root@TALLA:~# service apache2 start
+ 
+ 
+* Star
+ting web server apache2 
+ 
+apache2: Could not reliably determine the 
+server's fully qualified 
+domain name, using 127.0.1.1 for ServerName
+ 
+httpd 
+(pid 1285) already running
+ 
+ 
+ 
+ 
+ 
+[ OK ]
+ 
+Restarting a apache2 server on Ubuntu
+ 
+root@TALLA:~# service apache2 restart
+ 
+* Restarting web server apache2
+ 
+apache2: Could not reliably determine the 
+server's fully 
+qualified domain name, using 127.0.1.1 for ServerName
+ 
+ 
+... waiting .apache2: Could not reliably determine the server's fully qualified 
+domain name, using 127.0.1.1 for ServerName
+ 
+ 
+ 
+ 
+[ OK ]
+ 
+Stopping a apache2 server on
+ 
+Ubuntu
+ 
+root@TALLA:~# service apache2 
+stop
+ 
+ 
+* Stopping web server apache2 
+ 
+apache2: Could not reliably determine the 
+server's fully qualified domain name, using 127.0.1.1 for ServerName
+ 
+ 
+... waiting
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+[ OK ]
+ 
+Note
+: All the process script lies in ‚Äò
+/etc/init.d
+‚Äò, and the path might needs to b
+e included 
+on certain system, i.e., in spite of running ‚Äú
+service apache2 start
+‚Äù you ÔÅ∂ould be asked to 
+run ‚Äú
+/etc/init.d/apache2 start
+‚Äù.
+ 
+5.3.2.8.
+ 
+Command: alias
+ 
+alias
+ 
+is a built in shell command that lets you assign name for a long command or 
+frequently used command.
+ 
+I uses ‚Äò
+ls 
+-
+l
+‚Äò command frequently, ÔÅ∂hich includes 
+5
+ 
+characters including space. Hence I 
+created an alias for this to ‚Äò
+l
+‚Äò.
+ 
+root@TALLA:~# alias l='ls 
+-
+l'
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+55
+ 
+LIR 2016
+ 
+check if it works or not.
+ 
+root@TALLA:~# l
+ 
+ 
+total 36 
+ 
+drwxr
+-
+xr
+-
+x 3 TALLA TALLA 4096 May 10 11:14 Binary 
+ 
+drwxr
+-
+xr
+-
+x 3 TALLA TALLA 4096 May 21 11:21 Desktop 
+ 
+drwxr
+-
+xr
+-
+x 2 TALLA TALLA 4096 May 21 15:23 Documents 
+ 
+drwxr
+-
+xr
+-
+x 2 TALLA TALLA 4096 May  7 16:58 Music 
+ 
+drwxr
+-
+xr
+-
+x 2 TALLA TALLA 4096 May 20 16:17 Pictures 
+ 
+To remove alias ‚Äò
+l
+‚Äò, use the folloÔÅ∂ing ‚Äò
+unalias
+‚Äò command.
+ 
+root@TALLA:~# unalias l
+ 
+ 
+check, if ‚Äò
+l
+‚Äò still is
+ 
+alias or not.
+ 
+root@TALLA:~# l
+ 
+ 
+bash: l: command not found
+ 
+Making a little fun out of this command. Make alias of certain important command to some 
+other important command.
+ 
+alias cd='ls 
+-
+l' 
+(set alias of ls 
+-
+l to cd)
+ 
+alias su='pwd' (set alias of pwd to su)
+ 
+....
+ 
+(You can create your own)
+ 
+....
+ 
+NoÔÅ∂ ÔÅ∂hen your friend types ‚Äò
+cd
+‚Äò, just think hoÔÅ∂ funny it ÔÅ∂ould be ÔÅ∂hen he gets directory 
+listing and not directory changing. And ÔÅ∂hen he tries to be ‚Äò
+su
+‚Äò
+ 
+the all he gets is the 
+location of ÔÅ∂orking directory. You can remove the alias later using command ‚Äò
+unalias
+‚Äò as 
+explained above.
+ 
+5.3.2.9.
+ 
+Command: df
+ 
+Report disk usages of file system. Useful for user as well as System Administrator to keep 
+track of their disk usa
+ges. ‚Äò
+df
+‚Äò ÔÅ∂orks by examining directory entries, ÔÅ∂hich generally are 
+updated only when a file is closed.
+ 
+root@TALLA:~# df
+ 
+ 
+Filesystem     1K
+-
+blocks    Used Available Use% Mounted on
+ 
+/dev/sda1       47929224 7811908  37675948  18% /
+ 
+none                   4 
+      
+0         4   0% /sys/fs/cgroup
+ 
+udev             1005916       4   1005912   1% /dev
+ 
+tmpfs             202824     816    202008   1% /run
+ 
+none                5120       0      5120   0% /run/lock
+ 
+none             1014120     628   1013492   1% /run/s
+hm
+ 
+none              102400      44    102356   1% /run/user
+ 
+/dev/sda5         184307   79852     94727  46% /boot
+ 
+/dev/sda7       95989516   61104  91045676   1% /data
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+56
+ 
+LIR 2016
+ 
+/dev/sda8       91953192   57032  87218528   1% /personal
+ 
+For more examples of ‚Äò
+df
+‚Äò com
+mand, read the article 
+12 df Command Examples in Linux
+.
+ 
+5.3.2.10.
+ 
+Command: du
+ 
+Estimate file space usage. Output the summary of disk usages by ever file hierarchically, 
+i.e., in recu
+rsive manner.
+ 
+root@TALLA:~# du
+ 
+ 
+8       ./Daily Pics/wp
+-
+polls/images/default_gradient
+ 
+8       ./Daily Pics/wp
+-
+polls/images/default
+ 
+32      ./Daily Pics/wp
+-
+polls/images
+ 
+8       ./Daily Pics/wp
+-
+polls/tinymce/plugins/polls/langs
+ 
+8       ./Daily 
+Pics/wp
+-
+polls/tinymce/plugins/polls/img
+ 
+28      ./Daily Pics/wp
+-
+polls/tinymce/plugins/polls
+ 
+32      ./Daily Pics/wp
+-
+polls/tinymce/plugins
+ 
+36      ./Daily Pics/wp
+-
+polls/tinymce
+ 
+580     ./Daily Pics/wp
+-
+polls
+ 
+1456    ./Daily Pics
+ 
+36      ./Plugins/wordpress
+-
+a
+uthor
+-
+box
+ 
+16180   ./Plugins
+ 
+12      ./May Articles 2013/Xtreme Download Manager
+ 
+4632    ./May Articles 2013/XCache
+ 
+Note
+: ‚Äò
+df
+‚Äò only reports usage statistics on file systems, ÔÅ∂hile ‚Äò
+du
+‚Äò, on the other hand, 
+measures directory contents. 
+For more ‚Äò
+du
+‚Äò command examples and usage, read 
+10 du (Disk 
+Usage) Commands
+.
+ 
+5.3.2.11.
+ 
+Command: rm
+ 
+The command ‚Äò
+rm
+‚Äò stands for remove. 
+rm
+ 
+is used to remove files (s) and directori
+es.
+ 
+Removing a directory
+ 
+root@TALLA:~# rm PassportApplicationForm_Main_English_V1.0
+ 
+ 
+rm: cannot remove `PassportApplicationForm_Main_English_V1.0': Is a directory
+ 
+The directory can‚Äôt be removed simply by ‚Äò
+rm
+‚Äò command, you have to use ‚Äò
+-
+rf
+‚Äò sÔÅ∂itch 
+along wit
+h ‚Äò
+rm
+‚Äò.
+ 
+root@TALLA:~# rm 
+-
+rf PassportApplicationForm_Main_English_V1.0
+ 
+Warning
+: ‚Äú
+rm 
+-
+rf
+‚Äù command is a destructive command if accidently you make it to the 
+ÔÅ∂rong directory. Once you ‚Äò
+rm 
+-
+rf
+‚Äò a directory all the files and the directory itself is lost 
+forever
+, all of a sudden. 
+Use it with caution.
+ 
+5.3.2.12.
+ 
+Command: echo
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+57
+ 
+LIR 2016
+ 
+echo
+ 
+as the name suggest echoes a text on the standard output. It has nothing to do with 
+shell, nor does shell reads the output of echo command. However in an interactive script, 
+echo passes the message
+ 
+to the user through terminal. It is one of the command that is 
+commonly used in scripting, interactive scripting.
+ 
+root@TALLA:~# echo "TALLA.com is a very good website" 
+ 
+ 
+TALLA.com is a very good website
+ 
+creating a small interactive
+ 
+script
+ 
+1. create a 
+file, named ‚Äò
+interactive_shell.sh
+‚Äò on desktop. (Remember ‚Äò
+.sh
+‚Äò extension is 
+must).
+ 
+2. copy and paste the below script, exactly same, as below.
+ 
+#!/bin/bash 
+ 
+echo "Please enter your name:" 
+ 
+   
+read name 
+ 
+   
+echo "Welcome to Linux $name"
+ 
+Next, set execute per
+mission and run the script.
+ 
+root@TALLA:~# chmod 777 interactive_shell.sh
+ 
+root@TALLA:~# ./interactive_shell.sh
+ 
+ 
+Please enter your name:
+ 
+Ravi Saive
+ 
+Welcome to Linux Ravi Saive
+ 
+Note
+: ‚Äò
+#!/bin/bash
+‚Äò tells the shell that it is an script an it is alÔÅ∂ays a good id
+ea to include 
+it at the top of script. 
+‚Äò
+read
+‚Äò reads the given input.
+ 
+5.3.2.13.
+ 
+Command: passwd
+ 
+This is an important command that is useful for changing own password in terminal. 
+Obviously you need to know your current passowrd for Security reason.
+ 
+root@TALLA:~# pass
+wd 
+ 
+ 
+Changing password for TALLA. 
+ 
+(current) UNIX password: ******** 
+ 
+Enter new UNIX password: ********
+ 
+Retype new UNIX password: ********
+ 
+Password unchanged   [Here was passowrd remians unchanged, i.e., new password=old password]
+ 
+Enter new UNIX password: 
+#####
+ 
+Retype new UNIX password:#####
+ 
+5.3.2.14.
+ 
+Command: lpr
+ 
+This command print files named on command line, to named printer.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+58
+ 
+LIR 2016
+ 
+root@TALLA:~# lpr 
+-
+P deskjet
+-
+4620
+-
+series 1
+-
+final.pdf
+ 
+Note
+: The ‚Äò
+lpq
+‚Äò command lets you vieÔÅ∂ the status of a printer (ÔÅ∂hether it‚Äôs up or not),
+ 
+and 
+the jobs (files) waiting to be printed.
+ 
+5.3.2.15.
+ 
+Command: cmp
+ 
+compare two files of any type and writes the results to the standard output. By default, 
+‚Äò
+cmp
+‚Äò Returns 0 if the files are the same«¢ if they differ, the byte and line number at ÔÅ∂hich 
+the first differ
+ence occurred is reported.
+ 
+To provide examples for this command, lets consider two files:
+ 
+file1.txt
+ 
+root@TALLA:~# cat file1.txt
+ 
+ 
+Hi My name is TALLA
+ 
+file2.txt
+ 
+root@TALLA:~# cat file2.txt
+ 
+ 
+Hi My name is TALLA [dot] com
+ 
+NoÔÅ∂, let‚Äôs compare tÔÅ∂o files and see o
+utput of the command.
+ 
+root@TALLA:~# cmp file1.txt file2.txt 
+ 
+ 
+file1.txt file2.txt differ: byte 15, line 1
+ 
+5.3.2.16.
+ 
+Command: wget
+ 
+Wget
+ 
+is a free utility for non
+-
+interactive (i.e., can work in background) download of files 
+from the Web. 
+It supports 
+HTTP
+, 
+HTTPS
+, 
+FTP
+ 
+p
+rotocols and 
+HTTP
+ 
+proxies.
+ 
+Download ffmpeg using
+ 
+wget
+ 
+root@TALLA:~# wget http://downloads.sourceforge.net/project/ffmpeg
+-
+php/ffmpeg
+-
+php/0.6.0/ffmpeg
+-
+php
+-
+0.6.0.tbz2
+ 
+ 
+--
+2013
+-
+05
+-
+22 18:54:52
+--
+  
+http://downloads.sourceforge.net/project/ffmpeg
+-
+php/ffmpeg
+-
+php/0.6
+.0/ffmpeg
+-
+php
+-
+0.6.0.tbz2
+ 
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 216.34.181.59
+ 
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.34.181.59|:80... connected.
+ 
+HTTP request sent, awaiting response... 302 Found
+ 
+Location: http://kaz.dl.sourceforge.net/project/ffmpeg
+-
+php/ffmpeg
+-
+php/0.6.0/ffmpeg
+-
+php
+-
+0.6.0.tbz2 
+[following]
+ 
+--
+2013
+-
+05
+-
+22 18:54:54
+--
+  
+http://kaz.dl.sourceforge.net/project/ffmpeg
+-
+php/ffmpeg
+-
+php/0.6.0/ffmpeg
+-
+php
+-
+0.6.0.tbz2
+ 
+Resolving kaz.dl.sourceforge.net 
+(kaz.dl.sourceforge.net)... 92.46.53.163
+ 
+Connecting to kaz.dl.sourceforge.net (kaz.dl.sourceforge.net)|92.46.53.163|:80... connected.
+ 
+HTTP request sent, awaiting response... 200 OK
+ 
+Length: 275557 (269K) [application/octet
+-
+stream]
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+59
+ 
+LIR 2016
+ 
+Saving to: ‚Äòffmpeg
+-
+php
+-
+0.6
+.0.tbz2‚Äô
+ 
+ 
+100%[======================================================================&#x0000;=====] 
+2,75,557    67.8KB/s   in 4.0s   
+ 
+ 
+2013
+-
+05
+-
+22 18:55:00 (67.8 KB/s) 
+-
+ 
+‚Äòffmpeg
+-
+php
+-
+0.6.0.tbz2‚Äô saved [275557/275557]
+ 
+5.3.2.17.
+ 
+Command: mount
+ 
+Mount
+ 
+is an important command whi
+ch is used to mount a filesystem that don‚Äôt mount 
+itself. You need root permission to mount a device.
+ 
+First run ‚Äò
+lsblk
+‚Äò after plugging
+-
+in your filesystem and identify your device and note down 
+you device assigned name.
+ 
+root@TALLA:~# lsblk 
+ 
+ 
+NAME   MAJ:MIN 
+RM   SIZE RO TYPE MOUNTPOINT 
+ 
+sda      8:0    0 931.5G  0 disk 
+ 
+‚îú
+‚îÄsda1   8:1    0 923.6G  0 part / 
+ 
+‚îú
+‚îÄsda2   8:2    0     1K  0 part 
+ 
+‚îî‚îÄsda5   8:5    0   7.9G  0 part [SWAP] 
+ 
+sr0     11:0    1  1024M  0 rom  
+ 
+sdb      8:16   1   3.7G  0 disk 
+ 
+‚îî‚îÄsdb1   8:17
+   
+1   3.7G  0 part
+ 
+From this screen it was clear that I plugged in a 
+4 GB
+ 
+pendrive thus ‚Äò
+sdb1
+‚Äò is my filesystem 
+to be mounted. Become a 
+root
+ 
+to perform this operation and change to 
+/dev
+ 
+directory 
+where all the file system is mounted.
+ 
+root@TALLA:~# su
+ 
+Pass
+word:
+ 
+root@TALLA:~# cd /dev
+ 
+Create a directory named anything but should be relevent for reference.
+ 
+root@TALLA:~# mkdir usb
+ 
+NoÔÅ∂ mount filesystem ‚Äò
+sdb1
+‚Äò to directory ‚Äò
+usb
+‚Äò.
+ 
+root@TALLA:~# mount /dev/sdb1 /dev/usb
+ 
+Now you can navigate to 
+/dev/usb
+ 
+from terminal or 
+X
+-
+windows
+ 
+system and acess file 
+from the mounted directory.
+ 
+5.3.2.18.
+ 
+Command: gcc
+ 
+gcc
+ 
+is the in
+-
+built compiler for ‚Äò
+c
+‚Äò language in Linux Environment. A simple 
+c
+ 
+program, 
+save it on ur desktop as 
+Hello.c
+ 
+(remember ‚Äò
+.c
+‚Äò extension is must).
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+60
+ 
+LIR 2016
+ 
+#include 
+tdi&#xs-30;o.h
+ 
+int main()
+ 
+{
+ 
+  
+printf("Hello world
+\
+n");
+ 
+  
+return 0;
+ 
+}
+ 
+Compile
+ 
+it
+ 
+root@TALLA:~# gcc Hello.c
+ 
+Run
+ 
+it
+ 
+root@TALLA:~# ./a.out 
+ 
+ 
+Hello world
+ 
+Note
+: On compiling a 
+c
+ 
+program the output is automatically generated to a neÔÅ∂ file ‚Äú
+a.out
+‚Äù 
+and everytime you compile a 
+c
+ 
+program same file ‚Äú
+a.out
+‚Äù gets modified. Hence it is a good 
+advice to define a output file during compile and thus there is no risk of overwrite to 
+output file.
+ 
+Compile it this
+ 
+way
+ 
+root@TALLA:~# gcc 
+-
+o Hello Hello.c
+ 
+Here ‚Äò
+-
+o
+‚Äò sends the output to ‚Äò
+Hello
+‚Äò file and not ‚Äò
+a.out
+‚Äò. Run it again.
+ 
+root@TALLA:~# ./Hello 
+ 
+ 
+Hello world
+ 
+5.3.2.19.
+ 
+Command: g++
+ 
+g++
+ 
+is the in
+-
+built compiler for ‚Äò
+C++
+‚Äò , the first object oriented programming language. A 
+simple 
+c++
+ 
+program, save it on ur desktop as 
+Add.cpp
+ 
+(remember ‚Äò
+.cpp
+‚Äò extension is 
+must).
+ 
+#include rea&#xiost;&#x-130;m
+ 
+ 
+using namespace std;
+ 
+ 
+int main() 
+ 
+    
+{
+ 
+          
+int a;
+ 
+          
+int b;
+ 
+          
+coutEnter first number:
+\
+n";
+ 
+          
+cin &#x0000;&#x0000; a;
+ 
+          
+cout nter the second number:
+\
+n";
+ 
+          
+cin&#x0000;&#x0000; b;
+ 
+          
+cin.ignore();
+ 
+          
+int result = a + b;
+ 
+          
+coutResult is"  "esultendl;
+ 
+          
+cin.get();
+ 
+          
+return 0;
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+61
+ 
+LIR 2016
+ 
+     
+}
+ 
+Compile it
+ 
+root@TALLA:~# g++ Add.cpp
+ 
+Run it
+ 
+root@TALLA:~# ./a.out
+ 
+ 
+Enter first number:
+ 
+ 
+...
+ 
+...
+ 
+Note
+: On compiling a 
+c++
+ 
+program the output is automatically generated to a new file 
+‚Äú
+a.out
+‚Äù and everytime you compile a 
+c++
+ 
+program same file ‚Äú
+a.out
+‚Äù gets modified. Hence 
+it is a good advice to define a output file during compile and thus there 
+is no risk of 
+overwrite to output file.
+ 
+Compile it this way
+ 
+root@TALLA:~# g++ 
+-
+o Add Add.cpp
+ 
+Run it
+ 
+root@TALLA:~# ./Add 
+ 
+ 
+Enter first number: 
+ 
+...
+ 
+...
+ 
+5.3.2.20.
+ 
+Command: java
+ 
+Java
+ 
+is one of the ÔÅ∂orld‚Äôs highly used programming language and is considered fast, 
+secure, and reliable. Most of the the web based service of today runs on java.
+ 
+Create a simple java program by pasting the below test to a file, named 
+TALLA.java
+ 
+(remember ‚Äò
+.ja
+va
+‚Äò extension is must).
+ 
+class TALLA {
+ 
+  
+public static void main(String[] arguments) {
+ 
+    
+System.out.println("TALLA ");
+ 
+  
+}
+ 
+}
+ 
+compile it using javac
+ 
+root@TALLA:~# javac TALLA.java
+ 
+Run it
+ 
+root@TALLA:~# java TALLA
+ 
+Note
+: Almost every distribution comes packed
+ 
+with 
+gcc compiler
+, major number of 
+distros have inbuilt 
+g++
+ 
+and 
+java compiler
+, while some may not have. 
+You can 
+apt
+ 
+or 
+yum
+ 
+the required package.
+ 
+5.3.3.
+ 
+Advanced Commands for Linux Experts
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+62
+ 
+LIR 2016
+ 
+5.3.3.1.
+ 
+ 
+Command: ifconfig
+ 
+ifconfig
+ 
+is used to configure the kernel
+-
+resident network interfaces. It is used at boot time 
+to set up interfaces as necessary. After that, it is usually only needed when debugging or 
+when system tuning is needed.
+ 
+Check Active Network Interfaces
+ 
+[avishek@TALLA ~]
+$ ifconfig 
+ 
+eth0      Link encap:Ethernet  HWaddr 40:2C:F4:EA:CF:0E  
+ 
+          
+inet addr:192.168.1.3  Bcast:192.168.1.255  Mask:255.255.255.0 
+ 
+          
+inet6 addr: fe80::422c:f4ff:feea:cf0e/64 Scope:Link 
+ 
+          
+UP BROADCAST RUNNING MULTICAST  MTU:150
+0  Metric:1 
+ 
+          
+RX packets:163843 errors:0 dropped:0 overruns:0 frame:0 
+ 
+          
+TX packets:124990 errors:0 dropped:0 overruns:0 carrier:0 
+ 
+          
+collisions:0 txqueuelen:1000 
+ 
+          
+RX bytes:154389832 (147.2 MiB)  TX bytes:65085817 (62.0 M
+iB) 
+ 
+          
+Interrupt:20 Memory:f7100000
+-
+f7120000 
+ 
+lo        Link encap:Local Loopback  
+ 
+          
+inet addr:127.0.0.1  Mask:255.0.0.0 
+ 
+          
+inet6 addr: ::1/128 Scope:Host 
+ 
+          
+UP LOOPBACK RUNNING  MTU:16436  Metric:1 
+ 
+          
+RX packets:78
+ 
+errors:0 dropped:0 overruns:0 frame:0 
+ 
+          
+TX packets:78 errors:0 dropped:0 overruns:0 carrier:0 
+ 
+          
+collisions:0 txqueuelen:0 
+ 
+          
+RX bytes:4186 (4.0 KiB)  TX bytes:4186 (4.0 KiB)
+ 
+Check All Network Interfaces
+ 
+Display details of All 
+interfaces including disabled interfaces using ‚Äú
+-
+a
+‚Äù argument.
+ 
+[avishek@TALLA ~]$ ifconfig 
+-
+a
+ 
+eth0      Link encap:Ethernet  HWaddr 40:2C:F4:EA:CF:0E  
+ 
+          
+inet addr:192.168.1.3  Bcast:192.168.1.255  Mask:255.255.255.0 
+ 
+          
+inet6 addr: fe80::422
+c:f4ff:feea:cf0e/64 Scope:Link 
+ 
+          
+UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1 
+ 
+          
+RX packets:163843 errors:0 dropped:0 overruns:0 frame:0 
+ 
+          
+TX packets:124990 errors:0 dropped:0 overruns:0 carrier:0 
+ 
+          
+collisions:0 txqueuelen:1000 
+ 
+          
+RX bytes:154389832 (147.2 MiB)  TX bytes:65085817 (62.0 MiB) 
+ 
+          
+Interrupt:20 Memory:f7100000
+-
+f7120000 
+ 
+lo        Link encap:Local Loopback  
+ 
+          
+inet addr:127.0.0.1  Mask:255.0.0.0 
+ 
+          
+inet6 addr: ::1/128 Scope:Host 
+ 
+          
+UP LOOPBACK RUNNING  MTU:16436  Metric:1 
+ 
+          
+RX packets:78 errors:0 dropped:0 overruns:0 frame:0 
+ 
+          
+TX packets:78 errors:0 dropped:0 overruns:0 carrier:0 
+ 
+          
+collisions:0 txqueuelen:0 
+ 
+       
+   
+RX bytes:4186 (4.0 KiB)  TX bytes:4186 (4.0 KiB) 
+ 
+virbr0    Link encap:Ethernet  HWaddr 0e:30:a3:3a:bf:03  
+ 
+          
+inet addr:192.168.122.1  Bcast:192.168.122.255  Mask:255.255.255.0
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+63
+ 
+LIR 2016
+ 
+          
+UP BROADCAST MULTICAST  MTU:1500  Metric:1
+ 
+          
+RX pa
+ckets:0 errors:0 dropped:0 overruns:0 frame:0
+ 
+          
+TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+ 
+          
+collisions:0 txqueuelen:0 
+ 
+          
+RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+ 
+Disable an Interface
+ 
+[avishek@TALLA ~]$ ifconfig eth0 down
+ 
+Enable an Interface
+ 
+[avishek@TALLA ~]$ ifconfig eth0 up
+ 
+Assign IP Address to an Interface
+ 
+Assign ‚Äú192.168.1.12‚Äù as the IP address for the interface eth0.
+ 
+[avishek@TALLA ~]$ ifconfig eth0 192.168.1.12
+ 
+Change Subnet Mask of Interface eth0
+ 
+[avishek@TALLA ~]$ 
+ifconfig eth0 netmask 255.255.255.
+ 
+Change Broadcast Address of Interface eth0
+ 
+[avishek@TALLA ~]$ ifconfig eth0 broadcast 192.168.1.255
+ 
+Assign IP Address, Netmask and Broadcast to Interface eth0
+ 
+[avishek@TALLA ~]$ ifconfig eth0 192.168.1.12 netmask 255.255.
+255.0 broadcast 192.168.1.255
+ 
+Note
+: If using a ÔÅ∂ireless netÔÅ∂ork you need to use command ‚Äú
+iwconfig
+‚Äú. For more 
+‚Äú
+ifconfig
+‚Äù command examples and usage, read 
+15 Useful ‚Äúifconfig‚Äù Comm
+ands
+.
+ 
+5.3.3.2.
+ 
+Command: netstat
+ 
+netstat
+ 
+command displays various network related information such as network 
+connections, routing tables, interface statistics, masquerade connections, multicast 
+memberships etc..,
+ 
+List All Network Ports
+ 
+[avishek@TALLA ~]$ netstat 
+-
+a
+ 
+Active UNIX domain sockets (servers and established)
+ 
+Proto RefCnt Flags       Type       State         I
+-
+Node   Path
+ 
+unix  2      [ ACC ]     STREAM     LISTENING     13331    /tmp/.winbindd/pipe
+ 
+unix  2      [ ACC ]     STREAM     LISTENING     11030    
+/var/run/mysqld/mysqld.sock
+ 
+unix  2      [ ACC ]     STREAM     LISTENING     19308    /tmp/ssh
+-
+qnZadSgJAbqd/agent.3221
+ 
+unix  2      [ ACC ]     STREAM     LISTENING     436781   /tmp/HotShots
+ 
+unix  2      [ ACC ]     STREAM     LISTENING     46110    /run
+/user/talla/pulse/native
+ 
+unix  2      [ ACC ]     STREAM     LISTENING     19310    /tmp/gpg
+-
+zfE9YT/S.gpg
+-
+agent
+ 
+....
+ 
+List All TCP Ports
+ 
+[avishek@TALLA ~]$ netstat 
+-
+at
+ 
+Active Internet connections (servers and established)
+ 
+Proto Recv
+-
+Q Send
+-
+Q Local Address  
+         
+Foreign Address         State      
+ 
+tcp        0      0 localhost:mysql         *:*                     LISTEN     
+ 
+tcp        0      0 *:5901                  *:*                     LISTEN     
+ 
+tcp        0      0 talla
+-
+OptiPl:domain *:*        
+             
+LISTEN     
+ 
+tcp        0      0 localhost:ipp           *:*                     LISTEN     
+ 
+tcp        0      0 talla
+-
+OptiPle:48270 ec2
+-
+23
+-
+21
+-
+236
+-
+70.c:http ESTABLISHED
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+64
+ 
+LIR 2016
+ 
+tcp        0      0 talla
+-
+OptiPle:48272 ec2
+-
+23
+-
+21
+-
+236
+-
+70.c:http TIME_WAIT  
+ 
+tcp        0      0 talla
+-
+OptiPle:48421 bom03s01
+-
+in
+-
+f22.1:https ESTABLISHED
+ 
+...
+ 
+Show Statistics for All Ports
+ 
+[avishek@TALLA ~]$ netstat 
+-
+s
+ 
+Ip:
+ 
+    
+4994239 total packets received
+ 
+    
+3248924 requests sent out
+ 
+    
+8 outgoing packets dropped
+ 
+Icmp:
+ 
+    
+29460 ICMP messages received
+ 
+    
+566 input ICMP message failed.
+ 
+    
+ICMP input histogram:
+ 
+        
+destination unreachable: 98
+ 
+        
+redirects: 29362
+ 
+    
+2918 ICMP messages sent
+ 
+    
+0 ICMP messages failed
+ 
+    
+ICMP output histogram:
+ 
+        
+destination
+ 
+unreachable: 2918
+ 
+IcmpMsg:
+ 
+        
+InType3: 98
+ 
+        
+InType5: 29362
+ 
+        
+OutType3: 2918
+ 
+Tcp:
+ 
+    
+94533 active connections openings
+ 
+    
+23 passive connection openings
+ 
+    
+5870 failed connection attempts
+ 
+    
+7194 connection resets received
+ 
+....
+ 
+OK! For
+ 
+some reason if you want not to resolve host, port and user name as a output of 
+netstat.
+ 
+[avishek@TALLA ~]$ netstat 
+-
+an
+ 
+Fine, you may need to get the output of netstat continuously till interrupt instruction is 
+passed (
+ctrl+c
+).
+ 
+[avishek@TALLA ~]$ netstat 
+-
+c
+ 
+For more ‚Äú
+netstat
+‚Äù command examples and usage, see the article 
+20 Netstat Command 
+Examples
+.
+ 
+5.3.3.3.
+ 
+Command: nslookup
+ 
+A network utility program used to obtain information about Internet servers. As its name 
+suggests, the utility finds name server information for domains by querying 
+DNS
+.
+ 
+[avishek@TALLA ~]$ nslookup TALLA.com 
+ 
+Server:
+ 
+ 
+192.168.1.1 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+65
+ 
+LIR 2016
+ 
+Address:
+ 
+192.168.1.1#53 
+ 
+Non
+-
+authoritative answer: 
+ 
+Name:
+ 
+TALLA.com 
+ 
+Address: 50.16.67.239
+ 
+Query Mail Exchanger Record
+ 
+[avishek@TALLA ~]$ nslookup 
+-
+query=mx TALLA.com 
+ 
+Server:
+ 
+ 
+192.168.1.1 
+ 
+Address:
+ 
+192.168.1.1#53 
+ 
+Non
+-
+authoritative answer: 
+ 
+TALLA.com
+ 
+mail exchanger = 0 smtp.secur
+eserver.net. 
+ 
+TALLA.com
+ 
+mail exchanger = 10 mailstore1.secureserver.net. 
+ 
+Authoritative answers can be found from:
+ 
+Query Name Server
+ 
+[avishek@TALLA ~]$ nslookup 
+-
+type=ns TALLA.com 
+ 
+Server:
+ 
+ 
+192.168.1.1 
+ 
+Address:
+ 
+192.168.1.1#53 
+ 
+Non
+-
+authoritative answer: 
+ 
+TALLA.com
+ 
+nameserver = ns3404.com. 
+ 
+TALLA.com
+ 
+nameserver = ns3403.com. 
+ 
+Authoritative answers can be found from:
+ 
+Query DNS Record
+ 
+[avishek@TALLA ~]$ nslookup 
+-
+type=any TALLA.com 
+ 
+Server:
+ 
+ 
+192.168.1.1 
+ 
+Address:
+ 
+192.168.1.1#53 
+ 
+Non
+-
+authoritative answer: 
+ 
+TAL
+LA.com
+ 
+mail exchanger = 10 mailstore1.secureserver.net. 
+ 
+TALLA.com
+ 
+mail exchanger = 0 smtp.secureserver.net. 
+ 
+TALLA.com
+ 
+nameserver = ns06.domaincontrol.com. 
+ 
+TALLA.com
+ 
+nameserver = ns3404.com. 
+ 
+TALLA.com
+ 
+nameserver = ns3403.com. 
+ 
+TALLA.com
+ 
+nameserver = ns0
+5.domaincontrol.com. 
+ 
+Authoritative answers can be found from:
+ 
+Query Start of Authority
+ 
+[avishek@TALLA ~]$ nslookup 
+-
+type=soa TALLA.com 
+ 
+Server:
+ 
+ 
+192.168.1.1 
+ 
+Address:
+ 
+192.168.1.1#53 
+ 
+Non
+-
+authoritative answer: 
+ 
+TALLA.com 
+ 
+ 
+origin = ns3403.hostgator.com 
+ 
+ 
+m
+ail addr = dnsadmin.gator1702.hostgator.com 
+ 
+ 
+serial = 2012081102 
+ 
+ 
+refresh = 86400 
+ 
+ 
+retry = 7200 
+ 
+ 
+expire = 3600000 
+ 
+ 
+minimum = 86400 
+ 
+Authoritative answers can be found from:
+ 
+Query Port Number
+ 
+Change the port number using which you want to connect
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+66
+ 
+LIR 2016
+ 
+[avishek@TALLA ~]$ nslookup 
+-
+port 56 TALLA.com
+ 
+Server:
+ 
+ 
+TALLA.com
+ 
+Address:
+ 
+50.16.76.239#53
+ 
+Name:
+ 
+56
+ 
+Address: 14.13.253.12
+ 
+Read Also
+ 
+: 
+8 Nsl
+ookup Commands
+ 
+5.3.3.4.
+ 
+Command: dig
+ 
+dig
+ 
+is a tool for querying 
+DNS
+ 
+nameservers for information about host addresses, mail 
+exchanges, nameservers, and related information. This tool can be used from any Linux 
+(
+Unix
+) or 
+Macintosh OS X
+ 
+operating system. The most typical use of 
+dig
+ 
+is to simply query 
+a single host.
+ 
+[avishek@TALLA ~]$ dig TALLA.com
+ 
+&#x0000;&#x0000;; DiG 9.8.2rc1
+-
+RedHat
+-
+9.8.2
+-
+0.17.rc1.el6 &#x-900;&#x-900; TALLA.com 
+ 
+;; global options: +cmd 
+ 
+;; Got answer: 
+ 
+;; 
+-
+&#x0000;&#x0000;HEADER
+ 
+Turn Off Comment Lines
+ 
+[a
+vishek@TALLA ~]$ dig TALLA.com +nocomments 
+ 
+&#x0000;&#x0000;; DiG 9.8.2rc1
+-
+RedHat
+-
+9.8.2
+-
+0.17.rc1.el6 &#x-900;&#x-900; TALLA.com +nocomments 
+ 
+;; global options: +cmd 
+ 
+;TALLA.com.
+ 
+ 
+ 
+IN
+ 
+A 
+ 
+TALLA.com.
+ 
+ 
+14400
+ 
+IN
+ 
+A
+ 
+40.216.66.239 
+ 
+;; Query time: 418 msec 
+ 
+;; SERVER: 192.168.1.1#53(192.
+168.1.1) 
+ 
+;; WHEN: Sat Jun 29 13:53:22 2013 
+ 
+;; MSG SIZE  rcvd: 45
+ 
+Turn Off Authority Section
+ 
+[avishek@TALLA ~]$ dig TALLA.com +noauthority 
+ 
+&#x0000;&#x0000;; DiG 9.8.2rc1
+-
+RedHat
+-
+9.8.2
+-
+0.17.rc1.el6 &#x-900;&#x-900; TALLA.com +noauthority 
+ 
+;; global options: +cmd 
+ 
+;; Got answer: 
+ 
+;; 
+-
+&#x0000;&#x0000;HEADER
+ 
+Turn Off Additional Section
+ 
+[avishek@TALLA ~]$ dig  TALLA.com +noadditional 
+ 
+&#x0000;&#x0000;; DiG 9.9.2
+-
+P&#x0000;1 &#x0000; TALLA.com +noadditional
+ 
+;; global options: +cmd
+ 
+;; Got answer:
+ 
+;; 
+-
+&#x0000;&#x0000;HEADER
+ 
+Turn Off Stats Section
+ 
+[avishek@TALLA ~]$ dig TALLA.com +nostats 
+ 
+&#x0000;&#x0000;; DiG 9.8.2rc1
+-
+RedHat
+-
+9.8.2
+-
+0.17.rc1.el6 &#x-900;&#x-900; TALLA.com +nostats 
+ 
+;; global options: +cmd 
+ 
+;; Got answer: 
+ 
+;; 
+-
+&#x0000;&#x0000;HEADER
+ 
+Turn Off Answer Section
+ 
+[avishek@TALLA ~]$ dig TALLA.com +noanswer 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+67
+ 
+LIR 2016
+ 
+&#x0000;&#x0000;; DiG 9.8.2rc1
+-
+RedHat
+-
+9.8.2
+-
+0.17.rc1.el6 &#x-900;&#x-900; TALLA.com +noanswer 
+ 
+;; global options: +cmd 
+ 
+;; Got answer: 
+ 
+;; 
+-
+&#x0000;&#x0000;HEADER
+ 
+Disable All Section at Once
+ 
+[avishek@TALLA ~]$ dig TALLA.com +noall 
+ 
+&#x0000;&#x0000;; DiG 9.8.2rc1
+-
+RedHat
+-
+9.8.2
+-
+0.17.rc1.el6 &#x-900;&#x-900; TALLA.com +noall 
+ 
+;; global 
+options: +cmd
+ 
+5.3.3.5.
+ 
+Command: uptime
+ 
+You have just connected to your 
+Linux Server Machine
+ 
+and founds Something unusual 
+or malicious, ÔÅ∂hat you ÔÅ∂ill do? Guessing‚Ä¶. NO, definitely not you could run 
+uptime
+ 
+to 
+verify what happened actually when the server was unattend
+ed.
+ 
+[avishek@TALLA ~]$ uptime
+ 
+14:37:10 up  4:21,  2 users,  load average: 0.00, 0.00, 0.04
+ 
+5.3.3.6.
+ 
+Command: wall
+ 
+one of the most important command for administrator, 
+wall
+ 
+sends a message to 
+everybody logged in with their 
+mesg
+ 
+permission set to ‚Äú
+yes
+‚Äú. The message c
+an be given 
+as an argument to 
+wall
+, or it can be sent to ÔÅ∂all‚Äôs standard input.
+ 
+[avishek@TALLA ~]$ wall "we will be going down for maintenance for one hour sharply at 03:30 pm"
+ 
+Broadcast message from root@localhost.localdomain (pts/0) (Sat Jun 29 14:44:02 2013): 
+ 
+we will be going down for maintenance for one hour sharply at 03:30 pm
+ 
+5.3.3.7.
+ 
+command: mesg
+ 
+Lets you control if people can use the ‚Äú
+write
+‚Äù command, to send text to you over the
+ 
+screen.
+ 
+mesg [
+n
+|
+y
+]
+ 
+n
+ 
+-
+ 
+prevents the message from others popping up on the screen.
+ 
+y
+ 
+‚Äì
+ 
+Allows messages to appear on your screen.
+ 
+5.3.3.8.
+ 
+Command: write
+ 
+Let you send text directly to the screen of another Linux machine if ‚Äò
+mesg
+‚Äô is ‚Äò
+y
+‚Äô.
+ 
+[avishek@TALLA ~]$ write tal
+la
+ 
+5.3.3.9.
+ 
+Command: talk
+ 
+An enhancement to 
+write
+ 
+command, 
+talk
+ 
+command lets you talk to the logged in users.
+ 
+[avishek@TALLA ~]$ talk talla
+ 
+Note
+: If 
+talk
+ 
+command is not installed, you can always 
+apt
+ 
+or 
+yum
+ 
+the required packages.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+68
+ 
+LIR 2016
+ 
+[avishek@TALLA ~]$ yum install talk
+ 
+OR
+ 
+[avishek@TALLA ~]$ apt
+-
+get install talk
+ 
+5.3.3.10.
+ 
+Command: w
+ 
+ÔÅ∂hat command ‚Äò
+w
+‚Äô seems you funny? But actually it is not. t‚Äôs a command, even if it‚Äôs just 
+one letter long! The command ‚Äú
+w
+‚Äù is a combination of 
+uptime
+ 
+and 
+who
+ 
+commands given 
+one immediately after the other, in that order.
+ 
+[avishek@TALLA ~]$ w
+ 
+15:05:42 up  4:49,  3 users,  load average: 0.02, 0.01, 0.00 
+ 
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT 
+ 
+server   tty7     :0               14:06    4:43m  1:42   0.08s pam: gdm
+-
+passwo 
+ 
+server   pts/0    :0.0             14:18    0.00s  0.23s  1.65s gnome
+-
+terminal 
+ 
+server   pts/1    :0.0             14:47    4:43   0.01s  0.01s bash
+ 
+5.3.3.11.
+ 
+Command: rename
+ 
+As the nam
+e suggests, this command rename files. rename will rename the specified files 
+by replacing the first occurrence from the file name.
+ 
+Give the file names a1, a2, a3, a4.....1213
+ 
+Just type the command.
+ 
+ 
+rename a1 a0 a?
+ 
+ 
+rename a1 a0 a??
+ 
+5.3.3.12.
+ 
+Command: top
+ 
+Displays 
+the processes of 
+CPU
+. This command refresh automatically, by default and 
+continues to show 
+CPU
+ 
+processes unless interrupt
+-
+instruction is given.
+ 
+[avishek@TALLA ~]$ top
+ 
+top 
+-
+ 
+14:06:45 up 10 days, 20:57,  2 users,  load average: 0.10, 0.16, 0.21
+ 
+Tasks: 240 to
+tal,   1 running, 235 sleeping,   0 stopped,   4 zombie
+ 
+%Cpu(s):  2.0 us,  0.5 sy,  0.0 ni, 97.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+ 
+KiB Mem:   2028240 total,  1777848 used,   250392 free,    81804 buffers
+ 
+KiB Swap:  3905532 total,   156748 used,  37487
+84 free,   381456 cached
+ 
+  
+PID USER      PR  NI  VIRT  RES  SHR S  %CPU %MEM    TIME+ COMMAND                                                           
+                                                 
+ 
+23768 ravisaiv  20   0 1428m 571m  41m S   2.3 28.9  1
+4:27.52 firefox                                                                                                            
+ 
+24875 ravisaiv  20   0  263m  14m  10m S   0.3  0.7   0:02.76 lxterminal                                                     
+       
+                                             
+ 
+    
+1 root      20   0  3896 1928 1228 S   0.0  0.1   0:01.62 init                                                               
+                                                
+ 
+    
+2 root      20   0     0    
+0    0 S   0.0  0.0   0:00.06 kthreadd                                                                                       
+                    
+ 
+    
+3 root      20   0     0    0    0 S   0.0  0.0   0:17.28 ksoftirqd/0                                     
+                                                                   
+ 
+    
+5 root       0 
+-
+20     0    0    0 S   0.0  0.0   0:00.00 kworker/0:0H                                                                       
+                                
+ 
+5.3.3.13.
+ 
+Command: m
+kfs.ext4
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+69
+ 
+LIR 2016
+ 
+This command create a new 
+ext4
+ 
+file system on the specified device, if wrong device is 
+followed after this command, the whole block will be wiped and formatted, hence it is 
+suggested not to run this command unless and until you understand what you
+ 
+are doing.
+ 
+Mkfs.ext4 /dev/sda1 (sda1 block will be formatted)
+ 
+mkfs.ext4 /dev/sdb1 (sdb1 block will be formatted)
+ 
+5.3.3.14.
+ 
+Command: vi/emacs/nano
+ 
+vi
+ 
+(visual), 
+emacs
+, 
+nano
+ 
+are some of the most commonly used editors in Linux. They are 
+used oftenly to edit text, configuration,‚Ä¶ files. A quick guide to ÔÅ∂ork around vi and nano 
+is, emacs is a.
+ 
+vi
+-
+editor
+ 
+[avishek@TALLA ~]$ touch a.txt (creates a text file a.txt) 
+ 
+[avishek@TALLA ~
+]$ vi a.txt (open a.txt with vi editor)
+ 
+[press ‚Äò
+i
+‚Äô to enter insert mode, or you ÔÅ∂on‚Äôt be able to type
+-
+in anything]
+ 
+echo "Hello"  (your text here for the file)
+ 
+1.
+ 
+alt+x
+ 
+(exit insert mode, remember to keep some space between the last letter.
+ 
+2.
+ 
+ctrl+x
+ 
+command or y
+our last word will be deleted).
+ 
+3.
+ 
+:wq!
+ 
+(saves the file, ÔÅ∂ith the current text, remember ‚Äò!‚Äô is to override).
+ 
+nano editor
+ 
+[avishek@TALLA ~]$ nano a.txt (open a.txt file to be edited with nano)
+ 
+edit, with the content, required
+ 
+ctrl +x (to close the editor). It
+ 
+will show output as:
+ 
+Save modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    
+ 
+ 
+Y Yes 
+ 
+ 
+N No           ^C Cancel
+ 
+Click ‚Äò
+y
+‚Äô to yes and enter file name, and you are done.
+ 
+5.3.3.15.
+ 
+Command: rsync
+ 
+Rsync
+ 
+copies files and has a 
+-
+P
+ 
+switch for a pro
+gress bar. So if you have rsync installed, 
+you could use a simple alias.
+ 
+alias cp='rsync 
+-
+aP'
+ 
+Now try to copy a large file in terminal and see the output with remaining items, similar 
+to a progress bar.
+ 
+Moreover, Keeping and Maintaining backup is one of 
+the most important and boring work 
+a system administrator, needs to perform. Rsync is a very nice tool (there exists, several 
+other) to create and maintain backup, in terminal.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+70
+ 
+LIR 2016
+ 
+[avishek@TALLA ~]$ rsync 
+-
+zvr IMG_5267
+\
+ 
+copy
+\
+=33
+\
+ 
+copy
+\
+=ok.jpg ~/Desktop/ 
+ 
+send
+ing incremental file list 
+ 
+IMG_5267 copy=33 copy=ok.jpg 
+ 
+sent 2883830 bytes  received 31 bytes  5767722.00 bytes/sec 
+ 
+total size is 2882771  speedup is 1.00
+ 
+Note
+: 
+-
+z
+ 
+for compression, 
+-
+v for verbose and 
+-
+r for recursive.
+ 
+5.3.3.16.
+ 
+Command: free
+ 
+Keeping track of memor
+y and resources is as much important, as any other task 
+performed by an administrator, and ‚Äò
+free
+‚Äò command comes to rescue here.
+ 
+Current Usage Status of Memory
+ 
+[avishek@TALLA ~]$ free
+ 
+             
+total       used       free     shared    buffers     cached
+ 
+Mem:       2028240    1788272     239968          0      69468     363716
+ 
+-
+/+ buffers/cache:    1355088     673152
+ 
+Swap:      3905532     157076    3748456
+ 
+Tuned Output in KB, or MB, or GB
+ 
+[avishek@TALLA ~]$ free 
+-
+b
+ 
+             
+total       used       fre
+e     shared    buffers     cached
+ 
+Mem:    2076917760 1838272512  238645248          0   71348224  372670464
+ 
+-
+/+ buffers/cache: 1394253824  682663936
+ 
+Swap:   3999264768  160845824 3838418944
+ 
+[avishek@TALLA ~]$ free 
+-
+k
+ 
+             
+total       used       fr
+ee     shared    buffers     cached
+ 
+Mem:       2028240    1801484     226756          0      69948     363704
+ 
+-
+/+ buffers/cache:    1367832     660408
+ 
+Swap:      3905532     157076    3748456
+ 
+[avishek@TALLA ~]$ free 
+-
+m
+ 
+             
+total       used       free     shared    buffers     cached
+ 
+Mem:          1980       1762        218          0         68        355
+ 
+-
+/+ buffers/cache:       1338        641
+ 
+Swap:         3813        153       3660
+ 
+[avishek@TALLA ~]$ free 
+-
+g
+ 
+             
+total       used       free     shared    buffers     cached
+ 
+Mem:             1          1          0          0          0          0
+ 
+-
+/+ buffers/cache:          1          0
+ 
+Swap:            3          0          3
+ 
+Check Current Usage in Hu
+man Readable Format
+ 
+[avishek@TALLA ~]$ free 
+-
+h
+ 
+             
+total       used       free     shared    buffers     cached
+ 
+Mem:          1.9G       1.7G       208M         0B        68M       355M
+ 
+-
+/+ buffers/cache:       1.3G       632M
+ 
+Swap:         3.7G  
+     
+153M       3.6G
+ 
+Check Status Contineously After Regular Interval
+ 
+[avishek@TALLA ~]$ free 
+-
+s 3
+ 
+             
+total       used       free     shared    buffers     cached
+ 
+Mem:       2028240    1824096     204144          0      70708     364180
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+71
+ 
+LIR 2016
+ 
+-
+/+ buffe
+rs/cache:    1389208     639032
+ 
+Swap:      3905532     157076    3748456
+ 
+             
+total       used       free     shared    buffers     cached
+ 
+Mem:       2028240    1824192     204048          0      70716     364212
+ 
+-
+/+ buffers/cache:    1389264     6
+38976
+ 
+Swap:      3905532     157076    3748456
+ 
+Read Also
+ 
+: 
+10 Examples of Free Command
+ 
+5.3.3.17.
+ 
+Command: mysqldump
+ 
+Ok till now you would have understood what this command actually
+ 
+stands for, from the 
+name of this command.
+mysqldump
+ 
+commands dumps (backups) all or a particular 
+database data into a given a file.For example,
+ 
+[avishek@TALLA ~]$ mysqldump 
+-
+u root 
+-
+p 
+--
+all
+-
+databases &#x0000; /home/server/Desktop/backupfile.sql
+ 
+Note
+: 
+mysqldump
+ 
+r
+equires mysql to be running and correct password for authorisation. 
+We have covered some useful ‚Äú
+mysqldump
+‚Äù commands at 
+Database Backup with m
+ysqldump 
+Command
+ 
+5.3.3.18.
+ 
+Command: mkpasswd
+ 
+Make a hard
+-
+to
+-
+guess, random password of the length as specified.
+ 
+[avishek@TALLA ~]$ mkpasswd 
+-
+l 10
+ 
+ 
+zI4+Ybqfx9
+ 
+[avishek@TALLA ~]$ mkpasswd 
+-
+l 20 
+ 
+ 
+w0Pr7aqKk&hmbmqdrlmk
+ 
+Note
+: 
+-
+l 10
+ 
+generates a random password of 
+10
+ 
+charac
+ters while 
+-
+l 20
+ 
+generates a 
+password of character 
+20
+, it could be set to anything to get desired result. This command 
+is very useful and implemented in scripting language oftenly to generate random 
+passwords. You might need to 
+yum
+ 
+or 
+apt
+ 
+the ‚Äòexpect‚Äô pack
+age to use this command.
+ 
+[root@TALLA ~]# yum install expect 
+ 
+OR
+ 
+[root@TALLA ~]# apt
+-
+get install expect
+ 
+5.3.3.19.
+ 
+Command: paste
+ 
+Merge two or more text files on lines using. Example. If the content of file1 was:
+ 
+1 
+ 
+2 
+ 
+3 
+ 
+and file2 was: 
+ 
+a 
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+72
+ 
+LIR 2016
+ 
+b 
+ 
+c 
+ 
+d 
+ 
+the resulting file3 would be: 
+ 
+1
+   
+ 
+a 
+ 
+2
+   
+ 
+b 
+ 
+3
+   
+ 
+c 
+ 
+    
+ 
+d
+ 
+5.3.3.20.
+ 
+Command: lsof
+ 
+lsof
+ 
+stands for ‚Äú
+list open files
+‚Äù and displays all the files that your system has currently 
+opened. It‚Äôs very useful to figure out ÔÅ∂hich processes uses a certain file, or to display all 
+the files for a single process. Some useful 
+10 lsof Command
+ 
+examples, you might be 
+interested in reading.
+ 
+[avishek@TALLA ~]$ lsof 
+ 
+ 
+COMMAND   PID   TID    USER   FD    TYPE  DEVICE SIZE/OFF   NODE NAME
+ 
+init      1            root  cwd    DIR   8,1   4096     2 /
+ 
+init     
+ 
+1            root  rtd    DIR   8,1   4096          2 /
+ 
+init      1            root  txt    REG   8,1   227432   395571 /sbin/init
+ 
+init      1            root  mem    REG   8,1   42672    270178 /lib/i386
+-
+linux
+-
+gnu/libnss_nis
+-
+2.17.so
+ 
+init          1      
+            
+root  mem       REG        8,1    87940     270187 /lib/i386
+-
+linux
+-
+gnu/libnsl
+-
+2.17.so
+ 
+init          1                  root  mem       REG        8,1    30560     263021 /lib/i386
+-
+linux
+-
+gnu/libnss_compat
+-
+2.17.so
+ 
+init          1                 
+ 
+root  mem       REG        8,1   124637     270176 /lib/i386
+-
+linux
+-
+gnu/libpthread
+-
+2.17.so
+ 
+init          1                  root    6r     0000        0,9        0       6245 anon_inode
+ 
+init          1                  root    7u     unix 0xf5e91f80      0
+t0       8192 @/com/ubuntu/upstart
+ 
+init          1                  root    8w      REG        8,1     3916        394 /var/log/upstart/teamviewerd.log.1 (delet
+ed)
+ 
+This is not the end, a 
+System Administrator
+ 
+does a lot of stuff, to provide you such a 
+nice interface, upon which you work. System Administration is actually an art of learning 
+and implementing in a very much perfect way. We will try to get you with all other 
+necessary stuff which a linux professio
+nal must learn, linux in its basic actually itself, is a 
+process of learning and learning. Your good words are always sought, which encourages 
+us to put in more effort to give you a knowledgeable article. 
+‚Äú
+Like and share Us, to help 
+Us Spread
+‚Äù.
+ 
+IUTFV
+-
+Bandjoun
+ 
+ 
+ENL50
+ 
+:   Environnement LINUX
+ 
+ 
+ 
+Enseignant
+ 
+: 
+ 
+Narcisse 
+ 
+TALLA
+ 
+73
+ 
+LIR 2016
+ 
+Bibliograph
+ie
+ 
+ÔÅ∂
+ 
+AndreÔÅ∂ Tanenbaum, ¬´ Re seaux ¬ª, 0e me  e dition, Pearson Education, ISBN 2
+-
+7000
+-
+7001
+-
+7
+ 
+ÔÅ∂
+ 
+Claude Servin, Dunod, ¬´ Re seaux et Te le coms ¬ª, ISBN 2
+-
+10
+-
+ 
+007986
+-
+7
+ 
+ÔÅ∂
+ 
+J. Kurose et K. Ross, ¬´ Analyse structure e des re seaux ¬ª, 2e me  e dition, Pearson Education, ISBN 
+2
+-
+700
+0
+-
+7000
+-
+9
+ 
+ÔÅ∂
+ 
+W. R. Stevens, ¬´ TCP/IP Illustrated Volume 1, The Protocols ¬ª, Addison Wesley, ISBN 0
+-
+201
+-
+63306
+-
+9
+ 
+ÔÅ∂
+ 
+D. Comer, ¬´ TCP/IP, Architecture, protocoles, applications ¬ª, 0e me e dition, Dunod, ISBN 2
+-
+10
+-
+008181
+-
+0
+ 
+ÔÅ∂
+ 
+Addison
+-
+Wesley, ¬´ An Engineering Approach to Computer NetÔÅ∂orking ¬ª, ISBN 0
+-
+201
+-
+63002
+-
+6 
+ 
+ÔÅ∂
+ 
+TCP/IP Administration de re seau, C. Hunt (Traduction de Emmanuel Chaput et de Ste phane 
+Larroque), Ed. O
+‚Äô
+REILLY, 2002.
+ 
+ÔÅ∂
+ 
+Pratique des re seaux d&#x0027;entreprise, J. L. Montagnie
+r (Eyrolles)
+ 
+ÔÅ∂
+ 
+Technologie des ordinateurs et des re seaux, P. A. Goupille (Dunod)
+ 
+ÔÅ∂
+ 
+Le nouveau guide du PC, Jack Steiner (Osman Eyrolles Multime dia)
+ 
+ÔÅ∂
+ 
+Ge rer et utiliser son re seau pe dagogique avec WindoÔÅ∂s NT, Daniel Le Roizic (Bertrand
+-
+Lacoste)
+ 
+Sites
+ 
+web
+ 
+ÔÅ∂
+ 
+http://
+ÔÅ∂ÔÅ∂ÔÅ∂.guill.net/
+ 
+ÔÅ∂
+ 
+http://ÔÅ∂ÔÅ∂ÔÅ∂.courseforge.org/courses/
+ 
+ÔÅ∂
+ 
+http://ÔÅ∂ÔÅ∂ÔÅ∂.commentcamarche.net/ccmdoc/
+ 
+ÔÅ∂
+ 
+http://ÔÅ∂ÔÅ∂ÔÅ∂.rfc
+-
+editor.org/ (documents normatifs dans TCP/IP)
+ 
+ÔÅ∂
+ 
+http://ÔÅ∂ÔÅ∂ÔÅ∂.icann.org/registrars/accredited
+-
+list.html
+ 
+ÔÅ∂
+ 
+http://ÔÅ∂ÔÅ∂ÔÅ∂.gandi.net/tlds.html.fr
+ 
+ÔÅ∂
+ 
+http://ÔÅ∂ÔÅ∂ÔÅ∂.linuxfr.org
+ 
+ÔÅ∂
+ 
+http://ÔÅ∂ÔÅ∂ÔÅ∂.toolinux.org
+ 
+ÔÅ∂
+ 
+http://ÔÅ∂ÔÅ∂ÔÅ∂.linux
+-
+france.org/article/index.html
+).
+ 
+ÔÅ∂
+ 
+http://lea
+-
+linux.org
+ 
+ÔÅ∂
+ 
+Ubuntu : 
+http://ÔÅ∂ÔÅ∂ÔÅ∂.ubuntu
+-
+fr.org/
+ 
+ÔÅ∂
+ 
+Redhat : 
+http://ÔÅ∂ÔÅ∂ÔÅ∂.redhat.com
+ 
+ÔÅ∂
+ 
+Suse : 
+http://ÔÅ∂ÔÅ∂ÔÅ∂.suse.com
+ 
+ÔÅ∂
+ 
+Debian : 
+http://ÔÅ∂ÔÅ∂ÔÅ∂.debian.org
+ 
+ÔÅ∂
+ 
+KDE : 
+http://ÔÅ∂ÔÅ∂ÔÅ∂.kde.org
+ 
+ÔÅ∂
+ 
+GNU : 
+http://ÔÅ∂ÔÅ∂ÔÅ∂.gnu.org
+ 
+ÔÅ∂
+ 
+GNOME : http://ÔÅ∂ÔÅ∂ÔÅ∂.gnome.org
+ 
+ÔÅ∂
+ 
+http://ÔÅ∂ÔÅ∂ÔÅ∂.esprit
+-
+libre.net/configuration/level.php3
+ 
+ÔÅ∂
+ 
+http://ÔÅ∂ÔÅ∂ÔÅ∂.lea
+-
+linux.org
+ 

@@ -1,0 +1,281 @@
+ 1
+IUT Victor Fotso de Bandjoun 
+Recherche Opérationnelle (2/2) 
+ CHAPITRE 2 : PROBLEME DE CIRCULATION FLOTS SUR UN GRAPHE 
+  
+2-1 – CHEMINS EXTREMAUX DANS UN GRAPHE ORIENTE ET VALUE - le degré d’un sommet est aussi appelé Niveau de ce sommet. - Soit N l’ensemble des sommets d’un graphe G exempts de précédents, pour tout x
+A D  A B,B 
+B A,B,C,A  B B,D 
+C   C B,D 
+D B,C  D A 
+x S(x)  x P(x) 
+i 
+A B,C  A  
+B C,D  B A,E,F 
+C E,F  C A,B 
+D E,F  D E,B 
+E D,B,F  E D,C 
+F B,F  F F,C,E,D 
+C- ALGORITHME DE RECHERCHE DU CHEMIN EXTREMAUX ; un chemin quelconque d’un graphe G, est par définition la somme des longueurs des arcs qui composent ce chemin : 
+Soit G=(X,U) un graphe dont l’ensemble des sommets est X=On appelle Chemin k-extrémal, tout chemin d’origine x, d’extrémité x, de longueur extrémale. On appelle graphe k-extrémal tout arc emprunté par au moins un chemin extrémal d’origine xOn appelle Graphe k-extrémal G de G sous-ensemble partiel de G dont les sommets sont les descendants de  et dont les arcs sont les seuls arcs k-extrémaux de G - Ordonnancer en niveaux k,k=0, ce qui sera la marque du sommet initial x. Alors la marque k,i de tout les sommet initial xsera calculée par la formule : 
+aExtihhkiPhik,,)(,
+P(i) est l’ensemble des indices des précédents de xi, ah,i- La marque k,i donne la longueur de tout chemin k-extrémal. Les sommets xréalisent effectivement l’extremum dans la formule précédente, définissent les arcs k-extrémaux d’extrémité , ce qui permet de déterminer le graphe k-extrémal G3- Exemple  x S(x)  x P(x) 
+A B,E,D,I,J,C  A  
+B D,L  B A,E,
+C B,D  C A 
+D K,M  D C,A,B 
+E F,L,B  E A 
+F N,L  F E,I 
+5
+H M  H N,L,J 
+I B,J,F,N  I A             
+J K,M  J I,A 
+K M  K J,D 
+L K,H,M  L E,F,B 
+M   M H,K,L,J,D 
+N H  N F,I 
+Î»AA+4, Î»A,C+1, Î»A,E+3, Î»A,I+2]=3  Î»A,E+5, Î»A,I+2]=3  Î»AA+9, Î»A,I+8]=9  Î»AA+7, Î»A,C+3, Î»A,B+5]=5 5 Î»AE+6, Î»A,F+6, Î»A,B+4]=7  Î»AF+6, Î»A,I+7]=8  Î»AD+3, Î»A,L+7, Î»A,N+5]=8 8 Î»AL+3, Î»A,J+3]=10 10 Î»AJ+5, Î»A,K+2, Î»A,H+5, Î»A,L+6, Î»A,D+8]=12 Les chemins minimaux de A à M  sont  (A,I,J,K,M) ou (A,J,K,M) Les marques de A, C, E et I restent identiques rques de A, C, E et I restent identiques Î»AA+4, Î»A,C+1, Î»A,E+3, Î»A,I+2]=5 5 Î»A,E+5, Î»A,I+2]=7 7 Î»AA+9, Î»A,I+8]=9  Î»AA+7, Î»A,C+3, Î»A,B+5]=10 10 Î»AE+6, Î»A,F+6, Î»A,B+4]=13 13 Î»AF+6, Î»A,I+7]=13 13 Î»AD+3, Î»A,L+7, Î»A,N+5]=20 
+ 
+ 
+ 
+Î»AL+3, Î»A,J+3]=15 15 Î»AJ+5, Î»A,K+2, Î»A,H+5, Î»A,L+6, Î»A,D+8]= 25 Le chemin maximal de A à M est (A,E,F,L,H,M) Le problème de circulation a pour objet d’optimiser l’exécution  d’un certain mouvement de matière, sur un  le problème de l’expédition du pétrole brut depuis lconsommatrices   le problème du déplacement des individus dans le problème de l’acheminement de moyens militaires en hommes et en matériel. Dans toute la suite, les hypothèses suivantes seront considérées :   Le mouvement de « matière » peut être décomposé en un nombre fini de mouvements partiels, chacun d’un  chaque mouvement partiel (i,j) se comporte entre i et j, de façon indépendante des autres mouvements  par contre en i comme en j, différents mouvements partiels peuvent se séparer ou se réunir. la redistribution des mouvements partiels n’est possible qu’en des points privilégiés du réseau, tels que i et j Le réseau (qui est une donnée du problème)  étant constitué de : -  l’ensemble des nœuds (1, 2, …, i, … , j, …n) ; -  l’ensemble de liaisons(i, j ) pour lesquelles i existe au moins une manière de réaliser le mouvement global impliquant un mouvement partiel de i vers j. - Un réseau de rue, de route ; - Un réseau métropolitain - un réseau de transports aériens ( ou maritimes),  - un réseau téléphonique ( où la « matière » qui circul- un réseau de canalisations de gaz ou d’eau,  - un réseau électrique,  La matière qui circule dans le réseau est supposé constituée par un seul «  produit homogène » dont deux unités seront regardées comme équivalentes. Cette matière :  - pénètre par certains nœuds appelés nœuds d’entrée, - sort du réseau en certains nœuds appelés  nœuds de sortie. Les nœuds du réseau qui ne sont ni des nœuds d’entrée, niUn réseau étant composé de nœuds et de liaisons jo* A chaque nœud i on associe un sommet x) si le mouvement partiel entre i et et deux arcs de sens contraires si le mouvemeL’application de la méthode précédente peut conduire à placer entre deux sommets x plusieurs «  arcs » de même sens : en effet plusieurs liaisons disfréquemment lorsqu’il s’agit de routes) sans rencontrer de nœud intermédiaire. On parle dans ce cas d’un multigraphe. 
+condenser diverses liaisons de même sens ( « parallèles caractéristiques pourront résumer celles des liaisons initiales ; S’il est impossible de condenser en une seule liais le mouvement de matière est indépendant du temps  Il y a conservation de la matiè(u), la quantité de matièdurée égale à la période de référence sur l’arc u.        Si U est l’ensemble des arcs du graphe G associé au réseau on a:   Il y a conservation de la matière aux nœuds de transit Cette hypothèse peut se formuler ainsi : 
+C
+     (2-1) X : l’ensemble des sommets du graphe G associé au réseau ; E : l’ensemble des sommets du graphe G représentant les nœuds d’entrée ; S : l’ensemble des sommets du graphe G représentant les nœuds de sortie ; (x):  l’ensemble des arcs de G aboutissant au sommet x ; (x): l’ensemble des arcs de G sortant du sommet x.  Contraintes de limitations des flux       (2-2) C’est à dire sur chaque arc uU le flux est soumis à une - supérieur à une certaine valeur c de l’axe u- inférieur à une certaine valeur b de l’axe u  est le sommet associé au nœud d’entrée k et e
+x4 
+2 
+3 
+1 
+Figure 2-1 : Exemple de multigraphe 
+     (2-3) C’est à dire en un nœud d’entrée la différence entre le flux total partant de ce nœud et le flux total y aboutissant représente la quantité de matière s’introduisant pendant la période c la quantité sortante du nœud l représenté par le sommet xon a comme contrainte de sortie:                       (2-4) Toutefois, pour un arc particulier si aucune limitation supérieure n’est imposée au flux c’est à dire cle cas où l’un  au moins des b n’est pas nul le réseau et le graphe associé sont dits «Les équations (2-3) et (2-4) expriment que la matièreExemple de graphe associé à un réseau : La matière peut transiter par les nœuds d’entrée xUne conséquence immédiate des hypothèses            (2-5) C’est à dire que pendant une période considérée la quantité totale de matière a- une limitation des disponibilités à une entrée x         (2-6) b- L’existence d’une demande maximale à une sortie x         (2-7) Soit le graphe G=(X,U) associé à un réseau de circulation, ayant n sommet x associé à ce même réseau le graphe obtenu à partir de G de la façon - Introduction d’un sommet fictif x relié à tout sommet d’entrée x jouant le rôle d’une entrée fictive remplaçant toutes entrées réelles. - Introduction d’un sommet fictif xn+1 et relier à ce sommet tout sommet de sortie xl jouant le rôle d’une sortie fictive remplaçant toutes les sorties réelles. - Introduction d’un arc fictif u
+attribuer conventionnellement à u0 une bor
+x4 
+3 
+2 
+5 
+9 
+6 
+7 
+8 
+1 
+    Figure 2-2 
+En considérant conservation de la matière aux nœuds de transit et les contraintes d’entrée et de sortie les formules (2-1), (2-3) et (2-4) conduisent au conservatif en tout sommet : 
+X
+      (2-8) En considérant les contraintes de limitation des flux et lformules (2-2) (2-6) et(2-7), montre que sur chaque arc du graphe canonique G, on a les limitations de flux :           (2-9) 
+      (2-10)               (2-11) canonique associé à un réseau, on peut alors énoncer, compte- tenu de (2-9) : apparaît comme un flot canalisé défini sur G) du graphe canonique du réseau, c’est aussi la quantité de totale matière qui traverse le
+0 
+4 
+3 
+2 
+5 
+9 
+6 
+7 
+8 
+1 
+0=0, c0=
+ 
+Figure 2-3 
+1- Définitions : Soit G = ( X,U) le graphe canonique (figure 2-4) d’un réseau de circulation avec capacités. Les nombres inscrits sur les arcs représentent la capacité de l’arc. Ces nombres sont entiers . Dans la pratique, on peut toujours faire en sorte qu’il en soit ainsi en choisissant une unité de flux assez petite.  est l’entrée fictive et xon a donc ici : n =6 c’est à dire le réseau est à 6 sommets. X un sous – ensemble de sommets tel que x associée à A le sous ensemble d’arcs défini par : 
+Dont l’origine est dans A et l’extrémité est hors de A. On appelle capacité de coupe la somme : déterminons la coupe associé à A={xâ€¢ Ï‰A Désigne encore un sous – ensemble de sommets tel que x
+7 
+5 
+6 
+4 
+3 
+2 
+1 
+0 
+Figure 2-4 
+x7 
+5 
+6 
+4 
+3 
+2 
+1 
+0 
+Figure 2-5 
+(A) l’ensemble des arcs du graphe canonique dont l’origine est hors de A et l’extrémité 
+. L’arc retour u est nécessairement élément de  :a- Si l’on supprime tous les arcs d’une coupe on supprime en même temps tous les chemins reliant  l’origine du nom de coupe donné à  est un flot canalisé sur G tout mouvement de matière de x emprunte au moins un arc de la coupe           C(A)           (2-12) Î¦  si et seulement si ) s’appelle capacité résiduelle de l’arc uUn arc non saturé s’appelle encore « arc fluide » lorsque son flux n’est pas nul ;  la capacité de l’arc 
+j 
+i 
+j 
+7 
+5 
+6 
+4 
+3 
+2 
+1 
+0 
+Figure 2-5 
+ 
+Le chemin µ = (x dans ce cas le chemin µ n’est pas saturé pour En augmentant de 1 les flux sur chaque arc de ce chemin ainsi que sur l’arc retour utout sommet est encore respectée) ce flot   est encore ’(u n’empruntant pas l’arc retour u0. , un arc est emprunté dans son sens, on le note : 
+; sinon on le note uj
+ .  On note :  
+(1ucMinjjucj
+ la plus petite capacité résiduelle des arcs de c parcourus dans leur sens 
+(2ucMinjjucj
+â€¢ Î´’(uExemple : 
+5 
+6 
+4 
+3 
+2 
+1 
+0 
+Figure 2-6 
+7 
+5 
+6 
+4 
+3 
+2 
+1 
+0 
+Figure 2-8 
+ 
+’  ( obtenu lui- même à partir du flot ’’ en considérant la chaîne: ’ de la figure 2-7. La figure 2-9 représente le 
+ainsi qu’au flux de l’arc retour ; On retranche 2 flux de l’unique arc cuj
+sur cet exemple on constate bien que ces modifications de flux à partir du flot canalisé a) respectent la conservativité du flux en toue sommet, donc conduisent à un nouveau flot    ; c) augmentent de 2 la valeur du «  flot de départ » ’’(u’(u si et seulement si tout chemin µ reliant x0 à xn+1 contient au moins un arc saturé pour Un chemin µ reliant x0 à xn+1 comportant au moins un arc saturé pour   sera dit :  « chemin saturé » pour Un flot complet n’est pas nécessairement de valeur maximale. ’ de la figure 2-7 est complet : si l’on supprimait tous les arcs saturés par resterait aucun chemin reliant x’ n’est pas un flot de valeur maximale car la proposition 2 a permis de l ’« améliorer » en obtenant  sans emprunter l’arc retour pour laquelle on a : relativement à un flot canalisé , est dit «saturée» pour le flot la chaîne c qui intervient dans la figure 2-8 est instaurée pour le flot complet Une condition nécessaire et suffisante pour qu’un canalisé  sur G soit un flot de valeur  maximale est que  (sans emprunter l’arc retour) soit saturée pour le flot La proposition précédente permet de s’assurer que le flot maximale :11, car toute chaîne c reliant x sans emprunter l’arc retour est saturée pour Recherchons alors l’ensemble de sommets Aon trouve tout simplement : 
+5 
+6 
+4 
+3 
+2 
+1 
+0 
+Figure 2-9 
+    =  (x0 )  Engendrant la coupe : ,(),,(),,(),,()(534320100xxxxxxxx
+A
+’’(u3-Algorithme de FORD-FULKERSON (1957) Enoncé de l’algorithme 1. Choisir un flot initial   canalisé sur G, en prenant par exemple 2. Recherche d’un flot complet sur G  de G obtenu en supprimant dans G tous les arcs saturés par  conservant tous les sommets de G).  ne contient aucun chemin reliant x est complet (Tout chemin reliant xb- Sinon, il existe dans G0 un chemin µ de x : c’est un chemin de G instauré pour - Calculer pour un tel chemin : 
+)(0ucMinjju
+- Augmenter de    le flux sur chaque arc de µ ainsi que sur l’arc retour uc- Recommencer sur G la recherche des chemins de x . Si G1 ne contient aucun tel chemin, complet. Sinon appliquer pour un tel chemin la procédure décrite en b-. c- En itérant un nombre fini de fois une te de G ne possédant aucun chemin de xEst alors un flot complet sur G. 3.  Recherche d’un flot de valeur maximale sur G Considérer le flot complet  l obtenu précédemment, ainsi que le graphe privé de l’arc retour u0. a) Marquage des sommets - Marquer «0» tout suivant xétant un sommet déjà marqué , marquer «i» - tout suivant x  non encore marqué de x- tout précédent x non encore marqué de x ne peut pas être marqué, alors Si au contraire, la procédure précédente permet de marquer xn+1, on obtient à partir de xn+1, en utilisant la marque de certains sommets marqués, une chaîne insaturée c, reliant x0 à xn+1 et n’empruntant pas l’arc - Relier x au sommet dont l’indice est la marque de x- Recommencer à partir du sommet obtenu, et ai
+(1ucMinjjucj
+(2ucMinjjucj
+â€¢ Î´
+ - Sur chaque arc cuj
+, ainsi que sur l’arc retour u0 augmenter le flux de 
+uj , diminuer le flux de  à partir duquel on recommence la procédure a) de marquage des sommets. c) itérer alternativement les procédures de marquage des sommets et de modification des flux jusqu’à   à partir duquel la procédure de marquage ne permet plus de marquer xPartons du « flot nul »  qui est nécessairement canalisé : pour tout arc u =G. Prenons le chemin : µ =( x
+20)(ucMinjju
+ se déduit de G par suppression de l’arc saturé (arcs (xOn a pris le chemin : 
+7 
+5 
+6 
+4 
+3 
+2 
+1 
+0 
+Figure 2-10
+0 
+7 
+5 
+6 
+4 
+3 
+2 
+1 
+0 
+Figure 2-11
+1 
+ Pour lequel : 
+21)(
+ucMinjju
+se déduit de G par suppression de l’arc saturé (arc(xOn a pris le chemin : 
+1)(2
+ucMinjju
+se déduit de G par suppression de l’arc saturé (arcs en trait épais sur la figure 2-13) On a pris le chemin : 
+13)(
+ucMinjju
+se déduit de G par suppression de l’arc saturé (arcs en trait épais sur la figure 2-14) On a pris le chemin : 
+7 
+5 
+6 
+4 
+3 
+2 
+1 
+0 
+Figure 2-12
+2 
+7 
+5 
+6 
+4 
+3 
+2 
+1 
+0 
+Figure 2-13
+3 
+ Pour lequel : 
+14)(
+ucMinjju
+se déduit de G par suppression de l’arc saturé (arcs en trait épais sur la figure 2-15) On a pris le chemin : 
+25)(
+ucMinjju
+ il n’y  a plus de chemin reliant xOn passe alors à la phase 3 de l’algorithme  de 
+7 
+5 
+6 
+4 
+3 
+2 
+1 
+0 
+Figure 2-14
+4 
+7 
+5 
+6 
+4 
+3 
+2 
+1 
+0 
+Figure 2-15
+5 
+ peut être marqué 0  peut être marqué 3 ainsi que x peuvent être marqués 4  peut être marqué 5 ; x peut être marqué 2  peut être marqué 6  peut être marqué, le flot complet   n’est pas de valeur maximale. En utilisant les marques, on obtient =Min[5-2,2-0,4-1,7-4]=2   ; =Min[2]=2   et 2   et Î´1,Î´2]=2  =2 au flux de l’arc (xOn recommence alors relativement à   la procédure de marquage.  est encore un flot complet.  Il convient de noter que, dans le cas général, même si la flot n’est pas complet, la procédure de marquage est efficace : elle conduit à la mise en évidence d’un chemin insaturé de x
+7 
+5 
+6 
+4 
+3 
+2 
+1 
+0 
+Figure 2-16
+6 
+) 
+    (6)  (2)  (4)  (3)  (0) 
+ peut être marqué 0, x peut être marqué 3  sur la figure 2-17. Il est impossible de marquer d’autres sommets. Comme x ne peut pas être marqué,  est un  flot canalisé de valeur maximale, puisqu’il n’existe aucune chaîne  sans emprunter uLa procédure de marquage conduit à la construction de l’ensemble A, lorsqu’elle est appliquée à partir  ne peut pas être marqué, donc de valeur maximale. L’ensemble A), qui a été trouvé dans l’exemple illustrant la proposition 3, n’est autre que La marque associé à AElle est évidemment composée uniquement d’arcs saturés pour  ,elle est de capacité minimale, de valeur : On a bien, conformément au théorème de FORD-FULKERSON : Dans la seconde phase de l’algorithme ( recherche d’un flot complet) nous avons successivement «saturé» les chemins dans un ordre systématique «de haut en bas». Dans l’application manuelle de l’algorithme on peut souvent gagner du temps en saturant en priorité les chemins pour lesquels il peut arriver alors que le flot complet obtenu en fin de phase 2 soit de valeur maximale. (Un marquage testant l’optimalité) C’est le cas lorsqu’on choisit successivement les chemins : Les modifications de flux se font par correction successives (figure 2-18) la non indication d’un flot traduit qu’il 
+C(A0
+7 
+5 
+6 
+4 
+3 
+2 
+1 
+0 
+Figure 2-17
+7 
+Après  saturation successive des cinq chemins précédents, on parvient au flot complet  peut être marqué 0, x peut être marqué 3 et les marquages s’arrêtent : x ne pouvant être marqué  valeur maximale, ce qui est évident puisque    a même valeur que le flot , lui- même de valeur maximale. en est d’ailleurs de même pour une coupe de capacité minimale . Cependant, il se trouve que, relativement à  , les sommets marqués sont les mêmes ce qui conduit à la même coupe de capacité minimale pour les deux flots ;  Le choix des chemins, qui, ont conduit aux flots eu simplement pour but d’illustrer complètement la phase 3 de l’algorithme. 
+01864 11 
+x7 
+4,2
+4    6 
+,2 
+2
+4
+5 
+6 
+4 
+3 
+2 
+1 
+0 
+Figure 2-18
+m 

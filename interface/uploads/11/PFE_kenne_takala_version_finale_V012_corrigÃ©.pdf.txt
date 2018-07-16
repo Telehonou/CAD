@@ -1,0 +1,7807 @@
+ 
+²
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PROJET DE FIN Dâ€™ETUDE
+S
+ 
+ 
+ 
+ 
+.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Rédigé et présenté par
+ 
+:
+ 
+KENNE TAKALA Brice
+ 
+(CM
+-
+UDS
+-
+14IUT0048)
+ 
+ 
+En vue de lâ€™Obtention 
+de la Licence de T
+echnologie
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Mention 
+:
+ 
+ 
+Génie Informatique
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Parcours :
+ 
+ 
+Informatique et R
+éseau
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Option :
+ 
+   
+ 
+Concepteur Développeur Réseau et Internet
+ 
+ 
+ 
+ 
+Sous 
+la supervision
+ 
+de
+ 
+:
+ 
+ 
+Dr FOTSING Eric
+,
+ 
+ChMrgÃ© de cours, Ã  lâ€™IUT
+-
+FV
+, U
+niversité de Dschang
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Et
+ 
+Iâ€™encMdrement professionnel de
+ 
+: 
+Dr N
+JOYA André
+,
+ 
+Chargé de cours, à 
+lâ€™IBA
+F
+, U
+niversité
+ 
+de Dschang
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R
+ÉPUBLIQUE DU 
+C
+AMEROUN
+ 
+R
+EPUBLIC OF 
+C
+AMEROON
+ 
+Peace 
+â€“
+ 
+Work 
+-
+ 
+Fatherland
+ 
+U
+NIVERSITÉ DE 
+D
+SCHANG              
+                  
+U
+NIVERSITY OF 
+D
+SCHANG
+ 
+                                            
+Scholae Thesaurus Dschangensis Ibi Cordu
+m
+ 
+  
+BP 96, Dschang (Cameroun) 
+â€“
+ 
+Tél./Fax (237) 233 45 13 
+      
+ 
+  
+Web
+site
+ 
+: 
+http://www.univ
+-
+dschang.org
+/iutfv/
+. 
+                                                                
+E
+-
+mail
+: 
+udsrectorat@univ
+-
+dschang.org
+ 
+ 
+ 
+I
+NSTITUT 
+U
+NIVERSITAIRE DE 
+T
+ECHNOLOGIE
+ 
+ 
+ 
+F
+OTSO 
+V
+ICTOR DE 
+B
+ANDJOUN
+                                                    
+F
+OTSO 
+V
+ICTOR 
+U
+NIVERSITY           
+                    
+             
+I
+NSTITUTE OF 
+T
+ECH
+NOLOGY
+ 
+Département de Génie Informatique
+                                        
+Département of Computer Engineering
+ 
+BP bBP
+ 
+:134, Bandjoun 
+â€“
+ 
+Tél. /Fax (237) 
+699 31 61 30 /
+ 
+670 64 23 92 
+Websit
+e: 
+http://www.un
+iv
+-
+dschang.org/iutfv/
+ 
+ 
+E
+-
+mail
+ 
+: 
+iutfv
+-
+bandjoun@univ
+-
+dschang
+.
+org
+ 
+ 
+DÃ©veloppement dâ€™une interfMce web et dâ€™une bMse de 
+données géographique sur les produits issus des 
+matières premières argileuses de
+ 
+Foumban
+ 
+Année académique 2016
+-
+2017
+ 
+ 
+ 
+ 
+Dédicace
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+i
+ 
+DÃ©dicMce
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+À
+ 
+Mes 
+Chers
+ 
+Parents
+.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Remerciements
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+ii
+ 
+Remerciements
+ 
+ 
+Je rends 
+grâce
+ 
+Mu Dieu tout puissMnt pour les biens fMits quâ€™il M pu mâ€™Mccorder tout Mu long de 
+cette formation, 
+je tiens
+ 
+à remercier toutes les personnes qui ont co
+ntribué au succès de mon stage 
+et qui m'ont aidé 
+lors de la réalisation de ce projet
+.
+ 
+ 
+ 
+Je remercie
+ 
+principalement :
+ 
+ 
+ 
+Dieu le père tout
+ 
+puissant
+ 
+;
+ 
+ 
+ 
+Pr. FOGUE MÃ©dMrd, Directeur de lâ€™IUT FOTSO ïƒ¼ictor
+, pour les 
+efforts
+ 
+fournis 
+afin que
+ 
+nous ayons un bon cadre
+ 
+de travail et un bon encadrement
+ 
+;
+ 
+ 
+ 
+Pr. NKENIIFACK MMrcellin, Chef de DÃ©pMrtement de GÃ©nie informMtique Ã  lâ€™IUT
+-
+FV, pour 
+ses conseils et orientations durant ces 
+trois
+ 
+MnnÃ©es pMssÃ©es Ã  lâ€™IUT
+-
+FV
+ 
+;
+ 
+ 
+ 
+Dr FOTSING Eric, qui a pris la charge de nous 
+encadré
+ 
+penda
+nt ce travail
+ 
+;
+ 
+ 
+ 
+Dr N
+JOYA André, pour son 
+soutien
+ 
+et lM confiMnce quâ€™il
+ 
+nous
+ 
+a
+ 
+accordé pendant la 
+réalisation de ce projet
+ 
+;
+ 
+ 
+ 
+M. 
+DJIONGO Cédrigue et M. KAKEU Sévérin,
+ 
+pour avoir 
+coordonné 
+ce projet
+ 
+;
+ 
+ 
+ 
+Tous nos e
+nseignant
+s
+ 
+du Département d
+e Génie Informatiq
+ue, pour 
+leur bonne 
+collaboration
+ 
+;
+ 
+ 
+ 
+Mon PMpM M. MAFOUO RomMin, pour mâ€™Mvoir montrÃ© le chemin du succÃ¨s
+ 
+;
+ 
+ 
+Mon oncle M. YONTA ZÃ©phirin, pour lâ€™encourMgement et le soutien quâ€™il 
+a su
+ 
+mettre à ma 
+disposition
+ 
+;
+ 
+ 
+ 
+PMpM ThomMs qui ne cesse de mâ€™encourMger et me 
+soutenir
+ 
+;
+ 
+ 
+ 
+MAFF
+O Brigitte, Mme MAFOUO Bertine
+, pour
+ 
+lâ€™
+éducation
+ 
+et le soutien
+ 
+quâ€™ils ont su mettre 
+à
+ 
+ma disposition 
+;
+ 
+ 
+ 
+M
+es s
+Å“urs, 
+pour leur encouragement
+ 
+;
+ 
+ 
+ 
+Tous ceux qui ont contribuÃ© de prÃ¨s ou de loin Ã  lâ€™Ã©lMborMtion de ce trMvMil et dont j
+â€™Mi omis 
+de 
+cit
+er 
+les noms, quâ€™ils trouvent ici lâ€™expression de mM profonde grMtitude.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Liste des Abréviations
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+iii
+ 
+GIOSSAIRE
+ 
+ 
+Abréviations et sigles
+ 
+ 
+Définition du sigle
+ 
+AGL
+ 
+Atelier
+ 
+de Génie Logiciel
+ 
+CU
+ 
+CMs dâ€™UtilisMtion
+ 
+GPS
+ 
+Global Position
+ing
+ 
+System 
+ 
+ 
+http
+ 
+HyperText Transfer
+ 
+Protocol
+ 
+ICT
+-
+SEM
+ 
+Integrated Computer Tools
+ 
+for Sustainable Environmental 
+Management
+ 
+IHM
+ 
+Interface Homme Machine
+ 
+MAFO
+ 
+Matériaux Argileux de Foumban
+ 
+MVC
+ 
+Model View Controller
+ 
+PDO
+ 
+PHP Data Object
+ 
+PHP
+ 
+Personal Home Page
+ 
+PIMPA
+ 
+Produit Issus de la Matière Première
+ 
+Argileuse
+ 
+PRD
+ 
+Projet de Recherche Pour le Développement
+ 
+SIE
+ 
+Système
+ 
+dâ€™InformMtion
+ 
+Environnemental
+ 
+UML
+ 
+Unified Modeling Language
+ 
+ORM
+ 
+Object Relational Model
+ 
+AGL
+ 
+Atelier du Génie Logiciel
+ 
+ 
+ 
+ 
+Résumé
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+iv
+ 
+ 
+RÃ©sumÃ©
+ 
+Le p
+rojet 
+MAFO 
+(
+Matériaux Argileux de Foumba
+n), sur le
+quel nous avons 
+travaillé
+ 
+a consisté
+ 
+dâ€™une fMÃ§on 
+générale
+ 
+en la
+ 
+mise
+ 
+en place
+ 
+dâ€™
+ 
+une interface web et une base de données 
+géographique, sur les Produits Issus de la Matière Première Argileuse (PIMPA), le problème 
+dégagé ici est celui
+ 
+dâ€™une cM
+rence 
+dâ€™inform
+ations sur les
+ 
+argiles exploitées au 
+Cameroun
+, 
+dâ€™orgMnisMtion
+ 
+des
+ 
+résultats des différentes analyses 
+qui sont
+ 
+encore éparpillé
+s
+,
+ 
+et
+ 
+mal 
+stockés
+.
+ 
+Ce
+ 
+qui rend la consultation et
+ 
+la
+ 
+recherche pénible
+,
+ 
+dâ€™oÃ¹ lâ€™urgence de ce projet
+.
+ 
+À
+ 
+lâ€™heure Mctuelle, les 
+plate
+formes 
+existantes 
+sont à 
+titre informMtionnel et nâ€™offre
+nt
+ 
+pas la possibilité aux tiers de 
+part
+iciper au processus de gestion, l
+a
+ 
+solution que nous proposons permet
+ 
+dâ€™une pMrt 
+dâ€™informer les 
+utilisateu
+rs sur les différents argiles 
+exploitées
+ 
+au Cameroun, d
+â€™Mutre pMrt 
+à contribuer à 
+la gestion 
+de ces derniers
+. Notre solution permet également de 
+géo
+-
+localiser,
+ 
+de cartographier les 
+sites 
+argileux
+ 
+et dâ€™effectuer des MnMlyses discriminMntes permettMnt de dÃ©terminer le domMine 
+dâ€™utilisMtion des 
+échantillons
+ 
+préle
+vés.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Abstract
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+v
+ 
+ 
+AbstrMct
+ 
+The MAFO 
+project, on which we have 
+worked consisted in a
+ 
+general way 
+the 
+development of a 
+web interface and a geographical database, on the Products Der
+ived of Clay 
+stone.
+ 
+The problem here is that there 
+is a lack of information on 
+clays
+ 
+exploited in Cameroon, the 
+organization of the results of the various 
+analyses 
+ 
+that are still scattered, and poorly 
+stored
+, making 
+consultation and research difficult, 'Where
+ 
+from
+ 
+the urgency of this project. At present, the existing 
+platforms are inform
+ational and do not offer the opportunity for third parties to participate in the 
+management process, the solution we propose allows to inform users on the various clays exploited 
+in Cameroon, on the other hand to contribute to the management of the latter.
+ 
+Our solution also 
+makes it possible to geo
+-
+localize, to map the clay sites and to
+ 
+carry out discriminating analys
+es 
+making it possible to determine the field of use of the samples taken.
+ 
+ 
+ 
+Sommaire
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+vi
+ 
+SommMire
+ 
+Table des matières
+ 
+DÉDICACE
+ 
+I
+ 
+REMERCIEMENTS
+ 
+II
+ 
+GLOSSAIRE
+ 
+III
+ 
+RESUME
+ 
+IV
+ 
+ABSTRACT
+ 
+V
+ 
+SOMMAIRE
+ 
+VI
+ 
+LISTE DES TABLEAUX E
+T FIGURES
+ 
+VIII
+ 
+INTRODUCTION GÉNÉRAL
+E
+ 
+1
+ 
+CHAPITRE 1 DESCRIPTI
+ON DU PROJET
+ 
+2
+ 
+1.1
+ 
+P
+RÉSENTATI
+ON DE L
+â€™
+ARRÊTÉ DU PROJET
+ 
+2
+ 
+1.2
+ 
+P
+ROBLEMATIQUE
+ 
+2
+ 
+1.2.1 Objectifs
+ 
+................................
+................................
+................................
+................................
+...........................
+ 
+3
+ 
+1.
+2.2 Quelques résultats attendus
+ 
+................................
+................................
+................................
+............................
+ 
+3
+ 
+1.3
+ 
+E
+TAT DE L
+â€™
+ART GLOBAL
+ 
+4
+ 
+1.3.1 Synthèse sur les études thématiques et les études de cas relati
+ves aux argiles
+ 
+................................
+..............
+ 
+4
+ 
+1.3.2 Synthèse sur les études cartographiques
+ 
+................................
+................................
+................................
+.........
+ 
+5
+ 
+CHAPITRE 2 ANALYSE F
+ONCTIONNELLE ET TECH
+NIQUE DE CONCEPTION
+ 
+6
+ 
+2.1
+ 
+A
+NALYSE FONCTIONNELLE
+ 
+DU SYSTÈME
+ 
+6
+ 
+2.1.1 Définition modulaire du projet
+ 
+................................
+................................
+................................
+.........................
+ 
+6
+ 
+2.1.2 Modélisation de la base de données
+ 
+................................
+................................
+................................
+................
+ 
+7
+ 
+2.2
+ 
+A
+NALYSE TECHNIQUE DU 
+SYSTÈME
+ 
+27
+ 
+2.2.1 Description des différentes couches 
+de lâ€™application
+ 
+................................
+................................
+.....................
+ 
+27
+ 
+2.2.2 Architecture du système
+ 
+................................
+................................
+................................
+................................
+ 
+27
+ 
+CHAPITRE 3 IMPLEMENT
+ATION ET RESULTAT
+ 
+29
+ 
+3.1
+ 
+T
+ECHNIQUE DE DEVELOPP
+EMENT
+ 
+29
+ 
+3.1.1 Choix des outils
+ 
+................................
+................................
+................................
+................................
+..............
+ 
+29
+ 
+3.1.2 Technique de développement
+ 
+................................
+................................
+................................
+........................
+ 
+30
+ 
+3.2
+ 
+R
+ESULTATS DU DEVELOPP
+EMENT
+ 
+31
+ 
+3.2.1 Modules fonctionnels de lâ€™application
+ 
+................................
+................................
+................................
+...........
+ 
+31
+ 
+CHAPITRE 4 APPORT, L
+EÇONS, DIFFICULTÉS E
+T PERSPECTIVES
+ 
+37
+ 
+4.1
+ 
+A
+PPORTS ET LEÇONS TIR
+ÉES DU PROJET
+ 
+37
+ 
+ 
+ 
+ 
+Sommaire
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+vii
+ 
+4.1.1 Apport pour nous
+ 
+................................
+................................
+................................
+................................
+...........
+ 
+37
+ 
+4.1.2 Apport pour la structure ou pour la communauté (scientifique)
+ 
+................................
+................................
+...
+ 
+37
+ 
+4.2
+ 
+P
+ROBLÈMES RENCONTRÉS
+ 
+38
+ 
+4.3
+ 
+P
+ROBLÈMES DE PROGRAMM
+ATION ET D
+â€™I
+NTERFACE 
+H
+OMME
+-
+M
+ACHINE
+ 
+38
+ 
+4.4
+ 
+P
+ERSPECTIVES ENVISAGÉ
+ES
+ 
+38
+ 
+C
+ONCLUSION GÉNÉRALE
+ 
+39
+ 
+BIBLIOGRAPHIE
+ 
+40
+ 
+ANNEXES
+ 
+A
+ 
+ 
+ 
+ 
+ 
+ 
+Liste des Tableaux et Figures
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+viii
+ 
+ 
+Iiste des tMbleMux et figures
+ 
+ 
+Tableaux
+ 
+:
+ 
+ 
+Tableau 1 Dictionnaire de données
+ 
+11
+ 
+Tableau 2
+ 
+Description textuelle du cMs dâ€™utilisMtion Â«
+ 
+Naviguer Sur la Carte
+ 
+»
+ 
+20
+ 
+Tableau 3 Description textuelle du cas «
+ 
+enregistrer site
+ 
+»
+ 
+20
+ 
+Tableau 4 Description textuelle du cas «
+ 
+enregistrer puit
+ 
+»
+ 
+21
+ 
+TMbleMu 5 SynthÃ¨se de lâ€™MnMlyse des API cMrtogrMphiques
+ 
+A
+ 
+ 
+Figure
+ 
+:
+ 
+Figure 1 Diagramme de classe du système
+ 
+................................
+................................
+................................
+.....
+ 
+12
+ 
+Figure 2 Les classe du système
+ 
+................................
+................................
+................................
+.......................
+ 
+13
+ 
+Figure 3 Liste des classes du système
+ 
+................................
+................................
+................................
+.............
+ 
+14
+ 
+Figure 4 Cas d'util
+isation pour un utilisateur
+ 
+................................
+................................
+................................
+..
+ 
+16
+ 
+Figure 5 Cas d'utilisation pour un technicien
+ 
+................................
+................................
+................................
+..
+ 
+17
+ 
+Figure 6 Cas d'utilisation pour des utilisateurs privilégiés
+ 
+................................
+................................
+..............
+ 
+18
+ 
+Figure 7 Diagramme de cas d'utilisation du système
+ 
+................................
+................................
+......................
+ 
+19
+ 
+Figure 8 DiMgrMmme de sÃ©quence dâ€™enregistrement dâ€™un site Mrgileux
+ 
+................................
+..........................
+ 
+22
+ 
+Figure 9 Diagramme 
+de sÃ©quence dâ€™enregistrement dâ€™un Ã©chMntillon
+ 
+................................
+............................
+ 
+23
+ 
+Figure 10 DiMgrMmme de sÃ©quence dâ€™enregistrement dâ€™une MnMlyse
+ 
+................................
+..............................
+ 
+24
+ 
+Figure 11 DiMgrMmme dâ€™MctivitÃ© dâ€™enregistrement des pMrMmÃ¨tres dâ€™MnMlyses
+ 
+................................
+...............
+ 
+25
+ 
+Figure 12 DiMgrMmme d&#x0027;MctivitÃ© d&#x0027;enregistrement et cMrtogrMphie dâ€™un site
+ 
+................................
+...................
+ 
+26
+ 
+Figure 13 Architecture générique utilisé
+ 
+................................
+................................
+................................
+.........
+ 
+28
+ 
+Figure 14 La 
+communication entre Postgis, Qgis et Géoserver.
+ 
+................................
+................................
+.....
+ 
+31
+ 
+Figure 15
+ 
+Aperçu de tous les sites exploités
+ 
+................................
+................................
+................................
+...
+ 
+31
+ 
+Figure 16 Détails sur un site après le clic sur le marqueur
+ 
+................................
+................................
+..............
+ 
+32
+ 
+Figure 17 Digitalisation d'un site argileux
+ 
+................................
+................................
+................................
+......
+ 
+33
+ 
+Figure 18 Positionnement des puits de sondages dans le site cartographié
+ 
+................................
+....................
+ 
+33
+ 
+Figure 19 Obtention automatique de l'altitude d'un point
+ 
+................................
+................................
+...............
+ 
+34
+ 
+Figure 20 Simulations avec diagrammes ternaires
+ 
+................................
+................................
+..........................
+ 
+35
+ 
+Figure 21 Positionner des échantillons sur un graphe en fonction des paramètres
+ 
+................................
+.........
+ 
+36
+ 
+Figure 22 DomMines dâ€™utilisMtion des Mrgiles
+ 
+................................
+................................
+................................
+...
+ 
+A
+ 
+Figure 23 Présentation du PRD
+-
+MAFO
+ 
+................................
+................................
+................................
+............
+B
+ 
+Figure 24 Dessiner sur une carte
+ 
+................................
+................................
+................................
+.......................
+C
+ 
+ 
+ 
+ 
+ 
+ 
+Introduction générale
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+1
+ 
+Introduction gÃ©nÃ©rMle
+ 
+ 
+ 
+Dans le cadre 
+des projets
+ 
+de 
+fin 
+de formation pour
+ 
+la licence technologique
+ 
+en 
+i
+nformatique 
+mention Concepteur Développeur Réseaux et Internet, les étudiants sont soumis chacun à un projet 
+quâ€™ils doivent rÃ©Mliser e
+n vue de terminer la 
+formMtion. Câ€™est Minsi que nous 
+avons choisi
+ 
+faire
+ 
+le 
+nôtre dans le domaine des SIE (Système 
+dâ€™InformMtion EnvironnementMle
+).
+ 
+Le Cameroun est un pays trè
+s riche en argile.
+ 
+C
+es
+ 
+argile
+s 
+s
+ont dâ€™une
+ 
+grande importance 
+dans le domaine de la 
+céramique où il
+s sont 
+utilisés
+ 
+pour diverses fabrications à savoir
+ 
+la 
+fabrication de la poterie
+, 
+des 
+briques
+,
+ 
+des
+ 
+carreaux et
+ 
+les tuiles
+. C
+ependant, bien que 
+regorgeant
+ 
+toute
+s
+ 
+ces richesses, notre pMys mMnque dâ€™investisseurs rÃ©el
+s
+ 
+dans ce domaine
+ 
+;
+ 
+ceci
+ 
+es
+t dÃ» dâ€™une 
+part
+,
+ 
+à
+ 
+un manq
+ue dâ€™informMtions sur les PIMPA
+ 
+qui sont produits Mu CMmeroun et dâ€™Mutre pMrt de 
+lâ€™Mbsence dâ€™une bMse de donnÃ©e
+s sur les matériaux a
+rgileux
+.
+ 
+Ce problème
+ 
+étant bien spécifié, 
+nous 
+sommes ainsi interpellés 
+afin 
+de 
+développer
+ 
+un 
+outi
+l q
+ui permettra de pallier toutes ces difficultés
+.
+ 
+Ce trMvMil dâ€™informMtion est repMrti en quMtre chMpitres
+ 
+: dans le premier chapitre, 
+nous allons 
+faire 
+une brève description du projet
+,
+ 
+Mu deuxiÃ¨me chMpitre, nous Mllons prÃ©senter lâ€™MnMlyse de notre 
+t
+hème,
+ 
+câ€™est
+-
+à
+-
+dire 
+analyse fonctionnelle et 
+technique
+ 
+puis
+ 
+au chapitre trois 
+lâ€™
+implémentation
+ 
+ainsi 
+que les ré
+sultats obtenus
+, enfin au dernier chapitre, les apports
+, les difficultés,
+ 
+les leçons et les 
+perspective
+s
+ 
+envisagées.
+  
+ 
+ 
+ 
+Chapitre 1
+ 
+ 
+Description du projet
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+2
+ 
+Chapitre 1  
+ 
+D
+escription du Projet
+ 
+1.1
+ 
+Présent
+Mtion de lâ€™MrrrtÃ© du projet
+ 
+Dans les 
+villes
+ 
+du Cameroun en particulier à Foumban, on 
+retrouve plusieurs 
+zones
+ 
+renfermant des argiles.
+ 
+Ces argiles bien que nécessaires à la fabrication des produits 
+tels que
+ 
+les 
+tuiles, tôles, des briques et des produits fai
+ts à base de la céramique, ne sont pas valorisés,
+ 
+de plus 
+les informations sur 
+la
+ 
+localisation de ces 
+derniers sont absents
+, les
+ 
+différents argiles trai
+t
+é
+e
+s et
+ 
+lâ€™estimMtion de lM tMille des gisements
+ 
+manquent de traçabilité.
+ 
+ 
+Le projet PRD
+-
+MAFO 
+sâ€™inscrit d
+ans le
+ 
+cadre des travaux
+ 
+de recherche sur les SIE
+ 
+et du 
+groupe de recherche ICT
+-
+SEM (Integrated Computer Tools for Suitainable Environmental 
+Management) 
+et sâ€™intÃ¨gre 
+dans 
+les actions de la C
+ommission 
+de C
+oopération au 
+développement
+ 
+(CCD) et de lâ€™ARES dont 
+le poster est prÃ©sentÃ© Ã  lâ€™Mnnexe
+ 
+ICT
+-
+SEM est un groupe de chercheurs 
+qui appliquent aux problèmes de gestions environnementaux
+ 
+lâ€™
+ingénierie
+ 
+et la recherche 
+informatique.
+ 
+ 
+Il est important
+ 
+dâ€™Mvoir
+ 
+non seulement une plateforme mais aussi un outil
+ 
+SIG dâ€™inte
+raction 
+entre les différents acteurs
+, afin de s
+â€™Mssurer que les donnÃ©es fournies sont fiMble
+s et pertinentes 
+dâ€™une pMrt et permettent lM prise de dÃ©cisions 
+stratégiques. Tels est le défi à rel
+ever à travers le 
+développement
+ 
+dâ€™un observMtoire sur les Mrgile
+s du Cameroun en général et particulièrement de la 
+ville de Foumban.
+ 
+ 
+1.2
+ 
+Problématique
+ 
+Les sites argileux regorgent des gisements très riches en argiles, qui sont nécessaires à la 
+fabrication des matériaux de constructions, les ustensiles de cuisine, les obje
+ts de décorations etc. 
+Toutefois ils connaissent plusieurs problèmes, qui handicapent leurs exploitations et rend
+ent
+ 
+difficile la traçabilité des matières premières prélevées. 
+Ces problèmes sont 
+divers, nous pouvons 
+citer
+ 
+:
+ 
+lâ€™Mbsence dâ€™une bMse de donnÃ©es 
+sur les produits issus de la matière première argileuse, 
+lâ€™Mbsence dâ€™une bMse de donnÃ©es 
+spatiale
+ 
+sur les sites prospectés et 
+les différents puits de sondage
+,
+ 
+et 
+le pro
+blÃ¨me dâ€™estimMtion des 
+réserves
+.
+ 
+Chapitre 1
+ 
+ 
+Description du projet
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+3
+ 
+ 
+IM disponibilitÃ© dâ€™une plMteforme dâ€™Ã©chMnge entre les 
+acteurs contenant des données 
+pertinentes et manipulables à long terme peut donc contribuer efficacement à la 
+prise de décision
+. 
+ïƒ¼oilÃ  ce qui nous MmÃ¨ne Ã  proposer un systÃ¨me dâ€™informMtion pour 
+lâ€™Ã©volution
+ 
+de ce secteur 
+dâ€™MctivitÃ© Mu CMmeroun.
+ 
+ 
+1.2.1
+ 
+Objectifs
+ 
+ 
+Ce projet doit aboutir à 
+son terme à un futur S
+ystÃ¨me dâ€™
+Information G
+Ã©ogrMphique dâ€™Mide Ã  lM 
+décision pour la gestion
+ 
+et la valorisation des PIMPA. Pour y parvenir, nous allons nous intéresser 
+aux aspects suivants
+ 
+:
+ 
+ 
+Mettre en place, une base de données su
+r les PIMA (Produit Issu de la Matière première 
+argileuse de Foumban). 
+ 
+Mettre en plMce une plMteforme qui permettrM dâ€™Mbord dâ€™interMgir Mvec lM bMse de donnÃ©es, 
+ensuite, de faciliter la consultation des données enfin, de permettre la mise à jour de ces 
+in
+formations. De 
+façon
+ 
+générale, Nos objectifs sont dont
+ 
+:
+ 
+ïƒ˜
+ 
+Mettre à la disposition des potentiels investisseurs, les informations sur les Matériaux 
+Argileux de Foumban (MAFO).
+ 
+ïƒ˜
+ 
+Faciliter la géolocalisation des sites argileux et des différents échantillons pré
+levés 
+dans ces sites.
+ 
+ïƒ˜
+ 
+Faciliter la production de diagrammes discriminants et la consultation des résultats
+ 
+scientifiques.
+ 
+ 
+ 
+1.2.2
+ 
+Quelques résultats attendus 
+ 
+ïƒ¼
+ 
+Crée une base de donnée sur les matériaux argileux et les PIMPA, ceci dans
+ 
+le
+ 
+but de 
+structurer les don
+nées issues des campagnes de terrain, des analyses des laboratoires et des 
+études sociaux économiques
+ 
+;
+ 
+ïƒ¼
+ 
+GÃ©rer lâ€™encodMge et MnMlyser les donnÃ©es sur lM locMlisMtion, les propriÃ©tÃ©s des mMtÃ©riMux 
+argileux
+ 
+et leurs potentiels de valorisations et autres
+ 
+;
+ 
+ïƒ¼
+ 
+Ela
+borer les cMrtes thÃ©mMtiques dâ€™estimMtion des 
+réserves
+ 
+via les Systèmes Informations 
+Géographiques (SIG)
+ 
+;
+ 
+ïƒ¼
+ 
+ElMborer les cMrtes thÃ©mMtiques dâ€™occupMtion des sols (potentiel exploitMble et distribution 
+spatiale des gisements
+, urbanisation, végétation
+ 
+â€¦) c
+eci
+ 
+dans le but de cerner e
+fficacement
+ 
+lâ€™impMct de lâ€™exploitMtion des 
+matériaux
+ 
+Mrgileux sur lâ€™environnement.
+ 
+ïƒ¼
+ 
+Relier de manière interactive les r
+Ã©sultMts obtenus Mfin dâ€™Mssurer
+ 
+le 
+développement
+ 
+et la 
+gestion relMtionnelle dâ€™une bMse de donnÃ©e sur les Mrgiles 
+et les PIMPA
+ 
+;
+ 
+Chapitre 1
+ 
+ 
+Description du projet
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+4
+ 
+ïƒ¼
+ 
+Contribuer au 
+développement
+ 
+de lM cellule dâ€™orientMtion sur les gÃ©o ressources Mrgileuses 
+ 
+ 
+ 
+1.3
+ 
+EtMt de lâ€™Mrt 
+global
+ 
+1.3.1
+ 
+Synt
+hèse sur les 
+études
+ 
+thé
+matiques 
+et les é
+tudes de cas relatives aux argiles
+ 
+Pour mieux nous imprégner de ce projet, nous avo
+ns dâ€™une pMrt fMit des Ã©tudes sur les 
+documents scientifiques (les ouvrages et 
+rapports des doctorants dans le domaine
+ 
+des argiles
+), et 
+dâ€™Mutre pMrt, nous Mvons effectuÃ© des descentes sur le terrMin Mfin dâ€™entrer en possession des 
+documents et informations
+ 
+supplémentaires. 
+ 
+ 
+Nous représentons ci
+-
+dessous une synthèse des lectures
+ 
+:
+ 
+ 
+ 
+Di
+ctionnMire gÃ©ologique, comme son nom lâ€™indique, câ€™est un dictionnMire permettMnt dâ€™Mvoir 
+les détails sur tous les argiles ou les 
+éléments
+ 
+géologiques que renferme les argiles,
+ 
+il comprend 
+entre Mutre, lM dÃ©finition de lâ€™
+élément
+, sa description, sa formule brute et parfois même une image 
+de 
+ce
+ 
+dernier.
+ 
+Ce dictionnaire est disponible sur le lien
+ 
+:
+ 
+[W
+-
+DGEO
+-
+17]
+ 
+ 
+ 
+ 
+Rapport de la campagne de reconnaissance des argiles alluviales de b
+angourain
+ 
+(
+nord
+-
+ouest
+ 
+de 
+Foumban
+)
+, 
+rédigé
+ 
+par
+ 
+Bomeni
+ 
+Isaac Yannick
+, 
+doctoran
+t Ã  lâ€™U
+niversité de Dschang, dé
+partement 
+des sciences de la terre, option Géotechnique et valorisation des matériaux. Son rapport sur les 
+prospections effectuées sur l
+es sites,
+ 
+des
+ 
+puits de sondages qui ont été mis en 
+place ainsi
+ 
+que les 
+échantillons
+ 
+prélevés. Ce 
+document nous permet dâ€™Mvoir un MperÃ§u globMl,
+ 
+des formes de données 
+qui seront stockées
+.
+ 
+[
+Bomeni
+-
+ArgBang
+-
+15
+]
+ 
+ 
+Le 
+RMpport de Â«lM cMmpMgne dâ€™
+évaluation
+ 
+du gisement des argil
+es Alluviales du site de 
+Ngwefon 
+â€“
+ 
+Bangourin
+ 
+», de 
+Bomeni Issac Yannick
+, ce r
+apport nous décrit les 
+critères
+ 
+sur lesquels 
+on peut se baser pour élaborer la carte 
+dâ€™Ã©chMntillonnMges
+ 
+afin 
+dâ€™estimer lM tMille dâ€™un gisement
+.
+ 
+[Bomeni
+-
+NgwBang
+-
+16
+]
+ 
+ 
+Suitability of
+ 
+Foumban clays (West Cameroon) in the production of 
+bricks and tiles
+,
+ 
+redigé 
+par. 
+Nkalih Mefire A,
+ 
+Pilate P, Yongue
+ 
+Fouateu R
+, 
+Njoya A
+ 
+et 
+Fagel N
+,
+ 
+[Npyfn
+-
+BrickTu
+-
+17]
+ 
+ce 
+rMpport nous prÃ©sente un domMine dâ€™utilisMtion des Mrgiles qui est lM production des br
+iques et des 
+tuiles. DMns ce document, cette production est bien dÃ©tMillÃ©e, cMr elle pMrt de lâ€™MnMlyse des Mrgiles
+ 
+(matière première)
+ 
+Mu lMborMtoire câ€™est
+-
+à
+-
+dire propriÃ©tÃ©s minÃ©rMlogiques des Mrgiles jusquâ€™Ã  lM 
+cuisson.
+ 
+ 
+ 
+Chapitre 1
+ 
+ 
+Description du projet
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+5
+ 
+ 
+Ces documents nous ont Ã©tÃ© dâ€™une 
+grande importance, car ils nous 
+ont permis entre autre de 
+connMitre les diffÃ©rents domMines dâ€™utilisMtions des Mrgiles, dâ€™Mvoir une vue globMle des donnÃ©es 
+manipulées dans le domaine ainsi que de faire un choix sur les outils 
+de modélisation et de 
+concepti
+on.
+ 
+ 
+1.3.2
+ 
+Synthèse sur les études cartographiques
+ 
+ 
+ 
+La cartographie en ligne utilise des technologies relevant
+ 
+du domaine informatique et de 
+la 
+géomatique. Ainsi, comme toute réalisation 
+informMtique, sM mise en Å“uvre 
+effective doit 
+être 
+sou
+mise
+ 
+aux règles et p
+rincipes de développement des produits informatiques 
+pour atteindre les 
+objectifs que nous Mvons fixÃ© Ã  lâ€™MvMnce.
+ 
+ 
+ 
+Ies technologies du webmMpping font intervenir les serveurs dâ€™une pMrt et dâ€™Mutre pMrt 
+les 
+clients. A travers les langages 
+d
+e programmation,
+ 
+les données sont traitées 
+et les 
+résultats sont 
+retournés aux navigateurs.
+ 
+Iâ€™Mrchitectu
+re technique présentée plus 
+bas illustre bien la 
+communication entre les outils logiciels.
+ 
+ 
+ 
+Il existe deux modes de représentation des 
+objets cartographiq
+ues à savoir 
+: 
+mode raster 
+(composÃ© de points jointifs ou pixels) et le mode vecteur (lâ€™imMge est formÃ©e 
+dâ€™un
+ 
+ensemble 
+dâ€™objets : 
+points, lignes,
+ 
+polygones)
+ 
+[Doc
+-
+MapS
+-
+11]
+.
+ 
+Dans le cadre de ce projet,
+ 
+nous allons 
+dâ€™une 
+part
+ 
+générer les objets vecteurs pour la cartograph
+ie car elle est très concise et efficace dans la 
+mesure où ils représentent sur un support réduit un espace généralement tenu pour le réel
+ 
+et dâ€™Mutre 
+part 
+utiliser les cartes fournies par un serveur distant «
+ 
+Google Map
+ 
+Âª qui nous permet dâ€™interMgir 
+sur ce
+tte derniÃ¨re Ã  lâ€™Mide de son API.
+ 
+ 
+Chapitre 2
+ 
+ 
+Analyse fonctionnelle et technique de conception
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+6
+ 
+Chapitre 2  
+ 
+AnMlyse Fonctionnelle et Technique de 
+Conception
+ 
+ 
+Une fois que les donnÃ©es ont Ã©tÃ© rÃ©unies sur les diffÃ©rents Mcteurs, nous Mllons dâ€™Mbord 
+procéder à une délimitation du projet. Cette délimitation consistera à
+ 
+cadrer 
+les
+ 
+modules à
+ 
+développer par la 
+suite. Ensuite, nous mettrons en exergue les exigences fonctionnelles par un 
+diMgrMmme de cMs dâ€™utilisMtion tout en Ã©lucidMnt les 
+scénarios
+ 
+de certains cas par des diagrammes 
+de sÃ©quences et dâ€™MctivitÃ©s (description de certMins
+ 
+de nos processus métiers captivants). Enfin 
+nous 
+allons 
+représenter, décrire le système dans son aspect architectural (technologies et outils) 
+en 
+passant
+ 
+pMr lM reprÃ©sentMtion des clMsses dâ€™objets du 
+système 
+munies de leurs 
+liens structurels
+ 
+2.1
+ 
+Analyse fonct
+ionnelle du système
+ 
+2.1.1
+ 
+Définition modulaire du projet
+ 
+Iâ€™MpplicMtion MAFO (MMtÃ©riMux Argileux de FoumbMn), est subdivisÃ©e en 
+six
+ 
+modules 
+principaux détaillés comme suit
+ 
+:
+ 
+ 
+La Cartographie
+ 
+:
+ 
+lâ€™objectif de ce module est de rÃ©cupÃ©rer dMns lM bMse de donnÃ©es, les 
+i
+nformations concernant les différents sites argileux, les échantillons présents sur ces sites ainsi que 
+les informations concernant le nom des sites, la description du site et le calcul de la surface du site 
+argileux, une fois ces informations récupérées, 
+elles sont affichées sur la carte
+, qui 
+pourra
+ 
+ensuite 
+être imprimées et publiées.
+ 
+ 
+Le WebMapping:
+ 
+ce
+ 
+module a
+ 
+pour objectif
+ 
+de permettre à un expert de faire du 
+WebMMpping, câ€™est
+-
+à
+-
+dire de mettre à jour notre carte en cartographiant 
+en temps réel
+ 
+(
+dessiner
+ 
+les 
+sites et les puits de 
+sondage)
+ 
+directement dMns lâ€™MpplicMtion.
+ 
+ 
+ 
+Analyse
+ 
+: ce 
+module 
+permet 
+aux experts
+ 
+dâ€™
+insérer
+ 
+les rÃ©sultMts dâ€™MnMlyse, qui sont effectuÃ©s 
+sur les 
+échantillons
+ 
+prélevés, ces analyses dépendent des paramètres clés qui seront utilisé da
+ns les 
+statistiques afin de produire les diagrammes discriminants.
+ 
+ 
+caractérisation
+ 
+:
+ 
+le module de publication permet en effet de mettre à la disposition des 
+utilisateurs du système, ou des investisseurs, certaines informations concernant les PIMPA 
+(Produit
+s Issus de la Matière Première Argileuse) 
+et bien dâ€™Mutres informMtions.
+ 
+ 
+Résultats scientifiques
+ 
+: 
+les résultats scientifiques concernent les 
+différents diagrammes 
+discriminants
+, lM visuMlisMtion des rÃ©sultMts dâ€™MnMlyse sous forme grMphique
+ 
+(présentation d
+e la 
+Chapitre 2
+ 
+ 
+Analyse fonctionnelle et technique de conception
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+7
+ 
+structure de chMque puits de sondMge, câ€™est
+-
+à
+-
+dire les différents niveaux de prélèvement de chaque 
+échantillon et la production des diagrammes discriminants)
+.
+ 
+ 
+ 
+Administration
+ 
+:
+ 
+ce module est destinÃ© Ã  lM gestion des comptes dâ€™utilisMteurs, 
+lâ€™Mdministr
+ation de la base de données (chargement
+ 
+de la base de données,
+ 
+les opérations de mise à 
+jour
+,
+ 
+dâ€™Mjout
+ 
+et
+ 
+de
+ 
+désactivation des compte
+ 
+utilisateur
+)
+ 
+ 
+2.1.2
+ 
+Modélisation de la base de données
+ 
+Dans ce projet, la base de données 
+représente
+ 
+un élément central car elle 
+est à la fois 
+attributaire et 
+spatiale
+,
+ 
+raison pour laquelle nous 
+allons
+ 
+dans un premier temps 
+recenser
+ 
+toutes les 
+entités du système et décrire leurs attributs, ensuite nous allons représenter ces entités à travers le 
+modèle 
+logique
+ 
+de données afin de res
+sortir les relations entre ces derniers. L
+e dictionnaire de 
+données 
+produit après 
+cette
+ 
+activité est le 
+suivant
+ 
+ 
+ 
+ 
+Chapitre 2
+ 
+ 
+ 
+Anal
+yse fonctionnelle et technique de conception
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+8
+ 
+2.1.2.1
+ 
+Dictionnaire de données
+ 
+Apres la collecte des données auprès de notre utilisateur, nous avons recensé les différentes classes de notre systè
+me, et établi le 
+dictionnaire de données suivant
+ 
+:
+ 
+Tableau 
+1
+ 
+Dictionnaire de données
+ 
+ATTRIBUTS
+ 
+SIGNIFICATION
+ 
+TYPE
+ 
+TAIL
+LE
+ 
+COMMENTAIRES
+ 
+Site
+ 
+zone dâ€™extrMction des mMtiÃ¨res Mrgileuses
+ 
+ 
+ 
+ 
+Id_site
+ 
+Identifiant du site
+ 
+AI
+ 
+ 
+ 
+1, 2, 3, 4,
+ 
+5, 6 etc. sâ€™
+incrémente
+ 
+automatiquement
+ 
+Nom_site
+ 
+Le nom du site
+ 
+AN
+ 
+30
+ 
+ 
+Autre_info
+ 
+autres informations sur le site 
+ 
+AN
+ 
+500
+ 
+ceci sera 
+un champ
+ 
+de texte, et ne peut fMire objet dâ€™une MnMlyse prÃ©cise
+ 
+Puit
+ 
+Puits
+ 
+de sondage des 
+échantillons
+ 
+ 
+ 
+ 
+Id_puit
+ 
+Identi
+fiant du puit
+ 
+ 
+ 
+1, 2, 3, 4, 5, 6 etc. sâ€™incrÃ©mente MutomMtiquement
+ 
+lat
+ 
+Coordonnée en 
+latitude
+ 
+(x)
+ 
+ 
+ 
+ 
+lng
+ 
+Coordonnée en longitude (y
+)
+ 
+ 
+ 
+ 
+alt
+ 
+Coordonnée en 
+altiitude par rapport au niveau 
+ 
+ 
+ 
+Cette valeur est obtenue par rapport au niveau de la mère
+ 
+Echan
+tillon
+ 
+unité expérimentale prélevée dans un 
+puit
+ 
+pour les 
+analyses
+ 
+ 
+ 
+ 
+Id_echantillon
+ 
+IdentifiMnt de lâ€™Ã©chMntillon
+ 
+AI
+ 
+ 
+ 
+1, 2, 3, 4, 5, 6 etc. sâ€™
+incrémente
+ 
+automatiquement
+ 
+Pdf_debut
+ 
+Profondeur de 
+dÃ©but de lâ€™
+échantillon
+ 
+Réel
+ 
+ 
+Les 
+échantillons
+ 
+sont prélevés 
+dâ€™une profondeur initiMle Ã  une profondeur finMle
+ 
+Pfd_fin
+ 
+Prof
+ondeur de fin
+ 
+de lâ€™
+échantillon
+ 
+ 
+ 
+Date_preleve
+ 
+DMte de prÃ©lÃ¨vement de lâ€™Ã©chMntillon
+ 
+Date
+ 
+ 
+On pourra connaitre à quelle date chaque échantillon a été prélevé 
+ 
+couleur
+ 
+Couleur de lâ€™
+échantillon
+ 
+AN
+ 
+250
+ 
+ 
+Tous les échantillons 
+ont
+ 
+une 
+couleur
+, grise, 
+blanchâtre,
+ 
+etc.
+ 
+structure
+ 
+Structure
+ 
+de lâ€™Mrgile prÃ©levÃ©e
+ 
+AN
+ 
+250
+ 
+Exemple
+ 
+: particulaire
+ 
+texture
+ 
+Texture de lâ€™Mrgile prÃ©levÃ©e
+ 
+AN
+ 
+250
+ 
+Exemple
+ 
+: 
+limono
+ 
+argileuse
+ 
+Autre_info
+ 
+Mutres informMtions sur lâ€™Ã©ch
+antillon
+ 
+AN
+ 
+500
+ 
+ceci serM un chMmp de texte, et ne peut fMire objet dâ€™une MnMlyse prÃ©cise
+ 
+Argile
+ 
+différents type
+s
+ 
+dâ€™Mrgiles concernÃ©s dMns lâ€™Ã©tude
+ 
+ 
+ 
+ 
+Id_argile
+ 
+IdentifiMnt de lâ€™Mrgile
+ 
+AI
+ 
+ 
+ 
+1, 2, 3, 4, 5, 6 etc. sâ€™
+incrémente
+ 
+automatiquement
+ 
+Nom_original
+ 
+Nom originMl de lâ€™Mrgile
+ 
+AN
+ 
+30
+ 
+Câ€™est le nom sur lequel lâ€™Mrgile est reconnue internMtionMlement 
+ 
+Chapitre 2
+ 
+ 
+ 
+Anal
+yse fonctionnelle et technique de conception
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+9
+ 
+Couleur
+ 
+Couleur de lâ€™Mrgile
+ 
+AN
+ 
+30
+ 
+Exemple de couleur dâ€™Mrgile
+ 
+: gris
+e
+, marron
+e
+, berge, jaune, etc.
+ 
+Structure
+ 
+Indique lM structure de lâ€™Mrgile
+ 
+AN
+ 
+20
+ 
+Idem Ã  lâ€™
+échantillon
+ 
+Texture
+ 
+Texture de lâ€™Mrgile
+ 
+AN
+ 
+30
+ 
+Idem Ã  lâ€™
+échantillon
+ 
+ 
+Domaine
+ 
+DomMine dâ€™utilisMtion ou vMlorisMtion de lâ€™Mrgile 
+dans le domaine de la céramique
+ 
+ 
+ 
+ 
+Id_domaine
+ 
+IdentifiMnt du domMine dâ€™utilisMtion
+ 
+AI
+ 
+ 
+ 
+1, 2, 3, 4, 5, 6 etc. sâ€™
+incrémente
+ 
+auto
+matiquement
+ 
+Libelle
+ 
+DomMine dâ€™utilisMtion
+ 
+AN 
+ 
+30
+ 
+exemples du domaine de la céramique (Poterie
+, Carreaux, Briques ou
+ 
+Tuiles)
+ 
+Références
+_biblo
+ 
+Références bibliographiques concernant le
+s
+ 
+site
+s
+ 
+ 
+ 
+ 
+Id_ref_site
+ 
+Identifiant de la référence bibliographique du s
+ite
+ 
+AI
+ 
+ 
+ 
+1, 2, 3, 4, 5, 6 etc. sâ€™
+incrémente
+ 
+automatiquement
+ 
+Titre
+ 
+Titre
+ 
+de la référence bibliographique
+ 
+AN
+ 
+50
+ 
+ 
+Type_referenece
+ 
+Type de la référence
+ 
+AN
+ 
+20
+ 
+occurrences
+ 
+: livre, article
+, rapport
+, mémoire.
+ 
+Auteurs
+ 
+Auteurs de la référence Bibliographique
+ 
+AN
+ 
+255
+ 
+liste des Personnes ayant rédigé la référence
+ 
+Editeur
+ 
+éditeur de la référence
+ 
+AN
+ 
+30
+ 
+on prÃ©cision sur lM mMison dâ€™Ã©dition  
+ 
+Technicien
+ 
+Celui qui prÃ©lÃ¨ve lâ€™Ã©chMntillon
+ 
+ 
+ 
+ 
+Id_technicien
+ 
+IdentifiMnt de lâ€™Ã©chMntillonneur
+ 
+AI
+ 
+ 
+ 
+1, 2, 3, 4, 5, 6 etc. sâ€™
+incr
+émente
+ 
+automatiquement
+ 
+Nom
+ 
+Nom de lâ€™Ã©chMntillonneur
+ 
+AN
+ 
+30
+ 
+ 
+Fonction
+ 
+La fonction du technicien
+ 
+AN 
+ 
+30
+ 
+Echantillonneur, analyseur, etc.
+ 
+Telephone
+ 
+TÃ©lÃ©phone de lâ€™Ã©chMntillonneur
+ 
+AN
+ 
+20
+ 
+(+237)695159563
+ 
+; 671974275
+ 
+utilisateur
+ 
+ 
+ 
+ 
+ 
+Id_utilisateur
+ 
+Identifiant
+ 
+de lâ€™utilisMteur
+ 
+AI
+ 
+ 
+1, 2, 3, 4, 5, 6 etc. sâ€™incrÃ©mente MutomMtiquement
+ 
+Email
+ 
+Adresse mMil de lâ€™utilisMteur
+ 
+AN
+ 
+250
+ 
+Cette Mdresse serM Ã©gMlement utilisÃ©e comme login de lâ€™utilisMteur
+ 
+Password 
+ 
+Mot de pMsse de lâ€™utilisMteur
+ 
+AN
+ 
+250
+ 
+Ce mot de passe sera cry
+ptÃ© MvMnt dâ€™rtre stockÃ© dMns lM bMse donnÃ© 
+ 
+rôles
+ 
+ 
+ 
+ 
+ 
+id
+ 
+Identifiant du rôle
+ 
+AN
+ 
+255
+ 
+1, 2, 3, 4, 5, 6 etc. sâ€™incrÃ©mente MutomMtiquement
+ 
+Nom
+ 
+Nom du rôle
+ 
+ 
+ 
+Les utilisateurs seront distingués en fonction de leurs rôlé (
+admin, technicien
+, chercheur)
+ 
+Permiss
+ion
+ 
+ 
+ 
+ 
+Chapitre 2
+ 
+ 
+ 
+Anal
+yse fonctionnelle et technique de conception
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+10
+ 
+Id
+ 
+Identifiant du rôle
+ 
+ 
+ 
+1, 2, 3, 4, 5, 6 etc. sâ€™incrÃ©mente MutomMtiquement
+ 
+nom
+ 
+Libelle de la permission
+ 
+ 
+ 
+Chaque 
+rôle
+ 
+disposer
+a
+ 
+dâ€™un 
+certain
+ 
+nombre de permissions
+ 
+(Ajout, suppression, 
+etc.
+)
+ 
+Analyse
+ 
+Analyse effectuées sur les échantillons
+ 
+ 
+ 
+ 
+Id_
+analyse
+ 
+Identifiant de la technique analytique
+ 
+AI
+ 
+ 
+ 
+1, 2, 3, 4, 5, 6 etc. sâ€™
+incrémente
+ 
+automatiquement
+ 
+Type_analyse
+ 
+Les types 
+dâ€™MnMlyse effectuÃ©e
+ 
+sur les argiles
+ 
+AN
+ 
+250
+ 
+Occurrences
+ 
+: DRX, FRX, Granulométrie, géotechniques, ATD/ATG, IR, MEB
+ 
+appareillage
+ 
+A
+ppareillage utilisé p
+endMnt lâ€™
+analyse
+ 
+AN
+ 
+250
+ 
+ 
+Protocole
+ 
+Protocole dâ€™MnMlyse utilisÃ©
+ 
+AN
+ 
+30
+ 
+ 
+Autre_info
+ 
+Autre informatisions utiles liées à une analyse
+ 
+AN
+ 
+100
+ 
+ceci serM un chMmp de texte, et ne peut fMire objet dâ€™une MnMlyse prÃ©cise
+ 
+Tech_analyse
+ 
+Technique
+ 
+dâ€™MnMlyse
+ 
+ 
+ 
+ 
+Id
+ 
+Identifiant de la technique 
+ 
+ 
+ 
+1, 2, 3, 4, 5, 6 etc. sâ€™incrÃ©mente MutomMtiquement
+ 
+libelle
+ 
+Libelle de la technique
+ 
+AN
+ 
+255
+ 
+ 
+description
+ 
+Description de lM technique dâ€™
+échantillonnage
+ 
+ 
+ 
+ChMque technique dâ€™MnMlyse possÃ¨de un mode opÃ©rMtoire 
+qui doit être décrit
+ 
+Tech_echan
+ 
+ 
+ 
+ 
+ 
+id
+ 
+Identifiant de la technique analytique
+ 
+ 
+ 
+1, 2, 3, 4, 5, 6 etc. sâ€™incrÃ©mente 
+automatiquement
+ 
+libelle
+ 
+Libelle de la technique
+ 
+AN
+ 
+255
+ 
+Exemple
+ 
+: tarière 
+manuelle
+ 
+description
+ 
+Description de lM technique dâ€™
+échantillonna
+ge
+ 
+ 
+ 
+Idem Mux techniques dâ€™MnMlyses
+ 
+Image
+ 
+ 
+ 
+ 
+ 
+ 
+Id_image
+ 
+IdentifiMnt de lâ€™imMge
+ 
+AI
+ 
+ 
+ 
+1, 2, 3, 4, 5, 6 etc. sâ€™
+incrémente
+ 
+automatiquement
+ 
+Nom
+ 
+Nom de lâ€™imMge
+ 
+AN
+ 
+20
+ 
+ 
+Type_image
+ 
+Le
+ 
+type dâ€™imMge qui est stockÃ©
+ 
+AN
+ 
+20
+ 
+Occurrences
+ 
+: photos, spectres, les listing
+s
+ 
+Laboratoire
+ 
+ 
+ 
+ 
+ 
+Id_laboratoire
+ 
+Identifiant du laboratoire
+ 
+AI
+ 
+ 
+ 
+1, 2, 3, 4, 5, 6 etc. sâ€™
+incrémente
+ 
+automatiquement
+ 
+Nom
+ 
+Nom du laboratoire
+ 
+AN 
+ 
+30
+ 
+Le nom ici peut être utilisé comme clé primaire
+ 
+Ville
+ 
+Ville de localisation du laboratoire
+ 
+AN
+ 
+30
+ 
+Bandjoun,
+ 
+Douala, Foumban
+ 
+Lng
+ 
+Coordonnée
+ 
+longitude (x) 
+ 
+Réel
+ 
+ 
+Permettre de localiser un laboratoire, ces coordonnées sont enregistré sur un point du 
+laboratoire
+ 
+ 
+Lat
+ 
+Coordonnée en latitude (y)
+ 
+Réel
+ 
+ 
+Coordonnees_site
+ 
+Ies coordonnÃ©es dâ€™un site
+ 
+ 
+ 
+ 
+id
+ 
+Identifiant 
+dâ€™une coordonnÃ©e
+ 
+AI
+ 
+ 
+ 
+1, 2, 3, 4, 5, 6 etc. sâ€™
+incrémente
+ 
+automatiquement
+ 
+Chapitre 2
+ 
+ 
+ 
+Anal
+yse fonctionnelle et technique de conception
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+11
+ 
+lat
+ 
+Latitude 
+ 
+Réel
+ 
+ 
+Pour repérer un point en latitude
+ 
+lng
+ 
+L
+ongitude
+ 
+Réel
+ 
+ 
+Pour repérer un point en longitude
+ 
+ 
+N
+ 
+: Numérique
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AN
+ 
+: alphanumérique
+ 
+AI
+ 
+: Auto
+-
+incrémen
+t
+ 
+ 
+Comme décrit dans 
+[W
+-
+DC
+L
+ASSE
+-
+17
+]
+, 
+l
+e dictionnaire de données ci
+-
+dessus présente les attr
+ibuts des diffé
+rentes 
+classes
+ 
+de notre système, 
+qui peuvent 
+être 
+représentées
+ 
+par le schéma suivant
+ 
+:
+ 
+ 
+Chapitre 2
+ 
+ 
+ 
+Anal
+yse fonctionnelle et technique de conception
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+12
+ 
+ 
+Figure 
+1
+ 
+Diagramme de classe du système
+ 
+ 
+Chapitre 2
+ 
+ 
+Analyse du système
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+13
+ 
+Voiçi présenté plus clairement les différentes classes de 
+notre système
+ 
+ 
+ 
+Figure 
+2
+ 
+L
+es classe du système
+ 
+Ie diMgrMmme de clMsse tel quâ€™illustrÃ© dMns 
+[W
+-
+DCLASSE
+-
+16]
+, permet dâ€™Mvoir un bon MperÃ§u 
+sur la structure interne de notre système.
+ 
+ 
+Grâce à ce diagramme de classe, nous pouvons dédui
+re 
+le modèle logique des données, qui permet de décrire la structure de données sans faire référence à 
+un lMngMge de progrMmmMtion, il sâ€™Mgit donc 
+dâ€™Mvoir lM structure de notre bMse de donnÃ©es.
+ 
+ 
+Chapitre 2
+ 
+ 
+Analyse du système
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+14
+ 
+2.1.2.2
+ 
+Modèle logique de la base de 
+données
+ 
+:
+ 
+References_
+biblios
+ 
+(
+id
+, #referencable_id
+,
+ 
+type
+,
+ 
+auteur, titre, editeur
+, lien
+)
+ 
+Role
+ 
+(
+id, nom)
+ 
+Paremetre
+_analyse(
+id
+, #id_analyse, nom)
+ 
+Echantillons
+ 
+(
+id
+,#id_tech_enchan, code
+, pdf
+_debut, pfd_fin
+, date
+_prelevement, couleur, 
+texture, structure)
+ 
+ 
+Image
+ 
+(
+id
+, #id_imageable_id, type, 
+li
+en)
+ 
+Permission
+ 
+(
+id
+, nom)
+ 
+Puit
+ 
+(
+id
+, 
+#
+id_site, lat, lng, alt)
+ 
+Utilisateur
+ 
+(
+id, email, password) 
+ 
+ 
+Domaine
+ 
+(
+id
+, libelle)
+ 
+Laboratoire
+ 
+(
+id
+, nom, 
+ville, lat, lng)
+ 
+Tech_
+echan
+ 
+(
+id
+, libelle, description)
+ 
+Argile
+ 
+(id, code
+, nom_original)
+ 
+Analyse
+ 
+(
+id
+; 
+#
+id_technicien, 
+#
+id_laboratoire, 
+#
+id_tech_analyse, protocole, appareillage, 
+autre_info)
+ 
+Pimpa
+(
+id
+, titre, description)
+ 
+Tech_analyse
+(id, nom, description)
+ 
+Coordonnees_site
+ 
+(
+id
+, 
+#
+id_site, lat, lng, alt)
+ 
+Site
+ 
+(
+id
+, nom, autre_info)
+ 
+Argile_domaine
+ 
+(
+#
+id_argile, 
+#
+id_domaine)
+ 
+Role
+_
+permission
+ 
+(
+#
+id_role, 
+#
+id_permission)
+ 
+Analyse_
+technicien
+ 
+(
+#
+id_analyse, 
+#
+id_technicien)
+ 
+Ana_echan_params 
+(
+#
+id_analyse, 
+#
+id_echan, 
+#
+id_params
+, valeur)
+ 
+Argile_echantillon
+ 
+(#id_analyse, #id_echantillon)
+ 
+Argile_
+params
+ 
+(
+#id_argile, #id_params, debut, fin)
+ 
+Image
+_
+pimpa
+ 
+(
+#id_image, # id_pimpa)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Chapitre 2
+ 
+ 
+Analyse du système
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+15
+ 
+2.1.2.3
+ 
+ 
+ 
+Interaction entre le système et les acteurs
+ 
+Notre systÃ¨me est constituÃ© de plusieurs groupes dâ€™utilisMteur qui interMgissent Mvec ce 
+dernier en rÃ©MlisMnt un ou plusieurs cMs dâ€™utilisMtions. Comme Mcteur, nous 
+pouvon
+s lister
+ 
+:
+ 
+ 
+Utilisateur
+ 
+: Toute personne accédant au système
+ 
+: câ€™est un Mcteur gÃ©nÃ©rMlisÃ© et de ce fMit 
+Mucune MuthentificMtion nâ€™est 
+requise
+.
+ 
+ 
+Techniciens
+ 
+: 
+ce sont
+ 
+les techniciens de lMborMtoires câ€™est
+-
+à
+-
+dire les analyseurs, et les 
+techniciens de terrains 
+câ€™est
+-
+à
+-
+dire les échantillonneurs. 
+ 
+ 
+Chercheurs
+ 
+: ce
+ 
+sont des acteurs qui sont spécialisé
+s
+ 
+dans le domaine de la recherche et qui 
+sâ€™
+intéressent
+ 
+aux résultats scientifiques qui résultent des différentes 
+analyses
+.
+ 
+ 
+Administrateur
+ 
+: 
+Celui
+-
+ci a le contrôle du sy
+stÃ¨me entier, câ€™est
+-
+à
+-
+dire quâ€™il 
+a accès à 
+lâ€™intÃ©grMlitÃ© du systÃ¨me.
+ 
+Les différentes interactions entre le système et les 
+utilisateurs
+ 
+peuvent se traduire par les 
+diffÃ©rents cMs dâ€™
+utilisations
+ 
+suivants
+ 
+:
+ 
+ 
+«
+ 
+Naviguer sur la carte
+ 
+»
+ 
+: 
+Tout utilisateur peut ré
+Mliser ce cMs dâ€™utilisMtion
+ 
+;
+ 
+ 
+«
+ 
+Rechercher les Sites argileux
+ 
+»
+ 
+: cMs dâ€™utilisMtion ouvert Ã  tous les utilisMteurs du 
+système
+ 
+;
+ 
+ 
+« Consulter publications
+ 
+»
+ 
+: 
+Tous les utilisateurs peuvent réaliser ce cas 
+dâ€™utilisMtion
+ 
+;
+ 
+ 
+ 
+«Ajouter 
+résultat
+ 
+analyse
+ 
+»
+ 
+: 
+C
+e cas
+ 
+dâ€™utilisMtion est rÃ©Mliser pMr un technicien ou un 
+chercheur
+ 
+;
+ 
+ 
+«
+ 
+Créer les analyses
+ 
+»
+ 
+: 
+tâche 
+reservée
+ 
+aux techniciens, 
+ 
+ 
+«
+ 
+Mjouter pMrMmÃ¨tres dâ€™MnMlyse
+ 
+»
+ 
+: 
+tâche 
+réservée
+ 
+aux 
+technicien
+s
+ 
+ou chercheur
+s
+ 
+;
+ 
+ 
+ 
+«
+ 
+cartographier un puit
+ 
+»
+ 
+:
+ 
+Tâche réservé
+e
+ 
+au
+x
+ 
+tech
+nicien
+s
+ 
+ou chercheur
+s
+ 
+;
+ 
+ 
+ 
+«
+ 
+modifier puit
+ 
+»
+ 
+:
+ 
+Tâche réservé
+e
+ 
+au
+x
+ 
+technicien
+s
+ 
+ou chercheur
+s
+ 
+;
+ 
+ 
+«
+ 
+supprimer puit
+ 
+»
+ 
+:
+ 
+Tâche réservé
+e
+ 
+au
+x
+ 
+technicien
+s
+ 
+ou chercheur
+s
+ 
+;
+ 
+ 
+ 
+«
+ 
+Imprimer carte puit
+ 
+»
+ 
+:
+ 
+Tâche réservé
+e
+ 
+au
+x
+ 
+technicien
+s
+ 
+ou chercheur
+s
+ 
+;
+ 
+ 
+«
+ 
+Modifier
+ 
+résultat
+ 
+an
+alyse
+ 
+»
+ 
+Tâche 
+réservé
+e
+ 
+au
+x
+ 
+technicien
+s
+ 
+ou chercheur
+s
+ 
+;
+ 
+ 
+«
+ 
+Cartographier
+ 
+site
+ 
+»
+ 
+Tâche 
+réservée
+ 
+au
+x
+ 
+technicien
+s
+ 
+ou chercheur
+s
+ 
+;
+ 
+ 
+«
+ 
+Modifier site
+ 
+»
+ 
+Tâche 
+réservée
+ 
+au
+x
+ 
+technicien
+s
+ 
+ou chercheur
+s
+ 
+;
+ 
+ 
+«
+ 
+Supprimer site
+ 
+»
+ 
+Tâche 
+réservée
+ 
+au
+x
+ 
+technicien
+s
+ 
+ou chercheur
+s
+ 
+;
+ 
+ 
+«
+ 
+ajouter
+ 
+échantillons
+ 
+au puit
+ 
+»
+ 
+Tâche 
+réservée
+ 
+aux
+ 
+technicien
+s
+ 
+ou chercheur
+s
+ 
+;
+ 
+ 
+ 
+«
+ 
+Consulter statistiques
+ 
+»
+ 
+seul les chercheurs peuvent rÃ©Mliser ce cMs dâ€™
+utilisation
+ 
+;
+ 
+ 
+«
+ 
+Afficher 
+diagrammes discriminants
+ 
+»
+ 
+cMs dâ€™utilisMtion rÃ©MlisÃ© pMr un chercheur
+ 
+;
+ 
+ 
+«
+ 
+Ajo
+uter
+ 
+argile
+ 
+»
+ 
+C
+e cMs dâ€™utilisMtion est rÃ©Mliser pMr un technicien ou un chercheur
+ 
+;
+ 
+ 
+«
+ 
+Créer
+ 
+compte
+ 
+»
+ 
+lâ€™MdministrMteur du systÃ¨me sâ€™occupe de lM gestion des comptes des 
+différents utilisateurs
+ 
+;
+ 
+ 
+«
+ 
+Sâ€™Muthentifier
+ 
+»
+ 
+Utilisateur ayant le droit de le faire ;
+ 
+ 
+ 
+Une reprÃ©sentMtion de ces diffÃ©rents cMs dâ€™utilisMteurs entre le systÃ¨me et les Mcteurs peut 
+être
+ 
+illustrÃ©e pMr le diMgrMmme de cMs dâ€™utilisMtion UMI (Unified 
+Modeling
+ 
+Language) suivant
+ 
+:
+ 
+Chapitre 2
+ 
+ 
+Analyse du système
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+16
+ 
+ 
+ 
+Figure 
+4
+ 
+C
+as d'utilisation pour un utili
+sate
+ur
+ 
+Chapitre 2
+ 
+ 
+Analyse du système
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+17
+ 
+ 
+Figure 
+5
+ 
+C
+as d'utilisation pour un technicien
+ 
+Chapitre 2
+ 
+ 
+Analyse du système
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+18
+ 
+ 
+Figure 
+6
+ 
+C
+as d'utilisation pour des utilisateurs privilégiés
+ 
+ 
+ 
+Chapitre 2
+ 
+ 
+Analyse du système
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+19
+ 
+ 
+Figure 
+7
+ 
+Diagramme de cas d'utilisation du système
+ 
+Chapitre 2
+ 
+ 
+Analyse du système
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+20
+ 
+2.1.2.4
+ 
+Descriptions Textuelle
+s
+ 
+des interactions avec le système
+ 
+Ie diMgrMmme de cMs dâ€™
+util
+isation
+ 
+ci
+-
+dessus, ne permet pMs dâ€™Mvoir une bonne description des 
+cMs dâ€™utilisMtions du systÃ¨me
+ 
+; raison pour laquelle nous allons procéder à une description simple et 
+détaillé
+e
+ 
+des cMs dâ€™utilisMtions.
+ 
+ 
+Description textuelle du cMs dâ€™utilisMtion Â«
+ 
+Navigue
+r sur la carte
+ 
+»
+ 
+Tableau 
+2
+ 
+Description textuelle du cMs dâ€™utilisMtion Â«
+ 
+Naviguer Sur la Carte
+ 
+»
+ 
+Nom du CU
+ 
+Naviguer sur la carte
+ 
+ 
+Objectif
+ 
+Visualiser la carte et afficher les informations sur les Sites Argileux
+ 
+Acteurs
+ 
+Tous utili
+sateurs du système
+ 
+Pré
+-
+condition
+ 
+Iâ€™utilisMteur doit rtre connectÃ© Ã  internet
+ 
+ 
+ 
+Scénario
+ 
+ 
+ 
+ 
+ 
+ 
+1.
+ 
+Iâ€™utilisMteur tMpe le lien dMns le nMvigMteur
+ 
+2.
+ 
+Le système affiche la carte de Carte ainsi que les outils de 
+navigation.
+ 
+3.
+ 
+Navigation
+ 
+ 
+sur la carte
+ 
+: lâ€™
+utilisateur
+ 
+s
+e déplace sur la carte à 
+lâ€™Mide de lâ€™outil Â«
+ 
+main
+ 
+» qui est 
+sélectionné
+ 
+par défaut.
+ 
+ 
+Zoom +
+ 
+: lâ€™utilisMteur clique le bouton  + pour 
+agrandir
+ 
+la carte 
+ 
+ 
+Zoom 
+-
+ 
+: lâ€™
+utilisateur
+ 
+clique sur le bouton 
+â€“
+ 
+pour
+ 
+réduire.
+ 
+ 
+Map
+ 
+: lâ€™utilisMteur clique sur mMp pour lâ€™Mff
+ichage en mode 
+carte
+ 
+ 
+Satellite
+ 
+: lâ€™utilisMteur clique pour Mvoir une vue 
+satellitaire
+ 
+ 
+ 
+Label
+ 
+: lâ€™
+utilisateur
+ 
+clique sur lMbel pour lâ€™MffichMge des 
+étiquettes.
+ 
+ 
+Road
+ 
+: lâ€™utilisMteur clique pour Mfficher les circuits de trMnsport
+ 
+4.
+ 
+Iâ€™
+utilisateur
+ 
+clique sur un 
+m
+arqueur
+ 
+et affiche toutes les 
+informations sur un site (Nom, description, superficie, photo 
+etc.)
+ 
+Post
+-
+condition
+ 
+La carte 
+a
+ 
+été visualisée sans 
+perturbation
+ 
+ 
+ 
+Description textuelle du cMs dâ€™utilisMtion Â«
+ 
+cartographier un site argileux
+ 
+»
+ 
+Tableau 
+3
+ 
+Description textuelle du cas «
+ 
+enregistrer site
+ 
+»
+ 
+Nom du CU
+ 
+cartographier
+ 
+site Argileux
+ 
+ 
+Objectif
+ 
+Enregistrer un site argileux dans la base de données
+ 
+Acteurs
+ 
+Techniciens
+ 
+Pré
+-
+condition
+ 
+ïƒ˜
+ 
+Lâ€™utilisateur doit Ãªtre connectÃ© Ã  internet
+ 
+Chapitre 2
+ 
+ 
+Analyse du système
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+21
+ 
+ïƒ˜
+ 
+Sâ€™aut
+hentifier
+ 
+ 
+ 
+Scénario
+ 
+Nominal
+ 
+ 
+1.
+ 
+Sâ€™Muthentifier
+ 
+2.
+ 
+Remplir le formu
+lMire dâ€™enregistrement dâ€™un site Mrgileux
+ 
+3.
+ 
+Ajouter une photo du site
+ 
+4.
+ 
+Cartographier le site argileux sur la carte
+ 
+5.
+ 
+Valider une fois toutes les informations remplis
+ 
+ 
+Scénario alternatif
+ 
+ 
+a.
+ 
+Vérificati
+on de la carte
+ 
+b.
+ 
+Vérification
+ 
+du formulaire de soumission
+ 
+c.
+ 
+Validation des données du formulaire
+ 
+Post
+-
+condition
+ 
+Le site est ajouté à la carte 
+ 
+ 
+Tableau 
+4
+ 
+Description textuelle du cas «
+ 
+enregistrer puit
+ 
+»
+ 
+Nom du CU
+ 
+Enregistrer 
+dâ€™un 
+puit
+ 
+ 
+Objectif
+ 
+Enregistrer 
+un puit de sondage avec ses coordonnées long, lat et alt
+ 
+Acteurs
+ 
+Techniciens
+ 
+Pré
+-
+condition
+ 
+ïƒ˜
+ 
+Lâ€™utilisateur doit Ãªtre connectÃ© Ã  internet
+ 
+ïƒ˜
+ 
+Sâ€™authentifier
+ 
+ 
+ 
+Scénario Nominal
+ 
+ 
+1.
+ 
+Sâ€™Muthentifier
+ 
+2.
+ 
+Lister les sites et choisir le site dans
+ 
+lequel il 
+veut
+ 
+placer le 
+puit de 
+sondage
+ 
+3.
+ 
+Sélectionner
+ 
+«
+ 
+Ajouter un puit
+ 
+»
+ 
+4.
+ 
+Donner le code du puit
+ 
+5.
+ 
+Déplacer le marqueur sur la carte pour obtenir les 
+coordonnées longitudes et altitudes
+ 
+6.
+ 
+Cliquer
+ 
+sur le marqueur pour obtenir les coordonnées 
+altitudes du lieu 
+choisi
+ 
+7.
+ 
+Valider une fois toutes les informations remplis
+ 
+ 
+Scénario alternatif
+ 
+ 
+d.
+ 
+Vérification 
+des coordonnées du puit 
+ 
+e.
+ 
+Validation des données du formulaire
+ 
+Post
+-
+condition
+ 
+Le puit
+ 
+est ajouté à la carte
+ 
+ 
+ 
+ 
+Nous venons de dÃ©crire tous les cMs dâ€™utilisMtion qu
+i permettent aux utilisateurs de 
+Communiquer Mvec le systÃ¨me. CependMnt, lâ€™Mspect chronologique de ces communicMtions nâ€™est 
+Chapitre 2
+ 
+ 
+Analyse du système
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+22
+ 
+pas complètement élucidé. UML nous offre donc cette possibilité à travers un diagramme de 
+séquence, de représenter la chronologie de
+s communications entre les objets du système 
+pMrticipMnt rÃ©MlisMtion dâ€™un CU.
+ 
+2.1.2.5
+ 
+ModÃ©lisMtion de lâ€™interMction entre objets
+ 
+À ce
+ 
+stade de modélisation, nous allons e
+xploiter les différents scénarios
+ 
+associés aux cas 
+dâ€™utilisMtion dÃ©crites. Nous Mllons les rep
+résenter pour les cas suivant
+s
+ 
+:
+ 
+ 
+C
+artographier
+ 
+un site argileux
+ 
+ 
+Enregistrer un 
+puit de sondage
+ 
+ 
+Ajouter 
+résultat
+ 
+dâ€™MnMlyse
+ 
+Ajouter
+ 
+et cartographier
+ 
+un site argileux
+ 
+Pour 
+ce cas
+ 
+dâ€™
+utilisation
+, dÃ¨s lâ€™Mppel du formulMire, une cMrte est chMrgÃ©e, et cette cMrte 
+permet de 
+récupérer
+ 
+toutes les coordonnÃ©es dâ€™un site Mrgileux, grÃ¢ce Ã  un polygone qui est 
+dessiné
+ 
+par le 
+technicien. Ces
+ 
+coordonnées sont créées et stockées dans la base de données une fois le 
+formulaire validé
+ 
+ 
+ 
+Enregistrer un échantillon
+ 
+En ce qui con
+cerne le cMs dâ€™utilisMtion Â«
+ 
+enregistrer 
+échantillon
+ 
+»
+,
+ 
+pendant le lancement du 
+formulaire,
+ 
+une carte du monde est chargée et permet ainsi 
+de 
+récupérer
+ 
+les coordonnÃ©es GPS dâ€™un 
+Figu
+re 
+8
+ 
+DiMgrMmme de sÃ©quence dâ€™enregistrement dâ€™un site Mrgileux
+ 
+Chapitre 2
+ 
+ 
+Analyse du système
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+23
+ 
+échantillon 
+présent
+ 
+à un endroit précis du site argileux. La liste des sites ar
+gileux est également 
+chargée pour faciliter le remplissage du formulaire. Une fois le formulaire soumis, une image de 
+lâ€™
+échantillon
+ 
+ainsi que les autres informations sont stockée
+s dans la base de données où elles
+ 
+seront 
+lues
+ 
+et affichées sur la carte princ
+ipale.
+ 
+ 
+Le diagramme suivant illustre la procédure 
+dâ€™enregistrement.
+ 
+ 
+Figure 
+9
+ 
+DiMgrMmme de sÃ©quence dâ€™enregistrement dâ€™un Ã©chMntillon
+ 
+Ajouter 
+résultat
+ 
+dâ€™MnMlyse
+ 
+Iâ€™Mjout dâ€™une MnMlyse est une tÃ¢che 
+effectuée
+ 
+par un techni
+cien, cet
+te opération nécessite 
+lâ€™intervention dâ€™un grMnd 
+nombre
+ 
+de classes
+ 
+; 
+le technicien
+ 
+doit dâ€™Mbord pMsser pMr les sites, 
+ensuite choisir le puit de sondage où 
+a
+ 
+Ã©tÃ© prÃ©levÃ© dâ€™
+échantillon
+, puis il doit choisir lâ€™
+échantillon
+ 
+sur lequel 
+doit sâ€™Mppliquer lâ€™MnMlys
+e. Iâ€™interfMce, doit donc fournir Mu technicien les pMrMmÃ¨tres 
+des différentes analyse
+s
+ 
+et ceci en fonction de
+s
+ 
+dernières. Il devra par la suite attribuer les valeur
+s
+ 
+de chaque paramètre et enregistre au fur et à 
+mesure
+.
+ 
+Chapitre 2
+ 
+ 
+Analyse du système
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+24
+ 
+ 
+Figure 
+10
+ 
+DiMgrMmme de sÃ©quence dâ€™enregistrement dâ€™une 
+analyse
+ 
+On peut Ã©gMlement dÃ©crire ces cMs dâ€™utilisMtions pMr 
+des diMgrMmmes dâ€™MctivitÃ©s et ceci dMns 
+le but de reprÃ©senter les dÃ©clenchements dâ€™Ã©vÃ¨nements en fonction des Ã©tMts du systÃ¨me et de 
+modéliser des c
+omportements 
+parallélisables
+. Ie digrMmme dâ€™MctivitÃ© correspondMnt Mu cMs 
+dâ€™utilisMtion 
+«
+ 
+enregistrement des paramètres 
+dâ€™
+analyses
+ 
+»
+ 
+est le suivant
+ 
+:
+ 
+ 
+Chapitre 2
+ 
+ 
+Analyse du système
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+25
+ 
+ 
+Figure 
+11
+ 
+D
+iagramme
+ 
+dâ€™MctivitÃ© dâ€™enregistrement des pMrMmÃ¨tres dâ€™MnMlyses
+ 
+Chapitre 2
+ 
+ 
+Analyse du système
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+26
+ 
+Nou
+s Mvons Ã©gMlement le diMgrMmme dâ€™MctivitÃ©s 
+dâ€™enregistrement 
+dâ€™un site 
+suivi
+ 
+d
+e s
+a 
+carto
+graphie
+ 
+ 
+ 
+Figure 
+12
+ 
+Diagramme d'activité d'enregistrement 
+et cMrtogrMphie dâ€™un
+ 
+site
+ 
+Cet orgMnigrMmme trMduit lâ€™Mlgorithme dâ€™enregistrement dâ€™un
+ 
+site argileux
+ 
+: 
+ 
+ï¶
+ 
+Ie technicien ou le chercheur se une fois connectÃ©, doit Mller Ã  lâ€™onglet Â«
+ 
+site argileux
+ 
+», 
+ 
+ï¶
+ 
+â€§ lâ€™MffichMge du formulMire, il doit sâ€™Mssurer de
+ 
+:
+ 
+ïƒ¼
+ 
+bien renseigner les champs
+ 
+ïƒ¼
+ 
+de bien dessiner un polygone sur la  carte qui est chargée avec l
+e 
+formulaire
+ 
+ 
+ï¶
+ 
+une fois les donnÃ©es bien remplies, lâ€™utilisMteur, les donnÃ©es sont confirmÃ©es et 
+enregistrées
+ 
+dans la base de 
+données
+.
+ 
+Chapitre 2
+ 
+ 
+Analyse du système
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+27
+ 
+2.2
+ 
+Analyse technique du système
+ 
+2.2.1
+ 
+Description des diffÃ©rentes couches de lâ€™MpplicMtion
+ 
+ 
+Cette architecture que nous avons conçu
+e permet de montrer le système global, les outils 
+mMtÃ©riels et logiciels qui communiquent pour rendre lâ€™informMtion disponible Mux utilisMteurs.
+ 
+Iâ€™Mrchitecture
+ 
+est composée de trois couches à savoir
+ 
+:
+ 
+ 
+La couche présentation
+ 
+: Elle est composée des différe
+ntes technologies qui vont servir à la 
+réalisation afin que ces interfaces puissent être lues par les clients web (HTML, CSS)
+ 
+La couche métier
+ 
+: Câ€™est ici quâ€™est logÃ©e notre logique MpplicMtive. Câ€™est
+-
+à
+-
+dire lâ€™ensemble des 
+entités serveurs capables de rece
+voir les requrtes, de sâ€™Ã©chMnger les messMges et formuler les 
+résultats demandés. Elle est composée de :
+ 
+-
+ 
+un serveur web (apache) ayant une version 
+PHP
+ 
+supérieur à la 5.6 
+ 
+-
+ 
+un serveur cartographique (Géoserver
+), dont les 
+fonctionnalités
+ 
+sont expliquées d
+ans 
+[Fotsing 
+â€“
+IntMap
+-
+16]
+.
+ 
+IM couche dâ€™MccÃ¨s Mux donnÃ©es
+ 
+composée du SGBDG (Système de Gestion de Base de 
+ 
+Données Géographique
+s
+) PostgreSQL et de son extension 
+spatiale
+ 
+PostGIS.
+ 
+[W
+-
+PGRES
+-
+17
+]
+,
+ 
+ 
+2.2.2
+ 
+ 
+Architecture du système
+ 
+ 
+Comme présenté ci
+-
+dessus, notre appli
+cation est 
+basée
+ 
+sur lâ€™Mrchitecture Mïƒ¼C (Model ïƒ¼ue 
+Contrôleur
+) décrit dans 
+[W
+-
+MVC
+-
+17
+]
+.
+ 
+Elle est
+ 
+présentée comme ci
+-
+dessous et peut 
+être
+ 
+décrite 
+comme suite
+ 
+:
+ 
+ 
+(1)
+Le client envoie une requête http 
+au serveur
+ 
+web
+, si
+ 
+le résultat est une page html, alors il 
+e
+st 
+transmis
+ 
+au client. Si la requête a besoin des informations supplémentaires, alors le serveur 
+web 
+interroge
+ 
+le moteur de script (2), ce dernier 
+interroge
+ 
+le SGBD à son tour(3), formate la 
+réponse en HTML(4) et la retransmet au client(5).
+ 
+ 
+ 
+Dans les 
+scén
+arios
+ 
+(a) et (b), 
+Géoserver
+,
+ 
+indépendamment
+ 
+dâ€™MpMche permet de 
+desservir
+ 
+les 
+cartes fournies
+ 
+en local, ces cartes sont manipulées et affichées au niveau du navigateur 
+avec
+ 
+du 
+JavaScript
+. 
+ 
+Chapitre 2
+ 
+ 
+Analyse du système
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+28
+ 
+ 
+ 
+Figure 
+13
+ 
+Architecture
+ 
+générique utilisé 
+ 
+ 
+ 
+En somme, cette analyse globale du système, 
+a
+ 
+permis dans un premier
+ 
+temps de mieux 
+comprendre les spécifications du projet et également de faire un choix sur les différents outils qui 
+seront utilisÃ©s pendMnt lM phMse dâ€™implÃ©mentMtion.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Chapitre 3
+ 
+ 
+Implémentation, Techniques de Programmation et Résultats
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+29
+ 
+Chapitre 3  
+ 
+ImplÃ©me
+ntMtion et RÃ©sultMt
+ 
+ 
+DMns ce chMpitre, nous Mllons dâ€™Mbord dÃ©crire lM technique de dÃ©veloppement, en pMssMnt pMr 
+le choix des outils et la technique de programmation, ensuite nous allons présenter les résultats du 
+développement
+ 
+; enfin nous allons nous att
+Mrder sur lâ€™MpplicMtion câ€™est
+-
+à
+-
+dire lâ€™utilitÃ© de ces 
+résultats.
+ 
+ 
+3.1
+ 
+Technique de 
+développement
+ 
+ 
+3.1.1
+ 
+Choix des outils
+ 
+ 
+Laravel framework
+ 
+:
+ 
+ 
+N
+ous lâ€™Mvons 
+choisi
+ 
+pMrce quâ€™il
+ 
+nous permet dâ€™orgMniser notre code en trois grMndes pMrties
+ 
+: 
+les Models, les Vues et les 
+C
+ontrôleurs
+. IM chose lM plus Ã©mouvMnte dMns lMrMvel câ€™est Â«
+ 
+Eloquent 
+ORM
+ 
+»
+ 
+décrit dans
+ 
+[W
+-
+elo
+quent
+-
+17]
+ 
+qui permet de construire les requêtes plus facilement
+.
+ 
+ 
+Vue.Js
+ 
+: 
+ 
+ 
+Câ€™est
+ 
+un framework utilisé au niveau des vues et basé essentiellement sur le javaScrip
+t. Il a 
+Ã©tÃ© utilisÃ© dMns le souci de rendre lâ€™MpplicMtion â€˜Single PMgeâ€™. 
+[W
+-
+VueJs
+-
+17]
+.
+ 
+PostgreSql
+ 
+ 
+comme SGBD
+ 
+Postgis
+ 
+: 
+extension
+ 
+spatiale de postgreSql pour le stockage des pages en local
+ 
+Géoserver
+ 
+: 
+pour la publication des cartes et des différentes couch
+es de données se trouvant dans 
+Postgis.
+ 
+A
+mcharts
+ 
+[W
+-
+amcharts
+-
+17]
+ 
+librairie 
+JavaScript
+ 
+qui permet 
+de 
+représenter
+ 
+graphiquement certains 
+résultats  statistique
+s
+.
+ 
+Win â€™Design
+ 
+et 
+Astah
+ 
+pour la production des différents diagrammes UML
+ 
+Qgis
+ 
+:
+ 
+Pour la manipulatio
+n des données spaciales qui seront chargé
+es
+ 
+hors 
+connexion
+.
+ 
+[W
+-
+Qgis
+-
+17]
+ 
+GoogleMap
+ 
+ 
+API
+ 
+: qui nous M permis dâ€™interMgir Mvec lM cMrte de 
+Google
+ 
+via son Api disponible 
+sur 
+ 
+[W
+-
+GMAP
+-
+17
+]
+.
+ 
+ 
+Chapitre 3
+ 
+ 
+Implémentation, Techniques de Programmation et Résultats
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+30
+ 
+3.1.2
+ 
+Technique de développement
+ 
+3.1.2.1
+ 
+Organisation du système
+ 
+Comme technique de d
+Ã©veloppement, nous Mvons dÃ©cidÃ© dâ€™utiliser ïƒ¼ue.Js pour les diffÃ©rentes
+ 
+vues de lâ€™MpplicMtion. Avec vueJs, notre MpplicMtion es Â«
+ 
+single page
+ 
+Âª, lâ€™utilisMteur nâ€™Ms pMs besoin 
+de rafraichir la page pour que 
+certains
+ 
+composants se 
+chargent
+. VueJs
+ 
+communique a
+insi avec 
+Laravel utilisé au côté serveur.
+ 
+En ce qui concerne la communication avec la base de données, nous avons utilisé 
+«
+ 
+éloquent
+ 
+» de Laravel, qui nous a permis 
+de 
+gérer facilement les différentes migrations de notre 
+base de données, également de cons
+truire les requêtes plus facilement grâces aux 
+relations
+ 
+définies 
+au niveau des Models.
+ 
+3.1.2.2
+ 
+Technique de développement webmapping
+ 
+ 
+Ie webmMpping est lâ€™ensemble des technologies permett
+Mnt de crÃ©er et dâ€™Mfficher une 
+carte 
+sur Internet
+ 
+dans 
+le souci
+ 
+de partager
+ 
+un certain nombre de ressource
+.
+ 
+Les solutions webmapping 
+utilisées sont les suivantes
+ 
+:
+ 
+ 
+GoogleMap
+ 
+: 
+avec 
+Google
+ 
+MMp, les cMrtes sont mMnipulÃ©es lorsque lâ€™utilisMteur est connectÃ© 
+sur internet. Google MMp nous permet dâ€™Mjouter nos propres Ã©lÃ©ments sur les 
+cartes à savoir les 
+points, les lignes et les polygones. Il nous permet donc de faire le webmapping de façon interactive.
+ 
+ 
+IM deuxiÃ¨me solution est dâ€™utiliser GÃ©oserver 
+muni de postgis et de Qgis
+ 
+; le but ici est de 
+créer et manipuler les données géographi
+ques dans Qgis, 
+ensuite
+, exporter ces données sous forme 
+de shapefiles dans Postgis. Géoserver intervient dans la lecture de ces données géographiques dans 
+la base de données et dans la publication de ces derniers dans notre application. Une fois 
+ces 
+donné
+es reçues
+, nous allons utiliser la librairie leaflet, afin de 
+superposer
+ 
+la couche de carte fournie 
+par 
+Géoserver
+ 
+Mvec celle dâ€™
+Openlayers
+.
+ 
+ 
+Chapitre 3
+ 
+ 
+Implémentation, Techniques de Programmation et Résultats
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+31
+ 
+ 
+Figure 
+14
+ 
+L
+a communication 
+entre Postgis
+, Qgis et 
+Géoserver
+. 
+ 
+3.2
+ 
+ 
+Résultats du 
+développeme
+nt
+ 
+ 
+3.2.1
+ 
+Modules fonctionnels de lâ€™MpplicMtion
+ 
+3.2.1.1
+ 
+Le WebMapping
+ 
+3.2.1.1.1
+ 
+ 
+Présentation
+ 
+ 
+Ici, nous avons une carte géographique 
+personnalisé
+ 
+et interactive, qui nous renseigne sur les 
+différents sites argileux existant, comme information disponible, nous avons
+ 
+: 
+ 
+-
+le nom, l
+a 
+description
+, la disposition 
+spatiale
+, la superficie (calculée).
+ 
+ 
+ 
+Figure 
+15
+ 
+Aperçu de tous les sites exploités
+ 
+ 
+Chapitre 3
+ 
+ 
+Implémentation, Techniques de Programmation et Résultats
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+32
+ 
+ 
+Figure 
+16
+ 
+D
+étails sur un site
+ 
+après le clic sur le marqueur
+ 
+3.2.1.1.2
+ 
+Algorithme dâ€™obtention du rÃ©s
+ultat
+ 
+Pour obtenir ce résultat, nous avons procédé comme suite
+ 
+:
+ 
+1.
+ 
+Sur lM pMge dâ€™
+accueil
+, nous chMrgeons dâ€™Mbord une cMrte de 
+Google
+ 
+2.
+ 
+ 
+Nous effectuons ensuite une première requête pour obtenir la liste de tous les sites
+ 
+:
+ 
+ 
+ 
+Cette requrte est un exemple dâ€™uti
+lisation de «
+ 
+Eloquent de Laravel
+ 
+». 
+Iâ€™Ã©quivMlent
+ 
+de cette requ
+ête 
+étant
+ 
+:
+ 
+ 
+ 
+ 
+3.
+ 
+Ensuite, dans une boucle foreach de 
+PHP
+, nous allons récupérer les coordonnées de 
+chaque
+ 
+site afin 
+de construire un tMbleMu dâ€™objets contenMnt les sites et les coordonnÃ©es
+ 
+: la 
+requête
+ 
+de sélection des 
+coordonnées de chaque site est la suivante
+ 
+:
+ 
+ 
+4.
+ 
+ 
+Du 
+côté
+ 
+de la vue avec vueJs, nous allons pour chaque site présent dans le tableau envoyé,
+ 
+-
+dessiner un polygone
+ 
+-
+remplir le polygone dâ€™une couleur MlÃ©Mtoire
+ 
+-
+créer un marqueur
+ 
+-
+po
+s
+i
+t
+ionner le marqueur au centre du polygone
+ 
+-
+cr
+éer un label contenant le nom et la description de chaque site.
+ 
+-
+calculer la superficie du site
+ 
+-
+enfin, on ajoute le contenu à la carte.
+ 
+3.2.1.1.3
+ 
+Application du résultat
+ 
+5.
+ 
+IM cMrte prÃ©sentÃ©e plus hMut est dâ€™une grMnde utili
+té pour les raisons suivantes
+ 
+:
+ 
+6.
+ 
+Elle est disponible en tous lieux
+ 
+1.
+ 
+Elle est imprimée et 
+utilisée
+ 
+lors des campagnes de terrain
+ 
+Chapitre 3
+ 
+ 
+Implémentation, Techniques de Programmation et Résultats
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+33
+ 
+7.
+ 
+Elle permet sans ce 
+déplacé
+, de 
+géo localiser
+ 
+les sites en cours dâ€™
+exploitions
+ 
+(occupation des sols, 
+végétation, et 
+accessibilité
+.
+ 
+ 
+3.2.1.2
+ 
+Cartographie
+ 
+3.2.1.2.1
+ 
+Présentation
+ 
+ 
+Dans ce module, nous avons rendu la 
+production des cMrtes interMctive, câ€™est
+-
+à
+-
+dire quâ€™un 
+expert peut désormais 
+dessiner
+ 
+les sites Mrgileux directement dMns lâ€™MpplicMtion sMns pMsser pMr 
+lâ€™
+intermédiaire
+ 
+dâ€™un logiciel de cMrtogr
+aphie. De façon sommaire, ce module perme
+ 
+:
+ 
+-
+ 
+La création des sites argileux
+ 
+-
+ 
+La localisation des puits sur ces sites
+ 
+-
+ 
+La détermination des coordonnées géographiques de façon automatique
+ 
+-
+ 
+Ie cMlcul de lâ€™Mltitude de chMque points Ã  pMrtir des coordonnÃ©es longitu
+des et 
+latitudes
+. 
+ 
+ 
+Figure 
+17
+ 
+D
+igitalisation d'un site argileux
+ 
+ 
+Figure 
+18
+ 
+Positionnement des puits de sondages dans le site cartographié
+ 
+3.2.1.2.2
+ 
+Algorithme dâ€™obtention du rÃ©sultMt
+ 
+Chapitre 3
+ 
+ 
+Implémentation, Techniques de Programmation et Résultats
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+34
+ 
+Pour obtenir ce résultat, nous 
+avons procédé comme suite
+ 
+:
+ 
+Cartographie des sites
+ 
+1.
+ 
+DMns le formulMire dâ€™Mjout dâ€™un site, nous Mvons 
+intégré
+ 
+une carte de 
+Google
+ 
+2.
+ 
+Nous avons fait appel à la librairie de 
+Google
+ 
+Map qui permet de 
+dessiner
+ 
+sur une carte
+ 
+3.
+ 
+Nous  Mvons ensuite plMcÃ© un Ã©couteur dâ€™
+Ã©vÃ¨nement sur lâ€™instrument de 
+dessin
+ 
+pour le dessin dâ€™un 
+polygone
+ 
+:   (voir Annexe pour les détails sur cette fonction)
+ 
+ 
+4.
+ 
+Nous avons également un écouteur de click qui permet de récupéré les coordonnées du point choisi 
+et stocker dans le tableau de point d
+u polygone en cours de dessin.
+ 
+ 
+5.
+ 
+Après le dessin du polygone, les coordonnées sont stockées dans la table des coordonn
+ees_site muni 
+de lâ€™identifiMnt du site.
+ 
+ 
+Positionnement des puits dans le site
+ 
+:
+ 
+Pour réaliser cette tâche, nous devons suivre les étapes 
+suivantes
+ 
+:
+ 
+1.
+ 
+DMns le formulMire dâ€™enregistrement des puits, nous Mvons chMrgÃ© 
+une
+ 
+carte de 
+Google
+ 
+2.
+ 
+Sur cette carte, nous avons positionné un marqueur déplaçable
+ 
+3.
+ 
+Par la suite, nous avons placé un écouteur de mouvement sur le marqueur qui permet de 
+récupéré
+ 
+le
+s coordonnÃ©es de lâ€™endroit oÃ¹ il est plMcÃ© et de remplir MutomMtiquement les chMmps 
+long, et lat du formulaire
+.
+ 
+4.
+ 
+Pour lâ€™obtention de lâ€™Mltitude du point, nous Mvons plMcÃ© un Ã©couteur de click sur le mMrquer, qui 
+vas utiliser un service de 
+Google
+ 
+pour faire 
+un requrte qui renvoie lM vMleur de lâ€™
+altitude
+ 
+en 
+passant en paramètre les coordonnées lat et long.
+ 
+ 
+Figure 
+19
+ 
+Obtention automatique de l'altitude d'un point
+ 
+5.
+ 
+Une fois les champs bien remplis, le formulaire est 
+prêt
+ 
+à être envoyé
+ 
+Chapitre 3
+ 
+ 
+Implémentation, Techniques de Programmation et Résultats
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+35
+ 
+ 
+3.2.1.2.3
+ 
+Application du résultat
+ 
+Les 
+applications et les avantages que procure ce résultat sont divers
+ 
+:
+ 
+1.
+ 
+Facilite la tâche des experts qui 
+pourront
+ 
+désormais cartographier les différents sites sans de 
+déplacer
+ 
+2.
+ 
+Elimine lâ€™utilisMtion des MppMreils GPS 
+permettant
+ 
+dâ€™Mv
+oir les coordonnÃ©es dâ€™un point prÃ©cis
+ 
+3.
+ 
+Cette fonctionnalité du «
+ 
+marqueur 
+GPS
+ 
+Âª peut rtre rÃ©utilisÃ©e dMns dâ€™Mutres domMines, Mfin de 
+prendre de bonnes décisions.
+ 
+ 
+3.2.1.3
+ 
+La production des diagrammes discriminants
+ 
+3.2.1.3.1
+ 
+Présentation 
+ 
+ 
+Les diagrammes discriminants, sont l
+es repères à trois sommets qui permettent d
+e
+ 
+faire des 
+MnMlyses discriminMntes, Mfin de dÃ©terminer le domMine dâ€™utilisMtion dâ€™un Ã©chMntillon. Ainsi grÃ¢ce Ã  
+ces diMgrMmmes, lâ€™on peut dÃ©terminer si un 
+échantillon
+ 
+est favorable pour la production des 
+tuiles
+, 
+des tôles, des briques ou alors des carreaux.
+ 
+ 
+ 
+ 
+Figure 
+20
+ 
+Simulations avec diagrammes ternaires
+ 
+3.2.1.3.2
+ 
+Algorithme dâ€™obtention du rÃ©sultMt
+ 
+Pour obtenir ce diagramme, nous avons procédé comme suite
+ 
+:
+ 
+1.
+ 
+Utilisé canvas, pour le dessin du diag
+ramme ternaire
+ 
+2.
+ 
+Nous avons ensuite écris une fonction en 
+JavaScript
+ 
+qui permet de positionner un point sur le graphe
+ 
+3.
+ 
+Nous avons également une fonction qui permet de positionner les trois paramètres choisis sur le 
+diagramme.
+ 
+4.
+ 
+Une fois la simulation 
+déclanchée
+, tous les échantillons prélevés sur le site 
+sélectionné
+ 
+et ayant les 
+trois paramètres retenus sont sur le représentés sur 
+ 
+diagramme.
+ 
+(voir 
+annexe)
+ 
+Chapitre 3
+ 
+ 
+Implémentation, Techniques de Programmation et Résultats
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+36
+ 
+ 
+Figure 
+21
+ 
+P
+ositionner des échantillons sur un graphe en fonction des paramètres
+ 
+ 
+3.2.1.3.3
+ 
+Application du résultat
+ 
+Comme prÃ©sentÃ© plus hMut, ce diMgrMmme permet de connMÃ®tre Ã  priori le domMine dâ€™utilisMtion des 
+différents échantillons prélevés sur un site.
+ 
+ 
+Chapitre 4
+ 
+ 
+ 
+L
+eçons, Difficultés
+ 
+et 
+Perspectives
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+37
+ 
+Chapitre 4  
+ 
+Apport, 
+IeÃ§ons, DifficultÃ©s
+ 
+et 
+Perspectives
+ 
+ 
+Dans ce 
+chMpitre, nous Mllons dâ€™Mbord prÃ©
+senter les
+ 
+a
+pport
+s
+ 
+et leçons tirées du projet
+, 
+ensuite 
+les 
+différents problèmes rencontrés (analyse, algorithmique, de programmation etc.) les 
+perspectives envisagées pour 
+promouvoir
+ 
+lâ€™Ã©volution du projet.
+ 
+4.1
+ 
+Apport
+s
+ 
+et l
+eçons 
+tirées 
+du projet
+ 
+4.1.1
+ 
+Apport pour nou
+s
+ 
+Ce projet nous a été bénéfique sur plusieurs ordres, nous pouvons citer entre autre
+ 
+:
+ 
+Travailler en équipe
+ 
+:
+ 
+au cours
+ 
+de ce projet, nous avons 
+beaucoup 
+travaillé
+ 
+avec les 
+étudiants de licence géomatique. 
+Pendant ces 
+séances
+ 
+de travaux, nous avons 
+retenu
+ 
+q
+uâ€™
+il faut 
+segmenter le travail en plusieurs modules, et attribuer une tâche à chaque membre en se fixant les 
+dÃ©lMis dâ€™exÃ©cutions, ensuite se rÃ©unir pour prÃ©senter les rÃ©sultMts dâ€™une pMrt et fMire bÃ©nÃ©ficier Mux 
+Mutres, lâ€™expÃ©rience Mcquise dâ€™Mutre pMrt. 
+Enfin de faire une synchronisation et se fixer de nouveaux 
+objectifs.
+ 
+ 
+Iâ€™MdMptMtion dMns le 
+un
+ 
+nouveau domaine qui est la géomatique et le 
+WebMapping
+ 
+: 
+c
+e 
+projet nous a permis de découvrir le domaine de la géomatique et également à faire du 
+WebMapping
+ 
+(qui
+ 
+consiste à créer des cartes afin de 
+garantir
+ 
+la disponibilité à travers le web), nous 
+avons ainsi f
+a
+it évoluer nos connaissances qui se 
+limitaient
+ 
+au développement web classique.
+ 
+ 
+La découverte des nouveaux outils et utilisation de
+s
+ 
+nouvelles
+ 
+technologies
+ 
+: nous 
+pouvons citer entre Mutre QGIS, lM fMmille PostgreSQI et PostGIS, MS4W, lâ€™API Google MMp
+, 
+Géoserver
+ 
+etc. nous nous sommes Minsi fMmiliMrisÃ© Mux SIG (SystÃ¨me dâ€™InformMtion 
+Géographiques), et étudié 
+dâ€™Mutres types de donnÃ©es qui sont Ã  sMvoir, les do
+nnées de types 
+géographiques
+ 
+(le type point, type ligne et le type polygone
+) les images raster et les images 
+vecteurs.
+ 
+ 
+4.1.2
+ 
+Apport pour la structure ou pour la communauté (scientifique)
+ 
+Iâ€™outil que nous Mvons proposÃ© 
+permet à
+ 
+lâ€™ensemble formÃ© de techniciens, d
+e chercheurs, des 
+investisseurs et même aux 
+artisans
+ 
+dâ€™Mvoir Ã  leurs disposition
+s
+ 
+:
+ 
+Chapitre 4
+ 
+ 
+ 
+L
+eçons, Difficultés
+ 
+et 
+Perspectives
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+38
+ 
+-
+ 
+Une base de données
+ 
+sur les différentes argiles exploitées aux 
+Cameroun
+ 
+-
+ 
+Une interface web
+ 
+qui facilite non seulement la gestion de la base de données mais aussi la 
+cart
+ographie et la localisation 
+des sites
+ 
+argileux, des 
+échantillons
+ 
+et des différents laboratoires 
+dâ€™MnMlyses. 
+ 
+4.2
+ 
+Problèmes rencontrés
+ 
+ 
+Comme problÃ¨mes dâ€™MnMlyse, nous Ã©tions un peu retMrdÃ© Mu niveMu de lâ€™MnMlyse
+ 
+;
+ 
+dû aux 
+difficultées suivantes
+ 
+:
+ 
+Obtention des 
+documents, 
+concernant 
+les
+ 
+différente
+s
+ 
+analyse
+s
+ 
+effectuée
+s
+ 
+sur les échantillons 
+prélevés 
+dans
+ 
+le
+s
+ 
+sites
+ 
+; 
+ 
+Importation et affichage des fichiers «
+ 
+shapefiles
+ 
+Âª pour effectuer le trMvMil en locMl, câ€™est
+-
+à
+-
+dire 
+sans 
+connexion
+ 
+internet. 
+Ce problème 
+a
+ 
+été vite 
+résolu avec 
+Géoserver
+.
+ 
+4.3
+ 
+ProblÃ¨mes de progrMmmMtion et dâ€™InterfMce Homme
+-
+Machine
+ 
+Comme problème de programmation, nous pouvons 
+avoir
+ 
+:
+ 
+Problème de
+ 
+connexion
+ 
+internet
+ 
+: lâ€™API Google MMp, ne permet pMs dâ€™effectuer un trMvMil en locMl, 
+ceci signifie, 
+les tests 
+sont impossible sans 
+connexion
+ 
+internet
+ 
+4.4
+ 
+Perspectives envisagées
+ 
+Pour
+ 
+lâ€™
+évolution
+ 
+de notre 
+application
+, il est nécessaire
+ 
+:
+ 
+Dâ€™MmÃ©liorer le module Â«
+ 
+Résultat scientifiques
+ 
+», ceci consiste à charger les résultats des 
+différentes Analyses, afin de produire le
+s différents états en occurrence 
+les autres types de 
+diagrammes discriminants permettant de faire une analyse qualitative 
+sur les 
+échantillons
+. Ces 
+diagrammes sont spécifiques cette fois ci à la DRX (
+Diffraction
+ 
+aux Rayons X)
+.
+ 
+ 
+Nous comptons également 
+ 
+amé
+liorer le module cartograph
+ie en introduisant la notion de 
+prÃ©cision et le cMlcul dâ€™erreurs.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Conclusion générale
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+39
+ 
+Conclusion gÃ©nÃ©rMle
+ 
+ 
+Dans ce projet, il était question pour nous de
+ 
+mettre en place une
+ 
+int
+erface web et 
+une base de 
+données sur les produits issus de la matiè
+re première argileuse de Foumban et ses environs
+, grâce 
+aux outils utilisés constitués 
+dâ€™AGI
+ 
+(
+Atelier
+ 
+de Génie Logiciel), de
+ 
+SGBD, 
+le 
+serveur
+ 
+cartographique et les nouvelles technologies telles que Laravel et VueJs
+, nous avons
+ 
+dâ€™une pMrt
+ 
+mis 
+sur pieds une 
+base de données bien élaborée qui prend en compte les données spatiales et 
+MttributMires. Cette bMse de donnÃ©es rend possible lM gestion des Mrgiles, de lâ€™extrMction 
+dans l
+es 
+sites (Ã©chMntillons) jusquâ€™Ã 
+ 
+la production des produits dérivés à savoir 
+poterie
+,
+ 
+tuiles, carreaux et 
+briques
+ 
+; en plus,
+ 
+cette base de données rend possible les croisements entre les différentes 
+entités
+, 
+ce qui favorise la production des différents états qui seront mis à la disposition des différents 
+acteurs.
+ 
+Et dâ€™Mutre pMrt une interf
+ace web
+ 
+(Application 
+WebMapping
+) qui permet en un premier 
+temps dâ€™effectuer lM 
+cartographie 
+des
+ 
+sites argileux
+ 
+(listing des 
+informations
+ 
+relatifs aux sites 
+ar
+gileux,
+ 
+lâ€™
+estimation de la taille
+ 
+dâ€™
+un site à travers le calcul de
+ 
+la 
+superficie) en utilisant com
+me 
+outils
+ 
+lâ€™
+API Google Map.
+ 
+Ce dernier
+ 
+met déjà à notre disposition, une carte complète du monde et 
+cela sous quatre formes
+ 
+(
+ROADMAP, SATELLITE, HYBRID, TERRAIN
+)
+ 
+;
+ 
+ceci permet dâ€™Mvoir 
+une vue 
+de 
+lâ€™occupMtion des sols (potentiel exploitMble et distribution 
+spatiale
+ 
+des gisements, 
+lâ€™
+urbanisation
+, la
+ 
+végétation
+ 
+etc.). L
+es informations visualisées sont manipulées par les utilisateurs 
+disposMnt des droits dâ€™MccÃ¨s tels que les techniciens et les chercheurs
+.
+ 
+Vu le temps 
+imparti
+ 
+pour la 
+réalisation du projet et les
+ 
+fonctionnalités précédemment 
+citées 
+étant réalisées conformément aux 
+spÃ©cificMtions de dÃ©pMrt, nous estimons lâ€™Mtteinte des objectifs Ã  80%.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Bibliographie
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+40
+ 
+BibliogrMphie
+ 
+ 
+ 
+[W
+-
+DGEO
+-
+17]
+ 
+:
+http://www.documentMcMtholicMomniM.eu/20vs/105_migne_enc_th/1815
+-
+1875,_Migne,_
+ 
+En
+cyclopedie_Theologique_ïƒ¼ol_
+50_DictionnMire_de_Chronologie, 
+FR.pdf
+ 
+liens de téléchargement du 
+dictionnaire géologique.
+ 
+ 
+[W
+-
+PSQL
+-
+17
+]
+ 
+:
+http://www.postgis.fr/chrome/site
+/docs/workshop
+-
+foss4g/doc/introduction.html
+,
+ 
+site donnant 
+une description sur PostgreSQL, Postgis et les 
+shapefiles,
+ 
+consulté le 17 mai 201
+7
+ 
+[W
+-
+D
+C
+L
+ASSE
+-
+17
+]
+ 
+:
+http://lMu
+rent
+-
+Mudibert.developpez.com/Cours
+-
+UMI/?pMge=diMgrMmme
+-
+clMsses
+, 
+site 
+donnant les explications et les exemples de diagrammes de classes, 
+consulté le
+ 
+7 juin 2017
+ 
+[
+Footing
+ 
+â€“
+IntMap
+-
+16]
+ 
+:
+ 
+Eric
+ 
+Fotsing, â€œ
+ 
+Eléments
+ 
+Introduction to Web Mapping
+â€, support de cours, 
+Licence 
+Géomatique, 2015
+-
+2016, Départeme
+nt de GI, Université de Dschang.
+ 
+[W
+-
+MVC
+-
+17
+]
+ 
+:
+http://fr.wikipediM.org/wiki/ModÃ¨le
+-
+vue
+-
+contrÃ´leur
+, 
+site prÃ©sentMnt lâ€™utilitÃ© du pMtron Mïƒ¼C
+, 
+consulté le
+ 
+12
+ 
+mars
+ 
+201
+7
+ 
+[W
+-
+GMAP
+-
+17
+]
+ 
+:
+https://developers.google.com/mMps/documentMtion
+/
+ 
+contenMnt lM documentMtion de lâ€™
+API 
+Google
+ 
+MAP, consulté le 16 
+mars
+ 
+2017
+ 
+[W
+-
+PGRES
+-
+17
+]
+ 
+:
+https
+://www.postgresql.org/downloMd
+/
+, site c
+ontenant le lien
+ 
+de téléchargement de 
+PostgreSQL 
+Minsi que les instructions dâ€™instMllMtions de 
+POSTGIS, consulté le 17 
+mars
+.
+-
+17
+ 
+[W
+-
+MS4W
+-
+16]
+ 
+:
+mMpserver.org/
+Fr
+/downloMd.html, 
+site 
+contenant
+ 
+le
+s
+ 
+liens de téléchargement de MapServer, 
+Minsi que lM procÃ©dure dâ€™instMllMtion
+ 
+: consulté le 17 
+juin
+ 
+16
+. 
+ 
+[Bomeni
+-
+Arg
+Bang
+-
+17]
+ 
+:
+Bomeni issMc, â€˜
+Rapport de la campagne de reconnaissance des argiles alluviales 
+de bangourain
+ 
+durMnt lâ€™MnnÃ©e McMdÃ©mique 2014
+-
+2015, option géotechnique et valorisation des matériaux, 
+département des sciences de la terre, Université de Dschang
+ 
+[Bome
+ni
+-
+NgwBang
+-
+17]
+ 
+:
+Bomeni Issac, 
+â€˜Ie RMpport de Â«lM cMmpMgne dâ€™
+évaluation
+ 
+du gisement des 
+argiles Alluviales du site de Ngwefon 
+â€“
+ 
+BMngourinâ€™,
+ 
+année 
+Académique
+ 
+2015
+-
+2016
+,
+ 
+option géotechnique et 
+valorisation des matériaux, 
+département
+ 
+des sciences de la terre,
+ 
+Université de Dschang
+ 
+[Npyfn
+-
+BrickTu
+-
+17]
+ 
+:
+Nkalih Mefire A, Pilate P, Yongue Fouateu R, Njoya A et Fagel N, 
+â€˜
+Suitability of 
+Foumban clays (West Cameroon) in the production of bricks and tiles
+â€™ 
+rMpport sur lâ€™MnMlyse des Mrgiles 
+nécessaire
+ 
+à la production de
+s briques et des tuiles.
+ 
+[Doc
+-
+MapS
+-
+11]
+ 
+:
+The Mapserver Team. 
+(2011). MapServer Documentation, Pages 261
+-
+327
+ 
+disponible sur le 
+lien
+ 
+http://mMpserver.org/MMpServer
+-
+56.pdf
+  
+et traitant sur les différents ty
+pes de données géographiques.
+ 
+[W
+-
+Laravel
+-
+17]
+ 
+:
+http://mMurice
+-
+chMvelli.developpez.com/tutoriels/lMrMvel
+-
+5/bMses/
+,
+ 
+site contenant les détails 
+de tous les services fournis par l
+aravel,
+ 
+consulté le 24 mai 2017
+ 
+[W
+-
+eloquent
+-
+17]
+ 
+:
+https://lMrMvel.com/do
+cs/4.2/eloquent, 
+site contenMnt lM documentMtion de IMrMvel et 
+lâ€™utilisMtion dâ€™Ã©loquent. 
+ConsultÃ© le 14 juin 2017
+ 
+ 
+ 
+ 
+Bibliographie
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+41
+ 
+[W
+-
+VueJs
+-
+17]
+ 
+:
+https://vuejs.org/
+ 
+s
+ite contenMnt lM documentMtion de ïƒ¼ueJs, consultÃ© le 12 juin 2017
+ 
+[W
+-
+amcharts
+-
+17]
+ 
+:
+https://www.MmchMrts.com/resources/
+, site contenMnt les cMs dâ€™utilisMtion dâ€™AmchMrts
+ 
+[W
+-
+Qgis
+-
+17]
+ 
+:
+https://www.qgis.org/fr/site
+, site contenMnt lM documentMtion de Qgis.
+ 
+ 
+Annexes 
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+A
+ 
+ 
+Annexes
+ 
+Tableau 
+5
+ 
+S
+ynthÃ¨se de lâ€™MnMlyse des API cMrtogrMphiques
+ 
+ 
+ 
+   
+ 
+  
+  
+ 
+ 
+Figure 
+22
+ 
+DomMines dâ€™utilisMti
+on des argiles
+ 
+ 
+ 
+Annexes 
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+B
+ 
+ 
+ 
+ 
+Figure 
+23
+ 
+Présentation du PRD
+-
+MAFO
+ 
+Annexes 
+ 
+Rédigé par
+ 
+: KENNE TAKALA Brice
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+C
+ 
+ 
+ 
+Figure 
+24
+ 
+D
+essin
+er
+ 
+sur une carte
+ 

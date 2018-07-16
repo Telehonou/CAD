@@ -1,0 +1,15 @@
+
+EXERCICE D’APPLICATION
+Problème : arrosage des plantes (12 pts)     
+-11874534290Une pompe(MP) est destinée au remplissage d’une cuve. Une vanne (V1) permet de déverser le liquide dans la cuve. Le remplissage est déclenché chaque fois que le niveau bas(NB) est atteint dans la cuve  et se poursuit jusqu’à ce que le niveau haut(NH) soit atteint. 10 secondes après le remplissage de la cuve, la vanne de vidange(V2) s’ouvre et ne se referme que lorsque le liquide atteint le niveau bas(NB). Au départ la cuve est vide.
+Faire un schéma électrique sur Proteus qui vous permettra de simuler ce système
+Ecrire un code arduino permettant de piloter le schéma électrique.
+De façon réelle, câbler ce schéma sur un arduino de votre choix.Téléverser le programme et tester. 
+    
+0Une pompe(MP) est destinée au remplissage d’une cuve. Une vanne (V1) permet de déverser le liquide dans la cuve. Le remplissage est déclenché chaque fois que le niveau bas(NB) est atteint dans la cuve  et se poursuit jusqu’à ce que le niveau haut(NH) soit atteint. 10 secondes après le remplissage de la cuve, la vanne de vidange(V2) s’ouvre et ne se referme que lorsque le liquide atteint le niveau bas(NB). Au départ la cuve est vide.
+Faire un schéma électrique sur Proteus qui vous permettra de simuler ce système
+Ecrire un code arduino permettant de piloter le schéma électrique.
+De façon réelle, câbler ce schéma sur un arduino de votre choix.Téléverser le programme et tester. 
+    
+
+

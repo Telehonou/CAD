@@ -1,0 +1,517 @@
+
+-388620-118745République du Cameroun
+Republic of Cameroon
+Peace – Work - Fatherland
+Université de Dschang                                University of Dschang
+  BP 96, Dschang (Cameroun) – Tél. /Fax (237) 233 45 13 81 Website: http://www.univ-dschang.org.                                                                 E-mail: udsrectorat@univ-dschang.org00République du Cameroun
+Republic of Cameroon
+Peace – Work - Fatherland
+Université de Dschang                                University of Dschang
+  BP 96, Dschang (Cameroun) – Tél. /Fax (237) 233 45 13 81 Website: http://www.univ-dschang.org.                                                                 E-mail: udsrectorat@univ-dschang.org3411855-109220Institut Universitaire de Technologie Fotso Victor de Bandjoun                                                    Fotso Victor University                                            Institute  of TechnologyDépartement de Génie Informatique                                        Département of Computer Engineering
+BP 134, Bandjoun – Tél. /Fax (237) 699 31 61 30 / 670 64 23 92 
+Website: http://www.univ-dschang.org/iutfv//. E-mail : iutfv-bandjoun@univ-dschang.org00Institut Universitaire de Technologie Fotso Victor de Bandjoun                                                    Fotso Victor University                                            Institute  of TechnologyDépartement de Génie Informatique                                        Département of Computer Engineering
+BP 134, Bandjoun – Tél. /Fax (237) 699 31 61 30 / 670 64 23 92 
+Website: http://www.univ-dschang.org/iutfv//. E-mail : iutfv-bandjoun@univ-dschang.org243014592075
+00
+
+Projet de Fin D’Etude 
+20955195580Développement d’un Système Informatique (SI) de gestion des processus d’approvisionnements de production et de vente dans une société Industrielle et Commercial (APROVENSIC) 
+00Développement d’un Système Informatique (SI) de gestion des processus d’approvisionnements de production et de vente dans une société Industrielle et Commercial (APROVENSIC) 
+
+Rédigée et présentée par :
+ZEMGUE TEFACK Laura
+Mention : Génie Informatique
+Parcours : Génie Informatique
+     Option :        Informatique et Réseau
+Sous l’encadrement de :
+Dr FOTSING Eric, Enseignant à l’IUT-FV
+   
+640080231140Année académique 2016-2017
+00Année académique 2016-2017
+
+DédicaceA
+Mes chers parents
+Pour l’amour qu’ils me procurent et pour les efforts qu’ils déploient chaque jour pour ma réussite et mon épanouissement.
+
+RemerciementsCe travail n’aurait jamais pu être mené à bien sans le soutien infaillible du DIEU tout puissant, je le rends grâce pour les biens faits qu’il a pu m’accorder tout au long de ma formation, et qui dans son Amour inconditionné nous a permis de rencontrer des personnes qui nous ont fait bénéficier de leur expérience et de nombreux conseils.
+Nous remercions principalement :
+Pr. FOGUE Médard, Directeur de l’IUTFV de Bandjoun pour son encadrement et son suivi;
+Pr NKENLIFACK Marcellin, Chef de Département de Génie Informatique à l’IUTFV, pour ses nombreux conseils et son encouragement ainsi que son suivi tout au long de notre formation;
+Dr. FOTSING Eric, notre encadreur professionnel pour tout ce qu’il a fait durant toute notre formation et ses nombreux conseils. Nous tenons à le remercier également pour son suivi, son soutien moral et intellectuel ;
+M. DJIONGO Cedrigue Boris et M. KAKEU Severin pour leur soutien inlassable, et leurs nombreux conseils ;
+Tous nos Enseignants du Département de Génie Informatique, pour leurs enseignements, et leurs nombreux conseils;
+Mes frères et sœurs Vannelle, Olivia, Victorien, Liza Pour leur soutien inlassable leurs nombreux conseils ainsi que pour l’amour qu’ils me procurent tous les jours conduisant ainsi à mon épanouissement;
+Nos camarades et amis pour leur entre aide et leurs nombres conseils ;
+Tous nos camarades qui nous ont aidé dans le processus de réalisation de ce projet, en particulier  à : Kevin WAMBA, Kevin NNGUETCHOUANG  de notre promotion 2016-2017 de Génie Informatique pour le travail en équipe, l’entraide qui a existé entre nous dans l’accomplissement de ce travail. Je voudrai ici leur dire combien j’ai apprécié leur collaboration ;
+Tous ceux qui ont contribué de près ou de loin à l’élaboration de ce travail et dont j’ai omis de citer les noms, qu’ils trouvent ici l’expression de ma profonde gratitude.
+Liste des sigles et abréviations[Sig-Sigle-16]
+Tableau  SEQ Tableau \* ARABIC 1 Liste des sigles et abréviations:Abréviation / Sigle   Définition du sigle
+ICT-SEM Integrated Computer Tools for Sustainable Environmental Management
+IUT-FV Institut Universitaire de Technologie FOTSO Victor
+TIC  Technologie de l'Information et de la Communication
+APROVENSIC Approvisionnement, Production, et Vente dans une Société Industrielle et Commercial
+SIC Société Industrielle et Commercial
+ SI Système Informatique
+UML Unified Modéling LanguageDD Dictionnaire de Donnée
+CU Cas d’Utilisation
+MVC Modèle Vue ControleurHTML Hyper Text Markup LanguagePHP Personal Home Page
+SGBD Système de Gestion de Base de données
+AJAX  
+   Asynchronous JavaScript And XML
+BD Base de Données
+FAI Fournisseur d’Accès à l’Interne
+IP  
+Internet Protocol
+HTTP   HyperText Transfert Protocol
+MS4W   MapServer For Window
+PDO PHP Data Object
+RésuméLe  projet  sur lequel nous avons travaillé  s’insère dans le cadre de la mise en place des projets de développements initié  par  le  groupe  de  recherche  ICT-SEM. Le problème concerne la plus part des sociétés industrielle et commerciales qui font dans la production et la vente et qui rencontrent de nombreux problèmes à suivre leurs stocks et à gérer les ventes. Etant donné que tout ce gère de façon manuelle, les possibilités d’erreurs surtout en ce qui concerne la gestion fiscal sont nombreuses. Pour mener à bien ce projet, nous avons mis sur pied un Système Informatique pour la gestion du processus d’Approvisionnement, de Production et de Vente dans une SIC qui fait dans la fabrication et la vente des tôles et accessoires. Pour y parvenir, nous avons procéder par un développement de quatre modules principaux (la gestion administrative, des stocks, des ventes, et les statistiques). Pour ce faire, nous avons utilisé pour l’analyse : UML qui a permis de décrire le système dans sa globalité et, Merise pour l’intégration des bases de données organisant ainsi toutes les tables. Le SGBD MySQL utilisant le langage SQL (Structured Query Language) a été utilisé pour la manipulation et la description de la base  de  données  hybride  (Objet/Relationnelle). En vue de tracer la route et de connaitre facilement les coordonnées geospacial des points de livraison, des clients, des Entreprises et des fournisseurs,  le Webmapping a été utilisé à cet effet. Nous avons en particulier utilisé Mapserver  contenu  dans  le package  MS4W  qui  se  charge  de  la  production  des  informations  images ;  le SGBD  PostgreSQL  muni  de  son  extension  spatiale
+PostGIS pour le stockage des données attributaires et spatiales. L’application que nous avons développée permettra d’automatiser la gestion commercial des SIC en vue d’éviter des éventuelles erreurs et rendre leur gestion plus rapide et plus rentable.  Ainsi donc, cela permettra à la pluparts des SIC au Cameroun d’améliorer leur processus de production et de vente. 
+Mots clés : SIG, Base de Données spatiale, Webmapping, géolocalisation, APROVENSIC.
+Abstract
+Sommaire TOC \o "1-5" Dédicace PAGEREF _Toc456885833 \h i
+Remerciements PAGEREF _Toc456885834 \h ii
+Liste des sigles et abréviations PAGEREF _Toc456885835 \h iii
+Résumé PAGEREF _Toc456885836 \h iv
+Abstract PAGEREF _Toc456885837 \h v
+Sommaire PAGEREF _Toc456885838 \h vi
+Liste des tableaux et figures PAGEREF _Toc456885839 \h viii
+Introduction générale PAGEREF _Toc456885840 \h 1
+Chapitre 1 Présentation du cadre de travail et Cahier de charges PAGEREF _Toc456885841 \h Erreur ! Signet non défini.
+1.1 Présentation de ICT-SEM (Integrated Computer Tools for Sustainable Environmental Management): PAGEREF _Toc456885842 \h 2
+1.1.1 Objectif du groupe ICT-SEM: PAGEREF _Toc456885843 \h Erreur ! Signet non défini.
+1.1.2 Les membres du groupe ICT-SEM et ses partenaires : PAGEREF _Toc456885844 \h Erreur ! Signet non défini.
+1.2 Cahier de charges PAGEREF _Toc456885845 \h 4
+Chapitre 2 Analyse, et Présentation de l’existant PAGEREF _Toc456885846 \h 6
+2.1 Déroulement du travail et opérations effectuées PAGEREF _Toc456885848 \h 6
+2.1.1 Présentation de l’existant PAGEREF _Toc456885849 \h 7
+2.1.2 Critiques PAGEREF _Toc456885850 \h 7
+2.1.3 Proposition de solution PAGEREF _Toc456885851 \h 7
+2.2 Analyse fonctionnelle du système PAGEREF _Toc456885852 \h 8
+2.2.1 Langage de modélisation PAGEREF _Toc456885853 \h 8
+2.2.2 Définition modulaire du projet PAGEREF _Toc456885854 \h 8
+2.2.3 Les principaux acteurs du projet PAGEREF _Toc456885855 \h 9
+2.2.4 Diagramme de cas d’utilisation PAGEREF _Toc456885856 \h 10
+2.2.5 Modélisation de l’interaction entre objets PAGEREF _Toc456885860 \h 15
+2.2.6 Diagramme d’activités PAGEREF _Toc456885863 \h 18
+2.2.7 Diagramme d’état-transition PAGEREF _Toc456885866 \h 19
+2.3 Diagramme de classe du système PAGEREF _Toc456885867 \h 20
+2.3.1 Liste des différentes classes et leurs propriétés PAGEREF _Toc456885868 \h 20
+2.3.2 Représentation du diagramme de classes : PAGEREF _Toc456885869 \h 23
+2.3.3 Modèle logique de la base de données : PAGEREF _Toc456885870 \h 24
+Chapitre 3 Implémentation, Techniques de Programmation et RésultatsT PAGEREF _Toc456885871 \h 25
+3.1 Environnement technique (matériel et logiciel) PAGEREF _Toc456885872 \h 25
+3.1.1 Environnement matériel PAGEREF _Toc456885873 \h 25
+3.1.2 Environnement Logiciel PAGEREF _Toc456885874 \h 25
+3.2 Langage de programmation PAGEREF _Toc456885878 \h 26
+3.3 Implémentation PAGEREF _Toc456885879 \h 26
+3.3.1 Architecture de l’application PAGEREF _Toc456885880 \h 26
+3.3.2 Étapes générales d’implémentation PAGEREF _Toc456885881 \h 27
+3.3.3 Modules fonctionnels de l’application et liste de tous les résultats obtenus PAGEREF _Toc456885882 \h 27
+3.4 Présentation détaillée de quelques résultats clés (principaux) PAGEREF _Toc456885883 \h 28
+3.4.1 Elaboration de la pro-forma : PAGEREF _Toc456885884 \h 28
+3.4.2 L’élaboration des statistiques visualisant les produits les plus vendus au cours d’une période PAGEREF _Toc456885887 \h 29
+Chapitre 4 Apport, Leçons, Difficultés et Perspectives PAGEREF _Toc456885890 \h 30
+4.1 Apport et leçons tirées du projet PAGEREF _Toc456885891 \h 30
+4.1.1 Apport pour la structure PAGEREF _Toc456885892 \h 30
+4.1.2 Apport pour nous PAGEREF _Toc456885893 \h 30
+4.2 Problèmes rencontrés PAGEREF _Toc456885894 \h 30
+4.3 Perspectives envisagées PAGEREF _Toc456885895 \h 31
+Conclusion générale PAGEREF _Toc456885896 \h 32
+Bibliographie PAGEREF _Toc456885897 \h 33
+
+Liste des tableaux et figuresTableaux :
+ TOC \c "Tableau" Tableau 1 Liste des sigles et abréviations: PAGEREF _Toc456886707 \h iii
+Tableau 2 : Liste des activités menées PAGEREF _Toc456886708 \h 6
+Tableau 3 : description textuelle du cas d’utilisation «passer commande » PAGEREF _Toc456886709 \h 13
+Tableau 4 description textuelle du cas d’utilisation «Imprimer ordre» PAGEREF _Toc456886710 \h 13
+Tableau 5 : description textuelle du cas d’utilisation «Imprimer la facture du client» PAGEREF _Toc456886711 \h 14
+Tableau 6 : Liste des classes et leurs propriétés (dictionnaire de donnée) PAGEREF _Toc456886712 \h 20
+
+Figures :
+ TOC \c "Figure" Figure 1: Diagramme de cas d’utilisation du système PAGEREF _Toc456886744 \h 12
+Figure 2: Diagramme de séquence du cas d’utilisation «Imprimer la facture du client » PAGEREF _Toc456886745 \h 15
+Figure 3 Diagramme de séquence du cas d’utilisation «Imprimer ordre » PAGEREF _Toc456886746 \h 17
+Figure 4: Diagramme d'activité du cas d'utilisation «Passer commande» PAGEREF _Toc456886747 \h 18
+Figure 5 : Diagramme d'activité du cas d'utilisation «Mettre à jour le journal des ventes» PAGEREF _Toc456886748 \h 19
+Figure 6: Diagramme d’état-transition de l’objet produit PAGEREF _Toc456886749 \h 20
+Figure 7 Diagramme de classes PAGEREF _Toc456886750 \h 23
+Figure 8  Modèle logique de données PAGEREF _Toc456886751 \h 24
+Figure 9 Exemple de pro-forma PAGEREF _Toc456886752 \h 28
+Figure 10 statistiques visualisant les produits les plus vendus au cours d’une période PAGEREF _Toc456886753 \h 29
+Figure 11: Poster du groupe ICY-SEM [Eric-POST_ICTSEM-16] PAGEREF _Toc456886754 \h A
+
+Introduction généraleDans  le  cadre  des  projets  de  fin  de  formation  pour  la  licence  technologique  en  Informatique mention Concepteur Développeur Réseaux et Internet, les étudiants sont soumis chacun à un projet qu’ils doivent réaliser en vue de terminer la formation. C’est ainsi que nous avons  choisi  faire  le  nôtre pour la gestion du processus de production et de vente dans une entreprise industrielle. Le problème de gestion du processus d’approvisionnement de production et de vente s’est toujours posé dans la plupart de nos entreprises. Surtout Avec l’explosion des effectifs, on constate une lourdeur dans la plupart des procédures de gestion et de délivrance des documents et statistiques. 
+Partant donc de ces multiples considérations et après avoir étudié le contexte de mise en place du système intégré de gestion du processus de production et de vente dans une SIC : plus particulièrement dans une société de fabrication et de vente des tôles, nous avons opté pour une analyse orientée objet. Nous avons préféré la mise en place d’une application web fortement couplée de gestion des stocks et des ventes disponible sur un serveur et accessible à partir d’un ordinateur au sein de l’entreprise (Service Commercial et la Direction).
+Le SI sera donc développé sur une architecture client-serveur de type trois tiers comprenant : (un client, un serveur d’application et une base de données).
+Le présent document qui décrit le système de gestion du processus de production et de vente dans une SIC commence au chapitre 1 par la description du projet clairement élucidée, suivie au chapitre 2 qui est l’analyse fonctionnelle et technique de conception, puis au chapitre 3 : qui récapitule les techniques issues de la mise en œuvre suivies des résultats pertinents obtenus, et Le chapitre 4 qui précède la conclusion générale, présente les freins issus de la mise en œuvre et des perspectives d’amélioration du système.
+Le succès d’une organisation est déterminé, entre autres, par sa capacité de proposer le bon produit (ou service) au bon moment et au bon endroit. Un stockage intelligent contribue de manière décisive à cet objectif stratégique - See more at: file:///F:/Buro/Projets/Projets%20L2/Dr%20FOTSING/APPLICATION%20DE%20STAGE/Pourquoi%20et%20comment%20g%C3%A9rer%20ses%20stocks%20%20%20_%20Qualiblog%20_%20Le%20blog%20du%20manager%20QSE.htm#sthash.Mnb3llTp.dpuf
+Présentation du cadre de travail et Cahier de chargesCadre de travail
+Présentation de l’Université de Dschang (Uds)L’Université de Dschang (UDs) qui fait partie des 08 universités d’Etat du Cameroun a été créée à la faveur de la réforme universitaire par le décret n° 93/026 du 19 janvier 1993. Elle compte à ce jour, sept établissements : la Faculté des Lettres et Sciences Humaines (FLSH), la Faculté des Sciences Economiques et de Gestion (FSEG), la Faculté des Sciences Juridiques et Politiques (FSJP), la Faculté des Sciences (FS), la Faculté d’Agronomie et des Sciences Agricoles (FASA), l’Institut Universitaire de Technologie Fotso Victor (IUTFV) à Bandjoun et l’Institut des Beaux-Arts à Foumban (IBAF). D’après [W-UDs-16], l’institution dispose de huit campus dans 6 des 10 régions du pays, à savoir, des antennes pédagogiques et de recherche à Bambui (Nord-Ouest), Belabo (Est), Ebolowa (Sud), Maroua (Extrême-Nord) et Yaoundé-Nkolbisson (Centre). A l’Ouest, on a le campus principal à Dschang et deux établissements à Bandjoun et à Foumban.
+Présentation de l’IUT FVL’Institut Universitaire de Technologie FOTSO Victor (IUTFV) de Bandjoun est l’un des sept établissements de l’Université de Dschang. L’IUTFV représente environ  3500 étudiants (en 2016), encadrés par une quarantaine d’enseignants permanents et une cinquantaine de personnels d’appui. 
+ L’IUTFV forme des techniciens supérieurs dans divers Cursus :
+ Diplôme Universitaire de Technologie (DUT), qui contient les parcours : Génie Informatique (GI), Génie Electrique (Electrotechnique et Electronique), Génie des Télécommunications et Réseaux, Maintenance Industrielle et Productique, Mécatronique Automobile, Génie Civil, Génie Thermique Energie et Environnement.
+ Brevet de Technicien Supérieur (BTS), qui contient les parcours : Comptabilité et Gestion des Entreprises, Electronique, Electrotechnique, Technique de Commercialisation, Secrétariat de Direction, Génie Civil.
+ Licence de Technologie (LT), qui contient les parcours : Informatique et Réseaux (IR), option « Concepteur Développeur Réseaux Internet », Génie Electrique, Ingénierie des Télécoms et Réseaux, Génie Civil, Maintenance Industrielle et Productique, Mécatronique Automobile, Gestion et Maintenance des Installation Energétiques, Géomatique.
+ Licence Professionnelle (LP), avec les parcours : Commerce et Marketing, (* Banque Gestionnaire des Relations Clientèles, * Marketing Manager Opérationnel), Gestion Comptable et Financière, Gestion Administrative et Management des Organisations.
+ L’IUTFV dispose d’un cadre de travail convivial et des facilités de recherche. La figure ci-dessous, tirée de [W-IUTFV-16], présente des échantillons de Laboratoires de l’IUTFV.
+   
+Figure  SEQ Figure \* ARABIC 1 Une vue des Laboratoires de l’IUTFV D’autres chrénos de formation sont disponibles :
+La formation continue : Programmes spécifiques de recyclage du personnel des entreprises.
+La Formation Ouverte à Distance (FOAD), offerte depuis plusieurs années en LIR.
+L’Académie Intenet Cisco : Compétences techniques et professionnelles supplémentaires en vue des certifications internationales : CCNA, Security, Internet of Evrythings, ITE, etc.
+Présentation du Département de Génie Informatique et du LaboratoireMissions et Formations offertes
+Former des techniciens supérieurs capables de concevoir, réaliser, commercialiser, installer, gérer et maintenir des applications et grands systèmes informatiques et réseaux (Gestion, C/S, E-Commerce, Mobiles…) ; Ils peuvent également réaliser/administrer des réseaux et services Internet Multidimensionnels (IMD / IOE). 
+Les parcours suivants sont offerts : 
+DUT Génie Informatique (4 semestres ou 2 ans), options : GL, ISR, IG
+Lic. de Technologie Informatique et Réseaux : (2 semestres / 1 an), option : CDRI.
+Equipements : 2 Laboratoires de TP en Intranet et Serveurs de TP (+ outils de nouvelle génération) ; Des Laptops sont disponibles pour les travaux d’étudiants.
+Recherche : Le département anime l’équipe STIC du Laboratoire LAIA. Actuellement, plus de 50 articles sont publiés (à l’international) et plus de 10 livres sont déjà édités.
+Appui au développement : Plusieurs projets sont réalisés pour le développement du pays.
+Ressources humaines : 6 Enseignants permanents, 1 ATER et plusieurs Professionnels.
+
+Cahier de chargesProjet de fin d’année
+Noms et Prénoms :ZEMGUE TEFACK Laura
+Matricule (s) candidat (s): CM-UDS-13IUT0832
+Cursus-parcours-niveau :  LICENCE-IR-3
+THEME: Développement d’un Système Informatique (SI) de gestion du processus d’approvisionnement de production et de vente dans une société industrielle et commercial (APROVENSIC)
+Techniques et outils :
+Langage et ScriptsPHP, JavaScript, HTML, et CSS3, AJAX [W-              AJAX-16]
+Serveur web Apache, MS4W, google Map
+SGBD client-serveurMySQL, PostgreSQL et Postgis [W-PSQL-16],
+Serveur Cartographique:                     Mapserveur 
+Méthode Objet et RelationnelleUML / MERISE Objet
+Système d’exploitationWindows7 
+Sécurité données / communicationsMD5
+Outils utilisé : Win’Design, SulimeTEXT, paceStar, Edraw Max
+Contexte et présentation générale
+
+L’intégration de plus en plus forte des nouvelles technologies dans les différentes Sociétés du Cameroun impose à chacune de celles-ci de s’adapter aux évolutions. Il est indispensable d’automatiser la gestion des différentes procédures d’approvisionnement, de production et de vente. Pour ce faire, nous avons développé une application de processus de production, de vente et de gestion des stocks dans une SIC faisant dans la fabrication et la vente des tôles.
+Ainsi dont, le problème phare de cette  application consiste à suivre le processus de production et de livraison des tôles depuis l’initiation de la pro-forma, en passant par la confirmation de la commande, la production des tôles, la mise à jour du stock des matières premières le calcul des commissions dues aux commerciaux, l’édition des factures, (clients et fiscales), l’édition du journal des ventes, (clients et fiscales) et la livraison aux clients.
+Pour y parvenir, nous avons développé quatre principaux modules tels que : Les ventes, le stock, le tableau de bord et les fonctions système. Le projet comprend globalement cinq parties distinctes et imbriquées les unes avec les autres (La conception et la mise en œuvre de la base de données, La mise en place d’un serveur, La gestion des ventes, La gestion des stocks et Le tableau de bord).
+Il est à noter que pour améliorer également cette gestion et aider l’entreprise à se concentrer sur son cor business qui est la fabrication et la vente, le SI déployé permettra également une gestion Webmapping en vue de connaitre les coordonnées exacte des sociétés annexes, des usines de fabrication, des fournisseurs,  des clients et des lieux de livraison
+La solution retenue intègre la gestion multipostes du système et la prise en compte des terminaux mobiles (tablettes et Smartphones) [Eric-ExpreDesBesoins-16]. 
+Le SI sera donc développé sur une architecture client-serveur de type trois tiers comprenant (Un client, Un serveur (cartographique) et les données (Géospaciales))
+Quelques résultats attendus 
+Etablissement des factures (pro-forma et factures clients et fiscalités) ;
+Etablissement du journal de vente (clients et fiscalités) ;
+Enregistrement et déstockage des matières premières,  produits finis et accessoires;
+Enregistrement de la commande du client ;
+Suivie de la performance globale (nombre de client, chiffre d’affaire, volume etc.). ;
+Suivie de la performance des agents commerciaux;
+Etablissement des demandes de production, d’achat et de livraison ;
+Visualisation des données sous forme graphique et tabulaire (Statistiques sur les produits les plus vendus);
+Une  base  de  données  spatiale  utilisée  pour  la  sauvegarde  des  données  à  long terme via une application web qui servira d’interface entre la BD et les utilisateurs ;
+La géolocalisation des points de livraison, des sociétés annexes des fournisseurs, des agents commerciaux, des clients et des usines de l’entreprise.
+32385000Fait à Bandjoun, le 25 avril 2017
+Etudiants à l’IUT-FV
+ZEMGUE TEFACK Laura
+Fait à Bandjoun, le 25 avril 2017
+Etudiants à l’IUT-FV
+ZEMGUE TEFACK Laura
+
+Analyse, et Présentation de l’existant 
+Dans ce chapitre, nous allons procéder au compte rendu des activités effectuées pendant la réalisation du projet, à la présentation de l’existant de notre projet et enfin de l’analyse global du thème.Déroulement du travail et opérations effectuéesEn vues d’atteindre les résultats attendus expliqué plus haut, les grandes étapes suivies ont été décrites dans le tableau suivant :
+Tableau  SEQ Tableau \* ARABIC 2 : Liste des activités menéesDATES DUREE (Semaine)
+TACHES
+1er/01/2017 2 Prise de contact et définitions des objectifs
+3 Analyse et conception : Rédaction du cahier de charges
+1 Analyse et conception
+1 Modélisation du système et structuration de la BD (modèle logique de données) /et rédaction du rapport.
+1 Production du dictionnaire de donnée et création de la BD  /et rédaction du rapport.
+1 création de la BD géographique /et rédaction du rapport.
+1 Création de la page d’accueil et des différentes interfaces et développement des différents modules. et rédaction du rapport.
+2 Implémentation du module «gestion des ventes  »/ et rédaction du rapport.
+2 Implémentation du module «gestion du stock » /et rédaction du rapport.
+2 Implémentation du module «édition » /et rédaction du rapport.
+2 Implémentation du module «Tableaux de bord  » /et rédaction du rapport.
+1 Génération de l’exécutable et test /et rédaction du rapport.
+1 Finalisation de la Rédaction du rapport
+4/06/2017 2 - Reliure et dépôt du dossier complet en deux exemplaires
+- Finalisation : Module complet d’installation / Amélioration des interfaces (application)
+- Préparation de la soutenance du projet (plan, interactions avec le jury, etc.)
+Présentation de l’existantAFRICASTAR est une entreprise de fabrication de tôles de couverture et de bardage, et des accessoires. 
+Elle souhaite faciliter la gestion administrative des processus de production et de vente en mettant sur pied un Système Informatique (SI) de gestion des stocks et des ventes.
+AFRICASTAR Industrie utilise actuellement des feuilles de calculs Microsoft Excel, qui possèdent des informations sur les bobines existantes et leurs consommations, les journaux comptables et les demandes de production. Toutes ces données devront être présentées dans le nouveau système.
+CritiquesToutes les activités au sein d’AFRICASTAR se font manuellement, ce qui rend perceptible la difficulté de production du journal de vente, et également les possibilités d’erreurs qui sont assez nombreuses à cause de la diversité des critères à prendre en compte pour déduire les différentes charges fiscales. La difficulté à suivre le stock est également très perceptible. Et leur  gestion automatique apporterait une plus-value au niveau  managérial et stratégique [Eric-ExpreDesBesoins-16]. 
+Proposition de solutionComme solution, nous commencerons par mettre en place une base de données permettant de faciliter la manipulation des informations, et ensuite une plate-forme qui permettra d’interagir avec la base de données  facilitant ainsi la manipulation des données, et enfin faciliter la mise à jour des informations. L’objectif ici, est de focaliser les efforts de l’entreprise sur son core-business (qui est la fabrication et la vente des tôles). 
+Une fois les  données  réunies  sur  les différents acteurs, nous  allons  d’abord procéder  à  une  délimitation  du  projet.  Cette  délimitation  consistera  à  cadrer  les  modules  à développer par la suite.  Ensuite, nous mettrons en exergue les exigences  fonctionnelles  par un diagramme de cas d’utilisation tout en élucidant les scénarios de certains cas par des diagrammes de séquences  et  d’activités et  terminer  par  la  représentation  des  classes  d’objets  du  système.
+Analyse fonctionnelle du systèmeLangage de modélisationTel que préconisé  dans le cours d’UML du club des développeurs,  [Clubdevelppeur-UML-16], nous avons opté d’utiliser UML2, car cela nous a permis d’assurer la communication entre les acteurs à travers  le «  Computation Independant Model » dans le souci de rendre le système évolutif.  Ce système doit être générique et évoluer avec le temps.
+Définition modulaire du projetLes fonctions qui devront être implémenté dans cette application sont :
+Le menu Gestion des stocks (de la matière première et des produits finis notamment des tôles et accessoires);
+La gestion des Vente pour l’enregistrement d’une commande ;
+Edition : l’édition des  Statistiques Clients et Fournisseurs des états des stocks de matière première en vue de réaliser des inventaires, du Suivi de la consommation de la matière première (statistiques permettant d’anticiper sur les commandes de matière première et accessoires), du Journal des ventes et du Journal de caisse
+Tableaux de bord : Suivi  de la performance globale (notamment l’évolution du  nombre de clients, du volume de la production et du chiffre d’affaire), suivi de la performance par client, par article et par agent commercial, tableau de bord des achats global, par fournisseur et par article/service, visualisation des données sous forme graphique et tabulaire.
+Paramétrage du système : Gestion des droits utilisateur et contrôle d’identité, paramétrage fiscal (TVA, AIS, etc.), et gestion de l’Interface utilisateur en Anglais et en Français.
+Pour commencer, nous avons procédé par un développement de quatre principaux modules décrits ainsi que suit :
+Le module de gestion des ventes  
+Il couvre les fonctionnalités suivantes :
+Production des pro-forma à la demande des clients
+Gestion des acomptes des clients et production des factures pour les clients 
+Edition des comptes clients créditeurs et débiteurs
+Production des factures fiscales pour la comptabilité
+Édition et mise à jour du journal de vente interne.
+Le module de gestion du stock
+Couvre les fonctionnalités suivantes :
+Ajout des bobines (matières premières pour la fabrication des tôles) en stock 
+Ajout des accessoires en stock 
+Traitement des demandes de production; 
+Suivi de la consommation de la matière première.
+Le module d’édition (Tableau de Bord):
+Edition des factures clients et fiscal
+Edition du journal de vente  client et fiscal
+Edition des pro-forma à la demande du client
+Le module Statistique (Tableau de Bord):
+Couvre les fonctionnalités tels que :
+Statistiques Clients et Fournisseurs ;
+Etat des stocks de matière première en vue de réaliser des inventaires;
+Suivi de la consommation de la matière première (statistiques permettant d’anticiper sur les commandes de matière première et accessoires) ;
+Journal des ventes ;
+Journal de caisse.
+Les principaux acteurs du projetLes  acteurs  qui doivent interagir avec le  système via la réalisation d’un ou de plusieurs cas d’utilisation sont les suivants ;
+Client ;
+Directeur ;
+Agent Commercial ;
+Chef des services généraux ;
+Comptable.
+L’analyse préalable nous a permis de produire le diagramme de cas d’utilisation décrit dans la partie suivante :
+ Diagramme de cas d’utilisationPour ce faire, nous avons récencé plusieurs cas d’utilisation qui seront attribués aux différents acteurs cités plus haut.
+Les cas d’utilisations :Les cas d’utilisation recensés sont les suivants :
+ « Passer commande» : Le client agit directement avec le système  car le fait de passer une commande déclenche tout le processus : production, ventes, etc. au sein de l’entreprise ;
+Les taches affectées à l’agent commercial sont les suivantes :
+ « Enregistrer la commande client »  C’est le processus qui permet au vendeur d’enregistrer une commande une fois qu’elle a été passée, on devra l’enregistrer pour pouvoir procéder à la fabrication des produits ou à la livraison ;
+ «Consulter fiche de stock » : Ce processus permet de vérifier la disponibilité des articles qui ont été commandé. 
+ « Imprimer la pro-forma » : Type de facture à remettre au client après enregistrement de la commande qui lui permettra de confirmer sa commande ;
+« Mettre à jour journal des ventes » : Permet d’enregistrer une vente qui a déjà été réalisé ;
+« Imprimer la facture du client » c’est une facture qu’on imprime et remet au client après confirmation, règlement et avant livraison de la commande ;
+« Mettre à jour document comptable » : C’est le processus qui permet d’enregistrer tous les éléments comptables qui seront transmis à la comptabilité ;
+« Imprimer bordereau de livraison » : après livraison d’une commande ;
+« Imprimer document comptable » : Après sa mise à jour ;
+  « Imprimer ordre » : à remettre au Chef des services généraux. Il a trois sous cas
+«Imprimer ordre de production » qui sera transmis à l’usine pour fabrication des produits finis.
+«Imprimer ordre de livraison » Permet d’imprimer l’ordre de livraison qui sera remis au chef des services Généraux. L’ordre de livraison concerne les commandes dont l’entreprise a accepté de s’occuper du transport des marchandises vendues de l’usine jusqu’au chantier du client.
+« Imprimer ordre d’achat » : des matières premières et accessoires
+Les taches affectées au Chef des services généraux sont les suivantes :
+ « Gérer fiche de stock» Ce cas d’utilisation permet d’effectuer la mise à jour de la fiche de stock. Il comprend trois sous cas :
+« Ajouter un produit » concerne l’ajout d’un produit en stock après production ou après achat.
+« Modifier un produit » modifier le nom d’un produit ou ses propriétés ;
+« Supprimer un produit » concerne la suppression des produits qui ont été déjà livrés ou qui ont été déstocké pour la fabrication d’autres produits
+  « Imprimer demande » : à remettre à l’agent commercial. Il a trois sous cas
+«Imprimer demande de production » qui permet de recevoir l’ordre de production des produits commandé ;
+«Imprimer demande de livraison » La demande livraison s’effectue après le règlement d’une commande ;
+« Imprimer demande d’achat » : des matières premières et accessoires
+Le comptable effectue les taches suivantes (Il est externe à l’entreprise) :
+ «Imprimer document comptable » le document comptable c’est la facture imposable qui est remis au comptable qui l’examine.
+  « Imprimer bon de caisse » : Permet d’enregistrer tous les produits vendus dans l’entreprise ;
+ « Imprimer journal de vente » cette tâche est également effectuée par le Directeur.et permet de se renseigner sur les différentes vente qui ont été effectué au cour d’une période le permettant ainsi de connaitre la performance et l’évolution de ses activités.
+
+Représentation du diagramme de cas d’utilisation :Le diagramme de cas d’utilisation va nous permettre de présenter les fonctions du système, de décrire les possibilités d’interaction entre le système et les acteurs. La figure suivante représente le diagramme de cas d’utilisation montrant l’interaction entre les cas d’utilisations et les acteurs cités plus haut. 
+
+Figure  SEQ Figure \* ARABIC 2: Diagramme de cas d’utilisation du systèmeDescription textuelle des cas d’utilisationsLe diagramme ci-dessus donne une représentation de niveau d’abstraction élevé. Ainsi, nous allons procéder à une description simple et détaillée des cas d’utilisation.
+Tableau  SEQ Tableau \* ARABIC 3 : description textuelle du cas d’utilisation «passer commande »Nom du cas d’utilisation Passer commande
+Objectif Permet à l’entreprise de Commencer ses activités, et de satisfaire les besoins du client
+Acteur  Client
+Pré-condition Obtenir le produit 
+Responsable : ZEMGUE Laura  Date : 16/04/2017   Version : 1.0
+Scénario  Editer la liste des produits à commander
+Recevoir pro-forma
+ Confirmer la commande
+Post-condition La commande a été passée
+Tableau  SEQ Tableau \* ARABIC 4 description textuelle du cas d’utilisation «Imprimer ordre»Nom du cas d’utilisation Imprimer ordre
+Objectif Permet de planifier la fabrication, l’achat ou la livraison d’une commande
+Acteur  Chef des services généraux
+Pré-condition Obtenir Commande
+Obtenir client
+Obtenir demande (production, livraison ou achat)
+Responsable : ZEMGUE Laura  Date : 16/04/2017   Version : 1.0
+Scénario Consulter fiche de stock
+Si la quantité de produit commandé est supérieur à la quantité en stock, ou est complètement absent en stock, et les produits finis non disponible, imprimer ordre d’achat matière première pour fabrication
+Si les matières premières sont disponibles et les produits finis ne sont pas encore disponible
+Sinon Imprimer ordre de livraison.
+Post-condition L’ordre a été imprimé
+Tableau  SEQ Tableau \* ARABIC 5 : description textuelle du cas d’utilisation «Imprimer la facture du client» 
+Nom du cas d’utilisation Imprimer la facture du client
+Objectif Permet d’établir la facture qui sera remis au client après confirmation et règlement total de sa commande et avant la livraison. 
+Acteur  Agent commercial
+Pré-condition Obtenir client
+Obtenir produit
+Calculer les taxes à déduire y compris la sous-traitance
+Responsable : ZEMGUE Laura  Date : 16/04/2017   Version : 1.0
+Scénario Remplir le formulaire d’enregistrement et cliquer sur enregistrer
+ Imprimer la facture
+Post-condition La facture a été établie.
+
+Tableau 6 : description textuelle du cas d’utilisation «Imprimer journal de vente» 
+Nom du cas d’utilisation Imprimer journal de vente
+Objectif Permet de récapituler toutes les ventes qui ont été effectué au cour d’une période
+Acteur  Agent commercial
+Pré-condition 1. Obtenir client 
+2. Calculer les taxes à déduire y compris la sous-traitance
+Responsable : ZEMGUE Laura  Date : 16/04/2017   Version : 1.0
+Scénario Remplir le formulaire d’enregistrement et cliquer sur enregistrer
+Déduire les différentes taxes
+ Obtenir le montant de la facture
+Post-condition Imprimer journal de vente
+
+Modélisation de l’interaction entre objetsA ce stade de modélisation, nous allons exploiter les différents scénarios associés aux cas d’utilisation décrites. 
+Diagramme de séquence du cas d’utilisation «Imprimer facture client »L’interaction de ce diagramme de séquence se matérialise comme suit : l’agent commercial obtient la commande du client contenant les produits commandés, et suite à la confirmation de la commande du client, l’agent commercial devra enregistrer la commande du client et vérifier la disponibilité des produits en stock, puis déterminer les informations du client qui a passer la commande, déterminer le montant avec taxe puis le prix total, et enfin procéder à l’impression de la facture.
+
+Figure  SEQ Figure \* ARABIC 3: Diagramme de séquence du cas d’utilisation «Imprimer la facture du client »Diagramme de séquence du cas d’utilisation «Imprimer journal de vente »
+L’interaction de ce diagramme de séquence se matérialise comme suit : le comptable enregistre toutes les informations du journal et l’imprime
+L’interaction de ce diagramme de séquence se matérialise comme suit : le comptable obtient les produits commandés, le client qui a passé la commande, l’agent commercial qui a effectué la vente, le montant TTC puis le montant de la facture comptable. Ensuite, le système devra déterminer les informations du client qui a passé la commande, sur l’agent commercial et déterminer le montant TTC puis le prix total, et enfin procéder à l’impression de la facture.
+
+Figure 3 Diagramme de séquence du cas d’utilisation « Imprimer journal de vente »
+Diagramme de séquence du cas d’utilisation «Imprimer ordre de production»La description du processus d’ordre d’impression ici concerne, l’ordre de production, d’achat, et de livraison. Avant toute chose, l’agent commercial devra d’abord obtenir la commande du client contenant les différents produits commandé, ensuite consulter la fiche de stock. Si les produits commandés par le client et les produits finis nécessaires pour la production ne sont pas disponibles en stock, ou sont plus élevé que la quantité de produit en stock, l’agent commercial imprime l’ordre d’achat, mais si les produits finis sont disponible, il imprime plutôt l’ordre de production. Dans le cas contraire on imprime plutôt l’ordre de livraison.
+
+Figure  SEQ Figure \* ARABIC 4 Diagramme de séquence du cas d’utilisation «Imprimer ordre »Diagramme d’activitésJusqu’ici,  nous avons décrit formellement les cas d’utilisation, montrer l’interaction entre  les  objets  pour  la  réalisation  de  certains  CU.  Cependant,  il  nous  faut  montrer  le comportement de quelques cas d’utilisation : 
+Diagramme d’activité du cas d’utilisation « Passer commande»Pour que la commande soit passé, le client doit au préalable s’authentifier, puis il reçoit la liste des produits de l’entreprise qu’il consulte, ensuite il choisit les produits à commander et valide. Si le choix est valide, il reçoit la pro-forma qui lui permettra de confirmer sa commande et la valide. Dans le cas où la pro-forma est non réglée, la commande ne sera dont pas enregistrée et elle sera enregistrée dans le cas contraire.
+
+Figure  SEQ Figure \* ARABIC 5: Diagramme d'activité du cas d'utilisation «Passer commande»Diagramme d’activité du cas d’utilisation « Mettre à jour le journal des ventes »En ce qui concerne la mise à jour du journal de vente l’agent commercial doit au préalable s’authentifier, ensuite obtenir la commande du client ainsi que la confirmation de sa commande, ensuite il enregistre et consulter la fiche de stock. Si les produits commandés par le client et les produits finis nécessaires pour la production ne sont pas disponibles en stock, ou sont plus élevé que la quantité de produit en stock, l’ordre d’achat sera imprimer, mais si les produits finis sont disponible, on imprime plutôt l’ordre de production. Dans le cas contraire on imprime l’ordre de livraison.
+Figure  SEQ Figure \* ARABIC 6 : Diagramme d'activité du cas d'utilisation «Mettre à jour le journal des ventes»Diagramme d’état-transitionDiagramme d’état-transition de l’objet produit
+Par le diagramme suivant, nous visualisons très rapidement le cycle de vie de l’objet «  Commande ». Celui-ci montre les différentes mutations suivantes :
+L’objet commande au départ à l’état non commandé donc en attente;
+Il peut ensuite passer à l’état commandé confirmé et enregistré ;
+L’objet commande peut ensuite passer à l’état en cour de fabrication  ensuite stocké si la commande n’a pas encore été stocké avant de passer à l’état facturer ;
+Il peut ensuite passer en cour de règlement puis à l’état réglé ;
+Il peut enfin être livré et terminer ainsi son processus.
+
+Figure  SEQ Figure \* ARABIC 7: Diagramme d’état-transition de l’objet produit
+Nous avons jusqu’ici décrit les différentes interactions qui existent entre l’entreprise et les acteurs du système. Nous allons maintenant Présenter la structure interne de notre système. Pour ce faire, UML propose le diagramme de classe pour une meilleure illustration en décrivant la structure statique du système que nous allons développer.
+Diagramme de classe du systèmeA  ce  stade,  nous  allons  d’abord  présenter  les  différentes  classes  et  leurs  propriétés spécifiques. Par la suite, le diagramme de classe global du système sera construit.
+Liste des différentes classes et leurs propriétésTableau  SEQ Tableau \* ARABIC 6 : Liste des classes et leurs propriétés (dictionnaire de donnée)Classe Propriété Signification Type Nature
+Entreprise Id_entrepL’identifiant de l’entreprise N E
+Email_entrepL’Email de l’entreprise AN E
+Tel_entrepLe numéro de téléphone de l’entreprise N E
+VehiculeId_vehiL’identifiant du véhicule N E
+MatriculationL’immatriculation du véhicule AN E
+Personnel Id_persoL’identifiant du personnel N E
+Matricule Le matricule du personnel AN E
+Tel_persoLe numéro de téléphone du personnel N E
+Email_persoL’Email du personnel AN E
+BP La boite postale du personnel AN E
+Usine IdUsineL’identifiant de l’usine N E
+CodeUsineLe code de l’usine AN E
+UsineVehiculeId_usivehiL’identifiant de l’association UsineVehicule.  N E
+Date_AffectationLa date d’affectation du véhicule à l’usine DATE E
+PersonnelDepartementId_persDeptL’identifiant de l’association PersonnelDepartementN E
+Date Date d’affectation d’un personnel à un département DATE E
+EncourEn cour d’exercice ou non N E
+Code_DepartLe code du département AN E
+MatièrePremièreId_MatièreL’identifiant de la Matière première N E
+SpecificationSpécification de la Matière première (Bobine) AN E
+NumeroNuméro de la bobine N E
+Couleur Couleur de la bobine AN E
+Longueur Longueur de la bobine N E
+Fournisseur Id_FourniL’identifiant du fournisseur N E
+Nom_FourniLe nom du fournisseur AN E
+Tel_FourniLe numéro de téléphone du fournisseur N E
+Emai_FourniL’email du fournisseur AN E
+FabriqueProduitId_ fabrique L’identifiant de FabriqueProduit  N E
+Date_ fabricLa date de fabrication des produits DATE E
+Produit Id_proL’identifiant de produit N E
+Code_proLe code de produit AN E
+Quantite_en_stockLa quantité de produit en stock N E
+TypeProduitId_TypProL’identifiant de l’association TypeProduitN E
+Code_TypProLe code de l’association TypeProduitAN E
+Nom_commandeNom de la commande AN E
+Date_commandeDate à laquelle la commande a été passée DATE E
+Qtite_produitLa quantité de produit commandé N E
+PrixTotalPrix total des produits commandés N CA
+Client
+Code_ClientLe code identifiant le client N E
+Date_naissLa date de naissance du client DATE E
+Email_ClientL’email du client AN E
+ReglementId_RegleL’identifiant de la classe Règlement N E
+Montant_payerLe montant payé par client N E
+Reste_à_payerLe reste du montant à payer  N CA
+Libelle_EtatLe nom de l’état de la commande AN E
+Nature_EtatLa nature de l’état de l’état (commandé, confirmé ou livré.) AN E
+N : NumériqueAN : AlphanumériqueE : Elémentaire
+SI : SignalétiqueST : SituationCA : calculé
+
+Le tableau ci-après permet de décrire les propriétés de différentes classes énumérées. Nous procédons maintenant à la réalisation du diagramme de classe correspondant.
+Représentation du diagramme de classes :Le diagramme de classes représente la structure statique du système en termes de classe et de relation entre ces classes.
+A partir des classes définis dans le tableau précédent, nous avons déterminé les règles de gestion de notre système, à savoir :
+ L’entreprise est affilié à plusieurs fournisseurs qui fournit des matières premières nécessaires pour la production, dispose de plusieurs usines et possède plusieurs Départements ;
+ Le véhicule est chargé du transport des commandes passées, et peut être conduit par des personnels et également des véhicules sont affectés à des usines ;
+ Les personnels sont affectés à des départements et sont chargés du transport des commandes à l’aide des véhicules ;
+ Les commandes passées par des clients  peuvent contenir plusieurs produits, concerner plusieurs règlements et éventuellement avoir plusieurs états ;
+ Les produits sont comportés dans un type de produit et peuvent être fabriqué par plusieurs usines ;
+ L’usine réceptionne les matières premières (bobines) qui sont livrés par un fournisseur pour la fabrication de ses produits.
+Une version simplifiée du diagramme de classe que nous proposons, est présenté à la figure ci-dessous :
+
+Figure  SEQ Figure \* ARABIC 8 Diagramme de classesÀ partir de cette représentation du diagramme de classes, nous pouvons réaliser le Modèle logique montrant le schéma de la base de données.
+Modèle logique de la base de données :Le MLD suivant organise les tables qui vont permettre le traitement des données par l'ordinateur.
+Figure  SEQ Figure \* ARABIC 9  Modèle logique de donnéesImplémentation, Techniques de Programmation et RésultatsEnvironnement technique (matériel et logiciel)Environnement matérielPour le développement de notre application nous avons utilisé un ordinateur portable DELL ayant un Système d’Exploitation Windows 7 un processeur Intel « Dual core » de capacité 2GHz et une mémoire de 2048MB.         
+Environnement LogicielOutils de modélisationPour réaliser les différents diagrammes de notre Projet nous avons utilisé les logiciels Win’Design pour la réalisation du diagramme de cas d’utilisation et du diagramme de classe, et PowerAMC  et Astah pour les Diagrammes de séquences et d’activités.
+Environnement de développement intégréNous avons choisi sublime TEXT comme Environnement de Développement Intégré(EDI) open  source qui permet de développer des applications web  à l’aide des  langages PHP Orienté  Objet avec  une  structure  en  MVC  (Modèle,  Vues, Contrôleurs), HTML5, JavaScript. Il rend l’application très dynamique en ce qui concerne l’accès à la base de données. Il  comprend  toutes  les  caractéristiques  d'un  IDE  moderne  (éditeur  en couleur,  projets multi-langage,  éditeur  graphique  d'interfaces  et  de  pages Web).
+Serveurs utilisésServeur web « Apache »
+Nous avons choisi le serveur web Apache dans la mesure où c’est le serveur web le plus rependu permettant à des clients d'accéder à des pages web.
+Serveur de Base de Donnée « MySQL »
+Comme  serveur  de  base  de  données,  nous  avons  choisi  d’utiliser  MySQL  car il garantit la sécurité des données et la rapidité d’accès aux informations.
+Nous avons utilisé EasyPHP comme Application de gestion et d'administration  de bases de données MySQL, qui nous a permis entre  autres, de créer, modifier ou supprimer des tables et d'effectuer  toutes les opérations inhérentes à la gestion d'une base de données. Pour ce faire, il doit  être connecté à un serveur MySQL.
+Langage de programmationLe langage PHP
+Nous avons utilisé le langage PHP orienté objet car contrairement au langage Java, pour faire une application client-serveur, on ne gère plus la partie client car il y’a déjà un navigateur qui sert de client.
+SQL
+ Le langage SQL   a été utilisé pour  des scripts de création de la base de données (création de tables et insertions des tuples dans la base de données) ainsi que pour les requêtes spécifiques.
+HTML
+HTML  (Hyper  Text  Markup  Language  /  langage  hypertexte)  est  le  langage  dans  lequel sont  écrites  les  pages  de notre application. Notre application est constituée de   plusieurs  documents  HTML. 
+JavaScript 
+CSS
+CSS, Cascading Style Sheets (feuilles de styles en cascade),  combiner avec le Framework Bootstrap nous a permis de dissocier le contenu de la page de son apparence visuelle.
+ImplémentationArchitecture de l’applicationNotre application possède une architecture de déploiement client-serveur de type trois tiers comprenant :
+ Un client : c’est le navigateur ;
+ Un serveur cartographique 
+ Une base de données géospacial : fournissant au serveur d'application les données dont il a besoin.
+Nous avons ainsi utilisé Le  Framework Bootstrap  qui  est  très  utilisé  sur  les  sites  au  regard  de  ses  fonctionnalités  et  la  qualité  du  design produit.  Il  a été  exploité  pour  la  réalisation  des  mises  en  pages  de  l’application. 
+Étapes générales d’implémentationPour l’implémentation de notre application, nous avons procédé par plusieurs étapes :
+L’insertion des données dans la base de données : Ceci nous a permis de pouvoir faire interagir l’application avec la base de donnée dans le but de sauvegarder les informations et faciliter ainsi la manipulation des données ;
+L’utilisation du MVC (Modèle vue contrôleur) : 
+Le framework Bootstrap qui contient des feuilles de styles (.css) et des codes JavaScripts (.js) a été utilisé pour la réalisation des mises en pages de l’application (délimitation de frames et définition de styles) en vue d’obtenir un meilleur rendu.
+L’Implémentation des différents modules de l’application. 
+Modules fonctionnels de l’application et liste de tous les résultats obtenusSuite au développement de notre application, les modules fonctionnels sont les suivants :
+Le module de gestion des ventes ;
+Le module de gestion des stocks ;
+Et les statistiques.
+Comme résultat obtenue, nous pouvons citer :
+Pro-forma et facture client produit en bonne et due forme ;
+La demande de production produit en bonne et due forme ; 
+L’élaboration du formulaire d’enregistrement des différentes ventes effectuées ;
+La mise à jour des matières premières et produits finis ;
+L’élaboration des statistiques visualisant les produits les plus vendus au cours d’une période.
+
+Présentation détaillée de quelques résultats clés (principaux)Nous venons de lister les différents résultats obtenus au terme du développement de notre application, nous allons maintenant présenter de façon détaillée les résultats clés que nous jugeons important.
+Elaboration de la pro-forma :Présentation et utilité de de la pro-forma 
+La pro-forma est une facture à imprimer et à remettre au client qui devra la réglé en vue de confirmer sa commande. Cela permettra à l’agent commercial d’imprimer un ordre de production en faveur de l’usine pour les produits commandé. Pour pouvoir imprimer une pro-forma, nous devons d’abord enregistrer le formulaire de pro-forma et visualiser.
+La figure suivante nous donne un exemple de pro-forma :
+  
+Figure  SEQ Figure \* ARABIC 10 Exemple de pro-formaCeci a comme avantage que les commandes des clients se gèrent automatiquement ce qui permet à l’entreprise de gagner en terme temps et de se concentrer uniquement sur son core business. 
+Description de la technique de développement pour l’élaboration de la pro-forma 
+Pour atteindre ce résultat, nous avons créé un formulaire permettant de sélectionner le client ayant passé la commande, écrire une fonction qui permettra de calculer automatiquement le montant de la facture client et qui fera appel à la fonction function.php. 
+L’élaboration des statistiques visualisant les produits les plus vendus au cours d’une périodePrésentation et utilitéLes statistiques sur l’état des produits décrivent les différents produits les plus vendus au cour d’une période. Et pour ce faire on devra d’abord remplir le formulaire des ventes en saisissant les dates de début et de fin de la période et choisissant l’usine ayant effectué la vente. La figure suivante donne une vue sur les statistiques sur une période.
+
+Figure  SEQ Figure \* ARABIC 11 statistiques visualisant les produits les plus vendus au cours d’une périodeCe présent résultat permet au chef d’entreprise d’avoir l’évolution continue sur les ventes en vue de réaliser de nouveaux inventaires.
+Apport, Leçons, Difficultés et PerspectivesApport et leçons tirées du projetApport pour la structureSuite à l’analyse et l’expression des besoins effectuer nous avons pu développer une application permettant de faciliter cette gestion. Cela permettra ainsi à l’entreprise :
+  De  gagner en termes de temps ;
+ De focaliser ses efforts sur son core-business (qu’est la fabrication et la vente des tôles) et ainsi suivre son évolution ;
+ De maîtriser  la  structure  de  coût  et  Chiffre  d’affaire  de  l’entreprise  en  isolant  les  revenus provenant des activités auxiliaires ;
+ De Contrôler l’activité de production des tôles ;
+ Et de Disposer  en  temps  réel  l’état  du  stock  afin  de  faciliter  l’activité  de  planification  des approvisionnements. 
+ L’automatisation du processus de production des factures, de la gestion des journaux, permettra un gain de temps pour les  employés  du  service commercial  et leur permettant  se  consacrer  au  marketing  et  la  vente proprement dite.
+Apport pour nousLe stage académique effectué au sein du groupe de recherche ICT-SEM présente des intérêts importants dans la bonne pratique de nos connaissances professionnelles. Nous pouvons citer entre autre :
+L’insertion facile dans le monde professionnel ;
+La compréhension accentuée des cours du Génie Logiciel apprises en classe en vue de les appliquer pour le développement d’un bon projet ;
+Apprendre les rouages du monde professionnel ;
+Le travail en équipe ;
+Être discipliné et respectueux.
+Problèmes rencontrés 
+Ce projet n’a pas été sans difficultés Ainsi, l’élaboration des statistiques permettant de visualiser les ventes au cours d’une période fut notre plus grande difficulté vu le nouvelle environnement de programmation. 
+Perspectives envisagéesSuite à la réception du cahier de charge et du dossier d’expression des besoins reçus, nous n’avons pas pu développer tous les modules car contenant un très grand nombre de module ne correspondant pas au temps qui nous était imparti. Des améliorations pourront être faites à cet effet en ajoutant  à l’application des modules ou interfaces pour mieux l’adopter aux besoins de l’utilisateur afin qu’il soit toujours fiable au niveau des progrès atteint par la structure et respecter ainsi les données prévues dans le cahier des charges. Et également développer la version mobile de notre application (capable de fonctionner sur des tablettes et Smartphones)
+.
+Conclusion généraleParvenu au terme de notre travail qui a consisté à développer un système informatique pour la gestion du processus de production et de vente dans une entreprise industrielle: Cas d’AFRICASTAR, nous avons tout au long de ce rapport présenté les étapes de réalisation de notre application. Nous avons à cet effet utiliser la méthode UML, ce qui  nous a  permis de mener correctement la tâche d’analyse des besoins  à  l’aide  du  diagramme  de  cas  d’utilisation  et  la  tâche  de  conception,  ainsi  les scénarios sont aussi détaillés afin d’expliquer toutes tâches effectuées. En plus, le stage effectué au sein du groupe de recherche ICT-SEM nous a permis de mettre en pratique les connaissances acquises au cours de notre formation à l’IUT-FV, de  mettre en pratique  notre esprit d’étude, et d’analyse, et aussi nous a permis de travailler sur l’un des projet portant sur le développement de notre pays en particulier celle des entreprises industrielle. Suites à la réalisation de notre application, nous avons eu comme résultat la création des interfaces pour la gestion des ventes, des stocks, et de production. La difficulté majeure que nous avons rencontrée est celle de l’implémentation des différents modules. Des améliorations peuvent être faites  en y ajoutant quelques modules ou interfaces pour mieux l’adopter aux besoins de l’utilisateur et pour qu’il soit toujours fiable, et également respecter les données prévus dans le cahier de charge.
+Bibliographie [Eric-POST_ICTSEM-16] FOTING Eric, « Poster ICT-SEM version finale», Résumé de la présentation du groupe ICT-SEM par Dr.FOTSING Eric, 31 Mai 2016 ; non publié.
+[Eric-ExpreDesBesoins-16] FOTING Eric, « Dossier d’expression des besoins», Système Informatique (SI) de gestion du processus de production et de vente à AFRICASTAR par Dr.FOTSING Eric, 2016 ; non publié.
+ [Clubdevelppeur-UML-16] www.Developpez.com/ Tutoriel pour la conception d'un système d'information WEB avec UML.htm, Site Web pour la conception des systèmes d’information avec UML, consulté le 25 Mai 2016.
+[Sig-Sigle-16]www.sigle.net/ Les sigles Site Web illustrant les différents sigles consulté le 18 Juillet 2016.
+AnnexeAnnexe : Poster d’ICT-SEM
+Figure  SEQ Figure \* ARABIC 12: Poster du groupe ICY-SEM [Eric-POST_ICTSEM-16]
